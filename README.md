@@ -81,7 +81,7 @@ Cloudflare 运行方式保留现有 `dist/` 前端、3D 和原始数据文件，
 | operation | 明确执行的动作 |
 | --- | --- |
 | `validate`（默认） | 测试、语言/语法检查和无生产凭据的 Wrangler dry run；不写 Cloudflare。 |
-| `bootstrap` | **实际创建一个远程 D1 数据库**，随后读取其 UUID。只在确认需要新库时选择；已有同名库时停止，不自动替代。不会顺便迁移、导入或部署。 |
+| `bootstrap` | 先查询并复用同名项目 D1；只有缺失时才**实际创建远程数据库**，随后再次查询确认 UUID。配置 UUID 与同名库不符时停止；创建结果不确定时只读检查，不重复创建。不会顺便迁移、导入或部署。 |
 | `migrate` | 对已配置 UUID 的远程 D1 应用 `migrations/` 中尚未执行的兼容迁移；不会切 current。 |
 | `publish` | 导入并读回校验 → 部署兼容 Worker/静态资源 → 切换 current → 回读确认。迁移需事先显式完成。 |
 | `sync-data` | 对已经部署兼容 Worker 的应用，仅导入/校验/发布数据版本，不部署前端代码。前端或 API 代码变化时用 `publish`。 |

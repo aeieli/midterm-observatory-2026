@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: Explicit operation; bootstrap creates a database, migrate changes its schema, publish deploys then activates data
+        description: Explicit operation; bootstrap reuses or creates the project database, migrate changes its schema, publish deploys then activates data
         required: true
         default: validate
         type: choice

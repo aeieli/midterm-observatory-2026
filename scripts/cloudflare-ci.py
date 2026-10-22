@@ -9,6 +9,45 @@ from cloudflare_config import ROOT, generate
 from d1_data import build, canonical, verify, literal, activation_sql
 
 VERSION = '4.151.3'
+DATABASE_NAME = 'midterm-observatory-2026'
+
+
+def bootstrap_database(wrangler, configured_id=''):
+    """Reuse the exact project database; create at most once and always read back its public UUID."""
+    def lookup():
+        databases = json.loads(wrangler('d1', 'list', '--json', capture=True))
+        if not isinstance(databases, list) or any(not isinstance(item, dict) for item in databases):
+            raise ValueError('Unexpected D1 list result; database creation is not permitted.')
+        matches = [item for item in databases if item.get('name') == DATABASE_NAME]
+        if len(matches) > 1:
+            raise ValueError('Multiple project databases matched; no database was selected or created.')
+        if not matches:
+            if configured_id:
+                raise ValueError('Configured database UUID does not match an existing project database; refusing to create a replacement.')
+            return None
+        database_id = matches[0].get('uuid', '')
+        if not re.fullmatch(r'[0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}', database_id) or database_id == '00000000-0000-0000-0000-000000000000':
+            raise ValueError('Project database UUID could not be verified; no creation or migration was performed.')
+        if configured_id and database_id.lower() != configured_id.lower():
+            raise ValueError('Configured UUID differs from the existing project database; no configuration was replaced.')
+        return database_id
+
+    database_id = lookup()
+    if database_id:
+        return database_id, 'reused'
+    assert_current_main()
+    try:
+        wrangler('d1', 'create', DATABASE_NAME, '--binding', 'DB', '--update-config', capture=True)
+    except subprocess.CalledProcessError as exc:
+        # Never retry an uncertain create. A read-only lookup can confirm it actually succeeded.
+        database_id = lookup()
+        if database_id:
+            return database_id, 'confirmed-after-uncertain-create'
+        raise ValueError('D1 creation did not confirm a project database. No creation retry, plan upgrade, or resource replacement was attempted.') from exc
+    database_id = lookup()
+    if not database_id:
+        raise ValueError('Creation returned but the database was not found. Outcome is uncertain; inspect D1 before another create attempt.')
+    return database_id, 'created'
 
 
 def assert_current_main(expected_commit=None):
@@ -99,12 +138,13 @@ def main():
         wrangler('deploy', '--dry-run', '--outdir', str(ROOT / '.wrangler' / 'dry-run'))
         return
     if args.operation == 'bootstrap':
-        wrangler('d1', 'create', 'midterm-observatory-2026', '--binding', 'DB', '--update-config')
-        info = json.loads(wrangler('d1', 'info', 'midterm-observatory-2026', '--json', capture=True))
-        database_id = info.get('uuid') or info.get('id')
-        if not database_id:
-            raise ValueError('Creation finished but the database ID was not returned; inspect D1 before retrying creation.')
-        print('Database created. Set PROD variable CLOUDFLARE_D1_DATABASE_ID to:', database_id)
+        database_id, outcome = bootstrap_database(wrangler, os.environ.get('CLOUDFLARE_D1_DATABASE_ID', ''))
+        print('Project D1 database:', outcome)
+        print('D1_DATABASE_ID=' + database_id)
+        summary = os.environ.get('GITHUB_STEP_SUMMARY')
+        if summary:
+            with open(summary, 'a') as f:
+                f.write(f"D1 database `{DATABASE_NAME}`: {outcome}. Non-secret UUID: `{database_id}`.\n")
         print('No migration, import, deployment, or DNS change was requested by this operation.')
         return
     if args.operation == 'migrate':
