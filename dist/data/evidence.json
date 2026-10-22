@@ -1,0 +1,1644 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-22T01:33:00Z",
+  "title": "2026 美国中期选举观察",
+  "ratings": [
+    {
+      "chamber": "senate",
+      "state": "CO",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "DE",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "IL",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "MA",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "NJ",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "OR",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "RI",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "VA",
+      "district": null,
+      "rating": "solid-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "NM",
+      "district": null,
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "NC",
+      "district": null,
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "GA",
+      "district": null,
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "NH",
+      "district": null,
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "AK",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "IA",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "KS",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "ME",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "MI",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "MN",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "OH",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "special"
+    },
+    {
+      "chamber": "senate",
+      "state": "TX",
+      "district": null,
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "FL",
+      "district": null,
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "special"
+    },
+    {
+      "chamber": "senate",
+      "state": "SC",
+      "district": null,
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "NE",
+      "district": null,
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "MT",
+      "district": null,
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "AR",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "AL",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "ID",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "KY",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "LA",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "MS",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "OK",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "SD",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "TN",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "WV",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "senate",
+      "state": "WY",
+      "district": null,
+      "rating": "solid-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null,
+      "electionType": "regular"
+    },
+    {
+      "chamber": "house",
+      "state": "IN",
+      "district": "01",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CA",
+      "district": "13",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NY",
+      "district": "03",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "OH",
+      "district": "01",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MN",
+      "district": "02",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CA",
+      "district": "06",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NE",
+      "district": "02",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NH",
+      "district": "01",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NM",
+      "district": "02",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NV",
+      "district": "01",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NV",
+      "district": "03",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NV",
+      "district": "04",
+      "rating": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "28",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "34",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "IA",
+      "district": "01",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "IA",
+      "district": "03",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "VA",
+      "district": "02",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "WA",
+      "district": "03",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CA",
+      "district": "22",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "WI",
+      "district": "03",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CO",
+      "district": "08",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "OH",
+      "district": "09",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MI",
+      "district": "10",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CA",
+      "district": "48",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MI",
+      "district": "04",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "PA",
+      "district": "10",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MI",
+      "district": "07",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "PA",
+      "district": "07",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "PA",
+      "district": "08",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NJ",
+      "district": "07",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "AZ",
+      "district": "01",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "25",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "15",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "AZ",
+      "district": "06",
+      "rating": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "35",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "IA",
+      "district": "02",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "VA",
+      "district": "01",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "WI",
+      "district": "01",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "KY",
+      "district": "06",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "OH",
+      "district": "07",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "ME",
+      "district": "02",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "PA",
+      "district": "01",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MO",
+      "district": "02",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CO",
+      "district": "03",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CO",
+      "district": "04",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MT",
+      "district": "01",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NC",
+      "district": "01",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "CO",
+      "district": "05",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NC",
+      "district": "11",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NJ",
+      "district": "02",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "14",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "22",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "AZ",
+      "district": "02",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NY",
+      "district": "17",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "09",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "23",
+      "rating": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "VA",
+      "district": "05",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NY",
+      "district": "02",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "WA",
+      "district": "05",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "OH",
+      "district": "15",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MN",
+      "district": "01",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "SC",
+      "district": "01",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "AK",
+      "district": "AL",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "13",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "AL",
+      "district": "02",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "AR",
+      "district": "02",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NV",
+      "district": "02",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "27",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "07",
+      "rating": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "32",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "09",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NY",
+      "district": "21",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "IN",
+      "district": "05",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "OH",
+      "district": "10",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "MN",
+      "district": "08",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NC",
+      "district": "13",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NC",
+      "district": "03",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NC",
+      "district": "05",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NC",
+      "district": "07",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NC",
+      "district": "09",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NE",
+      "district": "01",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "12",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "FL",
+      "district": "16",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TN",
+      "district": "05",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TN",
+      "district": "09",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "NY",
+      "district": "01",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    },
+    {
+      "chamber": "house",
+      "state": "TX",
+      "district": "24",
+      "rating": "likely-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z",
+      "publishedAt": null
+    }
+  ],
+  "polls": [
+    {
+      "id": "MI-marist-oct",
+      "state": "MI",
+      "pollster": "Marist",
+      "fieldStart": "2026-10-15",
+      "fieldEnd": "2026-10-18",
+      "publishedAt": "2026-10-21",
+      "sample": 1185,
+      "sampleType": "RV基础样本；按投票概率加权的LV结果",
+      "dem": 50,
+      "rep": 48,
+      "margin": 2,
+      "moe": 4.3,
+      "mode": "真人电话、短信、在线混合",
+      "weighting": "年龄、性别、收入、种族、教育及地区；RV按预计投票概率加权为LV",
+      "source": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
+      "asOf": "2026-10-22T01:29:00Z",
+      "kind": "original-poll",
+      "note": "不能将RV基础样本量写成独立LV人数，不能将不同样本口径的差值写成趋势。"
+    },
+    {
+      "id": "OH-marist-oct",
+      "state": "OH",
+      "pollster": "Marist",
+      "fieldStart": "2026-10-15",
+      "fieldEnd": "2026-10-18",
+      "publishedAt": "2026-10-20",
+      "sample": 1176,
+      "sampleType": "RV基础样本；按投票概率加权的LV结果",
+      "dem": 48,
+      "rep": 44,
+      "margin": 4,
+      "moe": 4.5,
+      "mode": "真人电话、短信、在线混合",
+      "weighting": "年龄、性别、收入、种族、教育及地区；RV按预计投票概率加权为LV",
+      "source": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+      "asOf": "2026-10-22T01:29:00Z",
+      "kind": "original-poll",
+      "note": "不能将RV基础样本量写成独立LV人数，不能将不同样本口径的差值写成趋势。"
+    },
+    {
+      "id": "AK-dfp-oct",
+      "state": "AK",
+      "pollster": "Data for Progress",
+      "fieldStart": "2026-10-08",
+      "fieldEnd": "2026-10-16",
+      "sample": 694,
+      "sampleType": "LV",
+      "dem": 47,
+      "rep": 44,
+      "margin": 3,
+      "moe": 4,
+      "mode": "短信与在线样本",
+      "weighting": "年龄、性别、教育、种族、地区及回忆投票",
+      "source": "https://www.filesforprogress.org/datasets/2026/10/dfp_alaska_oct_2026.pdf",
+      "asOf": "2026-10-22T01:29:00Z",
+      "kind": "original-first-choice-poll",
+      "note": "47/44为第一选择；51/49是排序选择模拟，不能当作另一份独立民调。"
+    },
+    {
+      "id": "TX-fox-oct",
+      "state": "TX",
+      "pollster": "Fox News / Beacon Research / Shaw & Company",
+      "fieldStart": "2026-10-15",
+      "fieldEnd": "2026-10-19",
+      "publishedAt": "2026-10-21T22:00:00Z",
+      "sample": 1398,
+      "baseRV": 2011,
+      "sampleType": "LV子样本",
+      "dem": 49,
+      "rep": 49,
+      "margin": 0,
+      "moe": 2.5,
+      "mode": "选民名册抽样；真人电话与短信链接在线填写",
+      "weighting": "人口特征校准；LV概率模型包含历史投票、兴趣、意向与人口变量",
+      "source": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+      "asOf": "2026-10-22T01:31:00Z",
+      "kind": "original-poll",
+      "note": "原始PDF核验；与Marist等机构差异不是同一民调的日变化。"
+    },
+    {
+      "id": "OH-fox-oct",
+      "state": "OH",
+      "pollster": "Fox News / Beacon Research / Shaw & Company",
+      "fieldStart": "2026-10-15",
+      "fieldEnd": "2026-10-19",
+      "publishedAt": "2026-10-21T22:00:00Z",
+      "sample": 1592,
+      "baseRV": 2005,
+      "sampleType": "LV子样本",
+      "dem": 52,
+      "rep": 47,
+      "margin": 5,
+      "moe": 2,
+      "mode": "选民名册抽样；真人电话与短信链接在线填写",
+      "weighting": "人口特征校准；LV概率模型包含历史投票、兴趣、意向与人口变量",
+      "source": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+      "asOf": "2026-10-22T01:31:00Z",
+      "kind": "original-poll",
+      "note": "原始PDF核验；与Marist等机构差异不是同一民调的日变化。"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-20",
+      "dem": 50.9,
+      "rep": 42.3,
+      "margin": 8.6,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "已保存的采集快照；不是当日新调查或席位预测。原始文件缺失，数值由先前完整读取记录恢复。"
+    },
+    {
+      "date": "2026-10-21",
+      "dem": 50.8,
+      "rep": 42.5,
+      "margin": 8.3,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "已保存的采集快照；不是当日新调查或席位预测。"
+    },
+    {
+      "date": "2026-10-22",
+      "dem": 50.4,
+      "rep": 42.1,
+      "margin": 8.3,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "本次公开页面复核；窗口仍为9月28日至10月19日。采集快照不代表单日选民变化。"
+    }
+  ],
+  "ratingChanges": [
+    {
+      "date": "2026-10-12",
+      "state": "NE",
+      "chamber": "senate",
+      "before": "tossup",
+      "after": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up/race-changes",
+      "kind": "publisher-rating-change",
+      "note": "来源列出的评级变更日期，非本站每日预测。"
+    },
+    {
+      "date": "2026-10-05",
+      "state": "NC",
+      "chamber": "senate",
+      "before": "lean-D",
+      "after": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up/race-changes",
+      "kind": "publisher-rating-change",
+      "note": "来源列出的评级变更日期，非本站每日预测。"
+    },
+    {
+      "date": "2026-09-24",
+      "state": "NH",
+      "chamber": "senate",
+      "before": "tossup",
+      "after": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up/race-changes",
+      "kind": "publisher-rating-change",
+      "note": "来源列出的评级变更日期，非本站每日预测。"
+    },
+    {
+      "date": "2026-09-23",
+      "state": "NE",
+      "chamber": "senate",
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up/race-changes",
+      "kind": "publisher-rating-change",
+      "note": "来源列出的评级变更日期，非本站每日预测。"
+    },
+    {
+      "date": "2026-09-18",
+      "state": "KS",
+      "chamber": "senate",
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up/race-changes",
+      "kind": "publisher-rating-change",
+      "note": "来源列出的评级变更日期，非本站每日预测。"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10-21",
+      "title": "Fox新调查：德州平手，俄亥俄Brown领先",
+      "summary": "原始LV结果：TX 49/49；OH 52/47。两州实地均为10月15—19日。",
+      "status": "原始PDF已核验",
+      "interpretation": "新样本增加比较证据，但不把跨机构差异直接解释为趋势或席位翻转。",
+      "source": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+      "secondarySource": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+      "kind": "poll"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "加州选票案件：新增介入争议文件，禁令结果仍待核验",
+      "summary": "案件记录新增司法部反对SIREN等组织介入的文件。10月20日加州与洛杉矶县提交反对临时限制令的意见。",
+      "status": "程序文件已核验；最新签署法院命令未取得",
+      "interpretation": "申请、指控、法院裁决必须分开；不能声称全州停票、禁令已获准或已被拒绝。",
+      "source": "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/",
+      "primarySource": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-20-TRO-Opposition-CA.pdf",
+      "kind": "legal-procedure"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "密歇根最新Marist：LV口径仍是紧密竞争",
+      "summary": "El-Sayed 50%、Rogers 48%。1,185名RV基础样本，投票概率加权；实地10月15—18日。",
+      "status": "原始民调已核验",
+      "interpretation": "单份D+2不能机械定义席位归属；RV与LV不得直接作涨跌比较。",
+      "source": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
+      "kind": "poll"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "全国泛国会票：RCP快照D+8.3",
+      "summary": "当前页面50.4%比42.1%；采集时间不是调查日期，组成调查窗口为9月28日至10月19日。",
+      "status": "聚合页面已核验",
+      "interpretation": "不映射席位概率；与10月21日已保存的领先差相同不代表其他指标无变化。",
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "aggregate-snapshot"
+    }
+  ],
+  "methodology": [
+    {
+      "title": "三层证据分开",
+      "text": "现任党籍是事实；出版机构的Solid/Likely/Lean/Toss-up是定性判断；原始民调是样本估计。三者均不是本站生成的胜率。"
+    },
+    {
+      "title": "席位模型",
+      "text": "议事厅按全体会议常见建筑形态作风格化示意，并非个人实际桌位图。参院35个改选席位放前两排、65个不改选席位放后两排；众院435席全体改选。衣服始终表示现任党籍，桌椅可切换评级配色。人物不是本人肖像，空缺席位不放现任人物。"
+    },
+    {
+      "title": "历史误差敏感性",
+      "text": "保留35%×2024总统误差＋40%×2022中期误差＋25%×2018中期误差的研究框架。因缺可比且核验输入，本版不输出修正数、真实支持率或胜率；该框架未经正式校准。"
+    },
+    {
+      "title": "变化与趋势",
+      "text": "全国票差快照与评级事件分别展示。缺完整日序列，不插值虚构走势。跨机构民调差、RV/LV差及单日波动均不是结构变化。"
+    },
+    {
+      "title": "预警线只是启发式",
+      "text": "MI±2；TX/IA独立民调持续D+2至3；NC民主党领先跌破+7/+4；GA跌破+5/+2。全国D+7/+5/+4不自动映射席位或胜率。"
+    },
+    {
+      "title": "提前投票与诉讼",
+      "text": "登记党派不等于投票选择；投票增加不等于党派净增。诉状主张、临时申请、签署命令及实际执行分别记录，缺命令不等于无变化。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rcp-senate",
+      "title": "RCP参院评级",
+      "url": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z"
+    },
+    {
+      "id": "rcp-house",
+      "title": "RCP众院评级",
+      "url": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "asOf": "2026-10-22T01:29:00Z"
+    },
+    {
+      "id": "rcp-generic",
+      "title": "RCP泛国会票聚合",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "2026-10-22T01:29:00Z"
+    },
+    {
+      "id": "MI-marist-oct",
+      "title": "MI Marist",
+      "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
+      "asOf": "2026-10-22T01:29:00Z"
+    },
+    {
+      "id": "OH-marist-oct",
+      "title": "OH Marist",
+      "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+      "asOf": "2026-10-22T01:29:00Z"
+    },
+    {
+      "id": "AK-dfp-oct",
+      "title": "AK Data for Progress",
+      "url": "https://www.filesforprogress.org/datasets/2026/10/dfp_alaska_oct_2026.pdf",
+      "asOf": "2026-10-22T01:29:00Z"
+    },
+    {
+      "id": "ca-docket",
+      "title": "加州案公开文件目录",
+      "url": "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/",
+      "asOf": "2026-10-22T01:29:00Z"
+    },
+    {
+      "id": "TX-fox-oct",
+      "title": "TX Fox原始问卷与结果",
+      "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+      "asOf": "2026-10-22T01:31:00Z"
+    },
+    {
+      "id": "OH-fox-oct",
+      "title": "OH Fox原始问卷与结果",
+      "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+      "asOf": "2026-10-22T01:31:00Z"
+    },
+    {
+      "title": "参议院现议事厅官方建筑说明",
+      "url": "https://www.senate.gov/about/historic-buildings-spaces/chamber/overview.htm"
+    },
+    {
+      "title": "众议院议事厅官方建筑与非固定座位说明",
+      "url": "https://www.aoc.gov/explore-capitol-campus/buildings-grounds/capitol-building/house-wing/house-chamber"
+    },
+    {
+      "title": "参议院官方个人办公桌座位图",
+      "url": "https://www.senate.gov/art-artifacts/decorative-art/furniture/senate-chamber-desks/chambermap.htm"
+    }
+  ],
+  "summary": {
+    "senate": {
+      "dem": 46,
+      "tossup": 8,
+      "rep": 46,
+      "provider": "RealClearPolling",
+      "includesNotUp": true,
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "demLabel": "民主党阵营（含2名独立议员）",
+      "nonContested": {
+        "demParty": 32,
+        "independentDemCaucus": 2,
+        "rep": 31
+      }
+    },
+    "house": {
+      "dem": 226,
+      "tossup": 22,
+      "rep": 187,
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up"
+    }
+  },
+  "coverage": {
+    "senateRatings": 35,
+    "houseRatings": 87,
+    "houseUnmappedSolid": 348,
+    "limitations": [
+      "众院348个Solid席位未逐席获取评级，显示未知，不能由现任党派反推。",
+      "未完成逐区最新选票与区划核验；评级来源与正式议席名册须分开。",
+      "Cook页面403、Sabato图表未取得；不宣称多模型一致。",
+      "最新加州签署法院命令仍未核验。",
+      "评级来源未显示精确更新时间；asOf为本站读取时间。",
+      "尚无连续每日席位预测基线。",
+      "RCP完整众院HTML请求403；270toWin公开表仅列非Safe席，且标注10月2日，不能补成当前RCP评级。"
+    ]
+  },
+  "watchlist": {
+    "senate": [
+      "MI",
+      "OH",
+      "ME",
+      "AK",
+      "TX",
+      "IA",
+      "NC",
+      "GA",
+      "NH"
+    ],
+    "house": [
+      "AZ-06",
+      "CO-08",
+      "MI-07",
+      "NJ-07",
+      "CA-22",
+      "NY-17",
+      "PA-07"
+    ]
+  }
+}

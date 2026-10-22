@@ -1,0 +1,205 @@
+{
+  "asOf": "2026-10-22T02:23:00Z",
+  "persons": [
+    {
+      "id": "mike-johnson",
+      "name": "Mike Johnson",
+      "nameZh": "迈克·约翰逊",
+      "party": "R",
+      "currentRole": "众议院议长",
+      "source": "https://www.house.gov/leadership",
+      "portraitUrl": "https://www.house.gov/sites/default/files/2023-10/mikejohnson.jpg",
+      "portraitSource": "https://www.house.gov/leadership",
+      "asOf": "2026-10-22T02:23:00Z",
+      "status": "confirmed-current-office",
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+    },
+    {
+      "id": "hakeem-jeffries",
+      "name": "Hakeem Jeffries",
+      "nameZh": "哈基姆·杰弗里斯",
+      "party": "D",
+      "currentRole": "众议院民主党领袖",
+      "source": "https://www.house.gov/leadership",
+      "portraitUrl": "https://www.house.gov/sites/default/files/2023-01/rep-jeffries.jpg",
+      "portraitSource": "https://www.house.gov/leadership",
+      "asOf": "2026-10-22T02:23:00Z",
+      "status": "confirmed-current-office",
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+    },
+    {
+      "id": "jd-vance",
+      "name": "J.D. Vance",
+      "nameZh": "J.D. 万斯",
+      "party": "R",
+      "currentRole": "美国副总统兼参议院议长",
+      "source": "https://www.senate.gov/senators/leadership.htm",
+      "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/V/V000137.jpg",
+      "portraitSource": "https://www.senate.gov/senators/leadership.htm",
+      "asOf": "2026-10-22T02:23:00Z",
+      "status": "confirmed-current-office",
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+    },
+    {
+      "id": "chuck-grassley",
+      "name": "Chuck Grassley",
+      "nameZh": "查克·格拉斯利",
+      "party": "R",
+      "currentRole": "参议院临时议长",
+      "source": "https://www.senate.gov/senators/leadership.htm",
+      "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/G/G000386.jpg",
+      "portraitSource": "https://www.senate.gov/senators/leadership.htm",
+      "asOf": "2026-10-22T02:23:00Z",
+      "status": "confirmed-current-office",
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+    },
+    {
+      "id": "john-thune",
+      "name": "John Thune",
+      "nameZh": "约翰·图恩",
+      "party": "R",
+      "currentRole": "参议院多数党领袖",
+      "source": "https://www.senate.gov/senators/leadership.htm",
+      "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/T/T000250.jpg",
+      "portraitSource": "https://www.senate.gov/senators/leadership.htm",
+      "asOf": "2026-10-22T02:23:00Z",
+      "status": "confirmed-current-office",
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+    },
+    {
+      "id": "chuck-schumer",
+      "name": "Chuck Schumer",
+      "nameZh": "查克·舒默",
+      "party": "D",
+      "currentRole": "参议院民主党领袖（少数党）",
+      "source": "https://www.senate.gov/senators/leadership.htm",
+      "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/S/S000148.jpg",
+      "portraitSource": "https://www.senate.gov/senators/leadership.htm",
+      "asOf": "2026-10-22T02:23:00Z",
+      "status": "confirmed-current-office",
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+    }
+  ],
+  "house": {
+    "podium": {
+      "personId": "mike-johnson",
+      "label": "现任众议院议长",
+      "render": "solid"
+    },
+    "scenarios": [
+      {
+        "personId": "hakeem-jeffries",
+        "side": "left",
+        "render": "dashed",
+        "label": "民主党夺多数情景",
+        "possibleRole": "众议院议长",
+        "condition": "民主党取得众院多数、党内支持杰弗里斯，并由新一届全院选举通过。",
+        "status": "conditional-scenario-not-elected",
+        "source": "https://jeffries.house.gov/2026/09/29/leader-jeffries-on-pbs-everyday-americans-need-us-to-decisively-act-in-order-to-make-life-more-affordable/",
+        "evidence": "现任民主党领袖；其官方发布的采访讨论了夺回多数后担任议长的可能性。"
+      },
+      {
+        "personId": "mike-johnson",
+        "side": "right",
+        "render": "dashed",
+        "label": "共和党保多数情景",
+        "possibleRole": "众议院议长连任",
+        "condition": "共和党保住多数、约翰逊继续获得党内支持，并由新一届全院选举通过。",
+        "status": "analytical-scenario-not-confirmed-nomination",
+        "source": "https://www.house.gov/leadership",
+        "evidence": "基于已核验现任议长身份的条件情景，不是已确认的2027年提名或选举结果。"
+      }
+    ],
+    "otherPartyLeaders": [
+      {
+        "name": "Steve Scalise",
+        "party": "R",
+        "role": "众议院多数党领袖",
+        "source": "https://www.house.gov/leadership"
+      },
+      {
+        "name": "Tom Emmer",
+        "party": "R",
+        "role": "众议院多数党党鞭",
+        "source": "https://www.house.gov/leadership"
+      }
+    ],
+    "notes": [
+      "众议院议长由全院选出，并非中期选举选民直接选出；取得多数不保证某一人自动当选。",
+      "左右为条件情景而非胜率排名；约翰逊同时出现在现任位置与连任情景是有意区分现在和未来。",
+      "媒体关于Scalise/Jordan的最新讨论主要涉及共和党失去多数后的党内领导权，不能直接写成已正式参选议长。"
+    ]
+  },
+  "senate": {
+    "podium": {
+      "personId": "jd-vance",
+      "label": "副总统兼参议院议长",
+      "render": "solid",
+      "note": "宪法职务示意，不表示正在主持某一场会议；不随2026中期选举自动改选。"
+    },
+    "presidentProTempore": {
+      "personId": "chuck-grassley",
+      "label": "临时议长",
+      "render": "solid"
+    },
+    "partyLeadershipScenarios": [
+      {
+        "personId": "chuck-schumer",
+        "side": "left",
+        "render": "dashed",
+        "label": "民主党多数党领袖情景",
+        "possibleRole": "多数党领袖，不是议长",
+        "condition": "民主党阵营取得参院多数且党团继续选择舒默担任领袖。",
+        "status": "conditional-scenario-not-confirmed-selection",
+        "source": "https://www.senate.gov/senators/leadership.htm"
+      },
+      {
+        "personId": "john-thune",
+        "side": "right",
+        "render": "dashed",
+        "label": "共和党多数党领袖情景",
+        "possibleRole": "多数党领袖，不是议长",
+        "condition": "共和党继续控制参院且党团继续选择图恩担任领袖。",
+        "status": "conditional-scenario-not-confirmed-selection",
+        "source": "https://www.senate.gov/senators/leadership.htm"
+      }
+    ],
+    "notes": [
+      "参议院没有与众院Speaker同构的职位。副总统为President of the Senate；临时议长与两党领袖是不同职务。",
+      "不要把图恩或舒默标注为预测参议院议长，也不要用参院席位变化预测副总统更换。",
+      "临时议长由参院选出；本版不预测其2027年人选。"
+    ]
+  },
+  "sources": [
+    {
+      "title": "众院现任领导与议长选举方式",
+      "url": "https://www.house.gov/leadership",
+      "asOf": "2026-10-22T02:23:00Z"
+    },
+    {
+      "title": "参院现任领导和官员",
+      "url": "https://www.senate.gov/senators/leadership.htm",
+      "asOf": "2026-10-22T02:23:00Z"
+    },
+    {
+      "title": "副总统兼参院议长职务",
+      "url": "https://www.senate.gov/about/officers-staff/vice-president.htm",
+      "asOf": "2026-10-22T02:23:00Z"
+    },
+    {
+      "title": "参院临时议长职务",
+      "url": "https://www.senate.gov/about/officers-staff/president-pro-tempore.htm",
+      "asOf": "2026-10-22T02:23:00Z"
+    },
+    {
+      "title": "杰弗里斯官方采访稿",
+      "url": "https://jeffries.house.gov/2026/09/29/leader-jeffries-on-pbs-everyday-americans-need-us-to-decisively-act-in-order-to-make-life-more-affordable/",
+      "publishedAt": "2026-09-29",
+      "asOf": "2026-10-22T02:23:00Z"
+    }
+  ],
+  "limitations": [
+    "未核验任何120届正式议长提名已产生；本数据不声称提名或当选已经确定。",
+    "不提供议长人选胜率；党团选择与全院选举仍可改变。"
+  ]
+}

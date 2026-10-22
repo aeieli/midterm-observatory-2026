@@ -1,0 +1,676 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-22",
+  "locale": "zh-CN",
+  "titleZh": "席位分布与议会权力门槛",
+  "subtitleZh": "满员参考线，不是保证通过线",
+  "fullChamberSize": {
+    "house": 435,
+    "senate": 100
+  },
+  "variables": {
+    "N": "相关在任成员数或州数",
+    "V": "本次投赞成或反对票者人数",
+    "P": "出席人数",
+    "C": "投给具体议长人选的票数"
+  },
+  "displayNotes": [
+    "席位颜色代表政党或党团分布，不代表每位议员对具体议案的投票。",
+    "参考刻度假定满员且全体参加相关表决；实际门槛取决于程序、空缺、出席和投票方式。",
+    "跨党投票、党内分歧、议程安排及总统阶段都会影响结果；不得显示“达到席位数＝必能通过”。",
+    "不存在统一的“重大议案”门槛，应区分普通最终通过、参院终结辩论、预算协调与宪法特别程序。",
+    "来源为美国国会、两院官方与政府出版物；核验日不等于每份资料的发布日期。"
+  ],
+  "recommendedHeadlinePowerIds": [
+    "ordinary_passage",
+    "legislative_cloture",
+    "veto_override",
+    "impeachment_conviction"
+  ],
+  "recommendedHousePowerIds": [
+    "bill_introduction",
+    "ordinary_passage",
+    "speaker_election",
+    "impeachment_house",
+    "house_suspension",
+    "veto_override",
+    "constitutional_amendment"
+  ],
+  "recommendedSenatePowerIds": [
+    "bill_introduction",
+    "ordinary_passage",
+    "legislative_cloture",
+    "reconciliation",
+    "nominations",
+    "veto_override",
+    "impeachment_conviction",
+    "treaty_consent",
+    "constitutional_amendment"
+  ],
+  "powers": [
+    {
+      "id": "bill_introduction",
+      "labelZh": "提交法案",
+      "shortLabelZh": "1 名议员",
+      "category": "legislation",
+      "chambers": [
+        "house",
+        "senate"
+      ],
+      "rule": "一名本院议员即可提出法案，无须先取得全院多数票。",
+      "nominalFullChamberValue": {
+        "house": 1,
+        "senate": 1
+      },
+      "denominator": "不是全院表决；1 指提出法案的议员人数，不是赞成票数。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "one_member",
+          "denominator": "sponsor",
+          "nominalFullChamberValue": 1
+        },
+        {
+          "chamber": "senate",
+          "formula": "one_member",
+          "denominator": "sponsor",
+          "nominalFullChamberValue": 1
+        }
+      ],
+      "caveats": [
+        "提出不等于排入议程、委员会通过、全院通过或成为法律。",
+        "增加财政收入的法案须从众议院发起，参议院可以提出修正。"
+      ],
+      "source": [
+        {
+          "title": "众议院：法案提出与转介",
+          "url": "https://www.house.gov/the-house-explained/the-legislative-process/introduction-referral"
+        },
+        {
+          "title": "CRS R42843：国会立法程序导论",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R42843/R42843.18.pdf",
+          "documentDate": "2020-11-24"
+        }
+      ],
+      "gauge": {
+        "kind": "member_action",
+        "showSeatLine": false
+      }
+    },
+    {
+      "id": "quorum",
+      "labelZh": "开展议事：法定人数",
+      "shortLabelZh": "在任人数过半到场",
+      "category": "attendance",
+      "chambers": [
+        "house",
+        "senate"
+      ],
+      "rule": "通常须有本院在任议员过半数构成法定人数。",
+      "nominalFullChamberValue": {
+        "house": 218,
+        "senate": 51
+      },
+      "denominator": "众院：已当选、宣誓且仍在任的议员；参院：已选出并宣誓的参议员。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "floor(N / 2) + 1",
+          "denominator": "elected_sworn_living_members_in_office",
+          "nominalFullChamberValue": 218
+        },
+        {
+          "chamber": "senate",
+          "formula": "floor(N / 2) + 1",
+          "denominator": "senators_duly_chosen_and_sworn",
+          "nominalFullChamberValue": 51
+        }
+      ],
+      "caveats": [
+        "这是到场人数要求，不是某一党必须持有的席位数。",
+        "空缺会改变分母；通常议事先推定有法定人数，直到有人提出异议或查明不足。",
+        "新一届众院选议长在议员宣誓前进行，按议员当选人的开院程序确定法定人数；本项不是该程序的计算器。"
+      ],
+      "source": [
+        {
+          "title": "美国宪法全文（参议院官方）",
+          "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
+        },
+        {
+          "title": "参议院常设规则：第 VI、XXII、XXX 条",
+          "url": "https://www.rules.senate.gov/rules-of-the-senate"
+        },
+        {
+          "title": "CRS TE10107：国会连续运作与法定人数",
+          "url": "https://www.congress.gov/crs_external_products/TE/PDF/TE10107/TE10107.1.pdf",
+          "documentDate": "2024-09-18"
+        }
+      ],
+      "gauge": {
+        "kind": "attendance_reference",
+        "showSeatLine": false
+      }
+    },
+    {
+      "id": "ordinary_passage",
+      "labelZh": "普通法案：最终通过",
+      "shortLabelZh": "通常过半",
+      "category": "legislation",
+      "chambers": [
+        "house",
+        "senate"
+      ],
+      "rule": "在法定人数条件下，通常由出席并投赞成或反对票者的过半数通过。",
+      "nominalFullChamberValue": {
+        "house": 218,
+        "senate": 51
+      },
+      "denominator": "本次有效赞成票与反对票总数；不是固定的法定总席位。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "floor(V / 2) + 1",
+          "denominator": "members_present_and_voting",
+          "nominalFullChamberValue": 218
+        },
+        {
+          "chamber": "senate",
+          "formula": "floor(V / 2) + 1",
+          "denominator": "senators_present_and_voting",
+          "nominalFullChamberValue": 51,
+          "tieBreaker": "50–50 等票时，副总统可投决定票；副总统不是第 101 个参院席位。"
+        }
+      ],
+      "caveats": [
+        "这里仅指最终表决，之前可能还有委员会、议程、辩论与预算规则关卡。",
+        "两院须通过相同文本，并完成总统签署等宪法成法程序；一院通过不等于法律生效。",
+        "众院平票即否决；参院平票可由副总统打破。特殊程序或规则可能另定门槛。"
+      ],
+      "source": [
+        {
+          "title": "House Practice：表决，第 28 节",
+          "url": "https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-112/html/GPO-HPRACTICE-112-59.htm"
+        },
+        {
+          "title": "参议院：表决",
+          "url": "https://www.senate.gov/about/powers-procedures/voting.htm"
+        },
+        {
+          "title": "CRS R42843：国会立法程序导论",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R42843/R42843.18.pdf",
+          "documentDate": "2020-11-24"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "legislative_cloture",
+      "labelZh": "参院普通立法：结束阻挠辩论",
+      "shortLabelZh": "通常 60 票",
+      "category": "procedure",
+      "chambers": [
+        "senate"
+      ],
+      "rule": "普通立法需要启动终结辩论（cloture）时，通常须已选出并宣誓参议员的五分之三赞成。",
+      "nominalFullChamberValue": {
+        "house": null,
+        "senate": 60
+      },
+      "denominator": "所有已选出并宣誓的参议员，而非仅当日出席或投票者。",
+      "thresholds": [
+        {
+          "chamber": "senate",
+          "formula": "ceil(3 * N / 5)",
+          "denominator": "senators_duly_chosen_and_sworn",
+          "nominalFullChamberValue": 60
+        }
+      ],
+      "caveats": [
+        "60 是满员参院的终结辩论参考，不是所有“重大议案”的通过门槛。",
+        "终结辩论不等于通过法案；随后通常仍需进行最终表决。",
+        "预算协调等限定辩论程序以及提名适用不同规则；修改参院规则本身的 cloture 门槛也不同。",
+        "有空缺时按实际已选出并宣誓人数重算；100 或 99 人时均为 60。副总统不能补足所缺的参议员赞成票。"
+      ],
+      "source": [
+        {
+          "title": "参议院：表决",
+          "url": "https://www.senate.gov/about/powers-procedures/voting.htm"
+        },
+        {
+          "title": "参议院：冗长辩论与终结辩论",
+          "url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture/overview.htm"
+        },
+        {
+          "title": "参议院常设规则：第 VI、XXII、XXX 条",
+          "url": "https://www.rules.senate.gov/rules-of-the-senate"
+        }
+      ],
+      "gauge": {
+        "kind": "membership_fraction",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "reconciliation",
+      "labelZh": "预算协调法案",
+      "shortLabelZh": "最终通过通常过半",
+      "category": "budget",
+      "chambers": [
+        "house",
+        "senate"
+      ],
+      "rule": "最终通过通常为简单多数；参院对符合预算协调条件的法案限制辩论，无须以普通立法的 60 票 cloture 结束辩论。",
+      "nominalFullChamberValue": {
+        "house": 218,
+        "senate": 51
+      },
+      "denominator": "最终表决中的出席并投票者。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "floor(V / 2) + 1",
+          "denominator": "members_present_and_voting",
+          "nominalFullChamberValue": 218
+        },
+        {
+          "chamber": "senate",
+          "formula": "floor(V / 2) + 1",
+          "denominator": "senators_present_and_voting",
+          "nominalFullChamberValue": 51,
+          "tieBreaker": "平票时副总统可投决定票；满员时可出现 50 名参议员加副总统通过。"
+        }
+      ],
+      "caveats": [
+        "不是任何重大法案都能使用此程序，须有预算决议中的协调指令并符合相关内容和程序限制。",
+        "Byrd 规则限制与预算协调无关的条款；其豁免通常需参院已选出并宣誓人数的 3/5。",
+        "仍需两院通过相同文本并完成总统阶段。"
+      ],
+      "source": [
+        {
+          "title": "CRS R48444：预算协调程序常见问题",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R48444/R48444.1.pdf",
+          "documentDate": "2025-03-06"
+        },
+        {
+          "title": "CRS RL30862：预算协调程序与 Byrd 规则",
+          "url": "https://www.congress.gov/crs_external_products/RL/PDF/RL30862/RL30862.19.pdf",
+          "documentDate": "2022-09-28"
+        },
+        {
+          "title": "参议院：表决",
+          "url": "https://www.senate.gov/about/powers-procedures/voting.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "nominations",
+      "labelZh": "确认总统提名",
+      "shortLabelZh": "参院通常过半",
+      "category": "appointments",
+      "chambers": [
+        "senate"
+      ],
+      "rule": "参院通常以简单多数确认提名；现行先例下，提名的终结辩论也采用多数门槛。",
+      "nominalFullChamberValue": {
+        "house": null,
+        "senate": 51
+      },
+      "denominator": "出席并投票的参议员，须满足法定人数。",
+      "thresholds": [
+        {
+          "chamber": "senate",
+          "formula": "floor(V / 2) + 1",
+          "denominator": "senators_present_and_voting",
+          "nominalFullChamberValue": 51,
+          "tieBreaker": "平票时副总统可投决定票。"
+        }
+      ],
+      "caveats": [
+        "适用于需参院同意的总统提名，包括最高法院提名；众院不参与确认。",
+        "提名的多数门槛不可套用到普通立法的终结辩论。"
+      ],
+      "source": [
+        {
+          "title": "CRS R42843：国会立法程序导论",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R42843/R42843.18.pdf",
+          "documentDate": "2020-11-24"
+        },
+        {
+          "title": "参议院：冗长辩论与终结辩论",
+          "url": "https://www.senate.gov/about/powers-procedures/filibusters-cloture/overview.htm"
+        },
+        {
+          "title": "参议院：表决",
+          "url": "https://www.senate.gov/about/powers-procedures/voting.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "veto_override",
+      "labelZh": "推翻总统否决",
+      "shortLabelZh": "两院分别 2/3",
+      "category": "constitutional",
+      "chambers": [
+        "house",
+        "senate"
+      ],
+      "rule": "两院须分别以出席并投票者的三分之二赞成覆议，且各自满足法定人数。",
+      "nominalFullChamberValue": {
+        "house": 290,
+        "senate": 67
+      },
+      "denominator": "本院本次投赞成或反对票者；两院各自计算，不合并为全国总票数。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "ceil(2 * V / 3)",
+          "denominator": "members_present_and_voting",
+          "nominalFullChamberValue": 290
+        },
+        {
+          "chamber": "senate",
+          "formula": "ceil(2 * V / 3)",
+          "denominator": "senators_present_and_voting",
+          "nominalFullChamberValue": 67
+        }
+      ],
+      "caveats": [
+        "290 与 67 仅是两院满员且全体投票时的参考值，缺席和不投票可能改变实际门槛。",
+        "只指推翻总统对法案的否决，不是罢免总统，也不是任何单院拥有的独立成法权。",
+        "不能把口袋否决当作可按此程序直接覆议的普通否决。"
+      ],
+      "source": [
+        {
+          "title": "CRS RS22654：两院推翻总统否决的程序",
+          "url": "https://www.congress.gov/crs_external_products/RS/PDF/RS22654/RS22654.8.pdf",
+          "documentDate": "2015-02-25"
+        },
+        {
+          "title": "美国宪法全文（参议院官方）",
+          "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "impeachment_house",
+      "labelZh": "弹劾：众院提出指控",
+      "shortLabelZh": "众院通常过半",
+      "category": "impeachment",
+      "chambers": [
+        "house"
+      ],
+      "rule": "在法定人数条件下，众院以出席并投票者过半数通过弹劾条款。",
+      "nominalFullChamberValue": {
+        "house": 218,
+        "senate": null
+      },
+      "denominator": "众院本次投赞成或反对票者。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "floor(V / 2) + 1",
+          "denominator": "members_present_and_voting",
+          "nominalFullChamberValue": 218
+        }
+      ],
+      "caveats": [
+        "众院弹劾只是正式提出指控，不自动使被弹劾者离职；定罪由参院审判决定。",
+        "218 是 435 人全体投票时的参考数，不是固定门槛。"
+      ],
+      "source": [
+        {
+          "title": "CRS R44260：弹劾与免职",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R44260/R44260.2.pdf",
+          "documentDate": "2015-10-29"
+        },
+        {
+          "title": "美国宪法全文（参议院官方）",
+          "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "impeachment_conviction",
+      "labelZh": "弹劾审判：参院定罪",
+      "shortLabelZh": "出席参议员的 2/3",
+      "category": "impeachment",
+      "chambers": [
+        "senate"
+      ],
+      "rule": "参院弹劾审判定罪须出席参议员的三分之二同意。",
+      "nominalFullChamberValue": {
+        "house": null,
+        "senate": 67
+      },
+      "denominator": "出席的参议员，不应误写成全体法定席位或仅投票者。",
+      "thresholds": [
+        {
+          "chamber": "senate",
+          "formula": "ceil(2 * P / 3)",
+          "denominator": "senators_present",
+          "nominalFullChamberValue": 67
+        }
+      ],
+      "caveats": [
+        "100 名参议员均出席时需 67 票；法定人数仍须满足。",
+        "对在职官员定罪导致免职；不是众院多数席位即可单独完成的权力。",
+        "总统受审时由最高法院首席大法官主持；副总统的平票决定权不能替代 2/3 定罪要求。"
+      ],
+      "source": [
+        {
+          "title": "CRS R44260：弹劾与免职",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R44260/R44260.2.pdf",
+          "documentDate": "2015-10-29"
+        },
+        {
+          "title": "美国宪法全文（参议院官方）",
+          "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "treaty_consent",
+      "labelZh": "同意批准条约",
+      "shortLabelZh": "出席参议员的 2/3",
+      "category": "foreign_affairs",
+      "chambers": [
+        "senate"
+      ],
+      "rule": "参院就条约给予同意，须出席参议员的三分之二赞成。",
+      "nominalFullChamberValue": {
+        "house": null,
+        "senate": 67
+      },
+      "denominator": "出席的参议员。",
+      "thresholds": [
+        {
+          "chamber": "senate",
+          "formula": "ceil(2 * P / 3)",
+          "denominator": "senators_present",
+          "nominalFullChamberValue": 67
+        }
+      ],
+      "caveats": [
+        "参院给予批准的同意，不是参院自行完成条约批准；总统还须完成后续批准步骤。",
+        "众院不参加这个条约同意表决；行政协定不等同于宪法条约程序。"
+      ],
+      "source": [
+        {
+          "title": "参议院：条约",
+          "url": "https://www.senate.gov/about/powers-procedures/treaties.htm"
+        },
+        {
+          "title": "美国宪法全文（参议院官方）",
+          "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "constitutional_amendment",
+      "labelZh": "提出宪法修正案",
+      "shortLabelZh": "两院各 2/3，再经 3/4 州",
+      "category": "constitutional",
+      "chambers": [
+        "house",
+        "senate"
+      ],
+      "rule": "国会提案路径须两院分别以出席并投票者三分之二赞成，法定人数在场；之后仍须四分之三州批准。",
+      "nominalFullChamberValue": {
+        "house": 290,
+        "senate": 67,
+        "states": 38
+      },
+      "denominator": "国会提案：本院投赞成或反对票者；州批准：所有州，当前 50 州中的 38 州。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "ceil(2 * V / 3)",
+          "denominator": "members_present_and_voting",
+          "nominalFullChamberValue": 290
+        },
+        {
+          "chamber": "senate",
+          "formula": "ceil(2 * V / 3)",
+          "denominator": "senators_present_and_voting",
+          "nominalFullChamberValue": 67
+        },
+        {
+          "chamber": "states",
+          "formula": "ceil(3 * N / 4)",
+          "denominator": "states",
+          "nominalFullChamberValue": 38
+        }
+      ],
+      "caveats": [
+        "国会达到门槛仅完成“提出”，不是宪法立即改变。",
+        "宪法修正案无需总统签署；宪法也另设由州推动制宪会议的提案路径。"
+      ],
+      "source": [
+        {
+          "title": "众议院议事手册：宪法第五条与第 192 节",
+          "url": "https://www.govinfo.gov/content/pkg/HMAN-118/html/HMAN-118-pg85.htm"
+        },
+        {
+          "title": "美国宪法全文（参议院官方）",
+          "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "speaker_election",
+      "labelZh": "选出众议院议长",
+      "shortLabelZh": "投给具体人选的票过半",
+      "category": "organization",
+      "chambers": [
+        "house"
+      ],
+      "rule": "通常须在法定人数在场时，获得投给具体人选的选票之过半数；无人达到则继续表决。",
+      "nominalFullChamberValue": {
+        "house": 218,
+        "senate": null
+      },
+      "denominator": "所有投给具体人选的票；仅答“出席”或不投票者不计入这一分母。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "floor(C / 2) + 1",
+          "denominator": "votes_cast_for_a_named_person",
+          "nominalFullChamberValue": 218
+        }
+      ],
+      "caveats": [
+        "218 仅适用于 435 名议员全部投给具体人选的情形；空缺、缺席与“出席”票会改变所需票数。",
+        "多数党拥有较好组织条件，不等于其提名人自动当选；议员可投给其他人选。",
+        "参议院没有与众议院 Speaker 等同的“议长选举”；副总统是宪法规定的参院议长，另有临时议长及党团领袖。"
+      ],
+      "source": [
+        {
+          "title": "CRS R44243：选举众议长常见问题",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R44243/R44243.19.pdf",
+          "documentDate": "2024-12-20"
+        },
+        {
+          "title": "美国宪法全文（参议院官方）",
+          "url": "https://www.senate.gov/civics/constitution_item/constitution.htm"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    },
+    {
+      "id": "house_suspension",
+      "labelZh": "众院快速程序通过法案",
+      "shortLabelZh": "投票者的 2/3",
+      "category": "procedure",
+      "chambers": [
+        "house"
+      ],
+      "rule": "众院采用暂停规则（suspension of the rules）程序通过法案时，须出席并投票者三分之二同意，法定人数在场。",
+      "nominalFullChamberValue": {
+        "house": 290,
+        "senate": null
+      },
+      "denominator": "众院本次投赞成或反对票者。",
+      "thresholds": [
+        {
+          "chamber": "house",
+          "formula": "ceil(2 * V / 3)",
+          "denominator": "members_present_and_voting",
+          "nominalFullChamberValue": 290
+        }
+      ],
+      "caveats": [
+        "这是一种具体的简化程序，不是所有众院法案或所有重大法案都要求 2/3。",
+        "此程序限制辩论并禁止现场修正；两党支持较广泛的法案常采用。"
+      ],
+      "source": [
+        {
+          "title": "House Practice：表决，第 28 节",
+          "url": "https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-112/html/GPO-HPRACTICE-112-59.htm"
+        },
+        {
+          "title": "CRS R42843：国会立法程序导论",
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R42843/R42843.18.pdf",
+          "documentDate": "2020-11-24"
+        }
+      ],
+      "gauge": {
+        "kind": "full_attendance_reference",
+        "showSeatLine": true
+      }
+    }
+  ]
+}
