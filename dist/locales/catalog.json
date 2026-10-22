@@ -6698,5 +6698,2460 @@
     "id": "profile.common.3",
     "source": "候选人依据州选举机构当期大选名录；现任议员资料不等于其已获2026年提名。履历、照片及政策另行标注核验缺口。",
     "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.roster.0",
+    "source": "官方名单已核对",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.roster.1",
+    "source": "官方名单已核对；未单列的写入候选人仍可能未覆盖。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.roster.2",
+    "source": "写入候选记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.roster.3",
+    "source": "另列记录非穷尽，资格状态以各自来源为准。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c4c4ffc13059b24b",
+    "source": "护士、医疗政策倡议者；竞选官网使用全名 N’Kiyla “Jasmine” Thomas。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2f5bc41a789957a8",
+    "source": "主张缓解护理人员短缺、保护妇女医疗权利，并改善道路、桥梁与公共设施。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f8bfdcf93b7e8bdf",
+    "source": "候选人竞选网站自述；政策为本人主张，履历里程碑不代表独立成效评价",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.93660dfa4670d2fd",
+    "source": "支持农业经营者、特殊教育资源和民权保障，并主张扩大联邦众议院席位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0678d36d2ee7050b",
+    "source": "支持联邦平衡预算修宪、国会议员任期限制、加强边境执法，以及要求选民提供公民身份证明的SAVE America Act。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f87d2f4b55f0a956",
+    "source": "支持减税、制造业投资和退伍军人服务，并反对纳税人资助堕胎。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ea4c618a0df698cd",
+    "source": "办公室履历记载，其曾将连锁餐饮业务扩展至24家餐厅；2018年11月13日宣誓就任联邦众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.31f2f7ac66dc8a58",
+    "source": "联邦众议员办公室履历自述；不代表独立经营成效评价",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e99da46d495e86d6",
+    "source": "曾任第118届国会共和党研究委员会主席、第119届国会众议院共和党政策委员会主席。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c611feaf5c6f5b72",
+    "source": "联邦众议员办公室履历记载",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9562a21f6523b2eb",
+    "source": "俄克拉何马州妇女选民联盟2026年选民指南记载：居住在Norman，曾任代课教师、社会科学和自然科学教师及摔跤教练；1971年获俄克拉何马大学文学学士，1972年获俄克拉何马城大学教学硕士。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2226cbd0ea419344",
+    "source": "竞选网站称其具有注册护士经历；2026年以独立候选人身份参选。网站同时注明其为俄克拉何马州共和党成员，不能据此把正式选票党别改为共和党。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cd29eef21be420b1",
+    "source": "反对未经国会授权的长期战争，要求严格遵守《1973年战争权力决议》。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d44a21199b514453",
+    "source": "主张加强边境执法、简化遣返流程，并由国会制定明确、可问责的移民规则。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.dfbf79ca6f4c2c32",
+    "source": "主张降低医疗负担、保障患者选择，并要求大型数据中心取得受影响社区的知情同意。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5134e7c8ae965214",
+    "source": "竞选履历称其在俄克拉何马州Lindsay长大，获得西南俄克拉何马州立大学药学博士，曾在Ardmore及该州南部从事社区药房工作，2019年迁至Tulsa继续执业。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f06e52fef7c9ef33",
+    "source": "支持Medicare for All，将现有多个公共医疗计划整合进全民Medicare，并反对医疗以营利为核心。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0be1819b7a2f60ca",
+    "source": "主张推翻Citizens United裁决、限制企业政治捐款、实行公共选举融资，并以宪法修正案保障改革。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.95b0e3bb8bb45b03",
+    "source": "候选人姓名及党派已按所列州选举机关资料核验；完整性仅指该次核验的印刷选票名单，不含未列名写入候选人。履历、政策和肖像逐字段标示来源及缺口；原始民调不是模型得票率或胜率。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.864ec634416f4484",
+    "source": "主张以10%至12%的单一税率替代现行联邦所得税体系，并取消资本利得税和遗产税。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.eb1f7bf542e745fd",
+    "source": "支持教育选择与学券，主张撤销联邦教育部；支持扩大核能及国内能源生产。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.12b1624d49bfb1fa",
+    "source": "竞选履历称其一直居住在新泽西州，曾为持牌财产、意外及健康保险核保人，后与丈夫共同经营小型商业电气承包企业。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.08ce6be3bedd1373",
+    "source": "支持以宪法修正案推翻Citizens United，并限制大额资金和特殊利益对国会的影响。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d21e12428117a2ae",
+    "source": "支持Medicare for All，以及废除ICE、建立更快速的公民身份取得途径。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bcc33fc142c27698",
+    "source": "支持开放初选与独立选区划分委员会，表示不会支持继续向以色列内塔尼亚胡政府提供武器。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3ee0ed085dc21d93",
+    "source": "与丈夫共同创办并经营商业电气承包企业。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bceef140d767236c",
+    "source": "在2026年4月竞选论坛上批评美国统治阶层的对外战争路线，并主张工人独立组织、以工农政府取代资本主义统治。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.891f0b82658a86b7",
+    "source": "The Militant于2026-05-04刊载的竞选活动报道，直接引述Joanne Kuniansky；为政治立场原话来源，不是独立成效评价",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.73dab05b85425f92",
+    "source": "主张保护家庭农场，使用低息贷款等方式帮助困难农户，并维持粮食援助项目。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ecf98f6cb7d633af",
+    "source": "将儿童健康、安全、福利与教育以及受创伤家庭的支持网络列为优先事项。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c52d8e93db6225a1",
+    "source": "竞选履历记载，自1999年从事公益法律服务，代理儿童、家庭、家暴受害者及残障人士；2017至2021年任摩根敦市议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f3bb237199d8f2d3",
+    "source": "竞选履历称其为退役美国陆军步兵军官，服役超过20年，曾在秘鲁亚马孙地区开展传教及教会工作，并获国家安全硕士学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8a30cefd5eaf4b70",
+    "source": "主张发展西弗吉尼亚能源产业，减少限制小企业的法规。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f8f196d1de580b6e",
+    "source": "承诺反对不平衡预算及超出其所理解宪法权限的支出；没有实际削减开支时不支持提高债务上限。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.58e93676bba859a7",
+    "source": "强调《权利法案》及州主权，主张按其文字解释宪法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1163e50c8597b0ae",
+    "source": "2016年当选西弗吉尼亚州众议员，任职四年。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b50f08bb9ae31f51",
+    "source": "支持提高联邦最低工资、增加可负担住房，并撤销2025年税法中面向最富裕群体的部分减税。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2480dc88aaaae94d",
+    "source": "支持公立学校、职业培训、教师薪酬及中小企业融资，并希望让路易斯安那州工人参与能源转型。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a1624a8c55857763",
+    "source": "支持完成边境墙、全国推行E-Verify及驱逐有犯罪记录的无证移民。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d6bbe14658a14cf3",
+    "source": "支持延长特朗普减税、扩大儿童税收抵免、教育选择、国内油气生产及农业保险和农村宽带。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6a14ba6c99b23cec",
+    "source": "众议员办公室记载，2021年特别选举后成为路易斯安那州首位当选国会的共和党女性。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6b1b8eb2ea6883b9",
+    "source": "联邦众议员办公室履历记载；历史当选里程碑，不是施政成效评价",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1770f2b1f8e69295",
+    "source": "主张降低处方药费用、扩大医疗服务与农村医院支持，以及财产税减负和劳工权利保障。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.94f0fe641fd38d4b",
+    "source": "个人官网记载，曾连续三届被州参议院同僚选为议长，并于1998年参与伐木工人的边境抗议行动。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.198bbba11ff8e3d3",
+    "source": "主张降低药价、改善农村医疗及预防性医疗，并通过减少监管和扩大供给降低住房与能源成本。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c368d601d1fddfab",
+    "source": "支持加强边境执法、完成边境墙，以及通过SAVE Act和审核选民名册。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ce2b1d9cd0e50461",
+    "source": "竞选团队记载，其任州参议员期间推动Brandywine Valley国家风景公路保护委员会立法及州医疗信息网络改革。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d2d3b262c5653bfe",
+    "source": "支持让所有年龄的美国人自愿加入Medicare，保护《平价医疗法》与Medicaid，并加强对医疗行业垄断和药品福利管理机构的监管。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.12b46e8711b6c2be",
+    "source": "支持生育医疗权利、农村医院融资及医疗债务减免。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2e1cf603cc063dcf",
+    "source": "竞选团队记载，其参与推动得州胰岛素自付额每月25美元上限及从加拿大进口较廉价处方药的立法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8f9f6793508f3c8e",
+    "source": "强调州权、宗教自由、拥枪权及严格移民执法，反对其所称的联邦行政越权。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.fc5bc2c74199ee40",
+    "source": "竞选团队记载，其作为得州总检察长参与对阿片类药物企业的追责及和解工作，并就科技企业数据隐私问题提起诉讼。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0a571e7bca9ed694",
+    "source": "竞选履历称其1984年获UCLA政治学学士，退休前为自雇保险理赔员；1979年加入自由意志党，曾任加州党主席及全国委员会成员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a7d901b73317f888",
+    "source": "支持市场化医疗改革，包括医疗储蓄账户、跨州购买保险及从其他国家购买药品。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.549de4f9b878ae44",
+    "source": "主张结束毒品战争、取消警察合格豁免权及无敲门搜查，并停止警察军事化。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c83f27f3801e35bc",
+    "source": "支持教育与国家分离，认为学费税收抵免优于教育券。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f478f2f6b65926e3",
+    "source": "曾担任加州自由意志党主席及自由意志党全国委员会成员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e96834c09790bd3d",
+    "source": "阿肯色州农业经营者，曾经营家族农场；拥有范德堡大学学位及克林顿公共服务学院公共服务硕士学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.03ba8d7ec0fb37c4",
+    "source": "竞选履历自述；未独立核验入选年度，属领导力项目资历而非政府勋章",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bd91f2b408a6c13e",
+    "source": "主张农业政策鼓励作物多样化，并以反垄断方式应对企业对农地的过度集中。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e8e7472edf0aafd4",
+    "source": "候选人接受Axios采访时的公开主张（2026-09-23）",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.114594c1e92ae543",
+    "source": "支持提高农村医疗可及性、远程医疗与Medicaid报销，并投资医疗人员培养。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.dc77cf9eb4f51757",
+    "source": "竞选履历记载，经营家族农场九年，并曾参与阿肯色州食物银行董事会及可持续农业、区域食物体系工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.97ce235ca3863d49",
+    "source": "竞选履历称其在弗吉尼亚大学学习航空航天及机械工程，获西北大学MBA，曾在Caterpillar、Capital One及Sam’s Club工作，现经营咨询业务并居住在Bentonville。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a7c3dba6df6d1382",
+    "source": "主张取消广泛关税、加强反垄断与反竞争并购执法，并逐步提高最低工资。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f11bcad0b07ff4a3",
+    "source": "主张以公私合作实现医疗普遍覆盖、降低总体成本，并扩大乡村远程医疗与基层诊所。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7315736e0e14b574",
+    "source": "支持设有紧急条款和过渡期的平衡预算修正案；支持排序选择投票、较合理的第三党选票准入及竞选融资改革。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f7fbc4b5f5abeac7",
+    "source": "自述曾共同创办汽车零件回收电商企业、创办产品开发公司，并管理Sam’s Club全国会员业务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cc474e227a3e5e74",
+    "source": "Meritorious Service Medal（功绩服役勋章）",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4fbfc19fcb1c4f6c",
+    "source": "候选人网站公布军方奖状摘录，载明表彰期为2022-05-30至2024-05-31；未将网页所列全部次数一概独立确认",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a75e29309f64d862",
+    "source": "支持扩大全民医疗可及性、保障Medicare与Medicaid对农村医院的支付，并保护生育自主权。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5e830c8a91b35b9e",
+    "source": "反对出售公共土地，支持国会重新行使战争授权权力及提高政治资金透明度。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e03bc14e24f36786",
+    "source": "其公开服役记录记载，在空军特别调查办公室工作期间统筹来自17个执法机构的60名调查人员，处理儿童剥削案件。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.38e541f19c4670e0",
+    "source": "竞选网站公布服役记录及奖状文字；非独立调查成效评估",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0a8d1353831f18fe",
+    "source": "前蒙大拿州联邦检察官、州税务局局长及州预算主任；科罗拉多大学商科学士、哈佛法学院毕业。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.db33e031ba07e0ad",
+    "source": "Truman Scholar（杜鲁门奖学金）",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8569f4244ddee4d2",
+    "source": "候选人竞选履历自述，未独立核验获奖年度",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.95dae4f1ad6e714e",
+    "source": "竞选重点为降低生活成本、控制政府开支、减税与打击暴力犯罪和毒品贩运。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cc6d8e35833c4548",
+    "source": "竞选履历记载，曾任州税务局及预算部门负责人，两度获任蒙大拿州联邦检察官，并曾领导Yellowstone Boys and Girls Ranch Foundation。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6558b0b227441db1",
+    "source": "Rhodes Scholarship（罗德奖学金）",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.065e59f48c60c433",
+    "source": "候选人竞选履历记载",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7f171f7c772b9f88",
+    "source": "支持降低医疗、住房与能源成本，反对其认为推高物价的关税，并要求结束未经国会授权的伊朗战争。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0d896008035c461f",
+    "source": "支持公共土地保护、生育自主权、工人组织权、国会个股交易禁令和任期限制。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b1bbc2c5b297c20c",
+    "source": "竞选履历记载，曾服役于美国陆军特种部队；担任蒙大拿大学校长八年，其团队称期间改善招生、财务稳定及毕业率。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6f9495f69444996b",
+    "source": "竞选履历称其在蒙大拿州Hi-Line地区出生长大，拥有祖父的农场，取得药学博士并创办独立药房。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.100e821388e607e2",
+    "source": "支持广泛的持枪权，反对限制美国人的持有及携带武器权利。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7e2604be1c905961",
+    "source": "主张减少他认为影响小企业和医疗可及性的监管过度干预。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.39311323faf633ad",
+    "source": "自述取得药学博士并创办独立药房。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.969c6d2c7dd1009a",
+    "source": "支持全民Medicare、提高联邦最低工资、中产减税与对年收入超过100万美元者加税。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.79c4bbe4e024f904",
+    "source": "主张恢复联邦教育部、扩大职业培训支持，并支持取消ICE、投票权立法及恢复Roe v. Wade的堕胎权保护。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.305889468470ae86",
+    "source": "竞选团队记载，其与州长Pritzker共同推动取消食品杂货税、提高最低工资及医疗债务减免。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cbbb945322bf0c85",
+    "source": "主张减税、减少浪费性开支和企业监管，并以多种能源组合降低能源价格。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5e82323a1aff40b7",
+    "source": "支持医疗价格透明及竞争，并移除住房建设障碍以增加可负担住房。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7fdb1bb4273b62d7",
+    "source": "竞选履历记载，曾任伊利诺伊州博彩委员会、州共和党及Sangamon县律师协会负责人，并长期参与地方公益组织。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7b69c32d83d128dc",
+    "source": "竞选履历称其在密西西比州Belzoni长大，获Delta State University政治学学位，曾从事银行和保险工作并经营保险业务，2013年迁往芝加哥从事牧职。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c3abe22a82a8d72b",
+    "source": "主张不对食品征收关税、保障农民设备维修权，并提供较小额度房贷以改善购房机会。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.476c6911fc5a9e1c",
+    "source": "支持社区学院第一学年免费，以贷款减免和补助帮助医生开设独立诊所、扩大直接初级医疗。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b91ac7c26d15340a",
+    "source": "主张国会连续任期限制、改革冗长辩论程序，以及为符合条件的非暴力犯罪记录建立联邦封存机制。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f779c764055a5101",
+    "source": "2016年里约及2020年东京残奥会男子轮椅篮球金牌",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a53ed861161776bf",
+    "source": "国际残奥委会官方运动员成绩档案；东京2020赛事实际于2021年举行",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.71f42114a6e2b7d6",
+    "source": "主张降低生活和医疗成本、支持家庭农场、公立学校与退伍军人，并减少残障人士在就业、教育及医疗上的障碍。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.609cd49e3c6e88fa",
+    "source": "把艾奥瓦州癌症负担和水质问题列为公共政策重点，并支持改革移民制度。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d3ac32adb83830f7",
+    "source": "竞选履历记载，代表美国参加四届残奥会并获两枚金牌；退役后当选艾奥瓦州众议员，并曾为残障儿童体育项目从事志愿工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.19046396d3b303e1",
+    "source": "支持首次购房免税储蓄、托育减税、降低药价与改善农村医疗服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.56456315ff706ad6",
+    "source": "支持全年销售E15汽油、农业出口和农场法案；主张严格边境执法、禁止国会议员买卖个股。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2eaabb4d6c28c42d",
+    "source": "竞选履历记载，曾提出和支持改善托育及限制联邦游说的跨党派提案，并任众议院拨款、伦理及对华特别委员会委员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.778d04a47b0509eb",
+    "source": "竞选履历称其在爱荷华州Allison长大，曾任教授、教授美国政府与宪法相关课程，后获爱荷华大学法律学位并当选Greene County Attorney。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.33dc1c94a0c0ac4f",
+    "source": "主张限制PAC和超级PAC的政治影响，禁止私人企业借征收权为商业利益取得私人土地。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cf3495bf121458ab",
+    "source": "反对未经国会同意发动战争；除重大紧急情形外反对增加国债的拨款，并支持平衡预算宪法修正案。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e11a3fefd4020455",
+    "source": "主张提高或取消合法移民人数上限，在加强边境安全的同时推行人道移民政策，并使大麻持有和使用非刑事化。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2c5b6cdda180d6d0",
+    "source": "作为自由意志党候选人当选Greene县检察官，并于2022年连任。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.38ab9bb5a996cfd4",
+    "source": "称其与非营利组织合作建立社区服务及非暴力违法者回归社会项目。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4a95caa6e7aca585",
+    "source": "儿科医生，曾长期在南卡罗来纳州儿童医院工作，并参与医疗可及性、儿童安全和枪支暴力预防倡议。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d58f50b41dc1f290",
+    "source": "竞选政策重点包括可负担医疗和托育、生育自主权、减少枪支暴力与政治问责。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4ba7141641549161",
+    "source": "支持移民改革，反对无休止战争。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ec3f923eab74c761",
+    "source": "竞选履历记载，近二十年从事儿科临床工作，并推动儿童安全、可负担医疗及生育医疗权利倡议。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9bf7e579861b3271",
+    "source": "职业康复辅导员，曾任南卡罗来纳州盲人委员会负责人；2026年7月13日获任联邦参议员，7月14日宣誓。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5ab62c8930a4a7a6",
+    "source": "在署名竞选声明中主张停止对以色列、乌克兰和联合国提供资金，并退出北约。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ff3f92bd67e2c83f",
+    "source": "南卡罗来纳州宪法党官网刊登的Mark Hackett署名参议院竞选声明；不是由党纲推定的个人立场",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7f457ca25cab83ce",
+    "source": "反对其所称违宪、未经宣战且无法取胜的战争，承诺反对所有不减少国债的法案。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8871102b5f4368e1",
+    "source": "竞选履历称其为作家、企业主、广播主持人及南卡罗来纳大学临床助理教授，教授创业与战略管理并担任Faber Entrepreneurship Center主任；2014年获组织与管理博士。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.75dc491f1edb9d8d",
+    "source": "2021年Fresh Voices in the Humanities Award",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e282164d36cbf03b",
+    "source": "颁奖机构South Carolina Humanities公布的2021年获奖名单；非竞选自评",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3878b3eacfb44fc7",
+    "source": "支持平衡预算修正案、简化税制及各联邦机构支出削减5%，并改革社会保障与Medicare以维持长期可持续性。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d312c740cb1309ee",
+    "source": "主张医疗保险与就业脱钩、降低医疗创业准入障碍并增加市场选择。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a4652ce4e8c85f34",
+    "source": "支持加强国会对行政部门监督、反对新的海外战争，不支持新的联邦堕胎法律或相关税款支出，也反对新增第二修正案限制。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.dadcb20ec45018c3",
+    "source": "2012年创办Clemson Road Creative咨询业务，2018年参与创办Columbia College Women’s Business Center。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6e60d059edd49d70",
+    "source": "分别于2019年和2021年出版小说After December及Before Pittsburgh。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3a049a3f05f87d98",
+    "source": "支持降低药价、保护乡村医院、扩大心理健康与孕产医疗服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cdbbd56e3d6dcdd0",
+    "source": "竞选团队公开主张或履历自述，非独立成效评价；2026-10-22核验",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3e09a800a7e83563",
+    "source": "支持可负担住房、公共学校投资、普及宽带、独立划区及环境正义。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d4fd0932ad64b694",
+    "source": "曾领导环境正义非营利组织Sowing Justice，开展工业污染、化石燃料基础设施及数据中心对社区影响的倡议工作；此处为可核验公共服务经历，不宣称已实现特定政策成效。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1b8fde61dc86c8dc",
+    "source": "个人履历尚待可核验的一手来源。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0b0a9955dd427ac8",
+    "source": "本人竞选简介称有军旅、安保、商业货运、信息技术、餐饮、维修及科研工作经历；以Jeranimo作为军旅时期形成的绰号。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8a6d7e913d94f340",
+    "source": "主张把军事预算转向教育、基础设施、研究和职业培训，拒绝加税，并改革以利润为导向的医疗体系。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.51a00d5b901af686",
+    "source": "候选人竞选网站自述；截至2026-10-22读取，非独立成效评价",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.16324155b6f991da",
+    "source": "主张废除Patriot Act、结束公众大规模监控，并加强AI数据中心的环境及数据隐私监管；支持核能、可再生能源、高铁、维修权及让退伍军人自行选择医疗服务者。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.38921e1def78eea0",
+    "source": "在VOTE411自填简介中，Hearn称获Earlham College生物学学士，并在MIT、Harvard、Ohio State及Boston University接受培训或研究生阶段学习；自述从事科学研究。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.139c20531df3b516",
+    "source": "竞选网站将维护宪法、平等保护、和平解决国际争端列为重点，并主张起草Equal Earnings Act。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2aaec61a8322a6fd",
+    "source": "提出称为激活Fort Knox财政资源的债务方案；这是候选人主张，本资料不验证其资金规模或经济可行性。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.10e28bae57fa3943",
+    "source": "竞选简介称其为Jonesborough小企业主及非营利机构执行董事，拥有East Tennessee State University工商管理硕士、Austin Peay State University军事史硕士和University of Newcastle古典学博士学历；从事过商业、历史及考古相关工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c79d62ed706a6af5",
+    "source": "提出Accountability Act，通过安全网站或应用定期征询选民、披露议员投票及理由；承诺不接受竞选捐款。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f3d397d649e93902",
+    "source": "支持以合作采购、预制住房和医疗体系改革降低基本生活成本，倡导劳动者公平待遇及合理工资；支持可再生能源、保育和负责任的资源管理。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9cc30df76058a0a0",
+    "source": "竞选简介称其获University of Phoenix工商学士、主修会计，并正在攻读会计方向硕士；创立FTP Nonprofit，曾从事公众及残障人士服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.92adf849afdf2942",
+    "source": "支持范围有限的田纳西州历史不公赔偿方案、减轻老年人房产税负及向符合条件者提供基本收入。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.32603455052a10ed",
+    "source": "支持加强边境安全、执行移民法及改善合法移民系统，降低生活成本、支持小企业并扩展教育和就业机会。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e52684a2cc05e543",
+    "source": "在2026 VOTE411自填职业栏中列为卡车司机；竞选网站介绍其具有工薪家庭和商业工作背景，以独立候选人身份参选。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ba12862fc40beff8",
+    "source": "主张削减浪费支出、提高政府支出透明度和任期限制，支持小企业及保护个人自由。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.da45c5bb2335f943",
+    "source": "支持制造业、竞争、职业培训、基础设施及减少不必要监管；数据中心应遵守保护能源、水资源、网络安全与隐私的标准，并让所在地社区参与选址决定。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1d39be6b680d37a1",
+    "source": "本人提交给League of Women Voters VOTE411的2026问卷；截至2026-10-22读取",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.fdf0b0ae8816e5dc",
+    "source": "竞选网站称其曾在保险行业工作，此后约20年以生命教练、牧师及导师身份参与志愿服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7028f7b09588f880",
+    "source": "主张支持小企业和绿色能源、降低处方药费用、保护农村医院并改善医疗可及性；增加公校和职业培训支持、寻求减轻学生债务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.053fd02f2c8da996",
+    "source": "支持可负担住房和小型住宅社区、儿童及老年照护援助、城市间公共交通，提出恢复Chattanooga至Atlanta高速铁路倡议。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7fe7874e60eafa1a",
+    "source": "软件企业负责人、航空航天工程师出身；曾为Martin Marietta、Hughes、Raytheon及NASA喷气推进实验室工作。2018年当选州众议员，2022年当选州参议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bdaa9603a6952c83",
+    "source": "主张削减联邦税收、放松监管、扩大美国能源生产，并支持执法部门经费。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.30917c67a0028a96",
+    "source": "竞选简介记载其创办STEM特许学校，参与争取科罗拉多量子计算Tech Hub资格，并任州参议院航空航天与国防党团共同主席。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d4ae7900513d28bf",
+    "source": "前美国海军核潜艇军官、企业经营者，2026年以Forward Party选票标签参选。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.88dd589b26dca3d7",
+    "source": "将保护Social Security和Medicare、降低生活成本、减少国债、保障能源与水供应列为优先事项。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1bc80b9f5a8b212b",
+    "source": "候选人或竞选团队自述；2026-10-22核验；非独立政策成效评价",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.338f8130bf23e017",
+    "source": "竞选公告称其创办企业并创造数百个美国工作岗位；该数量为竞选方自述，未独立审计。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.21f2e3be69f79f01",
+    "source": "在2026 VOTE411本人提交的简介中，Baum称1967至1987年服役美国海军，最高军衔Commander；1967年获Brown大学学士、1979年获宾夕法尼亚大学研究生学位，做过海军补给军官、信息系统管理员、小企业主和电脑顾问。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d562884079ec272b",
+    "source": "主张减少政府对经济与能源生产的干预；提高Social Security领取年龄、调整缴费与预期退休领取的关系，并将其运营私有化。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.600604fd4bdc85a1",
+    "source": "主张改革单选制、鼓励Approval Voting；在本人问卷中支持投票登记公民身份及政府照片证件要求，并建议将投票年龄提高至21岁。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1949e053372a0c1f",
+    "source": "本人提交给Church Voter Guides的2026参议员问卷；截至2026-10-22读取，主办方立场不作为事实背书",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f271693b08a0a472",
+    "source": "在2026本人问卷中，Huber称已退休、是退伍军人，具有超过30年管理经历及近50年政治参与经验，曾任州级政党主席及全国政党委员会成员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5a3bf4bd03f98306",
+    "source": "主张财政纪律、移民改革、减少不必要监管及选举制度改革，使当选者争取更广泛支持；支持财务利益、礼物、游说接触和利益冲突公开，以及举报人保护。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bd26801355578fe4",
+    "source": "本人提交给Church Voter Guides的2026参议员问卷；截至2026-10-22读取，非主办方对政策成效的认证",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.706945e4dac8211e",
+    "source": "支持宗教自由、合法言论自由及持枪权，反对政府审查合法表达，并主张打击暴力犯罪时保护正当程序。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3a325b3be77dd85d",
+    "source": "本人提交给Church Voter Guides的2026参议员问卷；截至2026-10-22读取",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.57df2dc2eff76e45",
+    "source": "竞选自述曾任牧场工人、护理助理、厨师、承包商和拘留设施工作人员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d60b2d99a4c0f61f",
+    "source": "支持逐步由化石燃料转向未来能源技术，建立覆盖全民的医疗体系，并反对战争及资助海外冲突。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c98b2cece59dd8be",
+    "source": "主张保护劳动者养老金、降低老年人的胰岛素和处方药成本，并反对损害俄亥俄工人的贸易协议。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1ec342925eb0082d",
+    "source": "竞选团队列举其推动多雇主养老金救助、老年人胰岛素费用限制、受有毒燃烧坑影响退伍军人医疗，以及Social Security Fairness Act相关退休金改革的立法工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.738503f2670e58b5",
+    "source": "俄亥俄州社会主义组织者，竞选团队以工薪阶层与社会主义政策为主轴。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a505474189f8fd09",
+    "source": "主张将最大100家企业转为公共所有、全民单一支付医疗、全国租金上限及免除学生债务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.56cc9215d316a474",
+    "source": "主张大幅削减军费、限制企业政治捐款和游说，并反对驱逐移民。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.930b7f8189b05f4a",
+    "source": "企业估值专业人士，曾任自由意志党全国委员会主席（2006—2010年）；在竞选资料中常用Bill Redpath。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.76c16dfe28bf01f2",
+    "source": "2016年获自由意志党列入Hall of Liberty。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6c6841fcce6c8ad8",
+    "source": "自由意志党作为授予组织公开记载，2026-10-22核验；政党内部荣誉",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0dda0eb33aa1da01",
+    "source": "支持单方面取消全部关税、降低税收和政府开支，并撤销教育部及住房与城市发展部。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b0fdecf6a193501e",
+    "source": "主张取消联邦层面对自愿性无受害人行为的犯罪化规定，包括毒品及网络赌博禁令。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ac211c27ded99e5c",
+    "source": "密西西比州地区检察官，曾任检察官及法官；2015年首次当选地区检察官。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ffd573d89111b3f8",
+    "source": "主张提高并随生活成本调整最低工资，恢复ACA保费税收抵免、撤销Medicaid削减以支持乡村医院。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8e1f96236dbc7cf7",
+    "source": "主张恢复国会对关税和战争的批准权；要求数据中心自行承担电力与用水成本，并尊重当地社区决策。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d87a69aa70f733b9",
+    "source": "竞选团队记载其2015年当选地区检察官后两度连任，并取得逾15起重大谋杀案件定罪；这些案件数量及办案成效属于团队自述。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c8a3aa30fe677981",
+    "source": "密西西比三角洲出生的退伍军人与律师。竞选履历称其在美国陆军现役服役21年，退役后取得Georgetown法学学位并服务低收入社区。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6643d98db9ce28ea",
+    "source": "支持Medicare for All，主张医疗是权利。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c92ca36c0a988c84",
+    "source": "主张增加可负担住房联邦资金、支持新建与修缮住房，并修改FEMA规则以便沿海房主加固住房。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.15c8e2b8666025c3",
+    "source": "竞选履历记载其共同创办The Pyramid Project，为低收入青少年提供职业、学业资源及导师支持；并曾为劳动者追讨工资参与诉讼。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.882a4ed9a0e6ede7",
+    "source": "主张加强边境管控、打击芬太尼走私，并加强与联邦移民执法部门合作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.138f0f4cbb5582fa",
+    "source": "支持新墨西哥油气开发和能源独立，反对限制联邦土地能源许可的政策。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.fdf039054786d9ed",
+    "source": "支持国内能源生产以降低能源成本，保留公共土地供狩猎、垂钓、放牧和休闲使用，并支持乡村医院及降低药价。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3d0ff92ff190c69a",
+    "source": "主张削减联邦开支、减少行政机关监管权限，发展煤、石油、天然气与铀等本土能源。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5d70fd85535dcc45",
+    "source": "议员办公室公开主张或履历自述，非独立成效评价；2026-10-22核验",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cad0847369c13753",
+    "source": "主张军事行动应获得国会授权，并支持退伍军人服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.927ff40ce5bf06e3",
+    "source": "议员办公室2025年11月23日通讯称，她提出的H.J.Res.130撤销Buffalo资源管理计划修正案已获参众两院通过；这里仅记录当时立法阶段，不推断后续成法或经济成效。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.78d7a5fce09267e5",
+    "source": "主张禁止国会议员交易股票和加密资产，并实施终身游说禁令。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.34b81861b9af4d0f",
+    "source": "主张全国性AI披露标准，禁止未经同意仿冒真人面孔与声音，并加强儿童及老年人保护。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5c99d6ac36e0b1cb",
+    "source": "竞选履历记载其曾任海军陆战队高级辩护律师、首席检察官及亚利桑那州联邦助理检察官，后在海军司法学校等机构教授证据与庭审技巧。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d3efe5e128833104",
+    "source": "科技企业创办者。竞选简介称其为CytoSolve创办人和首席执行官，并持有MIT生物工程博士等学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7075c0a5d81bf1d6",
+    "source": "主张家庭及小企业减税、数字权利法案、国会议员任期限制及禁止内幕交易。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.096206a72a2b94cd",
+    "source": "主张纸质选票、人工计票、同日投票与选民身份证明，并反对长期海外战争。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.386ad63fe8312a53",
+    "source": "波士顿青年服务工作者、社区组织者及社会主义活动人士；竞选网站称其参与劳工、反战、反警察暴力和反社区绅士化活动逾十年。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a9cc47a438392358",
+    "source": "主张将最大100家企业转为公共所有，重组经济以提供住房、医疗、教育、托育及生活工资。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1ce3be31536611f0",
+    "source": "主张将租金限制在收入10%、提供免费医疗和创造工会岗位，并减少战争开支。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c596d67b0f99c1c2",
+    "source": "堪萨斯州Resurrection联合卫理公会教会创办牧师，1990年与家人创办教会；曾就读Oral Roberts University及Southern Methodist University。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2e98c70bb5b5d2ab",
+    "source": "2020年获American Public Square at Jewell首届Founder’s Civility Award。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.48caabccf32d5a0d",
+    "source": "颁奖机构2020年年报，2026-10-22核验",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.773ef1ae59834306",
+    "source": "主张国会批准新增关税，要求数据中心依法承担自己的电力成本，并恢复增加国内能源产能的税收抵免。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8b1f32b3c16db0e2",
+    "source": "主张通过宪法修正案为国会议员及最高法院法官设置任期限制，并加强年龄及居住资格要求。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.96ec2baa89e3ce33",
+    "source": "其所属教会介绍记载，他1990年创办Resurrection教会，并出版多部宗教与领导力著作；属组织及出版经历，不作政策成效评价。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.963e8d5c595c6758",
+    "source": "所属机构履历；2026-10-22核验",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.59fb69d9f6c84657",
+    "source": "2026参议员印制选票资格已由堪萨斯州官方名单核验；职业及学历履历仍未取得足够的一手资料。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.52fa807b94ae7dec",
+    "source": "主张大幅削减政府支出和规模、减轻国债；政府退出医疗行业并交由自由市场运作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8b78c3bc772804d5",
+    "source": "支持有序合法移民、反对非法移民；支持纸质选票、公开计票、排序选择及多党融合提名投票，反对限制竞选资金的法律。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e8d635178e4a0724",
+    "source": "支持可负担医疗、乡村医院、工会就业和基础设施投资；支持暂停新建AI数据中心。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.36b93f29bfc7003f",
+    "source": "竞选履历记载其在肯塔基州众议院任职期间参与推动Breonna's Law相关倡议与跨党派合作；不将倡议直接写为已通过的联邦立法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.de92bf924b14a082",
+    "source": "支持低税收与减少企业监管负担，并主张限制中国军事、监控及科技企业获取美国资本市场资金。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.fd96a914cacde436",
+    "source": "国会办公室称其参与设计疫情期间Paycheck Protection Program，为小企业提供可豁免贷款；官方简介记载其任众议院金融机构与货币政策小组委员会主席。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.79632e209f5d2794",
+    "source": "竞选履历称其为Local 1076工会会员，曾在肯塔基州国民警卫队服役。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a16b071050c3119e",
+    "source": "支持Medicare for All、工会、安全工作环境与生殖自主权。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0418f689adb57e63",
+    "source": "主张环境权宪法修正案、限制国会议员及最高法院法官任期，并削减军费。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.18ff5753acd37cd7",
+    "source": "俄勒冈西南部第三代居民和小企业经营者，曾经营家族餐厅；历任地方政府及州议会职务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1ccccb171cff2405",
+    "source": "主张不新增税收、支持本地企业和削减不必要政府开支；支持执法和对惯犯追责。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b1e0a89044e1e85a",
+    "source": "主张药物及心理健康治疗、结束长期街头露营；支持积极森林管理、减少可燃物和保护社区。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.53f250d7e223b367",
+    "source": "官方履历记录其历任Port Orford市议会、Curry County县委员会及州议会职务，2017—2023年任州众议员，2023年起任州参议员；属公共服务经历，不等于经独立评估的政策成效。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ff693480f3cd6aca",
+    "source": "自由意志党2026候选人专页介绍其为化学工程师、物理学背景作者；列有俄勒冈州立大学化工学士、Pepperdine MBA及加州大学欧文分校物理与应用数学学士学历，曾在Shell、Saudi Aramco和NW Natural从事工程及天然气计量工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4e6195b040bb3e61",
+    "source": "该党为Dye撰写的个人简介列出的主张包括缩小政府、个人自由、能源及公用事业问责，并提到普遍交易税和市场化公民身份方案。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e7d2efd13dac40c0",
+    "source": "自由意志党针对该候选人的简介；截至2026-10-22读取，不是从政党一般纲领推定",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7162a98c30e1ee5c",
+    "source": "在官方选民手册提供的候选声明中自述为卡车司机、前UAW航空机械工、工会组织者，曾参与消费者及选民权利组织董事会。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8dfa7ce323e0ddf2",
+    "source": "主张Medicare for All、把联邦最低工资提高至现行7.25美元的三倍、加强反垄断与劳动保护。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.88fcdabcf2a58be6",
+    "source": "主张减少海外军事开支、提高可再生能源供给，并设联邦基金应对Cascadia大型地震。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c85ae6213118f382",
+    "source": "支持Medicare for All、免费托育、带薪家庭及病假、全国租金冻结与暂停驱逐，以及工资随通胀调整的就业计划。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d88abe2314d0401a",
+    "source": "竞选简介记载其领导Florida for All组织开展选民登记，并在杰克逊维尔经营兼具健康食品和教育服务功能的书店及社区中心。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0c9b3d64f5313e7c",
+    "source": "在候选人问卷中自述为Justice Network创办人和负责人，曾在宾夕法尼亚州从事机动车经销业务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.97ef4b106e782bae",
+    "source": "强调三权分立、正当程序以及言论、新闻、集会和向政府请愿的权利，主张避免政党利益凌驾国家利益。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bf5c194c8bf72e49",
+    "source": "主张削减浪费性开支及小企业监管负担。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d13a9ec0bde4ba01",
+    "source": "提出的Laken Riley Act于2025年1月29日由总统签署成法，针对被捕或被控特定罪行的非法入境者规定羁押要求。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.795e7596d13216c9",
+    "source": "医生及公共卫生管理者；曾领导底特律和韦恩县公共卫生机构，拥有哥伦比亚大学医学学位及牛津大学博士学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6378a02cefc3b893",
+    "source": "主张全民 Medicare 医保及降低生活成本，限制企业资金对政治的影响。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6ac3d007ce14467b",
+    "source": "曾重建底特律卫生局并领导韦恩县卫生、人类与退伍军人服务部门。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f824ced122acbea2",
+    "source": "主张恢复制造业就业、降低汽油、食品和药品成本，并保护 Social Security 与 Medicare。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7b979076a53722de",
+    "source": "曾任陆军军人、联邦调查局特工及美国众议院情报委员会主席。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.933e26cc18ede029",
+    "source": "据自由党候选人介绍，Christensen 从事计算机科学与编程相关学习，现居密歇根上半岛。该党将她列为2026年参议院提名人。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.dc78d7d0c67231e8",
+    "source": "候选人介绍列明：反对大规模监控，支持持枪权及部落主权。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.146ec23eb86b3748",
+    "source": "自由党发布的候选人履历与本人政策介绍，非独立绩效认证",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5ff5196efc1a1608",
+    "source": "主张自愿选择加入的全民 Medicaid 方案与社会保障安排，而非强制加入。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7aa22137c7575f9e",
+    "source": "2026年妇女选民联盟指南中自述为全职传道人，持 Henry Ford Community College 副学士学位，具有26年美国军队服役及30年 Ford Motor Company 工作经历。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.005d2fdc0bdb4278",
+    "source": "在2026年选民指南中反对全民 Medicare，支持扩大油气开采，并支持特朗普及 ICE 的移民执法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f334f76eb8f581db",
+    "source": "本人提交给2026年9月妇女选民联盟选民指南的回答",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8ff99a14cd3525ce",
+    "source": "竞选网站自述为社区记者，以密歇根绿党身份竞选联邦参议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ec626fd46464f29c",
+    "source": "主张单一支付者全民医疗，并提出向每位成年公民每月发放1,000美元基本收入、向奴隶后裔发放1,500美元。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3df7d33c78f9366f",
+    "source": "本人当前竞选平台；政策数字是提案，非既定福利或财政测算",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e90c86896a740f68",
+    "source": "主张禁止私募股权公司持有住宅，将租金与当地工资挂钩，并监管短租。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.682dd5848e4915fb",
+    "source": "主张停止对伊朗军事行动、推动加沙和乌克兰停火；反对 Line 5 管道并加强清洁水及绿色基础设施。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a9ae137d29b02d66",
+    "source": "VOTE411 2026年问卷中自述为教育工作者及公共事务学习者，具有经济学学士背景。未提供学校或毕业年份。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.959e02c8913027ad",
+    "source": "支持增加医生培训、鼓励医生到服务不足地区执业，并为乡村医疗设施提供联邦资金。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d653e6a0931bc2a1",
+    "source": "本人提交给妇女选民联盟 VOTE411 的2026政策回答",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7ec4d846879b76ba",
+    "source": "主张投资电网与物流、减少浪费性支出并降低税负，同时保障生活工资。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c0812a176782fb7b",
+    "source": "支持严格追究企业环境违法责任，并保障非公民的正当程序和第一、第四修正案权利。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6528649052d20152",
+    "source": "罗得岛州沃里克居民、退役陆军军士及前市政府网络和电信管理员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.37b5fcebeaf0cb2c",
+    "source": "主张发展核能和化石能源并利用绿色能源，以提升能源独立和降低成本。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.25c0f4a6679ea34c",
+    "source": "主张平衡预算、削减重复支出及打击欺诈来保护 Social Security 和 Medicare，并加强边境与移民执法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.377372523032eafd",
+    "source": "1981至1992年在美国陆军服役；曾任沃里克市网络和电信管理人员26年。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9d8de1f501733cd2",
+    "source": "竞选网站自述曾做劳工、木匠、建筑管理及企业经营；获 Providence College 两项神学相关硕士学位，曾在 Salve Regina University 教授神学。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6d15bc3d4bf8da6f",
+    "source": "主张以外交结束海外战争，并倡议美国退出北约。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1ca3638e6d8aa434",
+    "source": "候选人竞选网站自述；政策是主张，履历里程碑不等同独立成效评估",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f1f0a8a7ad6296ab",
+    "source": "支持国会议员任期限制、宗教自由；反对堕胎，同时支持为母亲与婴儿提供援助。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a9c877fab5e27aca",
+    "source": "主张加强边境以打击人口和毒品贩运，同时改革合法移民制度，反对大规模驱逐勤劳移民。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.af950a754f6cdddd",
+    "source": "自述2014年创办 Fifty-Three: Five 非营利组织，为 Providence 有需要者提供食物和支援。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cacb18a856db55e0",
+    "source": "主张加强反腐败、保护工资、Social Security 与医疗保障，削减浪费和企业补贴并平衡预算。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f0a5868819864cbd",
+    "source": "主张对抗农业市场垄断，支持家庭农场、牧场及农村小企业。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.669edeeac97faab0",
+    "source": "曾任海军军人及国民警卫队军人；在 Kellogg’s 奥马哈工厂任工业机械师，并任 BCTGM 50G 工会主席、领导2021年当地罢工。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7740b1be85e2075f",
+    "source": "曾任 Nebraska Association of Public Employees / AFSCME Local 61 执行主任，2017年退休。2026年8月停止积极竞选，但竞选网站确认姓名保留在11月选票上，转而支持 Dan Osborn。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f2df9fd8e18bfeb6",
+    "source": "Nebraska Examiner 介绍 Richards 为 Little Bird Consulting 执行主任、Ralston 公立学校教育委员会成员及 Nebraska Working People Party 主席，曾任教育委员会主席。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3d9170efe78d3340",
+    "source": "在候选人问卷中主张提高住房、医疗和托育可负担性，增加特殊教育及公共服务支持。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a3a005668648c82f",
+    "source": "履历为 Nebraska Examiner 介绍；政策为本人提交的2026候选人问卷",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.74a826c7e12c3c2d",
+    "source": "主张按时逐项通过拨款法案、限制以停摆威胁谈判，强化国会对行政部门的制衡。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3bf8d3be1246a6cd",
+    "source": "支持安全边境及长期居住并贡献社会者的入籍路径，优先对暴力罪犯执法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1447f8b5827d4712",
+    "source": "教育委员会服务履历：自2020年任职，曾任三年主席，现任财务主管。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9285d397f17a372d",
+    "source": "在2026年9月接受 Plains Sentinel 访谈时介绍，曾在 Baker’s 超市工作28年，担任 UFCW Local 271 主席，此后长期从事地板销售。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.73674d69b83a0369",
+    "source": "在2026年10月5日问卷中主张数据中心自行建设或支付扩建电力设施费用，减少对土地和水资源的消耗。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2b54591a778e3ee0",
+    "source": "本人2026年10月5日提交给 Scientist Network for Advancing Policy 的问卷",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8d7b12b81e4b262a",
+    "source": "支持学生免费接受农业、高等及职业教育，并增加大学科研、NIH和NSF资金。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b07fea91c769304d",
+    "source": "主张国会任期限制、禁止议员交易个股、限制利益冲突与企业政治资金，降低国债。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.17cd34116b9e5cb4",
+    "source": "支持保留联邦公共土地、增加住房供应及医疗价格透明度，同时加强边境执法并改革合法移民制度。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e8979aa8cfcfeb85",
+    "source": "2026竞选履历自述在 WordPerfect 与 Novell 从事早期技术行业工作，曾开发网络与应用项目，并在50多岁时重返校园。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.04e9f1e1dfcbca55",
+    "source": "2026竞选主页主张限制华尔街对爱达荷自住房的挤压、移民制度改革、财政责任和经济公平，以及环境保护。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6a088bccc5b8ef80",
+    "source": "本人2026竞选主页主张",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f13d1fe05e95fc74",
+    "source": "竞选自述曾从事电子游戏开发，2020年迁至爱达荷 Treasure Valley，并参与爱达荷自由党的行政与活动工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e91a18555826ad04",
+    "source": "主张严格限制移民及取消出生公民权，允许由美国土地所有者邀请并承担费用的移民入境。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.81b8e839ba603fec",
+    "source": "本人竞选平台；不将其法律解释、因果或其他指控当作独立事实",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b0550426e1672c59",
+    "source": "主张未获国会宣战授权不向海外派兵，停止外国军援，并以直接付款取代退伍军人事务部医疗服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b29ca80767542903",
+    "source": "主张废除联邦储备体系、削减联邦预算与监管，反对央行数字货币及额外金融申报。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ff6bf79e2ab69ee9",
+    "source": "主张禁止国会议员及配偶交易个股、限制任期，改革竞选筹款和选区划分。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b11ac924cc4ca11f",
+    "source": "主张保护 Social Security 与 Medicare，整顿医疗体系，并同时加强边境安全和合法移民渠道。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d49aec2cf7309919",
+    "source": "主张保护家庭取暖补助及清洁能源税收抵免，维护 ACA、Medicare 与 Medicaid，并扩大可负担住房和托育供给。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b7b0748ca18f7c9d",
+    "source": "支持禁止国会议员交易个股，提高竞选资金透明度及限制党派选区操纵。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4f25873cd04bc112",
+    "source": "代表新罕布什尔州第一选区，任众议院退伍军人事务及交通和基础设施委员会委员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1ed8ebfe55aff1ac",
+    "source": "美国众议员官方办公室履历记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2ef21a2ca72318fd",
+    "source": "反对中产阶级加税，主张降低住房、医疗与能源成本，并反对政府和大型科技公司的过度监控。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b87392adc31952f9",
+    "source": "竞选网站列其参议员时期推动互联网接入税禁令、残障人士保护及心理健康平等立法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f973b4493b8f4a7a",
+    "source": "Citizens Count 资料列明 Laplante 为汽车技师、海军陆战队退伍军人及新罕布什尔宪法党州主席，具有航空科学及柴油技术相关教育经历。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6d8f730d21f2b5d2",
+    "source": "在2026年问卷中支持平衡预算宪法修正案，并要求新开支配套削减其他开支；反对以加税缩减赤字。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6ff8e49aa07586fe",
+    "source": "Citizens Count 履历资料及本人2026年政策问卷",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4eb8d2507d328942",
+    "source": "支持限制机构投资者批量购买独栋住房，反对自动加入全民 Medicare，支持社会保障个人账户。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.42244ff8c5dc7b2a",
+    "source": "支持选民登记时提供公民身份证明，反对普遍邮寄投票；反对增加对台军援及介入不直接影响美国的海外冲突。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8688d05b182c0f93",
+    "source": "主张全民 Medicare 医保、扩大医保药价谈判、恢复 Medicaid 资金并改善精神及孕产医疗。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ed41c7bb9805a7f0",
+    "source": "主张禁止企业竞选资金、披露捐款人，禁止联邦民选官员交易股票，并支持劳动权益和带薪假。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7a28e106dec1371c",
+    "source": "竞选网站列其2014年参与提高州最低工资的联盟，以及2023年推动带薪假和劳动者保障。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c03a9644f59da592",
+    "source": "主张对福利欺诈加强刑罚、审计及追偿，支持 Deporting Fraudsters Act，并增加执法资源。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ab446b2a60deac16",
+    "source": "主张强化边境与移民执法，反对取消 ICE，并反对提高中产阶级税负、主张削减政府支出。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5bb82978b3c81acd",
+    "source": "曾于2011至2022年担任 NBC Sunday Night Football 场边记者。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1905ee196d94edb1",
+    "source": "美联社报道的职业经历；非竞选成效评价",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0f8aff542e50563b",
+    "source": "在 KAXE 2026年候选人问卷中自报职业为企业负责人，并称从事企业资产及开源系统建设。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2a440d55b31dd430",
+    "source": "主张限制政府监控、加强权利法案保障，将政府制度公开并提高透明度。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.85106eb257a3d135",
+    "source": "本人提交给 KAXE 的2026问卷；未经独立核验的职业描述按自述标示",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3fc27465e7d1bdd0",
+    "source": "主张打破推高生活成本的企业垄断、减少官僚开支，并反对强制囚犯劳动。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4f7d4ed8c78d5e10",
+    "source": "在 KAXE 2026年问卷中自述为 Dirty Goat Farm & Bakery 经营者、美国陆军及伊拉克战争退伍军人、明尼苏达自由党主席。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.688e3134304edd8d",
+    "source": "主张只有国会宣战后才可将国民警卫队投入战斗，反对持续海外军事干预。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.087afd06bfc79994",
+    "source": "本人提交给 KAXE 的2026问卷；服役与职务为候选人自述",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a9c306c75545034c",
+    "source": "主张平衡联邦预算、反对政府资助监控基础设施；简化合法工作及入籍程序并降低费用。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ec7c5b3a3feaeb01",
+    "source": "自述参与 Bemidji Natural Choice Farmers Market 董事会及经营农场、烘焙业务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7de3a246153c214b",
+    "source": "主张对年收入低于92,000美元的劳动者免征联邦所得税、扩大儿童税收抵免，并通过炼油能力和运输支持降低阿拉斯加生活成本。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ca9d7da784ddff4f",
+    "source": "主张国会议员12年任期限制、禁止议员及直系亲属持有或交易个股、加强政治资金披露。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.43ba66d509dc2d50",
+    "source": "在2026年 Alaska Beacon 候选人问卷中自述为退休公立学校教师，教龄逾20年；曾任美国林业局林业技术员约13年。此人为 Daniel J. Sullivan Jr.，并非现任参议员 Dan S. Sullivan。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0b71a7f7341658aa",
+    "source": "主张优先解决住房与生活成本、可持续资源开发，并加强国会对行政部门及战争权的制衡。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.94b7d0ef39705365",
+    "source": "本人提交给 Alaska Beacon 的2026候选人问卷",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.89ad6aa91c7b0e52",
+    "source": "反对 SAVE 法案，主张便利合资格选民投票；支持严格执行渔业兼捕限制及充分资助监测。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4b34ef8ed3cdad42",
+    "source": "自述在公立学校任教逾20年，曾从事林业技术及多个工种。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ca0e2005994edf93",
+    "source": "阿拉斯加四名印刷选票候选人来自州选举机关通选名单的完整搜索索引，并以独立报道交叉核对；本轮官方实时页面502/503，不能称当前官方文件已完整取回。注册党派不等于党派背书。民调、模型得票率和胜率严格分开。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1507f832ef73f9b9",
+    "source": "主张恢复 ACA 保费税收抵免和 Medicaid 资金，扩大 Medicare 药价谈判，并限制个人年度处方药自付额。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b8cc0e6e562ced55",
+    "source": "主张加强医院兼并与药品福利管理机构监管，改善医疗账单透明度并防范医疗债务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8abf6c285c7b02ed",
+    "source": "曾连续四届任北卡罗来纳州总检察长，并于2016、2020年当选州长；任内推动 Medicaid 扩展及医疗债务减免计划。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0769464e63dce42d",
+    "source": "支持特朗普政策议程、加强边境与移民执法，反对无现金保释并支持执法机构。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bc4881fd9b82e1fe",
+    "source": "主张发展可靠、价格可负担的能源及削减联邦支出，支持第二修正案及反堕胎立场。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.49b444c87e755609",
+    "source": "曾任北卡罗来纳州共和党主席及2024年选举期间共和党全国委员会主席；竞选网站列其2016年总统过渡团队的能源、环境与农业工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.947cff319174faba",
+    "source": "竞选网站介绍 Dublin 为公立学校教育工作者及社区活动人士，以绿党身份竞选北卡罗来纳联邦参议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.aaff5f6509171074",
+    "source": "主张绿色新政、可再生能源及高薪工会工作，对企业污染追责。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.31601556dd0569a7",
+    "source": "主张推翻 Citizens United 判决所代表的竞选资金制度、限制金钱对政治的影响，并反对选区操纵。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.422ee13d33ba854c",
+    "source": "竞选网站自述为美国海军退伍军人、技术顾问及系统工程师，工作涉及网络安全、云基础设施及企业现代化。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.43f24ed322c55193",
+    "source": "主张以透明、可问责的技术治理保护公民自由、提高公共机构可信度。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.111ee1c55dcc3807",
+    "source": "伯明翰律师及前地方司法官员；拥有 Birmingham School of Law 法律学位和 Alabama A&M 工商管理硕士，专业经历涉及刑事辩护、遗产规划和技术工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.de093f5f945290cd",
+    "source": "主张改善可负担医疗、支持农村及服务不足地区医院，投资公共教育和就业机会。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8c7ae57f344b3e8d",
+    "source": "主张保障投票权、平等司法、政府廉洁及公共安全。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.34966060dea2c6bc",
+    "source": "自2001年任 Wess Law Firm 管理合伙人；曾任 Midfield 市法官、检察官及 Irondale 公设辩护人。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9ce4bd4bb46db972",
+    "source": "支持减税和削减监管、缩小政府规模，加强边境与移民执法，并维护第二修正案。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d10a4a346e837a02",
+    "source": "主张为执法机构和退伍军人医疗提供资金，保护 GI Bill，并反对跨性别女性参加女子体育赛事。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.81c9252d14b1ec02",
+    "source": "竞选网站列其任阿拉巴马州众议院军事与退伍军人事务委员会主席期间，推动军属职业执照、诉讼保障及州内学费政策。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9f69d911a2e0ca26",
+    "source": "主张平衡联邦预算、减轻家庭及出售住房的税负，并禁止国会议员交易股票。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.dda56e2b3c73b5d3",
+    "source": "支持扩展核能，改善农村医院资金及保险公司问责，并保护退伍军人福利和医疗。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b7ded11c6b71766e",
+    "source": "曾指挥阿富汗联合跨机构任务部队，并任陆军高级官员及参议院军事委员会专业幕僚。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.e7b25759748a2461",
+    "source": "1997至2004年在缅因州众议院连续任职四届。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.887b83e06c44780f",
+    "source": "2001至2008年任 Snow Hill 市长；2009至2011年及2013至2022年任北卡罗来纳州参议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.892014a26963e79d",
+    "source": "2011年1月5日就任缅因州州长，并于2015年1月6日开始第二任期。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a20f4c1d806ddfe2",
+    "source": "2015至2019年任爱荷华州众议员，2019至2023年任州参议员，随后进入联邦众议院。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6643609d775622ed",
+    "source": "2017年与Leanne Prewitt共同创办Women Who Run Nebraska，支持女性参与政治和竞选公职。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.86bfb62553a50fd1",
+    "source": "2017年开始担任Omaha市议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d807bda9e8d84e79",
+    "source": "2021年首次担任州审计长，2022年重新出任该职。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4ca15169ae66889e",
+    "source": "2025年5月的国会听证会履历记载，她当时任负责网络政策的国防部副助理部长，并履行助理部长职责；此处为历史任职记录。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2941fee5f1c45d8c",
+    "source": "Brinker Harding现任Omaha第6区市议员，是当地第四代居民及企业界人士。他曾任市长Hal Daub的幕僚长和经济发展主管。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4003a67fc9166581",
+    "source": "Denise Powell是小企业主、前企业高管，长期从事社区关系和基层营销。她共同创办Women Who Run Nebraska，并自2025年5月1日起从该组织请假投入国会竞选。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0de91bdf776d6770",
+    "source": "Matt Dunlap现任缅因州审计长，曾任州众议员及州务卿。他在Bar Harbor附近的农场长大，毕业于缅因大学，进入政府前曾做洗碗工和酒保。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c1537be8412aed47",
+    "source": "Paul LePage曾于2011至2019年担任缅因州州长，此前任Waterville市长及Marden’s零售连锁总经理。他拥有Husson University工商管理学士和缅因大学MBA学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b4821eec0a767f93",
+    "source": "Women Who Run Nebraska组织历史",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5024f83f8d86c5b0",
+    "source": "主张停止特朗普的关税、增加可负担住房，并扩大清洁能源生产。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c37692717a09bc29",
+    "source": "主张国会议员任期限制、禁止议员炒股，并在政府停摆时停发议员薪酬。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cc7842ad0631aaf9",
+    "source": "主张完成边境墙建设，并遏制非法移民。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4af4a2b5ea7bceeb",
+    "source": "主张普及儿童照护、增加可负担住房，并取消特朗普的全面关税。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c2f42fa9f2861ddc",
+    "source": "主张设立类似Medicare的公共医保选项，同时保留私人医保选择。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a4699586ac5d8fca",
+    "source": "候选人竞选官网履历",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6fff21617d2c29d2",
+    "source": "全国州长协会履历",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.bdea6a94715a9d13",
+    "source": "国会听证会所附履历",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3b8a32cd7048cc8d",
+    "source": "国会官方履历记录其自2017年1月3日起在联邦众议院任职，并连续当选其后四届国会。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3daa82b8babe551d",
+    "source": "在2026年1月的官方声明中，支持永久允许全年销售 E15 乙醇混合汽油。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5e6ad4f3b4541e60",
+    "source": "州议会记录显示其自2021年起任州参议员；第91届州议会任内任卫生与公共服务委员会首席少数党成员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c2eac837bab942d6",
+    "source": "律师，1992年获 Embry-Riddle Aeronautical University 学士学位，1996年获 Texas Wesleyan University 法学院法律博士学位，1997年创办 V. Gonzalez & Associates。自2017年起任联邦众议员，目前代表得克萨斯第34选区。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0eaeddb2b1a784b9",
+    "source": "承诺保护社会保障和Medicare。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2fbe510b065ff18d",
+    "source": "据竞选履历，曾任市政府律师及市法院法官，之后在得克萨斯南区联邦检察官办公室 McAllen 刑事部门任联邦助理检察官。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.27c0c23267d5c686",
+    "source": "据竞选履历，曾任得克萨斯陆军国民警卫队步兵上尉，在 University of Texas at Austin 就读期间入伍，后毕业于 Thurgood Marshall School of Law。其官网现列其为 O’Hanlon, Demerath & Castillo 律所合伙人及诉讼部门负责人。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ff2589f2b98a4d31",
+    "source": "支持《PRO法案》，维护工人组织工会的权利。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7422cdefa5cb4a13",
+    "source": "支持全国立法恢复《罗诉韦德案》的堕胎权保护。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.614256c8b9041121",
+    "source": "支持全年销售E15汽油，以降低油价并支持内布拉斯加州农业。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7fb3348fcb74e4e9",
+    "source": "支持全民医保（Medicare for All），并保护Medicare、Medicaid和社会保障。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.380da1406190466b",
+    "source": "支持减税、减少监管，并削减其认为浪费的政府支出。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.918a46e3b14b8d6c",
+    "source": "毕业于 Drake University，拥有 Air Command and Staff College 及 University of Cambridge 硕士学位。曾任空军空中情报官及白宫国家安全委员会网络安全主管；议员官网列其现为美国空军预备役上校，自2023年起代表爱荷华第3选区。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d42f55d73ba532ad",
+    "source": "毕业于美国空军学院，后获 East Carolina University 教育博士学位；1994至2001年在美国空军服役，并曾在 East Carolina University 任教。曾任 Snow Hill 市长及北卡罗来纳州参议员，自2023年1月3日起任联邦众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.23c117c3a5f48416",
+    "source": "爱荷华州议会官方记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b0042f6d0a95d484",
+    "source": "竞选官网主张减税，以降低家庭生活成本。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b8a9c0824f95276e",
+    "source": "竞选官网主张恢复全国范围的堕胎服务保障，并保护避孕、试管婴儿及产前护理的权利。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.178d30b39d935e9a",
+    "source": "竞选官网主张联邦投资供水基础设施，保护农业及城市供水，并开展长期区域水资源规划。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ff3c148efcc952c5",
+    "source": "竞选官网反对削减老年人已获得的福利，支持福利跟上生活成本，并扩大可负担处方药的获取。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d59527309ee93013",
+    "source": "竞选官网履历陈述",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.4578bea48ab83508",
+    "source": "竞选官网支持 Medicare 药价谈判、撤回 Medicaid 削减，并扩大心理健康、成瘾治疗及乡村医疗服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.faaddb3bde062f99",
+    "source": "竞选官网支持为边境巡逻人员提供更多所需资源，阻止危险毒品入境。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.555485b433d638ea",
+    "source": "竞选官网政策主张（非已实施成果）",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6678335dc5a38158",
+    "source": "缅因州议会历史记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.00eb1d9d234bc61d",
+    "source": "美国众议院官方履历",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c62f08bb8b7cafe4",
+    "source": "美国陆军退役上校，服役26年，并在2003年伊拉克战争中指挥营级特遣部队。退役后创办电子战与网络空间咨询企业 Corvus Consulting；拥有 James Madison University 学士及军事艺术与科学、信息管理硕士学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1603262ccf1d1183",
+    "source": "议员官网主张创造高薪工作、争取公平工资及平等就业待遇。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.fdfdd4f9f1324cfd",
+    "source": "议员官网支持为交通及其他基础设施的建设、维护、修复与扩建提供充足的联邦资金。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cc60a63fb983c06f",
+    "source": "议员官网支持多种能源并举，强调美国能源的就业和国家安全作用。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c9a8f423e483657c",
+    "source": "议员官网支持扩大可负担医疗服务、保护乡村医院，并扩大 Medicaid 覆盖。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7c2434da67485b80",
+    "source": "议员官网支持禁止国会议员及其配偶交易个股，以减少利益冲突。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c07fb8c7ce59eea4",
+    "source": "路德宗牧师及爱荷华州参议员。据竞选履历，曾以 AmeriCorps VISTA 志愿者身份支援家暴受害者，在 Harvard Divinity School 就读，随后担任医院牧灵人员及教会牧师，并负责 Des Moines Area Religious Council 食物救济网络的跨宗教协调。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.release.0",
+    "source": "仅部分候选人已由官方来源核验；印制选票的完整候选名单仍缺失，不能视为该区完整名单。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.release.1",
+    "source": "候选人依据官方选举机构当期11月选举名录；现任议员资料不等于其已获2026年提名。履历、照片及政策另行标注核验缺口。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.release.2",
+    "source": "官方选票职业标注：",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.release.3",
+    "source": "2026年11月3日开放式初选",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.release.4",
+    "source": "大选无对手；依法不印在选票上",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.release.5",
+    "source": "印刷选票候选记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.32133bc7d0bed27d",
+    "source": "1993年1月3日起在联邦众议院任职。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.1b4f5916683228c7",
+    "source": "2019年1月3日开始担任联邦众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.aa6ace14a349062c",
+    "source": "2020年12月首次就任Santa Clarita市议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a7a32389f9bdb18c",
+    "source": "2020至2025年担任Cerritos市议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.718cc52990c91ace",
+    "source": "2021年1月3日起在联邦众议院任职。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.23f162c7626d0805",
+    "source": "2022至2023年担任Cerritos市长。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9c02bfd6489a0b4c",
+    "source": "2023年担任Santa Clarita市长。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6a16c555eb8ffeca",
+    "source": "2025年1月3日宣誓就任加州第13选区联邦众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6eaad142c1905f24",
+    "source": "2025年1月3日宣誓就任联邦众议员，代表加利福尼亚州第27选区。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a37fcb8977abf4c0",
+    "source": "2025年1月3日宣誓就任联邦众议员，代表加利福尼亚州第45选区。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.8fc5b2d0a5370326",
+    "source": "Adam Gray现任加州第13选区联邦众议员，任职于众议院农业和自然资源委员会。他曾任加州州众议员；竞选履历称，他也在加州大学Merced分校教授加州立法机关课程。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.24b4b739646b6da8",
+    "source": "Cerritos市政府历史记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c4d737f503837a10",
+    "source": "Chuong V. Vo是退休执法人员及Cerritos前市长；其竞选官网称其从事执法工作28年。他于2020至2025年担任Cerritos市议员，2022至2023年任市长。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b89338dca1858d95",
+    "source": "Derek Tran现任加利福尼亚州第45选区联邦众议员，是美国陆军退伍军人及劳工权益律师，并与妻子共同经营橙县药房。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7569073baa76a588",
+    "source": "George Whitesides自2025年起担任加利福尼亚州第27选区联邦众议员，曾任NASA幕僚长及Virgin Galactic首任首席执行官，并共同创办山火政策组织Megafire Action。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.79c5ded750308679",
+    "source": "Jason Gibbs现任Santa Clarita市议员，拥有Cal Poly机械工程学士和硕士学位，曾参与Delta II、Delta IV及Atlas V火箭项目。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.eb0099629c2fc085",
+    "source": "John McBride是运动表现教练，原籍康涅狄格州。据竞选履历，他于1989年迁至加州，曾在太平洋大学和Stockton的St. Mary’s High School担任体能教练。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.101303d07be993ac",
+    "source": "Josh Harder现任加州第9选区联邦众议员，曾从事创业、咨询及教学工作。他于2008年获斯坦福大学学士学位，2014年获哈佛大学MBA和公共政策硕士学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2e81ec2a0ea7b3f9",
+    "source": "Ken Calvert现任加州第41选区联邦众议员，并在2026年参选重划后的第40选区。进入国会前，他在餐饮和房地产行业经营小企业；1975年获圣迭戈州立大学经济学学士学位。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.6a5bb5fe566027fa",
+    "source": "Kevin Lincoln是海军陆战队退伍军人、前Stockton市长。据竞选履历，他退役后曾任私人安保公司地区经理，2013年转入当地教会担任全职行政牧师，负责财务及日常运营。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f915a417c8fe5070",
+    "source": "Santa Clarita市政府履历",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.56fb7d43c542831e",
+    "source": "Young Kim现任加州第40选区联邦众议员，曾任金融分析师、企业经营者及联邦众议员Ed Royce的工作人员；2014至2016年曾任加州州众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b64329174b1eeeb8",
+    "source": "主张保障农业用水及水权，减少政府对小型私人农场的干预。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.5a1314992d31038d",
+    "source": "主张减少联邦支出和税负，并取消社会保障金所得税。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7040d280c48e743c",
+    "source": "主张减税，并削减其认为浪费的政府支出。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a6109462b3e2296b",
+    "source": "主张加强边境及入境口岸安全、为执法部门配备新技术，并公平且富有同情心地对待DACA受益人。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a829d07b54b5a6c6",
+    "source": "主张加强边境安全并执行移民法律。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.591298af217372df",
+    "source": "主张增加消防资源、减少林地可燃物，并运用技术加快火情探测。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.baa966ab5f5fb3f4",
+    "source": "主张将最低工资提高到足以维持生活的水平，并改善工作场所安全。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cc059fd0f6c57da3",
+    "source": "主张撤销Medicaid削减，并永久延长ACA强化保费税收抵免。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.26e2f6ac092d2be1",
+    "source": "主张由地方社区决定住房、学校及公共安全政策，反对一刀切命令。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.26bff6d077e4db79",
+    "source": "主张禁止国会议员交易个股。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d57b2cd6c032fd44",
+    "source": "主张禁止国会议员股票交易，并加强预算透明度及道德规范执法。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.b8abbf20936dd56c",
+    "source": "主张要求美国所有雇主使用E-Verify核验新聘雇员的合法就业资格。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.802de990d1f9957d",
+    "source": "主张通过两党合作改革环境法律，缩短基础设施项目建设所需时间。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c534c7ff322a4285",
+    "source": "主张降低处方药费用，维护Medicare及Medicaid保障。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.161332dd5ba244f1",
+    "source": "人工智能",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.19d175523333095a",
+    "source": "公共安全",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.504d358699e7281b",
+    "source": "农业与用水",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a93995aec6b4db5a",
+    "source": "劳工权益",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.88dc246353565e37",
+    "source": "医疗保障",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.3b2599a7236a02a2",
+    "source": "反对三角洲输水隧道，支持新建蓄水项目及保护三角洲。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.7a678cec5d70261e",
+    "source": "反对增加小企业的繁重监管和税负，支持有利于小企业创新与扩张的促增长政策。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ed8d2b44800fdc7f",
+    "source": "反对新增税收，支持降低能源负担并审查政府浪费性支出。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ad8346e61e9ce9d3",
+    "source": "地方自治",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.36c1f7f569de7848",
+    "source": "基础设施审批",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d83b3da2c05e8030",
+    "source": "小企业与监管",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.88163a6fbc02e8c3",
+    "source": "山火防治",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.934bbde0c8b68f55",
+    "source": "据竞选履历，1989年成为太平洋大学首位体能训练教练，并在那里任职12年。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.422b4457a218ebc6",
+    "source": "据竞选履历，2001年加入美国海军陆战队，之后获派至Marine One总统专机相关任务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9660194310868feb",
+    "source": "支持为Dreamers提供入籍途径，同时加强边境安全技术。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.be0301383e03022f",
+    "source": "支持加强边境安全，并为Dreamers及无证农业工人提供身份正规化途径。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.a5e6da9f8180ceda",
+    "source": "支持地方执法、心理健康服务及加强南部边境管理。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.9885a93a6f581e13",
+    "source": "支持增加蓄水项目、简化许可程序，并为环境审查设定期限。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.769158065a6345d5",
+    "source": "支持将胰岛素费用限制为每月35美元，并增加本地区医生数量。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c4c29c370c5786ea",
+    "source": "支持强化边境设施，并加快庇护及签证审批。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2c0e28646329fc47",
+    "source": "支持总统的人工智能行动计划，主张减少监管并建设美国本土AI基础设施。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0ff237b2553fbaa0",
+    "source": "支持执法记录仪、降级冲突训练及加重芬太尼贩运处罚。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.956f5722c47783c7",
+    "source": "支持执法部门，主张加强对重复犯罪的追责。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.17427aa968000a37",
+    "source": "支持提高教师工资，投资公立学校、幼儿教育及职业培训。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.388cca9f6002cd5a",
+    "source": "支持通过《妇女健康保护法》，以联邦立法保障堕胎权。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cfd13581fecb22e4",
+    "source": "政府问责",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c883995ff5ab5961",
+    "source": "教育",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.f0019d73e31ff1b5",
+    "source": "水资源",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.2a2cd785e02aaffb",
+    "source": "生活成本",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.23d75dd00ca96323",
+    "source": "生育权利",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.036cce784d36530a",
+    "source": "移民与就业核验",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.c349ca299673b23a",
+    "source": "移民与边境",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.ef61fc5ef7c5b338",
+    "source": "移民改革",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.75612323587ef516",
+    "source": "税收与支出",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.26f04cecd7f7034b",
+    "source": "美国众议院书记员任职记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.cd6ff7e9d84b7f02",
+    "source": "美国众议院书记官任职记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.93fdcd550e0ab77f",
+    "source": "美国众议院官方履历记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.d3f006c5bccbb7eb",
+    "source": "议员官网政策主张（非已实施成果）",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.final.0e3e94c07d8cc4d5",
+    "source": "边境管理",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "ui.vacant-seat-symbol",
+    "source": "整体虚影表示本届改选，实体表示不改选。默认虚影色仅表达有来源的评级强弱；未知保持中性。现任归属模式显示现任党籍，紫色标记保留独立身份。人偶是席位符号，不是真人形象；空缺席使用中性圆环，不放现任人偶。",
+    "kind": "interface"
   }
 ]

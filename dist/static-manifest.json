@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "manifestId": "c9f6672040ad9b72f261b0199f09da0b06a93c041706170ce2fa77c019cc4a7e",
+  "manifestId": "8a1e5b56cc07b811b1785aa341ce057c1691c8ecc25e9369ba40039d39e2864c",
   "files": {
     "data/evidence.json": {
       "bytes": 73750,
       "sha256": "049e81280adf44b0872f6d6059df789bc62309b54afdf27c35fe04889dd6e4d2"
     },
     "data/house_profiles.json": {
-      "bytes": 1967166,
-      "sha256": "4ad7a88370729a7557b1413038b86b5f0c872a91cf0a9ed357fbb1eaed2daa0e"
+      "bytes": 4005585,
+      "sha256": "d24f2bc211194dc7b4169964b5d8f8322471782503fe2b0c618c28d2a629e94c"
     },
     "data/leadership.json": {
       "bytes": 8438,
@@ -23,28 +23,28 @@
       "sha256": "c6de995d0375235fe5618b90af5595971a9282a64b484289b9c0f5c3bef8f3bc"
     },
     "data/senate_profiles.json": {
-      "bytes": 371986,
-      "sha256": "92b05ed76a0c5946dfb16047203f32863d6394f533402c4f6a0ffac6b09f967b"
+      "bytes": 780725,
+      "sha256": "70a63a56c6ef610d1b45a521dc1668a95963f2ce6217e8c50c9f895a60d3a1ae"
     },
     "locales/catalog.json": {
-      "bytes": 211988,
-      "sha256": "9c86b5146c4c30bc4140b3b5c84492af03b91fe9d1e34eae4947c4e97a4b17eb"
+      "bytes": 315985,
+      "sha256": "ec73b0a3c3031e1476d47a420bfd6bca267254c22cbb6e1a979ceae61384b48b"
     },
     "locales/en.json": {
-      "bytes": 164053,
-      "sha256": "486e6ca440b8415a5791d5ba0c5d83f7b50bda4e01b50edf8c201f406a199517"
+      "bytes": 252438,
+      "sha256": "fa0fee2abeef715c6f9a898a3d661962af74e446ac887c0152bfa5032892fc68"
     },
     "locales/es.json": {
-      "bytes": 192238,
-      "sha256": "b3b9ca2d6bd1b473b6f4cc0b8d6d50226c7e5e0b114f842116f188fcb9913dbd"
+      "bytes": 293294,
+      "sha256": "1cca65b79774aecbaa55538e7487846f0fb1231d7f2c196072fbe1d4e6dd1095"
     },
     "locales/fr.json": {
-      "bytes": 198914,
-      "sha256": "15133d34c620395114547e0f12a59d3161b6a4fa25c6891edcbe2f678ba275db"
+      "bytes": 308443,
+      "sha256": "087118fe09069ce229b554dac236c63da60c9037280530e973ac3dd5a45304d5"
     },
     "locales/ja.json": {
-      "bytes": 173045,
-      "sha256": "069c5217ea646238cc8ec66b720d8206d87705b80e1df016e683c2ccbd3e8d23"
+      "bytes": 261001,
+      "sha256": "016b906425aecdd044f5e7c764c5fa9d3d9d589e02575d97ff3272f52a1e543a"
     }
   }
 }
