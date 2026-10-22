@@ -1101,5 +1101,7 @@
   "t1099": "La source des évaluations ne précise pas l’heure exacte de mise à jour ; asOf correspond à l’heure de consultation par ce site.",
   "t1100": "Aucun historique quotidien continu de projections de sièges n’est encore disponible.",
   "t1101": "La requête du HTML complet de la Chambre chez RCP renvoie une erreur 403. Le tableau public de 270toWin ne recense que les sièges non « Safe » et est daté du 2 octobre ; il ne peut pas compléter les évaluations RCP actuelles.",
-  "t1102": "Données publiques compilées et reliées par l’identifiant officiel Bioguide, uniquement pour compléter l’historique des mandats. Le statut actuel reste fondé sur la liste du greffier de la Chambre."
+  "t1102": "Données publiques compilées et reliées par l’identifiant officiel Bioguide, uniquement pour compléter l’historique des mandats. Le statut actuel reste fondé sur la liste du greffier de la Chambre.",
+  "t1103": "Source des données : instantané D1 publié",
+  "t1104": "Source des données : instantané de fichiers statiques (API non activée ou temporairement indisponible)"
 }

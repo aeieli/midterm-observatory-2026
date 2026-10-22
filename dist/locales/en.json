@@ -1101,5 +1101,7 @@
   "t1099": "The rating source does not show an exact update time; asOf is this site's retrieval time.",
   "t1100": "No continuous daily seat-forecast baseline yet.",
   "t1101": "The full RCP House HTML request returned 403; the public 270toWin table lists only non-Safe seats and is dated October 2, so it cannot fill in current RCP ratings.",
-  "t1102": "Public compiled data linked by official Bioguide ID, used only to supplement historical terms; incumbent status still comes from the House Clerk roster."
+  "t1102": "Public compiled data linked by official Bioguide ID, used only to supplement historical terms; incumbent status still comes from the House Clerk roster.",
+  "t1103": "Data source: published D1 snapshot",
+  "t1104": "Data source: static file snapshot (API not enabled or temporarily unavailable)"
 }

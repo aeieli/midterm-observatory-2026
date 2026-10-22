@@ -5513,5 +5513,15 @@
     "id": "t1102",
     "source": "公共整理数据；按官方Bioguide ID连接，仅作历史任期补充，现任身份仍采用House Clerk名册。",
     "kind": "supplement"
+  },
+  {
+    "id": "t1103",
+    "source": "数据来源：D1 已发布快照",
+    "kind": "interface"
+  },
+  {
+    "id": "t1104",
+    "source": "数据来源：静态文件快照（API 未启用或暂不可用）",
+    "kind": "interface"
   }
 ]

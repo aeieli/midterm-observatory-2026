@@ -45,3 +45,96 @@ The default is Chinese. The explicit language selector supports English, French,
 Every daily source-content update must add new displayed source texts to the catalog without renumbering old IDs and add translations in all four locale JSON files. Never call language coverage complete when a catalog key is absent. Validate all locale keys, recheck selected profile biography/policy/honors, all power controls/denominators, news, methodology, and accessible labels in every language before publishing. Do not machine-fill unknown facts or drop legal/procedural caveats during translation. Chinese remains authoritative for internal source matching, while original linked evidence is authoritative for research facts.
 
 Power controls use inline SVG icons plus localized short labels in a responsive ARIA tablist. Arrow keys and Home/End select tabs; active tab controls the associated power panel. They are not icon-only and do not use a textual dropdown.
+
+## Cloudflare Worker + D1（仅准备，手动运行）
+
+Cloudflare 运行方式保留现有 `dist/` 前端、3D 和原始数据文件，由 `src/worker.js` 提供只读 API，`ASSETS` 提供静态文件，`DB` 绑定 D1。只有 `/api/*` 优先进入 Worker；缺失 JS/JSON 返回 404，不启用 SPA fallback。现有 Sites 托管配置保持不变。
+
+### 当前数据与历史如何保存
+
+- `documents` / `document_chunks` 按 SHA256 保存不可变 JSON，原始字节每 32 KiB 一块，以 base64 存储；Worker 在 JavaScript 中拼接并核对序号、字节数和 hash。不把大 JSON 塞入单行，也不使用 SQL `group_concat`。单条生成 SQL 小于 100,000 bytes；读取接口对单文档设置 16 MiB 上限。
+- `snapshots` / `snapshot_documents` 记录真实导入文件集、Git 提交和各文件原始 `asOf` / `verifiedAt`。相同内容可跨版本复用；文档和快照不会被覆盖。
+- `history_events` / `snapshot_events` 保留原始观测、评级变动、民调和新闻记录的版本、来源及日期类型。`fieldStart` / `fieldEnd` 是调查期，`publishedAt` 是来源发布日期；`imported_at` / `activated_at` 是数据库导入和本站发布时点，不能互相代替。
+- 现有 2026-10-20、21、22 三条通用票记录仅是三个历史观测点，**不是三份完整参众院数据库**。20 日记录原有的恢复来源局限说明保留。不会复制今天的人物和评级去伪造过去完整快照。
+- 先写不可变内容和 manifest，再从 D1 读回每个字节核验。`publish` 在兼容 Worker 部署成功后，才用单条受保护 SQL 切换 `publication` 指针；对应发布标记由同一 SQL 的触发器原子记录。D1 与 Worker 部署不是跨服务事务。中断或失败保留旧 current，不做破坏性回滚；重复执行幂等，旧版本不能覆盖更新的 current。
+
+前端从 `/api/current` 获取一次 snapshot ID，所有资料和语言都按同一 ID 读取。任一数据/语言请求失败时，整批回退到静态 JSON，并显示五语言的“静态文件快照”提示，避免混合版本。历史图读取已发布历史观测；历史 API 明确返回日期类型和覆盖缺口。
+
+### GitHub PROD 配置
+
+工作流使用 `environment: PROD`，只允许 `main` 上的 `workflow_dispatch`，默认操作为 `validate`。没有 push、PR 或 schedule 触发器。GitHub 权限仅为 `contents: read`，checkout 不保留 Git 凭据；并发组串行执行。Actions 固定提交 SHA，Wrangler 固定为 `4.151.3`。
+
+| PROD 设置 | 名称 | 用途 |
+| --- | --- | --- |
+| Environment secret | `CF_DEPLOY` | 正式运行时映射为 `CLOUDFLARE_API_TOKEN`，仅供受保护的部署/数据库操作使用。 |
+| Environment secret | `CLOUDFLARE_ACCOUNT_ID` | 按用户指定保留为 secret；运行时验证 32 位十六进制格式，不回显、不写入生成配置。 |
+| Environment variable | `CLOUDFLARE_D1_DATABASE_ID` | 用户选定数据库的 UUID；生产配置生成器验证格式，拒绝本地全零占位 ID。 |
+
+没有读取、输出或保存上述 secret 的值，也没有验证 token 的实际权限。数据库 UUID 未配置时，除显式 `bootstrap` 外的远程操作会失败，不会静默创建或选择其他数据库。现有 Worker/D1 权限是否充分由正式操作返回结果决定；脚本不会扩权、创建凭据或切换账户。运行前确认 Worker 和数据库名称 `midterm-observatory-2026` 对应本应用。
+
+### 首次手动运行顺序
+
+在 **Actions → Cloudflare data and deployment (manual) → Run workflow** 选择 **main**，再选择操作：
+
+| operation | 明确执行的动作 |
+| --- | --- |
+| `validate`（默认） | 测试、语言/语法检查和无生产凭据的 Wrangler dry run；不写 Cloudflare。 |
+| `bootstrap` | **实际创建一个远程 D1 数据库**，随后读取其 UUID。只在确认需要新库时选择；已有同名库时停止，不自动替代。不会顺便迁移、导入或部署。 |
+| `migrate` | 对已配置 UUID 的远程 D1 应用 `migrations/` 中尚未执行的兼容迁移；不会切 current。 |
+| `publish` | 导入并读回校验 → 部署兼容 Worker/静态资源 → 切换 current → 回读确认。迁移需事先显式完成。 |
+| `sync-data` | 对已经部署兼容 Worker 的应用，仅导入/校验/发布数据版本，不部署前端代码。前端或 API 代码变化时用 `publish`。 |
+
+先配置两个 PROD secrets。如果尚无数据库，明确运行 `bootstrap`，再把结果 UUID 手动填入 PROD variable `CLOUDFLARE_D1_DATABASE_ID`；如果已有适用数据库，直接填入其已确认 UUID。随后分别运行 `migrate`、`publish`。CLI 中 `d1 create` 即使没有 `--remote` 也会创建远端库，所以本地脚本拒绝 bootstrap；所有远程操作还必须显式带 `--remote`，并通过 main/manual CI 检查。
+
+**本次仅准备源码和本地测试，没有运行上述远程操作，也没有创建数据库、部署 Worker 或修改 DNS。** 首次实际发布前仍需完成数据库选择/创建及 UUID 配置。正式运行失败会返回非零状态，不会假报成功；Worker 部署 URL 见 Wrangler 的成功输出，数据激活完成后运行摘要记录快照与 Git SHA。
+
+### 每日更新路径
+
+每日公开研究先把经过核验的 `dist/data/` 和完整四语言译文提交到 `main`，保留原始来源和时间字段，再从受保护的 Actions 选择 `publish`（同时更新静态回退文件）或仅数据的 `sync-data`。相同内容重用，新增/更正观测追加保留，缺少历史证据时不补造。工作流不自行生成研究事实，也没有自动抓取或定时发布。
+
+已授权的研究任务以后可明确调用以下手动入口；当前未触发，也未启用自动部署：
+
+```sh
+gh workflow run deploy-cloudflare.yml --ref main -f operation=publish
+```
+
+### 只读 API
+
+| 请求 | 返回 |
+| --- | --- |
+| `GET /api/current` | 当前已发布快照 ID、公开源码提交、原始证据时间和存储/发布时点。 |
+| `GET /api/seats?snapshot=<id>` | 指定快照的席位 JSON。 |
+| `GET /api/documents/data/evidence.json?snapshot=<id>` | 白名单数据或 `locales/*.json` 的指定版本；不支持任意路径。 |
+| `GET /api/history?snapshot=<id>&kind=generic-ballot-snapshot&limit=50` | 已发布历史记录、日期类型和覆盖说明；limit 最大 100，before 可指定 YYYY-MM-DD。 |
+
+API 仅接受 GET/HEAD；没有 SQL 执行接口、无认证写接口或数据库管理入口。数据库未准备好或内容校验失败返回 503，静态文件仍可读取。不会向浏览者返回 account ID、数据库 UUID、部署 token 或内部错误细节。
+
+### 自定义域名配置位
+
+当前使用 `workers_dev: true`，实际访问地址取决于账户已配置的 workers.dev 子域；本次没有检查或注册该子域，也没有猜测自定义域名。用户确认完整主机名及其 Cloudflare zone 后，可在 `wrangler.jsonc` 顶层加入下列配置，并用实际主机名替换占位文本：
+
+```json
+"routes": [
+  { "pattern": "<已确认的完整主机名>", "custom_domain": true }
+]
+```
+
+该示例不在当前有效配置中。未来实际部署 `custom_domain` 配置会涉及路由、DNS 和证书，需要明确域名授权及对应 zone 权限；脚本不会自动扩大现有 token 权限。
+
+### 本地验证（不访问生产 D1）
+
+使用 Node.js 22+、Python 3；Wrangler 通过 npm 获取固定版本，缓存可复用。所有生成配置、SQL、日志和本地数据库留在被忽略的 `.wrangler/`。本地模式会移除继承的 Cloudflare 认证环境变量；不会设置 `remote: true`。
+
+```sh
+python3 -m unittest discover -s tests -p 'test_*.py' -v
+node --test tests/*.test.mjs
+python3 scripts/cloudflare-ci.py validate
+python3 scripts/cloudflare-ci.py migrate
+python3 scripts/cloudflare-ci.py sync-data
+# 可选本地 Worker：先生成本地配置，再显式 --local
+npm exec --yes --package=wrangler@4.151.3 -- wrangler dev --local --config .wrangler/generated.json
+```
+
+测试覆盖幂等导入、原始历史保留、Unicode/引号、超 2 MB 文档、缺块、中断导入、旧 current 保留、API 只读边界和整批静态回退。Dry run 不能证明生产权限、数据库存在或域名可用。实际部署后仍需在真实 URL 检查五语言、3D、资料、历史、静态回退和 404。
+
+官方参考：[D1 限制](https://developers.cloudflare.com/d1/platform/limits/)、[D1 迁移](https://developers.cloudflare.com/d1/reference/migrations/)、[D1 Wrangler 命令](https://developers.cloudflare.com/d1/wrangler-commands/)、[Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/)、[Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)。

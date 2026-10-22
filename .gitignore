@@ -1,2 +1,4 @@
 .openai/*.tar.gz
 node_modules
+.wrangler/
+__pycache__/
