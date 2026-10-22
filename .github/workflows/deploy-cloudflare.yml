@@ -1,6 +1,12 @@
-name: Cloudflare data and deployment (manual)
+name: Cloudflare data and deployment
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/data/*.json'
+      - 'dist/locales/*.json'
+      - 'dist/static-manifest.json'
   workflow_dispatch:
     inputs:
       operation:
@@ -24,7 +30,7 @@ concurrency:
 
 jobs:
   cloudflare:
-    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+    if: (github.event_name == 'workflow_dispatch' || github.event_name == 'push') && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     environment: PROD
@@ -36,6 +42,10 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
+
+      - name: Reject automatic pushes containing non-research changes before production secrets
+        if: github.event_name == 'push'
+        run: python3 scripts/check_auto_publish.py
 
       - name: Set up Node.js
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
@@ -62,10 +72,10 @@ jobs:
           packageManager: npm
           command: deploy --dry-run --config .wrangler/generated.json --outdir .wrangler/dry-run
 
-      - name: Run the explicitly selected production operation
-        if: inputs.operation != 'validate'
+      - name: Run the authorized production operation
+        if: github.event_name == 'push' || inputs.operation != 'validate'
         env:
-          CF_OPERATION: ${{ inputs.operation }}
+          CF_OPERATION: ${{ github.event_name == 'push' && 'publish' || inputs.operation }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_DEPLOY }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_D1_DATABASE_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}

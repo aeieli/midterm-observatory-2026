@@ -62,7 +62,9 @@ Cloudflare 运行方式保留现有 `dist/` 前端、3D 和原始数据文件，
 
 ### GitHub PROD 配置
 
-工作流使用 `environment: PROD`，只允许 `main` 上的 `workflow_dispatch`，默认操作为 `validate`。没有 push、PR 或 schedule 触发器。GitHub 权限仅为 `contents: read`，checkout 不保留 Git 凭据；并发组串行执行。Actions 固定提交 SHA，Wrangler 固定为 `4.151.3`。
+工作流使用 `environment: PROD`，支持 `main` 上的手动 `workflow_dispatch`（默认 `validate`），以及研究 JSON、译文和发布清单变化的受限 `main push`。没有 PR 或 schedule 触发器。GitHub 权限仅为 `contents: read`，checkout 不保留 Git 凭据；并发组串行执行。Actions 固定提交 SHA，Wrangler 固定为 `4.151.3`。PROD 现有审核保护保持不变；如果以后要求人工批准，自动发布会等待批准，不绕过保护。
+
+自动路径在生产 secret 步骤之前检查本次 push 的完整差异，仅允许新增或修改 `dist/data/*.json`、`dist/locales/*.json` 和 `dist/static-manifest.json` 的普通文件。代码、workflow、迁移、删除、软链接、强制推送及分支创建均拒绝自动发布。进入生产步骤后，在任何 D1 写入之前，以及部署之前，再检查 **D1 已发布 source_commit 到候选 HEAD 的完整差异**，防止先前未部署的代码被之后的数据提交夹带上线。自动路径只能执行 `publish`，不能 bootstrap、migrate 或选择其他操作；首次上线及非数据变更继续明确手动发布。
 
 远程操作开始前，以及导入校验完成、部署 Worker 之前，都会确认 checkout SHA、本次 `GITHUB_SHA` 和实时远端 `main` 一致。部署前还检查候选快照序号不落后于 current，且候选源码包含已发布源码的 Git 历史；不可确定时停止。A 发布、B 发布后重跑 A 会在部署前被拒绝，不会先回退代码再由数据库拒绝回退。最后的原子 current 切换保护仍保留。检查通过之后发生的 Git 提交或 Cloudflare 外部操作不受跨服务事务锁保护；所有正式发布应通过同一并发受控工作流。当前公开仓库用不带持久凭据的 `git ls-remote` 读取 main；若读取失败则停止，不跳过检查。
 
@@ -72,11 +74,11 @@ Cloudflare 运行方式保留现有 `dist/` 前端、3D 和原始数据文件，
 | Environment secret | `CLOUDFLARE_ACCOUNT_ID` | 按用户指定保留为 secret；运行时验证 32 位十六进制格式，不回显、不写入生成配置。 |
 | Environment variable | `CLOUDFLARE_D1_DATABASE_ID` | 用户选定数据库的 UUID；生产配置生成器验证格式，拒绝本地全零占位 ID。 |
 
-没有读取、输出或保存上述 secret 的值，也没有验证 token 的实际权限。数据库 UUID 未配置时，除显式 `bootstrap` 外的远程操作会失败，不会静默创建或选择其他数据库。现有 Worker/D1 权限是否充分由正式操作返回结果决定；脚本不会扩权、创建凭据或切换账户。运行前确认 Worker 和数据库名称 `midterm-observatory-2026` 对应本应用。
+没有读取、输出或保存上述 secret 的值。首次上线已经通过既有身份完成 D1 创建、迁移和 Worker 发布；以后具体操作的权限仍以实际返回结果为准。数据库 UUID 未配置时，除显式 `bootstrap` 外的远程操作会失败，不会静默创建或选择其他数据库。脚本不会扩权、创建凭据、切换账户或开通付费计划。Worker 和数据库名称均为 `midterm-observatory-2026`。
 
 ### 首次手动运行顺序
 
-在 **Actions → Cloudflare data and deployment (manual) → Run workflow** 选择 **main**，再选择操作：
+在 **Actions → Cloudflare data and deployment → Run workflow** 选择 **main**，再选择操作：
 
 | operation | 明确执行的动作 |
 | --- | --- |
@@ -86,15 +88,15 @@ Cloudflare 运行方式保留现有 `dist/` 前端、3D 和原始数据文件，
 | `publish` | 导入并读回校验 → 部署兼容 Worker/静态资源 → 切换 current → 回读确认。迁移需事先显式完成。 |
 | `sync-data` | 对已经部署兼容 Worker 的应用，仅导入/校验/发布数据版本，不部署前端代码。前端或 API 代码变化时用 `publish`。 |
 
-先配置两个 PROD secrets。如果尚无数据库，明确运行 `bootstrap`，再把结果 UUID 手动填入 PROD variable `CLOUDFLARE_D1_DATABASE_ID`；如果已有适用数据库，直接填入其已确认 UUID。随后分别运行 `migrate`、`publish`。CLI 中 `d1 create` 即使没有 `--remote` 也会创建远端库，所以本地脚本拒绝 bootstrap；所有远程操作还必须显式带 `--remote`，并通过 main/manual CI 检查。
+先配置两个 PROD secrets。如果尚无数据库，明确运行 `bootstrap`，再把确认的 UUID 填入 PROD variable `CLOUDFLARE_D1_DATABASE_ID`；已有适用数据库时复用其确认的 UUID。授权的维护任务可通过 GitHub CLI/API 完成变量配置，无需新增 Cloudflare 凭据。随后分别运行 `migrate`、`publish`。CLI 中 `d1 create` 即使没有 `--remote` 也会创建远端库，所以本地脚本拒绝 bootstrap；所有远程操作还必须显式带 `--remote`，通过 main 和事件/操作门禁。
 
-**本次仅准备源码和本地测试，没有运行上述远程操作，也没有创建数据库、部署 Worker 或修改 DNS。** 首次实际发布前仍需完成数据库选择/创建及 UUID 配置。正式运行失败会返回非零状态，不会假报成功；Worker 部署 URL 见 Wrangler 的成功输出，数据激活完成后运行摘要记录快照与 Git SHA。
+**首次公开部署已于 2026-10-22 完成：** [公开网站](https://midterm-observatory-2026.aeliieli.workers.dev)、[创建 D1](https://github.com/aeieli/midterm-observatory-2026/actions/runs/39722436519)、[迁移](https://github.com/aeieli/midterm-observatory-2026/actions/runs/39722537219)、[首次发布](https://github.com/aeieli/midterm-observatory-2026/actions/runs/39722612549)。未修改自定义域名或 DNS，未开通付费计划。正式运行失败会返回非零状态；数据激活完成后运行摘要记录快照与 Git SHA。部署时点和数据库导入时点不代表重新核验了研究事实，原始证据日期保持不变。
 
 ### 每日更新路径
 
-每日公开研究先更新经过核验的 `dist/data/` 和完整四语言译文，保留原始来源和时间字段；运行 `python3 scripts/build_static_manifest.py --write`，将新清单与数据一并提交到 `main`。CI 会拒绝过期清单。再从受保护的 Actions 选择 `publish`（同时更新静态回退文件）或仅数据的 `sync-data`。相同内容重用，新增/更正观测追加保留，缺少历史证据时不补造。工作流不自行生成研究事实，也没有自动抓取或定时发布。
+每日公开研究先更新经过核验的 `dist/data/` 和完整四语言译文，保留原始来源和时间字段；运行 `python3 scripts/build_static_manifest.py --write`，将新清单与数据原子提交到 `main`。通过 GitHub 连接器写入同样可以触发 push，不依赖维护者的 Mac 在线。CI 拒绝过期清单和任何夹带的非研究文件，通过后自动 `publish`，同时更新 D1 和静态回退文件。相同内容重用，新增/更正观测追加保留，缺少历史证据时不补造。来源访问失败时，研究任务不能推进 `asOf` 或编造观测；没有新研究提交时不会定时重部署旧数据。工作流负责验证和发布，真实研究由既有每日研究任务完成，不在这里用 cron 代替研究。
 
-已授权的研究任务以后可明确调用以下手动入口；当前未触发，也未启用自动部署：
+代码、workflow、迁移等非数据变更需要明确手动发布；发布完成后才能让后续数据提交沿用新的源码基线。授权维护任务可调用：
 
 ```sh
 gh workflow run deploy-cloudflare.yml --ref main -f operation=publish
@@ -115,7 +117,7 @@ API 仅接受 GET/HEAD；没有 SQL 执行接口、无认证写接口或数据�
 
 ### 自定义域名配置位
 
-当前使用 `workers_dev: true`，实际访问地址取决于账户已配置的 workers.dev 子域；本次没有检查或注册该子域，也没有猜测自定义域名。用户确认完整主机名及其 Cloudflare zone 后，可在 `wrangler.jsonc` 顶层加入下列配置，并用实际主机名替换占位文本：
+当前使用 `workers_dev: true`，公开地址使用账户既有的 `aeliieli.workers.dev` 子域。尚未设置自定义域名；用户确认完整主机名及其 Cloudflare zone 后，可在 `wrangler.jsonc` 顶层加入下列配置，并用实际主机名替换占位文本：
 
 ```json
 "routes": [

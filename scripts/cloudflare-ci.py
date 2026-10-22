@@ -7,6 +7,7 @@ import subprocess
 from pathlib import Path
 from cloudflare_config import ROOT, generate
 from d1_data import build, canonical, verify, literal, activation_sql
+from check_auto_publish import assert_auto_push, assert_automatic_baseline
 
 VERSION = '4.151.3'
 DATABASE_NAME = 'midterm-observatory-2026'
@@ -78,6 +79,8 @@ def publish_verified_snapshot(plan, query, deploy=None, remote=False):
     if len(candidates) != 1 or not candidates[0]['verified_at'] or candidates[0]['source_commit'] != plan['manifest']['sourceCommit']:
         raise ValueError('Candidate snapshot is not verified or has inconsistent source provenance; Worker was not deployed.')
     current = query('SELECT s.id,s.sequence,s.source_commit FROM publication p JOIN snapshots s ON s.id=p.snapshot_id WHERE p.singleton=1')
+    if remote and os.environ.get('GITHUB_EVENT_NAME') == 'push':
+        assert_automatic_baseline(current, plan['manifest']['sourceCommit'])
     if current:
         if candidates[0]['sequence'] < current[0]['sequence']:
             raise ValueError('Candidate snapshot is older than current; Worker was not deployed and current is unchanged.')
@@ -91,6 +94,18 @@ def publish_verified_snapshot(plan, query, deploy=None, remote=False):
         raise ValueError('Activation was not confirmed (a newer snapshot may already exist); no destructive rollback was attempted')
 
 
+def assert_remote_operation(operation):
+    if os.environ.get('GITHUB_ACTIONS') != 'true' or os.environ.get('GITHUB_REF') != 'refs/heads/main':
+        raise ValueError('Remote operations are restricted to protected GitHub Actions runs on main using PROD.')
+    event = os.environ.get('GITHUB_EVENT_NAME')
+    if event == 'push':
+        if operation != 'publish':
+            raise ValueError('Automatic pushes may only publish reviewed data; bootstrap, migrations, and other operations are forbidden.')
+        assert_auto_push()
+    elif event != 'workflow_dispatch':
+        raise ValueError('Only explicit manual runs and allowlisted research pushes may perform remote operations.')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('operation', choices=['validate', 'bootstrap', 'migrate', 'stage', 'sync-data', 'publish'])
@@ -98,8 +113,7 @@ def main():
     args = parser.parse_args()
     remote = args.remote
     if remote:
-        if os.environ.get('GITHUB_ACTIONS') != 'true' or os.environ.get('GITHUB_REF') != 'refs/heads/main' or os.environ.get('GITHUB_EVENT_NAME') != 'workflow_dispatch':
-            raise SystemExit('Remote operations are restricted to manual GitHub Actions runs on main using PROD.')
+        assert_remote_operation(args.operation)
         if args.operation == 'validate':
             raise SystemExit('Validation is local only; omit --remote.')
         assert_current_main()
@@ -152,6 +166,10 @@ def main():
         return
 
     plan = build()
+    if remote and os.environ.get('GITHUB_EVENT_NAME') == 'push':
+        # Check the published baseline before any D1 writes, and repeat immediately before deployment.
+        current = query('SELECT s.source_commit FROM publication p JOIN snapshots s ON s.id=p.snapshot_id WHERE p.singleton=1')
+        assert_automatic_baseline(current, plan['manifest']['sourceCommit'])
     output = ROOT / '.wrangler' / 'import'
     output.mkdir(parents=True, exist_ok=True)
     sql_file = output / 'stage.sql'
