@@ -35,6 +35,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
@@ -47,6 +48,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_*.py' -v
           node --test tests/*.test.mjs
           python3 scripts/check-locales.py
+          python3 scripts/build_static_manifest.py
           for source in dist/*.js dist/vendor/*.js src/*.js; do node --check "$source"; done
           python3 scripts/cloudflare_config.py
 

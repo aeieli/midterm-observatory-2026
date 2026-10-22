@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "manifestId": "037f2afe037b0fcc42c2cf2a8c2f4426811410d13a5469726a0f653ceba5a408",
+  "files": {
+    "data/evidence.json": {
+      "bytes": 51838,
+      "sha256": "048b1b7a4f15909cba2345e773094cfa6dd07d3dee2df13b0c6be0bb6ca9128d"
+    },
+    "data/house_profiles.json": {
+      "bytes": 1690132,
+      "sha256": "30851e109c08658b5e7674792a7e8a82373ab5576c50164f0ce657e55d4cb09f"
+    },
+    "data/leadership.json": {
+      "bytes": 8438,
+      "sha256": "f45743e89f948adbb085a0b119ac9894a92779273ffea212c4e6fc15ed2d91b0"
+    },
+    "data/powers.json": {
+      "bytes": 24138,
+      "sha256": "5603822eeeac9b74a4524d9f83a9840d03ed3ffb125aca779c24177a182cf643"
+    },
+    "data/seats.json": {
+      "bytes": 243655,
+      "sha256": "c6de995d0375235fe5618b90af5595971a9282a64b484289b9c0f5c3bef8f3bc"
+    },
+    "data/senate_profiles.json": {
+      "bytes": 371986,
+      "sha256": "92b05ed76a0c5946dfb16047203f32863d6394f533402c4f6a0ffac6b09f967b"
+    },
+    "locales/catalog.json": {
+      "bytes": 174954,
+      "sha256": "a0896203cacea1dd91cfa6b138ef1bd5f8f8c31abc90cdab447c37c6084a95de"
+    },
+    "locales/en.json": {
+      "bytes": 137733,
+      "sha256": "5e2296a87d0c28299bbb3db3456df2148d909541984afa2e6a38d838974f8fdf"
+    },
+    "locales/es.json": {
+      "bytes": 164017,
+      "sha256": "ee9b0c5145d2b02e95cacaa0eb539501877a3d02611b9888e4543b9adf36aa31"
+    },
+    "locales/fr.json": {
+      "bytes": 168961,
+      "sha256": "26f6e3d35974da486209c9db6f4c25da37ae31e44b981e1fd0c1542bd6e5513a"
+    },
+    "locales/ja.json": {
+      "bytes": 145717,
+      "sha256": "1d31bba1a1b681fa86821c9682cc19dee15ca1c2ccdf12749c297ab6808b993c"
+    }
+  }
+}

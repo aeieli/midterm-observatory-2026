@@ -58,11 +58,13 @@ Cloudflare 运行方式保留现有 `dist/` 前端、3D 和原始数据文件，
 - 现有 2026-10-20、21、22 三条通用票记录仅是三个历史观测点，**不是三份完整参众院数据库**。20 日记录原有的恢复来源局限说明保留。不会复制今天的人物和评级去伪造过去完整快照。
 - 先写不可变内容和 manifest，再从 D1 读回每个字节核验。`publish` 在兼容 Worker 部署成功后，才用单条受保护 SQL 切换 `publication` 指针；对应发布标记由同一 SQL 的触发器原子记录。D1 与 Worker 部署不是跨服务事务。中断或失败保留旧 current，不做破坏性回滚；重复执行幂等，旧版本不能覆盖更新的 current。
 
-前端从 `/api/current` 获取一次 snapshot ID，所有资料和语言都按同一 ID 读取。任一数据/语言请求失败时，整批回退到静态 JSON，并显示五语言的“静态文件快照”提示，避免混合版本。历史图读取已发布历史观测；历史 API 明确返回日期类型和覆盖缺口。
+前端从 `/api/current` 获取一次 snapshot ID，所有资料和语言都按同一 ID 读取。任一数据/语言请求失败时，整批回退到静态 JSON。回退先固定读取一份 `dist/static-manifest.json`，再验证全部 11 个资料和语言文件的字节数与 SHA256，完整通过后才使用并显示五语言的“静态文件快照”提示。跨部署请求读到不一致文件、清单缺失或校验失败时，明确显示错误，不接受混合数据；刷新可重试。纯静态 Sites 无需 API，但必须连同清单发布整个 `dist/`。历史图读取已发布历史观测；历史 API 明确返回日期类型和覆盖缺口。
 
 ### GitHub PROD 配置
 
 工作流使用 `environment: PROD`，只允许 `main` 上的 `workflow_dispatch`，默认操作为 `validate`。没有 push、PR 或 schedule 触发器。GitHub 权限仅为 `contents: read`，checkout 不保留 Git 凭据；并发组串行执行。Actions 固定提交 SHA，Wrangler 固定为 `4.151.3`。
+
+远程操作开始前，以及导入校验完成、部署 Worker 之前，都会确认 checkout SHA、本次 `GITHUB_SHA` 和实时远端 `main` 一致。部署前还检查候选快照序号不落后于 current，且候选源码包含已发布源码的 Git 历史；不可确定时停止。A 发布、B 发布后重跑 A 会在部署前被拒绝，不会先回退代码再由数据库拒绝回退。最后的原子 current 切换保护仍保留。检查通过之后发生的 Git 提交或 Cloudflare 外部操作不受跨服务事务锁保护；所有正式发布应通过同一并发受控工作流。当前公开仓库用不带持久凭据的 `git ls-remote` 读取 main；若读取失败则停止，不跳过检查。
 
 | PROD 设置 | 名称 | 用途 |
 | --- | --- | --- |
@@ -90,7 +92,7 @@ Cloudflare 运行方式保留现有 `dist/` 前端、3D 和原始数据文件，
 
 ### 每日更新路径
 
-每日公开研究先把经过核验的 `dist/data/` 和完整四语言译文提交到 `main`，保留原始来源和时间字段，再从受保护的 Actions 选择 `publish`（同时更新静态回退文件）或仅数据的 `sync-data`。相同内容重用，新增/更正观测追加保留，缺少历史证据时不补造。工作流不自行生成研究事实，也没有自动抓取或定时发布。
+每日公开研究先更新经过核验的 `dist/data/` 和完整四语言译文，保留原始来源和时间字段；运行 `python3 scripts/build_static_manifest.py --write`，将新清单与数据一并提交到 `main`。CI 会拒绝过期清单。再从受保护的 Actions 选择 `publish`（同时更新静态回退文件）或仅数据的 `sync-data`。相同内容重用，新增/更正观测追加保留，缺少历史证据时不补造。工作流不自行生成研究事实，也没有自动抓取或定时发布。
 
 已授权的研究任务以后可明确调用以下手动入口；当前未触发，也未启用自动部署：
 
@@ -105,7 +107,9 @@ gh workflow run deploy-cloudflare.yml --ref main -f operation=publish
 | `GET /api/current` | 当前已发布快照 ID、公开源码提交、原始证据时间和存储/发布时点。 |
 | `GET /api/seats?snapshot=<id>` | 指定快照的席位 JSON。 |
 | `GET /api/documents/data/evidence.json?snapshot=<id>` | 白名单数据或 `locales/*.json` 的指定版本；不支持任意路径。 |
-| `GET /api/history?snapshot=<id>&kind=generic-ballot-snapshot&limit=50` | 已发布历史记录、日期类型和覆盖说明；limit 最大 100，before 可指定 YYYY-MM-DD。 |
+| `GET /api/history?snapshot=<id>&kind=generic-ballot-snapshot&limit=50` | 已发布历史记录、日期类型和覆盖说明；limit 最大 100，before 可指定初始日期过滤 YYYY-MM-DD。 |
+
+历史分页使用响应的 `nextCursor` 作为后续请求的 `cursor`，保留相同 snapshot、kind 和 before；`nextCursor: null` 表示结束。游标同时包含日期、快照序号和事件 ID，匹配完整排序，因此同一天超过 100 条记录也不会漏掉或重复。不要用上一页最后一天作为下一页的 before。
 
 API 仅接受 GET/HEAD；没有 SQL 执行接口、无认证写接口或数据库管理入口。数据库未准备好或内容校验失败返回 503，静态文件仍可读取。不会向浏览者返回 account ID、数据库 UUID、部署 token 或内部错误细节。
 
@@ -135,6 +139,6 @@ python3 scripts/cloudflare-ci.py sync-data
 npm exec --yes --package=wrangler@4.151.3 -- wrangler dev --local --config .wrangler/generated.json
 ```
 
-测试覆盖幂等导入、原始历史保留、Unicode/引号、超 2 MB 文档、缺块、中断导入、旧 current 保留、API 只读边界和整批静态回退。Dry run 不能证明生产权限、数据库存在或域名可用。实际部署后仍需在真实 URL 检查五语言、3D、资料、历史、静态回退和 404。
+测试覆盖幂等导入、原始历史保留、Unicode/引号、超 2 MB 文档、缺块、中断导入、旧 current 保留、部署前拒绝旧工作流/旧源码/旧快照、同日大量记录分页、API 只读边界和静态清单完整性（包括同字节数但内容改变的跨版本文件）。Dry run 不能证明生产权限、数据库存在或域名可用。实际部署后仍需在真实 URL 检查五语言、3D、资料、历史、静态回退和 404。
 
 官方参考：[D1 限制](https://developers.cloudflare.com/d1/platform/limits/)、[D1 迁移](https://developers.cloudflare.com/d1/reference/migrations/)、[D1 Wrangler 命令](https://developers.cloudflare.com/d1/wrangler-commands/)、[Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/)、[Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)。

@@ -47,30 +47,51 @@ async function history(db, revision, url) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(before)) return json({ error: 'before must be YYYY-MM-DD' }, 400);
   const kind = url.searchParams.get('kind') ?? '';
   if (kind && !/^[a-zA-Z0-9_-]{1,64}$/.test(kind)) return json({ error: 'Invalid record kind' }, 400);
-  const result = await db.prepare(`WITH selected AS (
+  let cursor = null;
+  const encoded = url.searchParams.get('cursor');
+  if (encoded !== null) {
+    try {
+      if (!/^[A-Za-z0-9_-]{1,1024}$/.test(encoded)) throw Error('Invalid cursor');
+      cursor = JSON.parse(atob(encoded.replace(/-/g, '+').replace(/_/g, '/') + '='.repeat((4 - encoded.length % 4) % 4)));
+      if (cursor.v !== 1 || cursor.snapshot !== revision.id || cursor.kind !== kind || cursor.before !== before ||
+          !/^\d{4}-\d{2}-\d{2}$/.test(cursor.date) || !Number.isSafeInteger(cursor.sequence) || cursor.sequence < 1 ||
+          !/^[0-9a-f]{64}$/.test(cursor.id)) throw Error('Invalid cursor');
+    } catch { return json({ error: 'Invalid cursor or cursor does not match this snapshot and filters' }, 400); }
+  }
+  const result = await db.prepare(`WITH eligible AS (
     SELECT e.*, MAX(s.sequence) AS seen_sequence, MIN(s.imported_at) AS first_imported_at
     FROM history_events e JOIN snapshot_events se ON se.event_id=e.id JOIN snapshots s ON s.id=se.snapshot_id
     WHERE s.published_at IS NOT NULL AND s.sequence<=? AND e.event_date<? AND (?='' OR e.kind=?)
-    GROUP BY e.id ORDER BY e.event_date DESC,seen_sequence DESC,e.id LIMIT ?
+    GROUP BY e.id
+  ), selected AS (
+    SELECT * FROM eligible WHERE ? IS NULL OR event_date<? OR
+      (event_date=? AND (seen_sequence<? OR (seen_sequence=? AND id>?)))
+    ORDER BY event_date DESC,seen_sequence DESC,id LIMIT ?
   ) SELECT e.*,d.byte_length,d.chunk_count,c.chunk_index,c.body_base64
     FROM selected e JOIN documents d ON d.hash=e.id JOIN document_chunks c ON c.document_hash=e.id
-    ORDER BY e.event_date DESC,e.seen_sequence DESC,e.id,c.chunk_index`).bind(revision.sequence, before, kind, kind, Number(limitText)).all();
+    ORDER BY e.event_date DESC,e.seen_sequence DESC,e.id,c.chunk_index`).bind(
+      revision.sequence, before, kind, kind, cursor?.date ?? null, cursor?.date ?? null, cursor?.date ?? null,
+      cursor?.sequence ?? 0, cursor?.sequence ?? 0, cursor?.id ?? '', Number(limitText) + 1).all();
   const grouped = new Map();
   for (const row of result.results) {
     if (!grouped.has(row.id)) grouped.set(row.id, []);
     grouped.get(row.id).push(row);
   }
   const events = [];
-  for (const [id, rows] of grouped) {
+  const page = [...grouped.entries()].slice(0, Number(limitText));
+  for (const [id, rows] of page) {
     const bytes = await assembleDocument(rows, id, rows[0].byte_length, rows[0].chunk_count);
     events.push({ id, firstImportedAt: rows[0].first_imported_at, ...JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes)) });
   }
+  const last = page.at(-1)?.[1][0];
+  const nextCursor = grouped.size > page.length && last ? btoa(JSON.stringify({ v: 1, snapshot: revision.id, kind, before,
+    date: last.event_date, sequence: last.seen_sequence, id: last.id })).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '') : null;
   const first = await db.prepare('SELECT MIN(imported_at) AS began FROM snapshots WHERE published_at IS NOT NULL AND sequence<=?').bind(revision.sequence).first();
-  return json({ snapshotId: revision.id, events, limit: Number(limitText),
+  return json({ snapshotId: revision.id, events, limit: Number(limitText), nextCursor,
     coverage: { completeSnapshotsBegin: first?.began ?? null,
       historicalRecords: 'Dated observations and publisher events only. Earlier observation dates do not imply complete historical chamber or profile snapshots.',
       dateMeaning: 'eventDate follows dateType; poll fieldStart/fieldEnd and source publishedAt remain in record. firstImportedAt is storage time, not fieldwork or publication time.',
-      pagination: 'Use before=YYYY-MM-DD to read earlier dates; changed versions of an observation remain separate records.' } });
+      pagination: 'Continue using nextCursor with the same snapshot, kind, and before filters. The cursor includes date, snapshot sequence, and event ID, so same-day records are not skipped. before is an optional initial date filter.' } });
 }
 
 async function api(request, env, url) {

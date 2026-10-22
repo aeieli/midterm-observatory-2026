@@ -1103,5 +1103,6 @@
   "t1101": "La solicitud del HTML completo de RCP para la Cámara devolvió un error 403; la tabla pública de 270toWin solo incluye escaños no clasificados como Safe y está fechada el 2 de octubre, por lo que no puede completar las valoraciones actuales de RCP.",
   "t1102": "Datos recopilados públicamente y vinculados mediante el Bioguide ID oficial, usados solo para complementar el historial de mandatos; la identidad actual sigue basándose en el registro de la Secretaría de la Cámara.",
   "t1103": "Fuente de datos: instantánea publicada en D1",
-  "t1104": "Fuente de datos: instantánea de archivos estáticos (API no habilitada o temporalmente no disponible)"
+  "t1104": "Fuente de datos: instantánea de archivos estáticos (API no habilitada o temporalmente no disponible)",
+  "t1105": "No se pudieron verificar los datos. Actualiza para reintentar; no se cargaron datos de distintas versiones."
 }
