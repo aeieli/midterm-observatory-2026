@@ -1457,7 +1457,65 @@
       "interpretation": "新样本增加比较证据，但不把跨机构差异直接解释为趋势或席位翻转。",
       "source": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
       "secondarySource": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
-      "kind": "poll"
+      "kind": "poll",
+      "id": "news-fox-tx-oh-20261021",
+      "annotation": {
+        "id": "news-fox-tx-oh-20261021",
+        "priority": "medium",
+        "priorityReason": "关系到竞争席位，但单项证据不足以改变控制权判断。",
+        "impactScope": [
+          "race",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "TX",
+            "OH"
+          ],
+          "races": [
+            "TX-SEN-2026",
+            "OH-SEN-SPECIAL-2026"
+          ]
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "mixed-by-race",
+          "basis": "support-level-not-trend",
+          "trendChange": null,
+          "controlChange": null,
+          "signals": [
+            {
+              "race": "TX-SEN-2026",
+              "signal": "tied-in-this-poll",
+              "dem": 49,
+              "rep": 49
+            },
+            {
+              "race": "OH-SEN-SPECIAL-2026",
+              "signal": "democratic-lead-in-this-poll",
+              "dem": 52,
+              "rep": 47
+            }
+          ]
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "已核验原始问卷及方法。这证明样本所报结果，不证明胜者。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "verified-source",
+        "publishedDate": "2026-10-21",
+        "publishedAt": null,
+        "eventDate": null,
+        "fieldStart": "2026-10-15",
+        "fieldEnd": "2026-10-19",
+        "freshness": "already-in-baseline",
+        "recheckTrigger": "出现新的独立来源LV民调时复核；先比较实地日期和方法，再判断趋势。",
+        "reviewedAt": "2026-10-22T09:11:00Z",
+        "source": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+        "releaseEmbargoAt": "2026-10-21T22:00:00Z",
+        "secondarySource": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf"
+      }
     },
     {
       "date": "2026-10-21",
@@ -1467,7 +1525,48 @@
       "interpretation": "申请、指控、法院裁决必须分开；不能声称全州停票、禁令已获准或已被拒绝。",
       "source": "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/",
       "primarySource": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-20-TRO-Opposition-CA.pdf",
-      "kind": "legal-procedure"
+      "kind": "legal-procedure",
+      "id": "news-ca-intervention-20261021",
+      "annotation": {
+        "id": "news-ca-intervention-20261021",
+        "priority": "low",
+        "priorityReason": "较早的程序背景；后续动议另行跟踪。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-filing-verified",
+          "note": "当事人提交文件是其请求的原始证据，不是司法认定或获准救济。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "verified-source",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-21",
+        "fieldStart": null,
+        "fieldEnd": null,
+        "freshness": "already-in-baseline",
+        "recheckTrigger": "取得下一份签署法院命令及上诉、暂缓状态；听证日期以排期命令核验。",
+        "reviewedAt": "2026-10-22T09:11:00Z",
+        "source": "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/",
+        "storyGroup": "USA-v-California-2:26-cv-12025-DOC-ADS",
+        "relatedNewerItem": "news-ca-dismissal-20261021",
+        "eventDateBasis": "filing-date",
+        "publishedAtPrecision": "not-verified"
+      }
     },
     {
       "date": "2026-10-21",
@@ -1476,7 +1575,49 @@
       "status": "原始民调已核验",
       "interpretation": "单份D+2不能机械定义席位归属；RV与LV不得直接作涨跌比较。",
       "source": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
-      "kind": "poll"
+      "kind": "poll",
+      "id": "news-mi-marist-20261021",
+      "annotation": {
+        "id": "news-mi-marist-20261021",
+        "priority": "medium",
+        "priorityReason": "关系到竞争席位，但单项证据不足以改变控制权判断。",
+        "impactScope": [
+          "race",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "MI"
+          ],
+          "races": [
+            "MI-SEN-2026"
+          ]
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "democratic-lead-in-this-poll",
+          "basis": "support-level-not-trend",
+          "trendChange": null,
+          "controlChange": null,
+          "dem": 50,
+          "rep": 48
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "已核验原始问卷及方法。这证明样本所报结果，不证明胜者。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "verified-source",
+        "publishedDate": "2026-10-21",
+        "publishedAt": null,
+        "eventDate": null,
+        "fieldStart": "2026-10-15",
+        "fieldEnd": "2026-10-18",
+        "freshness": "already-in-baseline",
+        "recheckTrigger": "出现新的独立来源LV民调时复核；先比较实地日期和方法，再判断趋势。",
+        "reviewedAt": "2026-10-22T09:11:00Z",
+        "source": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+      }
     },
     {
       "date": "2026-10-22",
@@ -1485,7 +1626,170 @@
       "status": "聚合页面已核验",
       "interpretation": "不映射席位概率；与10月21日已保存的领先差相同不代表其他指标无变化。",
       "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
-      "kind": "aggregate-snapshot"
+      "kind": "aggregate-snapshot",
+      "id": "news-rcp-generic-20261022",
+      "annotation": {
+        "id": "news-rcp-generic-20261022",
+        "priority": "low",
+        "priorityReason": "可作全国背景，但未核验到新的领先差变化。",
+        "impactScope": [
+          "control-judgment"
+        ],
+        "affected": {
+          "states": [],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "democratic-national-polling-advantage",
+          "basis": "snapshot-not-new-trend",
+          "trendChange": 0,
+          "controlChange": null,
+          "marginUnit": "percentage-points",
+          "margin": 8.3
+        },
+        "evidenceQuality": {
+          "level": "publisher-snapshot-verified",
+          "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "verified-source",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": null,
+        "fieldStart": "2026-09-28",
+        "fieldEnd": "2026-10-19",
+        "freshness": "already-in-baseline",
+        "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+        "reviewedAt": "2026-10-22T09:11:00Z",
+        "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+        "snapshotDate": "2026-10-22",
+        "publishedAtPrecision": "publisher-not-disclosed"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T01:59:49Z",
+      "title": "CNN报道：部分DHS选民调查受限，生效暂缓",
+      "summary": "CNN报道部分实地调查在九州受限，暂缓至10月23日周五下午生效。",
+      "status": "CNN报道及发布时间元数据已核验；签署命令与当前上诉状态仍待核验。",
+      "interpretation": "这是选务程序进展，与加州隔离选票案不同；尚未证实党派得票影响。",
+      "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/",
+      "kind": "legal-procedure-reported",
+      "id": "news-dhs-nine-states-20261022",
+      "annotation": {
+        "id": "news-dhs-nine-states-20261022",
+        "priority": "high",
+        "priorityReason": "据报道临近的选务时点需要优先核验；选举影响尚未测定。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA",
+            "CT",
+            "GA",
+            "MO",
+            "NV",
+            "NY",
+            "PA",
+            "WA",
+            "WI"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "reported-primary-order-missing",
+          "note": "CNN报道及发布时间元数据已核验；签署命令与当前上诉状态仍待核验。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "reported-order",
+        "publishedDate": "2026-10-22",
+        "publishedAt": "2026-10-22T01:59:49Z",
+        "eventDate": "2026-10-21",
+        "fieldStart": null,
+        "fieldEnd": null,
+        "freshness": "post-baseline-report",
+        "recheckTrigger": "在报道所称周五下午生效前，核验签署命令、准确范围、生效时间及上诉暂缓。",
+        "reviewedAt": "2026-10-22T09:11:00Z",
+        "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/",
+        "eventDateBasis": "Wednesday order date as reported by CNN; not independently checked against signed order",
+        "storyGroup": "California-Nurses-Association-v-Mullin-4:26-cv-10680",
+        "reportedEffectiveDate": "2026-10-23",
+        "reportedEffectiveTime": "afternoon",
+        "effectiveAt": null,
+        "effectiveTimezone": null,
+        "effectiveStatus": "reported-stayed-until-Friday-afternoon",
+        "signedOrderVerified": false,
+        "appealStatusVerified": false,
+        "statewideBallotFreezeClaimed": false
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "title": "加州请求驳回DOJ选票诉讼",
+      "summary": "ECF 65及65-1证实加州于10月21日提交驳回诉讼动议。",
+      "status": "当事人提交文件是其请求的原始证据，不是司法认定或获准救济。",
+      "interpretation": "提出动议不等于法院已驳回；最新签署TRO裁决仍待核验。",
+      "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+      "kind": "legal-procedure",
+      "id": "news-ca-dismissal-20261021",
+      "annotation": {
+        "id": "news-ca-dismissal-20261021",
+        "priority": "medium",
+        "priorityReason": "该请求关系到案件进程，但本身不改变选票处理规则。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-filing-verified",
+          "note": "当事人提交文件是其请求的原始证据，不是司法认定或获准救济。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "verified-filing",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-21",
+        "fieldStart": null,
+        "fieldEnd": null,
+        "freshness": "newly-added-publication-time-unknown",
+        "recheckTrigger": "取得下一份签署法院命令及上诉、暂缓状态；听证日期以排期命令核验。",
+        "reviewedAt": "2026-10-22T09:11:00Z",
+        "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+        "primarySource": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+        "secondarySource": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+        "eventDateBasis": "ECF filing stamp",
+        "storyGroup": "USA-v-California-2:26-cv-12025-DOC-ADS",
+        "filingNumber": [
+          "65",
+          "65-1"
+        ],
+        "motionGrantedVerified": false,
+        "signedTROOutcomeVerified": false,
+        "hearingAt": null,
+        "hearingDateVerified": false,
+        "publishedAtPrecision": "not-verified"
+      }
     }
   ],
   "methodology": [
@@ -1495,7 +1799,7 @@
     },
     {
       "title": "席位模型",
-      "text": "议事厅按全体会议常见建筑形态作风格化示意，并非个人实际桌位图。参院35个改选席位放前两排、65个不改选席位放后两排；众院435席全体改选。衣服始终表示现任党籍，桌椅可切换评级配色。人物不是本人肖像，空缺席位不放现任人物。"
+      "text": "改选人偶采用全身全息虚影；不改选人偶为实体。默认颜色仅表示来源评级类别，未知为中性。现任模式显示现任党籍；紫色标记保留独立身份。人偶是议席符号，不是本人肖像。"
     },
     {
       "title": "历史误差敏感性",
@@ -1640,5 +1944,218 @@
       "NY-17",
       "PA-07"
     ]
-  }
+  },
+  "forecastAnnotations": [
+    {
+      "id": "forecast-house",
+      "target": "summary.house",
+      "priority": "high",
+      "impactScope": [
+        "control-judgment"
+      ],
+      "contentType": "publisher-facts-with-editorial-analysis",
+      "controlJudgment": "unchanged",
+      "direction": {
+        "snapshot": "democratic-favored",
+        "change": null
+      },
+      "evidenceQuality": {
+        "level": "publisher-snapshot-verified",
+        "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+      },
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "publishedAt": null,
+      "publishedDate": null,
+      "eventDate": null,
+      "observedAt": "2026-10-22T08:28:00Z",
+      "timestampPrecision": "retrieval-minute-not-publication-time",
+      "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+      "interpretationCardId": "house-outlook",
+      "probability": null,
+      "expectedSeats": null,
+      "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+    },
+    {
+      "id": "forecast-senate",
+      "target": "summary.senate",
+      "priority": "high",
+      "impactScope": [
+        "control-judgment"
+      ],
+      "contentType": "publisher-facts-with-editorial-analysis",
+      "controlJudgment": "unchanged",
+      "direction": {
+        "snapshot": "competitive-no-control-call",
+        "change": null
+      },
+      "evidenceQuality": {
+        "level": "publisher-snapshot-verified",
+        "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+      },
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "publishedAt": null,
+      "publishedDate": null,
+      "eventDate": null,
+      "observedAt": "2026-10-22T08:28:00Z",
+      "timestampPrecision": "retrieval-minute-not-publication-time",
+      "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+      "interpretationCardId": "senate-path",
+      "probability": null,
+      "expectedSeats": null,
+      "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+    }
+  ],
+  "interpretationCards": [
+    {
+      "id": "house-outlook",
+      "contentType": "analysis",
+      "priority": "high",
+      "impactScope": [
+        "control-judgment"
+      ],
+      "controlJudgment": "unchanged",
+      "sourceNewsIds": [
+        "news-rcp-generic-20261022"
+      ],
+      "sources": [
+        "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
+      ],
+      "asOf": "2026-10-22T08:35:00Z",
+      "claims": {
+        "title": "editorial-analysis",
+        "confirmedChange": "source-fact",
+        "possibleEffect": "editorial-analysis",
+        "counterevidenceOrUnknown": "editorial-analysis",
+        "nextCheck": "verification-trigger"
+      },
+      "title": "众院：民主党占优，不是结果",
+      "confirmedChange": "评级总数未变：RCP为226 D、22胶着、187 R；泛国会票领先差仍为D+8.3。",
+      "possibleEffect": "两者支持维持民主党更可能控制众院的定性判断，但没有证明哪些接近选区将决定多数。",
+      "counterevidenceOrUnknown": "类别不是胜率。逐区覆盖不完整，共同民调误差可能同时影响多场选举。",
+      "nextCheck": "下一步看评级变更及独立选区证据，而非重复未变的全国快照。"
+    },
+    {
+      "id": "senate-path",
+      "contentType": "analysis",
+      "priority": "high",
+      "impactScope": [
+        "control-judgment",
+        "race"
+      ],
+      "controlJudgment": "unchanged",
+      "sourceNewsIds": [
+        "news-fox-tx-oh-20261021",
+        "news-mi-marist-20261021"
+      ],
+      "sources": [
+        "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+        "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+        "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+      ],
+      "asOf": "2026-10-22T08:35:00Z",
+      "claims": {
+        "title": "editorial-analysis",
+        "confirmedChange": "source-fact",
+        "possibleEffect": "editorial-analysis",
+        "counterevidenceOrUnknown": "editorial-analysis",
+        "nextCheck": "verification-trigger"
+      },
+      "title": "参院：有机会，仍需完整路径",
+      "confirmedChange": "基线已含Fox德州平手、Brown俄亥俄领先及Marist密歇根小幅差距。RCP仍为46 D / 8胶着 / 46 R。",
+      "possibleEffect": "民主党有潜在翻席路径，也要守住竞争席位。有利民调说明值得跟踪，不等于席位已拿下。",
+      "counterevidenceOrUnknown": "Fox德州仍平手，密歇根仍接近。跨机构及RV/LV差异不是时间趋势；不能把所有胶着席划给一党。",
+      "nextCheck": "核验各多数路径相关州的独立LV重复证据，以及当前候选人与选票状态。"
+    },
+    {
+      "id": "dhs-procedure",
+      "contentType": "analysis",
+      "priority": "high",
+      "impactScope": [
+        "admin",
+        "state"
+      ],
+      "controlJudgment": "unchanged",
+      "sourceNewsIds": [
+        "news-dhs-nine-states-20261022"
+      ],
+      "sources": [
+        "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
+      ],
+      "asOf": "2026-10-22T08:35:00Z",
+      "claims": {
+        "title": "editorial-analysis",
+        "confirmedChange": "source-fact",
+        "possibleEffect": "editorial-analysis",
+        "counterevidenceOrUnknown": "editorial-analysis",
+        "nextCheck": "verification-trigger"
+      },
+      "title": "DHS：关注执行，不转成席位预测",
+      "confirmedChange": "CNN报道九州部分调查受限，暂缓至周五下午生效。报道晚于站点基线。",
+      "possibleEffect": "若按报道执行，将限制特定实地调查。即使没有可测党派效果，也具有选务意义。",
+      "counterevidenceOrUnknown": "签署命令、精确生效时刻及上诉暂缓未核验。不能推断受影响票数或控制权变化。",
+      "nextCheck": "在报道所称10月23日期限前核验命令和上诉状态；与加州选票案分开。"
+    },
+    {
+      "id": "california-filing",
+      "contentType": "analysis",
+      "priority": "medium",
+      "impactScope": [
+        "admin",
+        "state"
+      ],
+      "controlJudgment": "unchanged",
+      "sourceNewsIds": [
+        "news-ca-dismissal-20261021",
+        "news-ca-intervention-20261021"
+      ],
+      "sources": [
+        "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+        "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+        "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
+      ],
+      "asOf": "2026-10-22T08:35:00Z",
+      "claims": {
+        "title": "editorial-analysis",
+        "confirmedChange": "source-fact",
+        "possibleEffect": "editorial-analysis",
+        "counterevidenceOrUnknown": "editorial-analysis",
+        "nextCheck": "verification-trigger"
+      },
+      "title": "加州：这是请求，不是法院胜诉",
+      "confirmedChange": "加州于10月21日提出驳回动议；该原始文件现补入证据集。",
+      "possibleEffect": "法院面前新增针对诉讼的挑战。后续命令可能改变案件范围，但提交请求本身不改变选票规则。",
+      "counterevidenceOrUnknown": "未核验到动议获准；最新签署TRO裁决仍待核验。目录所列听证日不等于已核验的裁决期限。",
+      "nextCheck": "读取下一份签署命令及排期通知，只按实际命令范围更新选务判断。"
+    },
+    {
+      "id": "turnout-limits",
+      "contentType": "analysis",
+      "priority": "low",
+      "impactScope": [
+        "admin",
+        "state"
+      ],
+      "controlJudgment": "unchanged",
+      "sourceNewsIds": [],
+      "sources": [
+        "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv"
+      ],
+      "asOf": "2026-10-22T08:35:00Z",
+      "claims": {
+        "title": "editorial-analysis",
+        "confirmedChange": "source-fact",
+        "possibleEffect": "editorial-analysis",
+        "counterevidenceOrUnknown": "editorial-analysis",
+        "nextCheck": "verification-trigger"
+      },
+      "title": "提前投票：参与量，不是候选人得票",
+      "confirmedChange": "已保存北卡官方文件总量为924,160，比前次快照增加190,861。",
+      "possibleEffect": "选举日前记录的参与量增加，可观察投票活动，但不能据此判断哪位候选人受益。",
+      "counterevidenceOrUnknown": "党派登记不是投票选择。文件内部截止时点与可比历史分母未核验；这不是每日得票率趋势。",
+      "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
+    }
+  ],
+  "annotationReviewedAt": "2026-10-22T09:11:00Z"
 }

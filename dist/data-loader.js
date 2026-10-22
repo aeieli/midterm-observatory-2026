@@ -67,6 +67,7 @@ async function staticSnapshot() {
 function checkLanguages(data) {
   const catalog = data.get('locales/catalog.json');
   if (!Array.isArray(catalog)) throw Error('Invalid translation catalog');
+  if (!catalog.some(item => item.source === '改选全息虚影') || !catalog.some(item => item.source === '证据改变了什么')) throw Error('Snapshot predates this interface');
   for (const lang of ['en', 'fr', 'es', 'ja']) {
     const translated = data.get(`locales/${lang}.json`);
     if (catalog.some(item => typeof translated?.[item.id] !== 'string' || !translated[item.id].trim())) throw Error('Incomplete translation snapshot');

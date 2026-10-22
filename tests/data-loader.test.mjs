@@ -24,7 +24,8 @@ async function exercise(mode) {
       const [name, query] = path.slice('/api/documents/'.length).split('?');
       assert.equal(query, `snapshot=${id}`);
       if (mode === 'partial-failure' && name === 'locales/fr.json') return new Response('unavailable', { status: 503 });
-      const data = structuredClone(files.get(name));
+      let data = structuredClone(files.get(name));
+      if (mode === 'old-interface' && name === 'locales/catalog.json') data = data.filter(item => item.source !== '改选全息虚影');
       if (name === 'data/seats.json') data.asOf = 'API_TEST_VERSION';
       return Response.json(data);
     }
@@ -88,3 +89,5 @@ test('committed static manifest hashes exactly match all fallback files', () => 
   assert.deepEqual(release.files, expected);
   assert.equal(release.manifestId, createHash('sha256').update(JSON.stringify(expected)).digest('hex'));
 });
+
+test('an older published catalog during deployment falls back to the full verified static release', () => exercise('old-interface'));

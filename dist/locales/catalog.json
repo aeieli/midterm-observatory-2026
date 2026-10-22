@@ -5708,5 +5708,995 @@
     "id": "t1141",
     "source": "AFTER 2026 · RATING SCENARIOS",
     "kind": "interface"
+  },
+  {
+    "id": "t1142",
+    "source": "非真人占位图",
+    "kind": "interface"
+  },
+  {
+    "id": "t1143",
+    "source": "身份或图片使用依据待核验。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1144",
+    "source": "图片来源",
+    "kind": "interface"
+  },
+  {
+    "id": "t1145",
+    "source": "使用依据",
+    "kind": "interface"
+  },
+  {
+    "id": "t1146",
+    "source": "未取得可核验证据，不代表不存在。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1147",
+    "source": "CURRENT OFFICEHOLDER",
+    "kind": "interface"
+  },
+  {
+    "id": "t1148",
+    "source": "2026 CANDIDATE RECORD",
+    "kind": "interface"
+  },
+  {
+    "id": "t1149",
+    "source": "现任资料来源",
+    "kind": "interface"
+  },
+  {
+    "id": "t1150",
+    "source": "政策主张",
+    "kind": "interface"
+  },
+  {
+    "id": "t1151",
+    "source": "成果与立法工作",
+    "kind": "interface"
+  },
+  {
+    "id": "t1152",
+    "source": "来源标记为官方确认",
+    "kind": "interface"
+  },
+  {
+    "id": "t1153",
+    "source": "公开候选名录记录；不代表完整官方选票",
+    "kind": "interface"
+  },
+  {
+    "id": "t1154",
+    "source": "参选依据",
+    "kind": "interface"
+  },
+  {
+    "id": "t1155",
+    "source": "资料时间",
+    "kind": "interface"
+  },
+  {
+    "id": "t1156",
+    "source": "履历尚待核验，不以现任身份或党派补写。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1157",
+    "source": "待补证据：",
+    "kind": "interface"
+  },
+  {
+    "id": "t1158",
+    "source": "已记录各类来源；仍需持续复核",
+    "kind": "interface"
+  },
+  {
+    "id": "t1159",
+    "source": "现任与2026候选人分别核验。当前任职不等于已获提名，也不证明将再次参选。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1160",
+    "source": "2026 候选记录",
+    "kind": "interface"
+  },
+  {
+    "id": "t1161",
+    "source": "完整名单有官方依据",
+    "kind": "interface"
+  },
+  {
+    "id": "t1162",
+    "source": "名单尚未证明完整；其他党派、独立或写入候选人可能未覆盖。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1163",
+    "source": "此席暂无可展示的已核验候选记录。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1164",
+    "source": "来源模型胜选概率",
+    "kind": "interface"
+  },
+  {
+    "id": "t1165",
+    "source": "模型来源",
+    "kind": "interface"
+  },
+  {
+    "id": "t1166",
+    "source": "没有可核验的逐席胜选概率模型；不把民调或定性评级换算为百分比。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1167",
+    "source": "CANDIDATES & EVIDENCE",
+    "kind": "interface"
+  },
+  {
+    "id": "t1168",
+    "source": "候选资料覆盖审计",
+    "kind": "interface"
+  },
+  {
+    "id": "t1169",
+    "source": "下载缺失清单",
+    "kind": "interface"
+  },
+  {
+    "id": "t1170",
+    "source": "改选席已有候选记录",
+    "kind": "interface"
+  },
+  {
+    "id": "t1171",
+    "source": "候选人记录数",
+    "kind": "interface"
+  },
+  {
+    "id": "t1172",
+    "source": "官方完整名单已核验",
+    "kind": "interface"
+  },
+  {
+    "id": "t1173",
+    "source": "身份与使用依据齐备头像",
+    "kind": "interface"
+  },
+  {
+    "id": "t1174",
+    "source": "已附来源：",
+    "kind": "interface"
+  },
+  {
+    "id": "t1175",
+    "source": "有记录不等于名单完整，有来源不等于独立验证所有主张。缺失表示尚未核验，不表示没有资历或成就。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1176",
+    "source": "改选全息虚影",
+    "kind": "interface"
+  },
+  {
+    "id": "t1177",
+    "source": "不改选实体",
+    "kind": "interface"
+  },
+  {
+    "id": "t1178",
+    "source": "本版没有逐席胜选概率；颜色仅表达来源评级类别。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1179",
+    "source": "虚影为改选席 · 颜色为来源评级类别，非胜率",
+    "kind": "interface"
+  },
+  {
+    "id": "t1180",
+    "source": "整体虚影表示本届改选，实体表示不改选。默认虚影色仅表达有来源的评级强弱；未知保持中性。现任归属模式显示现任党籍，紫色标记保留独立身份。人偶是席位符号，不是真人形象；空缺改选席同样显示中性虚影。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1181",
+    "source": "授权头像",
+    "kind": "interface"
+  },
+  {
+    "id": "t1182",
+    "source": "履历",
+    "kind": "interface"
+  },
+  {
+    "id": "t1183",
+    "source": "政策",
+    "kind": "interface"
+  },
+  {
+    "id": "t1184",
+    "source": "成果",
+    "kind": "interface"
+  },
+  {
+    "id": "t1185",
+    "source": "荣誉",
+    "kind": "interface"
+  },
+  {
+    "id": "impact.label.section",
+    "source": "证据改变了什么",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.analysis",
+    "source": "本站解读",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.fact",
+    "source": "已核验事实",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.reported",
+    "source": "据报道，尚未独立确认",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.possibleEffect",
+    "source": "可能影响",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.unknown",
+    "source": "反向证据 / 未知",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.nextCheck",
+    "source": "下一步核验",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.priority",
+    "source": "关注优先级",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.high",
+    "source": "高优先级",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.medium",
+    "source": "中优先级",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.low",
+    "source": "背景关注",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.scope",
+    "source": "影响范围",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.control",
+    "source": "议院控制权",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.state",
+    "source": "州级",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.race",
+    "source": "单场选举",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.admin",
+    "source": "选务管理",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.quality",
+    "source": "证据质量",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.primary",
+    "source": "原始来源已核验",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.reportOnly",
+    "source": "报道已核验；法院命令待核验",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.publisher",
+    "source": "机构快照已核验",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.unchanged",
+    "source": "控制权判断未变",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.notEstablished",
+    "source": "党派影响尚无定论",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.levelNotTrend",
+    "source": "支持水平，非趋势",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.alreadyIncluded",
+    "source": "基线已收录",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.newReport",
+    "source": "基线后的新报道",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.backfill",
+    "source": "新增收录；事件早于基线",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.timingUnknown",
+    "source": "新增收录；精确发布时间未知",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.publication",
+    "source": "发布",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.eventDate",
+    "source": "事件 / 调查日期",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.checked",
+    "source": "核验",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.direction",
+    "source": "方向解读",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.forecastNote",
+    "source": "定性判断，非概率预测",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.priorityNote",
+    "source": "优先级表示值得关注的程度，不代表确定性、警报或预期票差变化。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.label.separationNote",
+    "source": "事实、机构评级与本站条件性解读分开。未取得证据，不等于没有变化。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.reason.poll",
+    "source": "关系到竞争席位，但单项证据不足以改变控制权判断。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.reason.oldFiling",
+    "source": "较早的程序背景；后续动议另行跟踪。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.reason.snapshot",
+    "source": "可作全国背景，但未核验到新的领先差变化。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.reason.dhs",
+    "source": "据报道临近的选务时点需要优先核验；选举影响尚未测定。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.reason.ca",
+    "source": "该请求关系到案件进程，但本身不改变选票处理规则。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.check.poll",
+    "source": "出现新的独立来源LV民调时复核；先比较实地日期和方法，再判断趋势。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.check.ca",
+    "source": "取得下一份签署法院命令及上诉、暂缓状态；听证日期以排期命令核验。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.check.dhs",
+    "source": "在报道所称周五下午生效前，核验签署命令、准确范围、生效时间及上诉暂缓。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.check.aggregate",
+    "source": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.quality.poll",
+    "source": "已核验原始问卷及方法。这证明样本所报结果，不证明胜者。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.quality.filing",
+    "source": "当事人提交文件是其请求的原始证据，不是司法认定或获准救济。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.quality.dhs",
+    "source": "CNN报道及发布时间元数据已核验；签署命令与当前上诉状态仍待核验。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.quality.aggregate",
+    "source": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.news.dhs.title",
+    "source": "CNN报道：部分DHS选民调查受限，生效暂缓",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.news.dhs.summary",
+    "source": "CNN报道部分实地调查在九州受限，暂缓至10月23日周五下午生效。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.news.dhs.interpretation",
+    "source": "这是选务程序进展，与加州隔离选票案不同；尚未证实党派得票影响。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.news.ca.title",
+    "source": "加州请求驳回DOJ选票诉讼",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.news.ca.summary",
+    "source": "ECF 65及65-1证实加州于10月21日提交驳回诉讼动议。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.news.ca.interpretation",
+    "source": "提出动议不等于法院已驳回；最新签署TRO裁决仍待核验。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.house-outlook.title",
+    "source": "众院：民主党占优，不是结果",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.house-outlook.confirmedChange",
+    "source": "评级总数未变：RCP为226 D、22胶着、187 R；泛国会票领先差仍为D+8.3。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.house-outlook.possibleEffect",
+    "source": "两者支持维持民主党更可能控制众院的定性判断，但没有证明哪些接近选区将决定多数。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.house-outlook.counterevidenceOrUnknown",
+    "source": "类别不是胜率。逐区覆盖不完整，共同民调误差可能同时影响多场选举。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.house-outlook.nextCheck",
+    "source": "下一步看评级变更及独立选区证据，而非重复未变的全国快照。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.senate-path.title",
+    "source": "参院：有机会，仍需完整路径",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.senate-path.confirmedChange",
+    "source": "基线已含Fox德州平手、Brown俄亥俄领先及Marist密歇根小幅差距。RCP仍为46 D / 8胶着 / 46 R。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.senate-path.possibleEffect",
+    "source": "民主党有潜在翻席路径，也要守住竞争席位。有利民调说明值得跟踪，不等于席位已拿下。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.senate-path.counterevidenceOrUnknown",
+    "source": "Fox德州仍平手，密歇根仍接近。跨机构及RV/LV差异不是时间趋势；不能把所有胶着席划给一党。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.senate-path.nextCheck",
+    "source": "核验各多数路径相关州的独立LV重复证据，以及当前候选人与选票状态。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.dhs-procedure.title",
+    "source": "DHS：关注执行，不转成席位预测",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.dhs-procedure.confirmedChange",
+    "source": "CNN报道九州部分调查受限，暂缓至周五下午生效。报道晚于站点基线。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.dhs-procedure.possibleEffect",
+    "source": "若按报道执行，将限制特定实地调查。即使没有可测党派效果，也具有选务意义。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.dhs-procedure.counterevidenceOrUnknown",
+    "source": "签署命令、精确生效时刻及上诉暂缓未核验。不能推断受影响票数或控制权变化。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.dhs-procedure.nextCheck",
+    "source": "在报道所称10月23日期限前核验命令和上诉状态；与加州选票案分开。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.california-filing.title",
+    "source": "加州：这是请求，不是法院胜诉",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.california-filing.confirmedChange",
+    "source": "加州于10月21日提出驳回动议；该原始文件现补入证据集。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.california-filing.possibleEffect",
+    "source": "法院面前新增针对诉讼的挑战。后续命令可能改变案件范围，但提交请求本身不改变选票规则。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.california-filing.counterevidenceOrUnknown",
+    "source": "未核验到动议获准；最新签署TRO裁决仍待核验。目录所列听证日不等于已核验的裁决期限。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.california-filing.nextCheck",
+    "source": "读取下一份签署命令及排期通知，只按实际命令范围更新选务判断。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.turnout-limits.title",
+    "source": "提前投票：参与量，不是候选人得票",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.turnout-limits.confirmedChange",
+    "source": "已保存北卡官方文件总量为924,160，比前次快照增加190,861。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.turnout-limits.possibleEffect",
+    "source": "选举日前记录的参与量增加，可观察投票活动，但不能据此判断哪位候选人受益。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.turnout-limits.counterevidenceOrUnknown",
+    "source": "党派登记不是投票选择。文件内部截止时点与可比历史分母未核验；这不是每日得票率趋势。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "impact.card.turnout-limits.nextCheck",
+    "source": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。",
+    "kind": "news-impact"
+  },
+  {
+    "id": "profile.house01.000",
+    "source": "2012至2024年任宾夕法尼亚州众议员，曾任州劳工与产业部门政策主任，并在美国劳工部任职。拥有 New York University 金融与国际商务本科学位和 Harvard Business School MBA。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.001",
+    "source": "2016 届 Tillman Scholar。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.002",
+    "source": "Bennett 毕业于康奈尔大学化学工程专业，并获宾夕法尼亚大学沃顿商学院 MBA。她曾任美国海军直升机及试飞飞行员；竞选官网称其军旅经历超过 15 年，现为 Air National Guard 军官，并曾在医疗保健企业及初创公司任职。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.003",
+    "source": "Conley 毕业于西点军校，并获麻省理工学院 MBA 与哈佛肯尼迪学院公共政策硕士。她曾任陆军军官、白宫国家安全委员会反恐事务主任，随后在 CISA 担任局长高级顾问，负责与州及地方选举官员协调选举基础设施安全；亦曾领导哈佛 Defending Digital Democracy Project。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.004",
+    "source": "Manhattan College 会计与金融专业毕业。曾任纽约州众议员、Orangetown 副镇主管、Westchester County 行政长官高级顾问及纽约州共和党执行主任，并从事公共事务工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.005",
+    "source": "National Press Foundation 2024 年讲者简介",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.006",
+    "source": "Pat Tillman Foundation 2017 年影响报告，Class of 2016 名录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.007",
+    "source": "Rutinel 是律师及前科罗拉多州第 32 选区众议员；州议会名录注明他于 2026 年 9 月 4 日辞职。科罗拉多大学人物简介记载，他拥有佛罗里达大学微生物学学士、约翰斯·霍普金斯大学经济学硕士及耶鲁法学院 J.D.，曾任美国陆军工程兵团经济学家和 Earthjustice 律师。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.008",
+    "source": "Vanderbilt University 经济学毕业，曾任美国财政部负责企业融资的副助理部长及白宫经济政策委员会执行秘书；在银行与投资行业工作多年，并创办 Delta Trust & Banking Corporation。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.009",
+    "source": "主张个人数据出售或用于 AI 训练须经同意，并加强儿童、劳动者及 AI 安全保障。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.010",
+    "source": "主张禁止企业政治行动委员会捐款和国会议员交易个股。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.011",
+    "source": "主张联邦投资可负担及混合收入住房，并建立联邦租客权利保障。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.012",
+    "source": "主张限制企业持有独栋住宅，并扩大联邦可负担住房建设。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.013",
+    "source": "候选人竞选官网政策声明",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.014",
+    "source": "出生并成长于 East Lansing，毕业于 East Lansing High School，现居 Lansing。据其竞选履历，他是 Sunrise Movement、Michigan Rent Is Too Damn High Coalition 和 Mid-Michigan Tenant Resource Center 的共同创办者，长期从事住房及气候议题组织工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.015",
+    "source": "同一竞选政策声明主张恢复 Medicaid 与《平价医疗法案》（ACA）资金。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.016",
+    "source": "在 Hanford 长大，从事家庭奶牛养殖及农业经营，并曾担任乳业组织职务；就读于 College of the Sequoias。2010年当选加州州众议员，联邦众议院任期包括2013至2018年及2021年起。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.017",
+    "source": "在 Levittown 长大，拥有 Penn State 法律博士与 MBA；进入国会前曾任 FBI 特工及联邦检察官，参与公共腐败、反恐与反情报调查，并曾管理 FBI 竞选财务及选举犯罪执法项目。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.018",
+    "source": "在亚利桑那长大，大学期间于2001年参军，在海军服役13年并完成五次战时部署，其中三次随 SEAL Team 3 部署。2012年共同创办以弹壳制作开瓶器的退伍军人企业，2022年出售该公司。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.019",
+    "source": "在加州 Kern County 长大，是大学教授、社区组织者及学校董事会成员。竞选履历称他是家中首位取得博士学位者，工作涉及政治学教学、学生指导及社区服务。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.020",
+    "source": "在美国陆军服役22年，有直升机飞行与海外部署经历；之后分别在密歇根州众议院及州参议院任职4年。2007年通过退伍军人教育资助完成 Western Michigan University 学业。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.021",
+    "source": "律师，拥有 University of Notre Dame 学士、University of Denver 法律博士及 Columbia University 法学硕士；曾任联邦第十巡回上诉法院法官助理，以及 Grand Junction Area Chamber of Commerce 董事会主席。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.022",
+    "source": "担任 HB26-1257《按摩设施地方监管》共同主要提案人；该法扩大地方政府监管非法按摩业及防止人口贩运的权限，2026 年 5 月 4 日由州长签署。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.023",
+    "source": "拥有 Baylor University 创业学工商管理学士及 Indiana University MBA；曾在 Ford Motor Company 从事技术、金融及产品开发工作，之后创办企业并担任创业导师及 Matanuska Telecom Association 董事。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.024",
+    "source": "拥有 University of Alabama 学士及法律博士学位；曾在联邦法院、白宫人事办公室、参议员 Sherrod Brown 办公室和美国司法部任职，2025年起任联邦众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.025",
+    "source": "据竞选官网，Mendoza 在亚利桑那州 Pinal County 的农场工人家庭长大，先后在美国海军及海军陆战队服役，共计 20 年，曾任海军陆战队训练教官并赴伊拉克、阿富汗部署。退役后取得 Grand Canyon University 领导力硕士学位，并从事非营利组织、退伍军人服务及国会议员办公室工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.026",
+    "source": "支持 Medicare for All 全民公共医疗保障。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.027",
+    "source": "支持 Medicare for All，并将牙科及视力服务纳入保障；主张限制医疗程序及处方药价格。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.028",
+    "source": "支持 Medicare for All，并重视医护及急救人员的工作条件。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.029",
+    "source": "支持 PRO Act 工会组织权利保护及对亿万富翁征收最低财富税。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.030",
+    "source": "支持 PRO Act，主张提高并按通胀调整联邦最低工资。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.031",
+    "source": "支持保护社会保障福利，并支持社会保障收入免税。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.032",
+    "source": "支持扩大择校机会。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.033",
+    "source": "支持改善退伍军人照护质量及服务获取。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.034",
+    "source": "曾领导哈佛 Defending Digital Democracy Project，为选举管理者及相关组织开发应对网络安全威胁的策略与工具。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.035",
+    "source": "毕业于 Calvin College 政治学专业，早年从事房地产及企业经营，共同拥有 Huizenga Gravel Inc.；2011至2023年代表密歇根第2选区，之后代表第4选区。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.036",
+    "source": "毕业于 Colorado State University 政治学专业，1991至1998年为众议员 Joel Hefley 工作。之后在 Colorado Springs Chamber of Commerce 担任管理职务，并从事广播、房地产及公共政策倡议工作。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.037",
+    "source": "毕业于 Dartmouth College，并获 Tufts University Fletcher School 法律与外交硕士学位。曾任联邦环保署工作人员、国会议员助理、新泽西州众议员及州参议员，曾任州参议院共和党领袖。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.038",
+    "source": "毕业于 Patrick Henry College，曾在美国陆军及弗吉尼亚、科罗拉多国民警卫队服役，并从事警察及农业工作；2023至2025年任科罗拉多州众议员，2025年起任联邦众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.039",
+    "source": "毕业于 Pima Community College 与 University of Arizona；曾任亚利桑那大学项目发展专员、Tucson Hispanic Chamber of Commerce 外联负责人，以及州长 Doug Ducey 办公室工作人员。自2023年任联邦众议员。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.040",
+    "source": "毕业于 University of Scranton 工商管理专业；2013年起领导家庭电气承包企业 Kuharchik Construction，并创办房地产改造企业。曾担任联合学徒培训委员会主席及 IBEW 163 福利基金受托人。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.041",
+    "source": "沃顿商学院人物访谈",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.042",
+    "source": "科罗拉多州议会正式法案记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.043",
+    "source": "竞选团队 2026-09-24 政策计划",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.044",
+    "source": "竞选团队 2026-10-07 声明",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.045",
+    "source": "竞选团队公布的公共安全计划支持资助州及地方执法机关、打击芬太尼和网络犯罪，并增加心理健康及成瘾治疗资源。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.046",
+    "source": "竞选团队在 2026 年 10 月 7 日政策声明中提出结束特朗普关税，以降低家庭及小企业成本。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.047",
+    "source": "竞选官网主张保护有既往病史者的保险保障、增加心理健康服务，并减少医护人员跨州执业的许可障碍。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.048",
+    "source": "竞选官网主张减少建房审批障碍、扩大住房供应，完全恢复州及地方税（SALT）抵扣，并通过带薪家庭假。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.049",
+    "source": "竞选官网主张加强反价格哄抬与消费者保护、更新儿童税收抵免，并反对削减社会保障福利。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.050",
+    "source": "竞选官网主张恢复 AHCCCS 及 ACA 增强补贴相关削减，扩大 Medicare 药价谈判，并将视力、听力及牙科纳入其保障范围。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.051",
+    "source": "竞选官网主张降低家庭及老年人税负，并支持退伍军人服务和癌症研究资金。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.052",
+    "source": "竞选官网将增加边境执法人员列为重点。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.053",
+    "source": "竞选官网支持在联邦层面恢复堕胎选择权、禁止国会议员交易股票，并推动《平等法案》保护 LGBTQ+ 权利。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.054",
+    "source": "竞选官网支持本土清洁能源投资、加强供水基础设施与地下水保护，并要求新增数据中心自行提供能源，避免向居民转嫁电力成本。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.055",
+    "source": "竞选官网政策声明",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.056",
+    "source": "竞选官网自述；本次未取得独立军事授勋记录",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.057",
+    "source": "竞选官网记载其获得三枚 Bronze Star Medal（铜星勋章）。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.058",
+    "source": "竞选政策页主张为教师、护士及急救人员建立公共服务住房贷款计划，减少妨碍可负担住房建设的审批与分区限制，并扩大相关补助与税收抵免。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.059",
+    "source": "竞选政策页支持禁止国会议员任内交易股票、实施国会议员任期限制，并禁止民选官员离任后转任游说人士。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.060",
+    "source": "竞选政策页支持面向所有年龄的公共医保选项、扩展 Medicare 牙科/视力/听力保障，并将胰岛素价格上限定为35 美元且适用于所有人。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.061",
+    "source": "获选并就读美国海军试飞员学校，随后从事直升机新技术与装备测试；沃顿商学院人物访谈及竞选履历均有记载。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.062",
+    "source": "议员官方网站政策声明",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.063",
+    "source": "议员官网将退伍军人就业和服务、家庭税负减免、道路及基础设施投资列为工作重点。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.house01.064",
+    "source": "退休消防员，2005 年加入 Bethlehem 消防部门并服务约20年；曾任 Pennsylvania Professional Fire Fighters Association 主席。据竞选履历，他于2013年创办 Brooks Lawn Care，并有青年与校队棒球教练经历。",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "upgrade.detail.0",
+    "source": "官方印刷选票名单已核验",
+    "kind": "interface"
+  },
+  {
+    "id": "upgrade.detail.1",
+    "source": "官方印刷选票名单已核验；未单列的写入候选人仍可能未覆盖。",
+    "kind": "interface"
+  },
+  {
+    "id": "upgrade.detail.2",
+    "source": "时间与下一步核验",
+    "kind": "interface"
+  },
+  {
+    "id": "upgrade.detail.3",
+    "source": "暂无匹配条目",
+    "kind": "interface"
+  },
+  {
+    "id": "upgrade.detail.4",
+    "source": "全部",
+    "kind": "interface"
+  },
+  {
+    "id": "upgrade.detail.5",
+    "source": "EVIDENCE & INTERPRETATION",
+    "kind": "interface"
+  },
+  {
+    "id": "upgrade.detail.6",
+    "source": "改选人偶采用全身全息虚影；不改选人偶为实体。默认颜色仅表示来源评级类别，未知为中性。现任模式显示现任党籍；紫色标记保留独立身份。人偶是议席符号，不是本人肖像。",
+    "kind": "interface"
+  },
+  {
+    "id": "profile.common.0",
+    "source": "来源",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.common.1",
+    "source": "自由意志党",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.common.2",
+    "source": "绿党",
+    "kind": "profile-evidence"
+  },
+  {
+    "id": "profile.common.3",
+    "source": "候选人依据州选举机构当期大选名录；现任议员资料不等于其已获2026年提名。履历、照片及政策另行标注核验缺口。",
+    "kind": "profile-evidence"
   }
 ]
