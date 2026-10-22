@@ -33,9 +33,9 @@ function showMode(mode) {
   const label = document.createElement('small');
   label.id = 'data-source-status';
   if (mode === 'error') {
-    let lang = 'zh';
-    try { lang = localStorage.getItem('midterm-language') || 'zh'; } catch { /* Storage may be unavailable. */ }
-    label.textContent = integrityErrors[lang] || integrityErrors.zh;
+    let lang = 'en';
+    try { lang = localStorage.getItem('midterm-language') || 'en'; } catch { /* Storage may be unavailable. */ }
+    label.textContent = integrityErrors[lang] || integrityErrors.en;
     label.role = 'alert';
   } else label.textContent = mode === 'd1' ? '数据来源：D1 已发布快照' : '数据来源：静态文件快照（API 未启用或暂不可用）';
   target.append(label);

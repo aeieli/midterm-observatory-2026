@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {SelectionGesture} from '../dist/selection-gesture.js';
+test('single tap selects; dragging out and back does not',()=>{const g=new SelectionGesture();g.start(1,20,20);assert.equal(g.end(1,22,22),true);g.start(2,20,20);g.move(2,100,20);assert.equal(g.end(2,20,20),false);});
+test('pinch and cancellation never trigger member selection; next tap still works',()=>{const g=new SelectionGesture();g.start(1,0,0);g.start(2,30,30);assert.equal(g.end(1,0,0),false);assert.equal(g.end(2,30,30),false);g.start(3,0,0);g.cancel(3);assert.equal(g.end(3,0,0),false);g.start(4,1,1);assert.equal(g.end(4,1,1),true);});

@@ -5528,5 +5528,185 @@
     "id": "t1105",
     "source": "数据校验失败：请刷新后重试；未加载混合版本数据。",
     "kind": "interface"
+  },
+  {
+    "id": "t1106",
+    "source": "不改选基础",
+    "kind": "interface"
+  },
+  {
+    "id": "t1107",
+    "source": "当前党团",
+    "kind": "interface"
+  },
+  {
+    "id": "t1108",
+    "source": "稳固评级",
+    "kind": "interface"
+  },
+  {
+    "id": "t1109",
+    "source": "较稳评级",
+    "kind": "interface"
+  },
+  {
+    "id": "t1110",
+    "source": "倾向评级",
+    "kind": "interface"
+  },
+  {
+    "id": "t1111",
+    "source": "未知评级",
+    "kind": "interface"
+  },
+  {
+    "id": "t1112",
+    "source": "民主党党团",
+    "kind": "interface"
+  },
+  {
+    "id": "t1113",
+    "source": "共和党党团",
+    "kind": "interface"
+  },
+  {
+    "id": "t1114",
+    "source": "独立未归团",
+    "kind": "interface"
+  },
+  {
+    "id": "t1115",
+    "source": "独立议员",
+    "kind": "interface"
+  },
+  {
+    "id": "t1116",
+    "source": "所需赞成票（满员参考）",
+    "kind": "interface"
+  },
+  {
+    "id": "t1117",
+    "source": "一致党团口径 · 独立身份用紫色边框保留",
+    "kind": "interface"
+  },
+  {
+    "id": "t1118",
+    "source": "门槛参考方向",
+    "kind": "interface"
+  },
+  {
+    "id": "t1119",
+    "source": "当前任期 · 党团席位",
+    "kind": "interface"
+  },
+  {
+    "id": "t1120",
+    "source": "当前席位构成，不是2024原始选举结果。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1121",
+    "source": "选后情景 · 逐席来源评级",
+    "kind": "interface"
+  },
+  {
+    "id": "t1122",
+    "source": "评级是类别，不是概率或得票率。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1123",
+    "source": "当前党籍：",
+    "kind": "interface"
+  },
+  {
+    "id": "t1124",
+    "source": "距满员参考：",
+    "kind": "interface"
+  },
+  {
+    "id": "t1125",
+    "source": "仅席位数差额，不是所缺实际赞成票。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1126",
+    "source": "已映射评级",
+    "kind": "interface"
+  },
+  {
+    "id": "t1127",
+    "source": "基础＋稳固 → 加较稳 → 加倾向；类别累加，不是置信区间。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1128",
+    "source": "未分配竞争与未知席。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1129",
+    "source": "中性框仅表示票数标尺，不选定任何议员，也不保证通过。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1130",
+    "source": "现任非空缺席位",
+    "kind": "interface"
+  },
+  {
+    "id": "t1131",
+    "source": "；若全部计入本项分母，示例门槛",
+    "kind": "interface"
+  },
+  {
+    "id": "t1132",
+    "source": "。实际出席与投票须另行核验。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1133",
+    "source": "未知评级保持未知，不按现任党派分配，也不视为平手。",
+    "kind": "interface"
+  },
+  {
+    "id": "t1134",
+    "source": "基础程序与来源",
+    "kind": "interface"
+  },
+  {
+    "id": "t1135",
+    "source": "正面全景",
+    "kind": "interface"
+  },
+  {
+    "id": "t1136",
+    "source": "向左旋转",
+    "kind": "interface"
+  },
+  {
+    "id": "t1137",
+    "source": "向右旋转",
+    "kind": "interface"
+  },
+  {
+    "id": "t1138",
+    "source": "竞争",
+    "kind": "interface"
+  },
+  {
+    "id": "t1139",
+    "source": "未知",
+    "kind": "interface"
+  },
+  {
+    "id": "t1140",
+    "source": "CURRENT TERM · 119TH",
+    "kind": "interface"
+  },
+  {
+    "id": "t1141",
+    "source": "AFTER 2026 · RATING SCENARIOS",
+    "kind": "interface"
   }
 ]

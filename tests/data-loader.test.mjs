@@ -51,7 +51,7 @@ async function exercise(mode) {
       await assert.rejects(loader.loadJSON('data/seats.json'));
       await assert.rejects(loader.loadJSON('locales/ja.json'));
       assert.equal(labels.length, 1);
-      assert.match(labels[0].textContent, /校验失败/);
+      assert.match(labels[0].textContent, /Data verification failed/);
       assert.equal(labels[0].role, 'alert');
       assert.equal(calls.filter(path => path === 'static-manifest.json').length, 1);
       return;
