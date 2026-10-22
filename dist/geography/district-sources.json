@@ -1,0 +1,140 @@
+{
+  "created_date_utc": "2026-10-22",
+  "purpose": "Seven watched 2026 House district geometries, with version guards and rendering semantics. Not a national district map.",
+  "attribution": "Geometry: U.S. Census Bureau, 2025 Cartographic Boundary Files and 2026 TIGER/Line CD120; converted to GeoJSON.",
+  "processing": "GDAL 3.10.3 ogr2ogr; transform EPSG:4269 to EPSG:4326, RFC7946, coordinate precision 6; filter exactly 50 states or seven requested district features; no synthetic polygons and no extra simplification. Compact JSON; normalized string IDs and explicitly labeled source vintages.",
+  "assets": [
+    {
+      "file": "watched-districts7.census-2026-cd120.geojson",
+      "bytes": 1179739,
+      "sha256": "98000a73e092e25a3d9f6a67053060341e0932b354aad04fa007bdf59e35980a",
+      "feature_count": 7
+    }
+  ],
+  "sources": [
+    {
+      "asset": "districts_source/tl_2026_04_cd120.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_04_cd120.zip",
+      "source_page": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+      "bytes": 769205,
+      "sha256": "1a908f7fd5f69989836f64aad23af20fef38cc2bd4fc8ccd183036b4f0f01431",
+      "geography_vintage": 2026,
+      "congress": 120,
+      "metadata_creation": "2026-09",
+      "metadata_last_update": "2026-10",
+      "release_date": "2026-10-14",
+      "directory_last_modified": "2026-10-06 19:31 (server timezone unspecified)",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: TIGER/Line products are not copyrighted; free product/publication use with U.S. Census Bureau acknowledgment. Not legal land descriptions. TIGER/Line and Census TIGER are registered trademarks.",
+      "metadata_file": "districts_source/tl_2026_04_cd120/tl_2026_04_cd120.shp.iso.xml"
+    },
+    {
+      "asset": "districts_source/tl_2026_06_cd120.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_06_cd120.zip",
+      "source_page": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+      "bytes": 4350554,
+      "sha256": "5d441c64cb33ba3f6d8dee1be2ce5f7c1efa502f245ac67c36344de2567d4269",
+      "geography_vintage": 2026,
+      "congress": 120,
+      "metadata_creation": "2026-09",
+      "metadata_last_update": "2026-10",
+      "release_date": "2026-10-14",
+      "directory_last_modified": "2026-10-06 19:31 (server timezone unspecified)",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: TIGER/Line products are not copyrighted; free product/publication use with U.S. Census Bureau acknowledgment. Not legal land descriptions. TIGER/Line and Census TIGER are registered trademarks.",
+      "metadata_file": "districts_source/tl_2026_06_cd120/tl_2026_06_cd120.shp.iso.xml"
+    },
+    {
+      "asset": "districts_source/tl_2026_08_cd120.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_08_cd120.zip",
+      "source_page": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+      "bytes": 654870,
+      "sha256": "0df19a54f14269de3268b31ff73f01b69dc4ecd2378dc538e97faaad605bc19e",
+      "geography_vintage": 2026,
+      "congress": 120,
+      "metadata_creation": "2026-09",
+      "metadata_last_update": "2026-10",
+      "release_date": "2026-10-14",
+      "directory_last_modified": "2026-10-06 19:31 (server timezone unspecified)",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: TIGER/Line products are not copyrighted; free product/publication use with U.S. Census Bureau acknowledgment. Not legal land descriptions. TIGER/Line and Census TIGER are registered trademarks.",
+      "metadata_file": "districts_source/tl_2026_08_cd120/tl_2026_08_cd120.shp.iso.xml"
+    },
+    {
+      "asset": "districts_source/tl_2026_26_cd120.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_26_cd120.zip",
+      "source_page": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+      "bytes": 414356,
+      "sha256": "fc75ae19a91fb84811e5c7fcdb6460091bc2e73fbe8d6ea1c8df60b2a40e096d",
+      "geography_vintage": 2026,
+      "congress": 120,
+      "metadata_creation": "2026-09",
+      "metadata_last_update": "2026-10",
+      "release_date": "2026-10-14",
+      "directory_last_modified": "2026-10-06 19:31 (server timezone unspecified)",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: TIGER/Line products are not copyrighted; free product/publication use with U.S. Census Bureau acknowledgment. Not legal land descriptions. TIGER/Line and Census TIGER are registered trademarks.",
+      "metadata_file": "districts_source/tl_2026_26_cd120/tl_2026_26_cd120.shp.iso.xml"
+    },
+    {
+      "asset": "districts_source/tl_2026_34_cd120.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_34_cd120.zip",
+      "source_page": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+      "bytes": 954338,
+      "sha256": "86bca2912cc888379dd8a8f303aef145f431d01dfe4c01f3fdb61f84ff3e4027",
+      "geography_vintage": 2026,
+      "congress": 120,
+      "metadata_creation": "2026-09",
+      "metadata_last_update": "2026-10",
+      "release_date": "2026-10-14",
+      "directory_last_modified": "2026-10-06 19:31 (server timezone unspecified)",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: TIGER/Line products are not copyrighted; free product/publication use with U.S. Census Bureau acknowledgment. Not legal land descriptions. TIGER/Line and Census TIGER are registered trademarks.",
+      "metadata_file": "districts_source/tl_2026_34_cd120/tl_2026_34_cd120.shp.iso.xml"
+    },
+    {
+      "asset": "districts_source/tl_2026_36_cd120.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_36_cd120.zip",
+      "source_page": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+      "bytes": 792734,
+      "sha256": "42f5efa13be57f0e5f00d3db00086b3bcef704bc3cb833494b0f3e7cbafc4b62",
+      "geography_vintage": 2026,
+      "congress": 120,
+      "metadata_creation": "2026-09",
+      "metadata_last_update": "2026-10",
+      "release_date": "2026-10-14",
+      "directory_last_modified": "2026-10-06 19:31 (server timezone unspecified)",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: TIGER/Line products are not copyrighted; free product/publication use with U.S. Census Bureau acknowledgment. Not legal land descriptions. TIGER/Line and Census TIGER are registered trademarks.",
+      "metadata_file": "districts_source/tl_2026_36_cd120/tl_2026_36_cd120.shp.iso.xml"
+    },
+    {
+      "asset": "districts_source/tl_2026_42_cd120.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_42_cd120.zip",
+      "source_page": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+      "bytes": 1222103,
+      "sha256": "25f36969cbf6ef2bc03ebb9a6b8be54acfd555ecc2b4d7d130dafed3ee2ef79b",
+      "geography_vintage": 2026,
+      "congress": 120,
+      "metadata_creation": "2026-09",
+      "metadata_last_update": "2026-10",
+      "release_date": "2026-10-14",
+      "directory_last_modified": "2026-10-06 19:31 (server timezone unspecified)",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: TIGER/Line products are not copyrighted; free product/publication use with U.S. Census Bureau acknowledgment. Not legal land descriptions. TIGER/Line and Census TIGER are registered trademarks.",
+      "metadata_file": "districts_source/tl_2026_42_cd120/tl_2026_42_cd120.shp.iso.xml"
+    }
+  ],
+  "known_exclusions": [
+    "50-state geometry excludes DC, Puerto Rico, and other territories.",
+    "Watched district artifact contains only AZ06, CA22, CO08, MI07, NJ07, NY17, PA07, not all 435 districts.",
+    "No Missouri CD120 asset was downloaded or shipped because Census documents its TIGER files as stale for the 2026 general election."
+  ],
+  "quality_notes": [
+    "The 20m and 5m geometries are official generalized thematic display layers, not precise voting-address tools.",
+    "GeoJSON follows RFC7946 ring winding. Libraries with opposite spherical winding expectations must handle that explicitly, not reverse at random.",
+    "Alaska crosses the antimeridian. Use a recognized US composite projection / clearly labeled AK and HI insets rather than dropping islands.",
+    "Census congressional page lists an August 28, 2026 last-revised footer but contains October 2026 notes. Source observation date is recorded separately from footer date.",
+    "Census Missouri narrative says September 23. The verified Supreme Court final per curiam is dated September 25, 2026."
+  ]
+}

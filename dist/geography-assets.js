@@ -1,0 +1,1 @@
+export const geographyAssets={"states20m": {"path": "geography/states20m-30b632b89170.geojson", "sha256": "30b632b8917071db155278ce63c48b1af19a15106239af735cd1e46f3435a6b2", "bytes": 324426}, "districts7": {"path": "geography/districts7-98000a73e092.geojson", "sha256": "98000a73e092e25a3d9f6a67053060341e0932b354aad04fa007bdf59e35980a", "bytes": 1179739}};

@@ -9305,5 +9305,225 @@
   {
     "id": "ui.architecture.6d8e944f07cb",
     "source": "3D 议事厅 · 拖动旋转 / 双指缩放"
+  },
+  {
+    "id": "t1186",
+    "source": "关键席位",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1187",
+    "source": "全体席位",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1188",
+    "source": "州地图",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1189",
+    "source": "展示视图",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1190",
+    "source": "席位范围",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1191",
+    "source": "筛选与来源",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1192",
+    "source": "关键席位仅含有来源的倾向与竞争胶着评级；未知评级不计入。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1193",
+    "source": "全院多数参考",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1194",
+    "source": "星标为监测重点，不表示已证实将决定控制权。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1195",
+    "source": "全院评级构成",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1196",
+    "source": "中点 50%",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1197",
+    "source": "扇形图口径",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1198",
+    "source": "扇形角度＝该类别席位数÷全院席位数。中央指针固定为50%中点；外弧表示两方已归类席位差额，不是胜率。胶着与未知不分摊。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1199",
+    "source": "50–50时副总统投关键票，不增加参院席位。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1200",
+    "source": "选择州",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1201",
+    "source": "全美",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1202",
+    "source": "当前党团 · 底层",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1203",
+    "source": "2026评级 · 上层",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1204",
+    "source": "监测重点",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1205",
+    "source": "美国50州三维席位地图",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1206",
+    "source": "地图与统计来源",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1207",
+    "source": "州色带表示州内席位构成，不代表全州单一赢家或选区位置；具体数量见州详情。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1208",
+    "source": "参院保留席与改选席分列；未知评级不作为平手。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1209",
+    "source": "州界：",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1210",
+    "source": "AK/HI为缩放插图。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1211",
+    "source": "选区几何仅覆盖7个已核验2026选区，其余使用列表；2024结果不套用到重划后的2026边界。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1212",
+    "source": "州界来源",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1213",
+    "source": "选区来源",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1214",
+    "source": "区划版本",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1215",
+    "source": "2026逐席评级",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1216",
+    "source": "州内席位",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1217",
+    "source": "2026区界",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1218",
+    "source": "选择州查看席位",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1219",
+    "source": "州地图使用下方州选择与席位列表",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1220",
+    "source": "地图加载中",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1221",
+    "source": "地图暂时无法读取，请刷新重试。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1222",
+    "source": "历史党籍",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1223",
+    "source": "底层",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1224",
+    "source": "2024选后基线",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1225",
+    "source": "2024选后基线 · 党籍",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1226",
+    "source": "竞争席所在州",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1227",
+    "source": "历史基线按最近一次选举结果的党籍，独立议员不推定党团；2026评级保留独立身份标记。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1228",
+    "source": "参院基线包括2020年31席、2022年35席和2024年34席；不是100席均在2024年改选，也不是当日任职名册。",
+    "kind": "explorer"
+  },
+  {
+    "id": "t1229",
+    "source": "历史结果来源",
+    "kind": "explorer"
   }
 ]

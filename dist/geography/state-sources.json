@@ -1,0 +1,75 @@
+{
+  "created_date_utc": "2026-10-22",
+  "purpose": "Reusable 50-state thematic base for election dashboard; no election data encoded.",
+  "attribution": "Geometry: U.S. Census Bureau, 2025 Cartographic Boundary Files and 2026 TIGER/Line CD120; converted to GeoJSON.",
+  "processing": "GDAL 3.10.3 ogr2ogr; transform EPSG:4269 to EPSG:4326, RFC7946, coordinate precision 6; filter exactly 50 states or seven requested district features; no synthetic polygons and no extra simplification. Compact JSON; normalized string IDs and explicitly labeled source vintages.",
+  "assets": [
+    {
+      "file": "states50.census-2025-20m.geojson",
+      "bytes": 324426,
+      "sha256": "30b632b8917071db155278ce63c48b1af19a15106239af735cd1e46f3435a6b2",
+      "feature_count": 50
+    },
+    {
+      "file": "states50.census-2025-5m.geojson",
+      "bytes": 2100788,
+      "sha256": "bc187da20e4a964d0cf4b6850a99a94e64e7a7d93eb50464ea8334ed4fa3c742",
+      "feature_count": 50
+    },
+    {
+      "file": "states50-fips-usps.json",
+      "bytes": 8625,
+      "sha256": "0483b5907d9021f48956eec2ee1001c2bf7747815559f688746817c198b6d887"
+    },
+    {
+      "file": "state-equivalents-fips-usps.json",
+      "bytes": 12977,
+      "sha256": "52c028151b96799ba04da4f93353f2a4077d9a0d9fe9df8f163be365fb1fbc31"
+    },
+    {
+      "file": "state-fips-usps.source.txt",
+      "bytes": 1485,
+      "sha256": "bea4e03f71a1fa0045ae732aabad11fa541e5932b071c2369bb0d325e8cba5a0"
+    }
+  ],
+  "sources": [
+    {
+      "asset": "cb_2025_us_state_20m.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_state_20m.zip",
+      "source_page": "https://www.census.gov/geographies/mapping-files/2025/geo/carto-boundary-file.html",
+      "bytes": 184850,
+      "sha256": "9340b6d995e971b2b4230518f4fa85e6cd9e7fe6811afabc90a6a8b1191530f6",
+      "geography_vintage": 2025,
+      "metadata_publication": "2026-05",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: no access restrictions; free product/publication use with U.S. Census Bureau acknowledgment. Small-scale thematic display only, not precise geographic analysis or geocoding.",
+      "metadata_file": "source_20m/cb_2025_us_state_20m.shp.iso.xml",
+      "original_crs": "EPSG:4269 (NAD83)",
+      "derived_crs": "EPSG:4326 / RFC 7946 WGS84 longitude, latitude",
+      "target_scale": "1:20,000,000"
+    },
+    {
+      "asset": "cb_2025_us_state_5m.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_state_5m.zip",
+      "source_page": "https://www.census.gov/geographies/mapping-files/2025/geo/carto-boundary-file.html",
+      "bytes": 1120533,
+      "sha256": "8a45692bc532dbd38938a1924f445850cef2682ea67d750d7fd2f19cfe836903",
+      "geography_vintage": 2025,
+      "metadata_publication": "2026-05",
+      "observed_date_utc": "2026-10-22",
+      "reuse_basis": "Official metadata: no access restrictions; free product/publication use with U.S. Census Bureau acknowledgment. Small-scale thematic display only, not precise geographic analysis or geocoding.",
+      "metadata_file": "source_5m/cb_2025_us_state_5m.shp.iso.xml",
+      "original_crs": "EPSG:4269 (NAD83)",
+      "derived_crs": "EPSG:4326 / RFC 7946 WGS84 longitude, latitude",
+      "target_scale": "1:5,000,000"
+    }
+  ],
+  "known_exclusions": [
+    "50-state geometry excludes DC, Puerto Rico, and other territories; these identities remain distinguished in the separate state-equivalents lookup."
+  ],
+  "quality_notes": [
+    "The 20m and 5m geometries are official generalized thematic display layers, not precise voting-address tools.",
+    "GeoJSON follows RFC7946 ring winding. Libraries with opposite spherical winding expectations must handle that explicitly, not reverse at random.",
+    "Alaska crosses the antimeridian. Use a recognized US composite projection / clearly labeled AK and HI insets rather than dropping islands."
+  ]
+}

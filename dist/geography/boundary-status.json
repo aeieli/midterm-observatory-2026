@@ -1,0 +1,74 @@
+{
+  "observed_date_utc": "2026-10-22",
+  "source_url": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.120th_Congress.html",
+  "changed_from_2024": [
+    "AL",
+    "CA",
+    "FL",
+    "LA",
+    "NC",
+    "OH",
+    "TN",
+    "TX",
+    "UT"
+  ],
+  "missouri": {
+    "general_election_plan": "2022 plan, also used in 2024",
+    "census_cd120_tiger_status": "Known stale; do not use without corrected-file verification",
+    "corrected_block_equivalency_date": "2026-10-06",
+    "court_opinion_url": "https://www.supremecourt.gov/opinions/25pdf/26a388_q86b.pdf",
+    "court_opinion_date": "2026-09-25"
+  },
+  "watched_districts": [
+    {
+      "district_id": "AZ06",
+      "source_congress": 120,
+      "election_year": 2026,
+      "boundary_changed_since_2024": false,
+      "geometry_verified": true
+    },
+    {
+      "district_id": "CA22",
+      "source_congress": 120,
+      "election_year": 2026,
+      "boundary_changed_since_2024": true,
+      "geometry_verified": true
+    },
+    {
+      "district_id": "CO08",
+      "source_congress": 120,
+      "election_year": 2026,
+      "boundary_changed_since_2024": false,
+      "geometry_verified": true
+    },
+    {
+      "district_id": "MI07",
+      "source_congress": 120,
+      "election_year": 2026,
+      "boundary_changed_since_2024": false,
+      "geometry_verified": true
+    },
+    {
+      "district_id": "NJ07",
+      "source_congress": 120,
+      "election_year": 2026,
+      "boundary_changed_since_2024": false,
+      "geometry_verified": true
+    },
+    {
+      "district_id": "NY17",
+      "source_congress": 120,
+      "election_year": 2026,
+      "boundary_changed_since_2024": false,
+      "geometry_verified": true
+    },
+    {
+      "district_id": "PA07",
+      "source_congress": 120,
+      "election_year": 2026,
+      "boundary_changed_since_2024": false,
+      "geometry_verified": true
+    }
+  ],
+  "color_binding_requirement": "Bind election data to election year, chamber, state, seat/district, election type and boundary plan; a reused district number alone is not identity across redistricting."
+}

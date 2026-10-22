@@ -26,6 +26,7 @@ async function exercise(mode) {
       if (mode === 'partial-failure' && name === 'locales/fr.json') return new Response('unavailable', { status: 503 });
       let data = structuredClone(files.get(name));
       if (mode === 'old-interface' && name === 'locales/catalog.json') data = data.filter(item => item.source !== '改选全息虚影');
+      if (mode === 'old-history-baseline' && name === 'data/evidence.json') delete data.historicalBaselines;
       if (name === 'data/seats.json') data.asOf = 'API_TEST_VERSION';
       return Response.json(data);
     }
@@ -91,3 +92,5 @@ test('committed static manifest hashes exactly match all fallback files', () => 
 });
 
 test('an older published catalog during deployment falls back to the full verified static release', () => exercise('old-interface'));
+
+test('code activation before historical data falls back to one complete verified static release', () => exercise('old-history-baseline'));
