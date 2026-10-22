@@ -167,3 +167,11 @@ When publishing a UI that needs new catalog strings, `data-loader.js` checks com
 The final profile import retains 1,187 House candidate records and 123 Senate printed-ballot candidates, with Senate write-ins listed separately and non-exhaustively. House field tranches 06 and 07 update exact candidate IDs only. Source-linked biography, policy and image coverage is computed from actual fields. Images require explicit identity/reuse evidence plus asset and visual checks; permission metadata alone is insufficient.
 
 There are 35 hologram figures and 65 retained solid figures in the Senate. The House has 433 hologram incumbent figures and two neutral vacancy rings, covering all 435 contested mandates. Independent identity accessories also use translucent materials when contested. No current source supplies a complete numerical win-probability model; no percentages are inferred from ratings or polls.
+
+### Neutral seating finish
+Both chambers use dedicated soft-white woven upholstery on chair backs, seat cushions and arm pads. Brass structure and walnut desks retain their materials. Party/rating colors remain on figures and independent markers, including translucent contested figures. Rebuilds preserve the upholstery material without sharing it with figures. The SVG fallback uses white chair fills with the existing colored outlines and rating/party bands.
+
+### Display accounting and source details
+The current/outlook bars list every segment and count in order, including narrow segments. Voting thresholds have their own neutral ruler; denominators, calculations and procedural exceptions remain in expandable details. Main headings have at most one necessary subtitle. Keep attribution and source qualification in expandable source sections instead of repeated warnings beside each claim.
+
+The 100 current Senate portraits are hosted as lazy-loaded, content-addressed JPEG display copies under `dist/portraits/senate/`. Their manifest records original and display hashes, exact identities, source and reuse evidence; 22 explicitly matched candidate records share those images. Other candidates do not inherit an incumbent image by seat or surname. Murphy uses the distinct 112th Congress historical official portrait. Election research timestamps are unchanged by this image import.

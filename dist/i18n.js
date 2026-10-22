@@ -50,7 +50,7 @@ export async function initLocale(){
   const title=document.querySelector('title[data-source-title]');if(title)title.textContent=title.dataset.sourceTitle;
   const picker=document.createElement('div');picker.className='language-picker';picker.dataset.i18nSkip='';
   picker.innerHTML='<span aria-hidden="true">◎</span><select id="language-select" aria-label="Language / 言語 / 语言"><option value="en">English</option><option value="zh">中文</option><option value="fr">Français</option><option value="es">Español</option><option value="ja">日本語</option></select>';document.querySelector('header').appendChild(picker);
-  const note=document.createElement('p');note.id='translation-note';note.className='translation-note';note.dataset.i18nSkip='';document.querySelector('.intro').after(note);
+  const note=document.createElement('p');note.id='translation-note';note.className='translation-note';note.dataset.i18nSkip='';document.querySelector('.source-section').appendChild(note);
   observer=new MutationObserver(queue);
   picker.querySelector('select').onchange=e=>changeLanguage(e.target.value);
   let saved=null,explicit=false,promptSeen=false;try{saved=localStorage.getItem('midterm-language');explicit=localStorage.getItem('midterm-language-explicit')==='1';promptSeen=localStorage.getItem('midterm-language-prompt-seen')==='1';}catch{}
@@ -62,7 +62,7 @@ export async function initLocale(){
    const banner=document.createElement('div');banner.id='language-suggestion';banner.dataset.i18nSkip='';banner.setAttribute('role','region');banner.setAttribute('aria-label','Language suggestion');
    const text=document.createElement('span');text.textContent=preference.legacy?'An earlier language was saved automatically. Confirm your preference:':'Prefer your browser language?';
    const switchButton=document.createElement('button');switchButton.textContent=native[preference.suggestion];switchButton.lang=locales[preference.suggestion];switchButton.onclick=()=>changeLanguage(preference.suggestion);
-   const dismiss=document.createElement('button');dismiss.textContent='Keep English ×';dismiss.onclick=()=>changeLanguage('en');banner.append(text,switchButton,dismiss);note.before(banner);
+   const dismiss=document.createElement('button');dismiss.textContent='Keep English ×';dismiss.onclick=()=>changeLanguage('en');banner.append(text,switchButton,dismiss);document.querySelector('.intro').after(banner);
    try{localStorage.setItem('midterm-language-prompt-seen','1');}catch{}
   }
  }catch(error){

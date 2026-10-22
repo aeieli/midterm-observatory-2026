@@ -9153,5 +9153,141 @@
     "id": "ui.vacant-seat-symbol",
     "source": "整体虚影表示本届改选，实体表示不改选。默认虚影色仅表达有来源的评级强弱；未知保持中性。现任归属模式显示现任党籍，紫色标记保留独立身份。人偶是席位符号，不是真人形象；空缺席使用中性圆环，不放现任人偶。",
     "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.f6420604fe7f",
+    "source": "表决门槛",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.c1f06c13a280",
+    "source": "满员示例 · 参考分母",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.a8ed036104c6",
+    "source": "所需赞成票",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.6cd31ae2dc61",
+    "source": "中性框是表决票数标尺，不是预测席位数。",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.4ee1f32e7822",
+    "source": "色块从左到右 · 每段席位数完整列出",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.e009c148d189",
+    "source": "合计",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.41e477057064",
+    "source": "现任名单核验时间（UTC）",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.accounting.9f25ad1d63ab",
+    "source": "逐席评级核验时间（UTC）",
+    "kind": "interface"
+  },
+  {
+    "id": "ui.compact.f740956ce26e",
+    "source": "统计口径与来源"
+  },
+  {
+    "id": "ui.compact.4e5e6ae9639b",
+    "source": "参考分母"
+  },
+  {
+    "id": "ui.compact.f7f6ebe84bfe",
+    "source": "票"
+  },
+  {
+    "id": "ui.compact.d8ee7ad323e8",
+    "source": "照片尚未收录"
+  },
+  {
+    "id": "ui.compact.aa504dfa4265",
+    "source": "源图加载失败"
+  },
+  {
+    "id": "ui.compact.22bdaa3ea161",
+    "source": "图片身份待核验"
+  },
+  {
+    "id": "ui.compact.cf8a96ba6be5",
+    "source": "图片使用依据待核验"
+  },
+  {
+    "id": "ui.compact.d3f8119775d0",
+    "source": "图片加载待检查"
+  },
+  {
+    "id": "ui.compact.df67623bd591",
+    "source": "照片已核验"
+  },
+  {
+    "id": "ui.compact.c81f3570a5ad",
+    "source": "来源与归因"
+  },
+  {
+    "id": "ui.compact.acfcf79628d5",
+    "source": "尚未收录"
+  },
+  {
+    "id": "ui.compact.c24b1fe8bc8d",
+    "source": "照片来源"
+  },
+  {
+    "id": "ui.compact.4d07a825e724",
+    "source": "资料状态"
+  },
+  {
+    "id": "ui.compact.4f1294cb021f",
+    "source": "名单来源"
+  },
+  {
+    "id": "ui.compact.3084736b02ab",
+    "source": "预测来源"
+  },
+  {
+    "id": "ui.compact.6bcb4ccef2b1",
+    "source": "资料来源与时间"
+  },
+  {
+    "id": "ui.compact.e951686089cb",
+    "source": "覆盖详情"
+  },
+  {
+    "id": "ui.compact.98b4e498cf19",
+    "source": "程序说明"
+  },
+  {
+    "id": "ui.compact.f85912703c42",
+    "source": "职务与情景来源"
+  },
+  {
+    "id": "ui.compact.159a01257c10",
+    "source": "来源详情"
+  },
+  {
+    "id": "ui.compact.8d3d73a18aff",
+    "source": "显示方式"
+  },
+  {
+    "id": "ui.compact.df456f4650fa",
+    "source": "议席布局"
+  },
+  {
+    "id": "ui.portrait.3b485b91230a",
+    "source": "官方档案肖像。"
+  },
+  {
+    "id": "ui.portrait.ae845b736c5d",
+    "source": "第112届国会（2011–2013）众议院官方肖像。"
   }
 ]

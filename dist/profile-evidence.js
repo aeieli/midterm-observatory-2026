@@ -1,5 +1,6 @@
 const publicURL=value=>typeof value==='string'&&/^https:\/\//.test(value);
-export function eligiblePortrait(person){const p=person?.photo||person?.portrait;return p?.assetReady===true&&p.visualIdentityVerified===true&&p?.verified===true&&p.usageAllowed===true&&publicURL(p.url)&&publicURL(p.source)&&publicURL(p.rightsSource)?p:null;}
+const localPortrait=p=>/^\/portraits\/senate\/[A-Z][0-9]{6}-[a-f0-9]{12}\.jpg$/.test(p?.url||'')&&/^[a-f0-9]{64}$/.test(p?.assetSha256||'')&&p.url.includes('-'+p.assetSha256.slice(0,12)+'.jpg');
+export function eligiblePortrait(person){const p=person?.photo||person?.portrait;return p?.assetReady===true&&p.visualIdentityVerified===true&&p?.verified===true&&p.usageAllowed===true&&(publicURL(p.url)||localPortrait(p))&&publicURL(p.source)&&publicURL(p.rightsSource)?p:null;}
 export function candidateEvidence(candidate){
  const c=candidate||{},source=c.candidacySource||c.candidateSource||c.source;
  const biographySource=c.backgroundSource||(c.bioVerified===true?c.source:null);
@@ -25,4 +26,14 @@ export function rosterEvidence(profile){
  const candidateSources=(profile?.candidates||[]).filter(c=>c.verification==='official-general-election-list').map(c=>c.candidacySource).filter(publicURL);
  const verified=statusChecked&&!!(direct||candidateSources.length),source=verified?(direct||candidateSources[0]):null;
  return{verified,source,scope:r?.scope||null,completeIncludingWriteIns:verified&&r?.includesWriteIns===true&&r?.complete===true};
+}
+
+export function portraitStatus(person){
+ const p=person?.photo||person?.portrait;
+ if(!p?.url)return '照片尚未收录';
+ if(p.loadStatus==='failed'||p.downloadStatus==='failed')return '源图加载失败';
+ if(p.verified!==true||p.visualIdentityVerified!==true)return '图片身份待核验';
+ if(p.usageAllowed!==true||!publicURL(p.rightsSource))return '图片使用依据待核验';
+ if(p.assetReady!==true)return '图片加载待检查';
+ return '照片已核验';
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "manifestId": "8a1e5b56cc07b811b1785aa341ce057c1691c8ecc25e9369ba40039d39e2864c",
+  "manifestId": "32163c81e83f38545fee31b24de6d8985d439c5d8de1eb35ae784fc4bc62af5c",
   "files": {
     "data/evidence.json": {
       "bytes": 73750,
@@ -23,28 +23,28 @@
       "sha256": "c6de995d0375235fe5618b90af5595971a9282a64b484289b9c0f5c3bef8f3bc"
     },
     "data/senate_profiles.json": {
-      "bytes": 780725,
-      "sha256": "70a63a56c6ef610d1b45a521dc1668a95963f2ce6217e8c50c9f895a60d3a1ae"
+      "bytes": 850791,
+      "sha256": "1dc4b643d7c06982c30fe43ab2e002ad7ba2c1cad288ad9512f5afca4080bd28"
     },
     "locales/catalog.json": {
-      "bytes": 315985,
-      "sha256": "ec73b0a3c3031e1476d47a420bfd6bca267254c22cbb6e1a979ceae61384b48b"
+      "bytes": 318870,
+      "sha256": "4792c8e36899b66b1ed17ba05e35885ad2daf378a9c86d66f3315c32f834c333"
     },
     "locales/en.json": {
-      "bytes": 252438,
-      "sha256": "fa0fee2abeef715c6f9a898a3d661962af74e446ac887c0152bfa5032892fc68"
+      "bytes": 254306,
+      "sha256": "331264ab46480f919ce27971cd7c73278227b28e6981eecb576ebd8b4a3d3052"
     },
     "locales/es.json": {
-      "bytes": 293294,
-      "sha256": "1cca65b79774aecbaa55538e7487846f0fb1231d7f2c196072fbe1d4e6dd1095"
+      "bytes": 295348,
+      "sha256": "bb73d8d9d3288ebbbe7298d2946e9c4a03ea87b8e93607df0751aab498f4ebae"
     },
     "locales/fr.json": {
-      "bytes": 308443,
-      "sha256": "087118fe09069ce229b554dac236c63da60c9037280530e973ac3dd5a45304d5"
+      "bytes": 310497,
+      "sha256": "5b151b8ac4f14cee152885598edd649d7f571b108d070b8d3582e8ac9fa37cb8"
     },
     "locales/ja.json": {
-      "bytes": 261001,
-      "sha256": "016b906425aecdd044f5e7c764c5fa9d3d9d589e02575d97ff3272f52a1e543a"
+      "bytes": 262909,
+      "sha256": "1d74edd9cde07558eda2a54c33f763851efa465f57dc616e08033802e0d9a761"
     }
   }
 }
