@@ -9289,5 +9289,21 @@
   {
     "id": "ui.portrait.ae845b736c5d",
     "source": "第112届国会（2011–2013）众议院官方肖像。"
+  },
+  {
+    "id": "ui.architecture.86a63f23a076",
+    "source": "外观"
+  },
+  {
+    "id": "ui.architecture.f7b6842fef37",
+    "source": "议事厅"
+  },
+  {
+    "id": "ui.architecture.ed3605a649f1",
+    "source": "国会大厦 · 外观"
+  },
+  {
+    "id": "ui.architecture.6d8e944f07cb",
+    "source": "3D 议事厅 · 拖动旋转 / 双指缩放"
   }
 ]

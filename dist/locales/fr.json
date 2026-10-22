@@ -1861,5 +1861,9 @@
   "ui.compact.8d3d73a18aff": "Détails de l’affichage",
   "ui.compact.df456f4650fa": "Disposition des sièges",
   "ui.portrait.3b485b91230a": "Portrait officiel d’archive.",
-  "ui.portrait.ae845b736c5d": "Portrait officiel de la Chambre du 112e Congrès (2011–2013)."
+  "ui.portrait.ae845b736c5d": "Portrait officiel de la Chambre du 112e Congrès (2011–2013).",
+  "ui.architecture.86a63f23a076": "Extérieur",
+  "ui.architecture.f7b6842fef37": "Hémicycle",
+  "ui.architecture.ed3605a649f1": "Capitole des États-Unis · Extérieur",
+  "ui.architecture.6d8e944f07cb": "Hémicycle 3D · Glisser pour tourner / Pincer pour zoomer"
 }

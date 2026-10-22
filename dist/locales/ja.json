@@ -1861,5 +1861,9 @@
   "ui.compact.8d3d73a18aff": "表示の詳細",
   "ui.compact.df456f4650fa": "議席の配置",
   "ui.portrait.3b485b91230a": "公式アーカイブの肖像写真。",
-  "ui.portrait.ae845b736c5d": "第112議会（2011～2013年）の下院公式肖像写真。"
+  "ui.portrait.ae845b736c5d": "第112議会（2011～2013年）の下院公式肖像写真。",
+  "ui.architecture.86a63f23a076": "外観",
+  "ui.architecture.f7b6842fef37": "議場",
+  "ui.architecture.ed3605a649f1": "米国議会議事堂 · 外観",
+  "ui.architecture.6d8e944f07cb": "3D議場 · ドラッグで回転 / ピンチで拡大縮小"
 }

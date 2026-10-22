@@ -1861,5 +1861,9 @@
   "ui.compact.8d3d73a18aff": "Display details",
   "ui.compact.df456f4650fa": "Seating layout",
   "ui.portrait.3b485b91230a": "Official archive portrait.",
-  "ui.portrait.ae845b736c5d": "Official House portrait from the 112th Congress (2011–2013)."
+  "ui.portrait.ae845b736c5d": "Official House portrait from the 112th Congress (2011–2013).",
+  "ui.architecture.86a63f23a076": "Exterior",
+  "ui.architecture.f7b6842fef37": "Chamber",
+  "ui.architecture.ed3605a649f1": "U.S. Capitol · Exterior",
+  "ui.architecture.6d8e944f07cb": "3D chamber · Drag to orbit / Pinch to zoom"
 }

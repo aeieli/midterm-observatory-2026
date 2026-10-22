@@ -1861,5 +1861,9 @@
   "ui.compact.8d3d73a18aff": "Detalles de visualización",
   "ui.compact.df456f4650fa": "Distribución de escaños",
   "ui.portrait.3b485b91230a": "Retrato oficial de archivo.",
-  "ui.portrait.ae845b736c5d": "Retrato oficial de la Cámara del 112.º Congreso (2011–2013)."
+  "ui.portrait.ae845b736c5d": "Retrato oficial de la Cámara del 112.º Congreso (2011–2013).",
+  "ui.architecture.86a63f23a076": "Exterior",
+  "ui.architecture.f7b6842fef37": "Hemiciclo",
+  "ui.architecture.ed3605a649f1": "Capitolio de EE. UU. · Exterior",
+  "ui.architecture.6d8e944f07cb": "Hemiciclo 3D · Arrastra para girar / Pellizca para ampliar"
 }
