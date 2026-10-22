@@ -27,6 +27,7 @@ async function exercise(mode) {
       let data = structuredClone(files.get(name));
       if (mode === 'old-interface' && name === 'locales/catalog.json') data = data.filter(item => item.source !== '改选全息虚影');
       if (mode === 'old-history-baseline' && name === 'data/evidence.json') delete data.historicalBaselines;
+      if (mode === 'old-model-quote-interface' && name === 'locales/catalog.json') data = data.filter(item => item.source !== '主要候选人 · 模型胜率');
       if (name === 'data/seats.json') data.asOf = 'API_TEST_VERSION';
       return Response.json(data);
     }
@@ -79,6 +80,7 @@ async function exercise(mode) {
 
 test('all data and languages use one pinned snapshot', () => exercise('success'));
 test('one failed document switches the entire session to static data', () => exercise('partial-failure'));
+test('older API translations fall back as a unit during the model-quote interface deployment', () => exercise('old-model-quote-interface'));
 test('a mismatched history snapshot also falls back as a unit', () => exercise('mixed-history'));
 test('pure static hosting works with a complete hash-verified release', () => exercise('static-success'));
 test('a same-length changed locale rejects the whole static release and displays an error', () => exercise('static-mixed-version'));

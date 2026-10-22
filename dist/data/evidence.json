@@ -17246,5 +17246,157 @@
         }
       ]
     }
-  }
+  },
+  "modelProbabilityQuotes": [
+    {
+      "seatId": "S-MI-2",
+      "electionYear": 2026,
+      "electionType": "regular",
+      "metric": "winProbability",
+      "unit": "probability-0-1",
+      "coverage": "selected-named-candidates",
+      "model": "Split Ticket / The Argument",
+      "source": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model",
+      "tableSource": "https://datawrapper.dwcdn.net/Hus3x/14/",
+      "observedAt": "2026-10-22T14:21:13Z",
+      "modelUpdatedAt": null,
+      "candidates": [
+        {
+          "name": "Abdul El-Sayed",
+          "party": "D",
+          "value": 0.75
+        },
+        {
+          "name": "Mike Rogers",
+          "party": "R",
+          "value": 0.25
+        }
+      ]
+    },
+    {
+      "seatId": "S-OH-3",
+      "electionYear": 2026,
+      "electionType": "special",
+      "metric": "winProbability",
+      "unit": "probability-0-1",
+      "coverage": "selected-named-candidates",
+      "model": "Split Ticket / The Argument",
+      "source": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model",
+      "tableSource": "https://datawrapper.dwcdn.net/Hus3x/14/",
+      "observedAt": "2026-10-22T14:21:13Z",
+      "modelUpdatedAt": null,
+      "candidates": [
+        {
+          "name": "Sherrod Brown",
+          "party": "D",
+          "value": 0.66
+        },
+        {
+          "name": "Jon Husted",
+          "party": "R",
+          "value": 0.34
+        }
+      ]
+    },
+    {
+      "seatId": "S-ME-2",
+      "electionYear": 2026,
+      "electionType": "regular",
+      "metric": "winProbability",
+      "unit": "probability-0-1",
+      "coverage": "selected-named-candidates",
+      "model": "Split Ticket / The Argument",
+      "source": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model",
+      "tableSource": "https://datawrapper.dwcdn.net/Hus3x/14/",
+      "observedAt": "2026-10-22T14:21:13Z",
+      "modelUpdatedAt": null,
+      "candidates": [
+        {
+          "name": "Troy Jackson",
+          "party": "D",
+          "value": 0.63
+        },
+        {
+          "name": "Susan Collins",
+          "party": "R",
+          "value": 0.37
+        }
+      ]
+    },
+    {
+      "seatId": "S-AK-2",
+      "electionYear": 2026,
+      "electionType": "regular",
+      "metric": "winProbability",
+      "unit": "probability-0-1",
+      "coverage": "selected-named-candidates",
+      "model": "Split Ticket / The Argument",
+      "source": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model",
+      "tableSource": "https://datawrapper.dwcdn.net/Hus3x/14/",
+      "observedAt": "2026-10-22T14:21:13Z",
+      "modelUpdatedAt": null,
+      "candidates": [
+        {
+          "name": "Mary Peltola",
+          "party": "D",
+          "value": 0.67
+        },
+        {
+          "name": "Dan Sullivan",
+          "party": "R",
+          "value": 0.33
+        }
+      ]
+    },
+    {
+      "seatId": "S-TX-2",
+      "electionYear": 2026,
+      "electionType": "regular",
+      "metric": "winProbability",
+      "unit": "probability-0-1",
+      "coverage": "selected-named-candidates",
+      "model": "Split Ticket / The Argument",
+      "source": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model",
+      "tableSource": "https://datawrapper.dwcdn.net/Hus3x/14/",
+      "observedAt": "2026-10-22T14:21:13Z",
+      "modelUpdatedAt": null,
+      "candidates": [
+        {
+          "name": "James Talarico",
+          "party": "D",
+          "value": 0.72
+        },
+        {
+          "name": "Ken Paxton",
+          "party": "R",
+          "value": 0.28
+        }
+      ]
+    },
+    {
+      "seatId": "S-IA-2",
+      "electionYear": 2026,
+      "electionType": "regular",
+      "metric": "winProbability",
+      "unit": "probability-0-1",
+      "coverage": "selected-named-candidates",
+      "model": "Split Ticket / The Argument",
+      "source": "https://www.theargumentmag.com/p/split-ticket-2026-midterms-model",
+      "tableSource": "https://datawrapper.dwcdn.net/Hus3x/14/",
+      "observedAt": "2026-10-22T14:21:13Z",
+      "modelUpdatedAt": null,
+      "candidates": [
+        {
+          "name": "Josh Turek",
+          "party": "D",
+          "value": 0.5
+        },
+        {
+          "name": "Ashley Hinson",
+          "party": "R",
+          "value": 0.5
+        }
+      ]
+    }
+  ]
 }

@@ -1909,5 +1909,15 @@
   "t1226": "States with competitive seats",
   "t1227": "The historical base uses party affiliation from the last election result, without inferring caucuses for independents. The 2026 categories retain independent identity markers.",
   "t1228": "The Senate base includes 31 seats last elected in 2020, 35 in 2022 and 34 in 2024. It is not 100 elections in 2024 or a roster of officeholders on a particular day.",
-  "t1229": "Historical result sources"
+  "t1229": "Historical result sources",
+  "mq0001": "Leading candidates · Model win probability",
+  "mq0002": "Model win probability",
+  "mq0003": "Model source and timing",
+  "mq0004": "Checked at",
+  "mq0005": "Model updated at",
+  "mq0006": "Not provided by the source",
+  "mq0007": "Only verified leading-candidate figures are quoted; other candidates’ probabilities are unknown.",
+  "mq0008": "Model win probability is not vote share; these six races are not aggregated into a chamber-wide forecast.",
+  "mq0009": "Original model table",
+  "mq0010": "No sourced model win probability is recorded yet."
 }

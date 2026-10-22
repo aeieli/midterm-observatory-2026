@@ -1909,5 +1909,15 @@
   "t1226": "Estados con escaños competitivos",
   "t1227": "La base histórica usa el partido del último resultado electoral, sin inferir bloques para los independientes. Las categorías de 2026 conservan su identificación independiente.",
   "t1228": "La base del Senado incluye 31 escaños elegidos en 2020, 35 en 2022 y 34 en 2024. No son 100 elecciones en 2024 ni una lista de titulares de un día concreto.",
-  "t1229": "Fuentes de resultados históricos"
+  "t1229": "Fuentes de resultados históricos",
+  "mq0001": "Principales candidatos · Probabilidad de victoria del modelo",
+  "mq0002": "Probabilidad de victoria del modelo",
+  "mq0003": "Fuente y fechas del modelo",
+  "mq0004": "Verificado el",
+  "mq0005": "Actualización del modelo",
+  "mq0006": "No indicado por la fuente",
+  "mq0007": "Solo se citan cifras verificadas de los principales candidatos; se desconocen las probabilidades de los demás candidatos.",
+  "mq0008": "La probabilidad de victoria del modelo no es el porcentaje de votos; estas seis contiendas no se agregan en una previsión para toda la cámara.",
+  "mq0009": "Tabla original del modelo",
+  "mq0010": "Aún no se ha registrado una probabilidad de victoria de un modelo con fuente."
 }

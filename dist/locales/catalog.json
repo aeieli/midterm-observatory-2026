@@ -9525,5 +9525,55 @@
     "id": "t1229",
     "source": "历史结果来源",
     "kind": "explorer"
+  },
+  {
+    "id": "mq0001",
+    "source": "主要候选人 · 模型胜率",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0002",
+    "source": "模型胜率",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0003",
+    "source": "模型来源与时间",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0004",
+    "source": "核查时间",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0005",
+    "source": "模型更新时间",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0006",
+    "source": "来源未提供",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0007",
+    "source": "仅引用已核对的主要候选人；其他候选人概率未知。",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0008",
+    "source": "模型胜率不等于得票率；不会把这六场样本汇总为全院预测。",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0009",
+    "source": "模型原表",
+    "kind": "model-quote"
+  },
+  {
+    "id": "mq0010",
+    "source": "尚未收录来源模型胜率。",
+    "kind": "model-quote"
   }
 ]

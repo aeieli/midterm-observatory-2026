@@ -1909,5 +1909,15 @@
   "t1226": "États avec sièges disputés",
   "t1227": "La base historique utilise le parti lors du dernier résultat électoral, sans déduire le groupe des indépendants. Les catégories 2026 conservent leur marqueur indépendant.",
   "t1228": "La base du Sénat comprend 31 sièges élus en 2020, 35 en 2022 et 34 en 2024. Ce ne sont ni 100 élections en 2024 ni une liste des titulaires à une date précise.",
-  "t1229": "Sources des résultats historiques"
+  "t1229": "Sources des résultats historiques",
+  "mq0001": "Principaux candidats · Probabilité de victoire du modèle",
+  "mq0002": "Probabilité de victoire du modèle",
+  "mq0003": "Source et dates du modèle",
+  "mq0004": "Vérifié le",
+  "mq0005": "Mise à jour du modèle",
+  "mq0006": "Non indiqué par la source",
+  "mq0007": "Seuls les chiffres vérifiés des principaux candidats sont cités ; les probabilités des autres candidats sont inconnues.",
+  "mq0008": "La probabilité de victoire du modèle n’est pas la part des voix ; ces six scrutins ne sont pas agrégés en une prévision pour toute la chambre.",
+  "mq0009": "Tableau original du modèle",
+  "mq0010": "Aucune probabilité de victoire issue d’un modèle sourcé n’est encore enregistrée."
 }
