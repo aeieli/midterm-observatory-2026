@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-22T01:33:00Z",
+  "asOf": "2026-10-25T07:47:32Z",
   "title": "2026 美国中期选举观察",
   "ratings": [
     {
@@ -109,7 +109,7 @@
       "rating": "likely-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -120,7 +120,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -131,7 +131,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -142,7 +142,7 @@
       "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -153,7 +153,7 @@
       "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -175,7 +175,7 @@
       "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -186,7 +186,7 @@
       "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -208,7 +208,7 @@
       "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "special"
     },
@@ -219,7 +219,7 @@
       "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null,
       "electionType": "regular"
     },
@@ -575,7 +575,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null
     },
     {
@@ -595,7 +595,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null
     },
     {
@@ -655,7 +655,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null
     },
     {
@@ -665,7 +665,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null
     },
     {
@@ -685,7 +685,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null
     },
     {
@@ -725,7 +725,7 @@
       "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null
     },
     {
@@ -782,11 +782,14 @@
       "chamber": "house",
       "state": "OH",
       "district": "07",
-      "rating": "tossup",
+      "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-25T07:46:46Z",
+      "publishedAt": null,
+      "sourceEventDate": "2026-10-24",
+      "observedAt": "2026-10-25T07:46:46Z",
+      "note": "RCP在10月24日将OH-07由胶着改为倾向民主党，10月25日核验。来源此前于10月20日作过反向调整；这仍是类别变化，不是确定结果。"
     },
     {
       "chamber": "house",
@@ -925,7 +928,7 @@
       "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "publishedAt": null
     },
     {
@@ -1152,11 +1155,14 @@
       "chamber": "house",
       "state": "NC",
       "district": "03",
-      "rating": "likely-R",
+      "rating": "lean-R",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-23T07:57:20Z",
+      "publishedAt": null,
+      "sourceEventDate": "2026-10-21",
+      "discoveredAt": "2026-10-23T07:52:00Z",
+      "note": "10月23日补录来源10月21日的NC-03变更：共和党优势降为倾向共和党。旧快照保留，机构众院总分布未变。"
     },
     {
       "chamber": "house",
@@ -1360,6 +1366,280 @@
       "asOf": "2026-10-22T01:31:00Z",
       "kind": "original-poll",
       "note": "原始PDF核验；与Marist等机构差异不是同一民调的日变化。"
+    },
+    {
+      "id": "ME-fox-oct22",
+      "state": "ME",
+      "pollster": "Fox News / Beacon Research and Shaw & Company Research",
+      "fieldStart": "2026-10-16",
+      "fieldEnd": "2026-10-20",
+      "publishedAt": "2026-10-22",
+      "sample": 1514,
+      "sampleType": "LV",
+      "dem": 49,
+      "rep": 49,
+      "demCandidate": "Troy Jackson",
+      "repCandidate": "Susan Collins",
+      "margin": 0,
+      "moe": 2.5,
+      "source": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-16-20-2026_maine_topline_october-22-release.pdf",
+      "mode": "州选民名册抽样；RV基础样本含226次固话、1,035次手机真人访谈及428份短信链接在线答卷。",
+      "weighting": "RV按年龄、种族、教育及地区加权；LV模型结合投票历史、兴趣、意向及人口特征。",
+      "note": "8月比较样本是RV，10月结果是LV，不能混用为同口径趋势。",
+      "asOf": "2026-10-23T07:57:20Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share",
+      "baseRegisteredVoters": 1689,
+      "releaseNotBefore": "2026-10-22T22:00:00Z"
+    },
+    {
+      "id": "TX-emerson-oct22",
+      "state": "TX",
+      "pollster": "Emerson College Polling / Nexstar Media",
+      "fieldStart": "2026-10-17",
+      "fieldEnd": "2026-10-19",
+      "publishedAt": null,
+      "sample": 1000,
+      "sampleType": "LV",
+      "dem": 48,
+      "rep": 46,
+      "demCandidate": "James Talarico",
+      "repCandidate": "Ken Paxton",
+      "margin": 2,
+      "moe": 3.1,
+      "source": "https://emersoncollegepolling.com/texas-2026-poll-toss-up/",
+      "mode": "短信链接在线、固话自动语音、Consensus Strategies概率面板及PureSpectrum在线面板；英语和西班牙语，面板参与者匹配Aristotle选民名册。",
+      "weighting": "按性别、教育及地区，参考人口普查和选民名册参数加权。",
+      "note": "机构报告±3.1个百分点可信区间。含未决定者倾向的49/48是同一样本；RCP列于10月22日，原页未显示发布时间。",
+      "asOf": "2026-10-23T07:57:20Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share",
+      "uncertaintyType": "reported-credibility-interval",
+      "sameSampleAlternative": {
+        "question": "Including undecided voters’ lean",
+        "dem": 49,
+        "rep": 48,
+        "other": 3,
+        "margin": 1
+      }
+    },
+    {
+      "id": "NC-harper-cj-oct22",
+      "state": "NC",
+      "pollster": "Harper Polling / Carolina Journal",
+      "fieldStart": "2026-10-18",
+      "fieldEnd": "2026-10-20",
+      "publishedAt": "2026-10-22",
+      "sample": 600,
+      "sampleType": "LV",
+      "dem": 49.4,
+      "rep": 39.1,
+      "demCandidate": "Roy Cooper",
+      "repCandidate": "Michael Whatley",
+      "margin": 10.3,
+      "moe": 4,
+      "source": "https://www.carolinajournal.com/wp-content/uploads/2026/10/H25035-CJ-NC-Oct26-Toplines.pdf",
+      "mode": "真人电话与短信链接在线调查。",
+      "weighting": "方法说明称样本人口构成匹配可能投票者群体；具体加权维度与目标未公开。",
+      "note": "领先差比9月列缩小4.8个百分点，仍高于+7/+4观察线；单份调查不足以确认结构变化。存在2024回忆票问题，不代表采用回忆票加权。",
+      "asOf": "2026-10-23T07:57:20Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share",
+      "releaseSource": "https://www.carolinajournal.com/polls/october-2026-coopers-lead-over-whatley-narrows-to-10-points-in-nc-senate-race/",
+      "sameSampleAlternative": {
+        "question": "Two-candidate ballot",
+        "dem": 51.6,
+        "rep": 42,
+        "margin": 9.6
+      },
+      "samePollsterPrevious": {
+        "month": "2026-09",
+        "dem": 49.2,
+        "rep": 34.1,
+        "margin": 15.1
+      }
+    },
+    {
+      "id": "NH-stanselm-oct22",
+      "state": "NH",
+      "pollster": "Saint Anselm College Survey Center",
+      "fieldStart": "2026-10-19",
+      "fieldEnd": "2026-10-20",
+      "publishedAt": "2026-10-22",
+      "sample": 1672,
+      "sampleType": "LV",
+      "dem": 50,
+      "rep": 43,
+      "demCandidate": "Chris Pappas",
+      "repCandidate": "John E. Sununu",
+      "margin": 7,
+      "moe": 2.4,
+      "source": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-democrats-leading-congressional-races-affordability-concerns-shape-election-landscape",
+      "mode": "从登记选民样本中随机抽取手机用户进行在线调查；候选人姓名顺序随机。",
+      "weighting": "按党派登记、年龄、性别、地区和教育，参考历史投票模式加权。",
+      "note": "候选人为John E. Sununu，不是Chris Sununu；数值及方法来自学院官方文章。",
+      "asOf": "2026-10-23T07:57:20Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "MI-insideradvantage-20261023",
+      "state": "MI",
+      "election": "2026 general",
+      "pollster": "InsiderAdvantage",
+      "fieldStart": "2026-10-21",
+      "fieldEnd": "2026-10-22",
+      "publishedAt": "2026-10-23",
+      "sample": 1200,
+      "sampleType": "LV",
+      "dem": 47,
+      "rep": 46,
+      "demCandidate": "Abdul El-Sayed",
+      "repCandidate": "Mike Rogers",
+      "margin": 1,
+      "moe": 2.83,
+      "mode": "短信与面板混合调查。",
+      "weighting": "按年龄、种族、性别和政治归属加权。",
+      "source": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+      "note": "原文称详细表暂未正常显示；完整问卷、招募、回应率、权重目标及LV筛选未取得。同一机构的一次发布包含三个州样本，不是三份独立全国证据。",
+      "asOf": "2026-10-24T07:54:00Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "IA-insideradvantage-20261023",
+      "state": "IA",
+      "election": "2026 general",
+      "pollster": "InsiderAdvantage",
+      "fieldStart": "2026-10-21",
+      "fieldEnd": "2026-10-22",
+      "publishedAt": "2026-10-23",
+      "sample": 1200,
+      "sampleType": "LV",
+      "dem": 45,
+      "rep": 47,
+      "demCandidate": "Josh Turek",
+      "repCandidate": "Ashley Hinson",
+      "margin": -2,
+      "moe": 2.83,
+      "mode": "短信与面板混合调查。",
+      "weighting": "按年龄、种族、性别和政治归属加权。",
+      "source": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+      "note": "原文称详细表暂未正常显示；完整问卷、招募、回应率、权重目标及LV筛选未取得。同一机构的一次发布包含三个州样本，不是三份独立全国证据。",
+      "asOf": "2026-10-24T07:54:00Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "OH-insideradvantage-20261023",
+      "state": "OH",
+      "election": "2026 Senate special",
+      "pollster": "InsiderAdvantage",
+      "fieldStart": "2026-10-21",
+      "fieldEnd": "2026-10-22",
+      "publishedAt": "2026-10-23",
+      "sample": 1200,
+      "sampleType": "LV",
+      "dem": 47,
+      "rep": 44,
+      "demCandidate": "Sherrod Brown",
+      "repCandidate": "Jon Husted",
+      "margin": 3,
+      "moe": 2.83,
+      "mode": "短信与面板混合调查。",
+      "weighting": "按年龄、种族、性别和政治归属加权。",
+      "source": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+      "note": "原文称详细表暂未正常显示；完整问卷、招募、回应率、权重目标及LV筛选未取得。同一机构的一次发布包含三个州样本，不是三份独立全国证据。",
+      "asOf": "2026-10-24T07:54:00Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "TX-TPOR-20261023",
+      "state": "TX",
+      "pollster": "Slingshot Strategies / Texas Public Opinion Research",
+      "sponsor": "Texas Public Opinion Research",
+      "fieldStart": "2026-10-15",
+      "fieldEnd": "2026-10-18",
+      "publishedAt": "2026-10-23",
+      "sample": 969,
+      "sampleType": "LV",
+      "dem": 50,
+      "rep": 45,
+      "demCandidate": "James Talarico",
+      "repCandidate": "Ken Paxton",
+      "otherCandidate": "Ted Brown (Libertarian)",
+      "other": 1,
+      "undecided": 3,
+      "margin": 5,
+      "moe": 3.9,
+      "moeConfidence": 95,
+      "mode": "在线面板调查。",
+      "weighting": "按性别、种族、年龄、教育、收入、地区及2024年投票回忆加权。",
+      "note": "展示原始Q22的50/45；后续Q24为50/46，强制选择Q26为51/47，三者来自同一份969人样本。未核验选民名册匹配或回忆票加权的无偏性；Q22未决定者加权占3%，后续未加权人数为53，两种口径分别保留。",
+      "source": "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+      "originalPDF": "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
+      "ballotStage": "baseQ22",
+      "headlineBallot": "finalForcedQ26",
+      "ballots": {
+        "baseQ22": {
+          "dem": 50,
+          "rep": 45,
+          "other": 1,
+          "undecided": 3
+        },
+        "intermediateQ24": {
+          "dem": 50,
+          "rep": 46,
+          "other": 2,
+          "undecided": 1
+        },
+        "finalForcedQ26": {
+          "dem": 51,
+          "rep": 47,
+          "other": 2,
+          "undecided": 0
+        }
+      },
+      "followUpUnweightedUndecided": 53,
+      "asOf": "2026-10-24T07:54:00Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "TX-rasmussen-2026-10-20-21",
+      "state": "TX",
+      "pollster": "Rasmussen Reports",
+      "fieldworkProvider": "Pulse Opinion Research LLC",
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-21",
+      "publishedAt": null,
+      "sourcePublicationDate": null,
+      "rcpListingDate": "2026-10-24",
+      "sample": 965,
+      "sampleType": "LV",
+      "dem": 45,
+      "rep": 45,
+      "demCandidate": "James Talarico",
+      "repCandidate": "Ken Paxton",
+      "otherCandidate": "Ted Brown",
+      "otherParty": "L",
+      "other": 5,
+      "undecided": 5,
+      "margin": 0,
+      "moe": 3,
+      "confidenceLevelPct": 95,
+      "mode": "原始发布称电话与在线调查；机构通用方法说明为自动电话加在线面板。",
+      "weighting": "机构通用方法提及年龄、种族、性别、党派等加权；本次德州权重目标、截尾、2024回忆票及LV筛选未核验。",
+      "note": "965名LV的一份三候选人调查：Talarico 45%、Paxton 45%、Ted Brown 5%、未定5%。不是强制两党选择。原始页未显示发布日期，RCP列于10月24日；会员人口细分未取得。",
+      "source": "https://www.rasmussenreports.com/public_content/archive/election_2026/texas_senate_paxton_talarico_now_tied",
+      "questionSource": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/questions/questions_texas_senate_october_20_21_2026",
+      "methodologySource": "https://www.rasmussenreports.com/public_content/about_us/methodology",
+      "asOf": "2026-10-25T07:46:46Z",
+      "observedAt": "2026-10-25T07:46:46Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share",
+      "ballotStage": "initial-three-candidate-question"
     }
   ],
   "history": [
@@ -1389,6 +1669,42 @@
       "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
       "kind": "generic-ballot-snapshot",
       "note": "本次公开页面复核；窗口仍为9月28日至10月19日。采集快照不代表单日选民变化。"
+    },
+    {
+      "date": "2026-10-23",
+      "dem": 50.5,
+      "rep": 42.4,
+      "margin": 8.1,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "10月23日采集快照；调查窗口为9月28日至10月20日。不是单日选民变化或席位预测。",
+      "observedAt": "2026-10-23T07:57:20Z",
+      "windowStart": "2026-09-28",
+      "windowEnd": "2026-10-20"
+    },
+    {
+      "date": "2026-10-24",
+      "dem": 50.5,
+      "rep": 42.4,
+      "margin": 8.1,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "10月24日采集快照；调查窗口仍为9月28日至10月20日，D+8.1与前次相同。",
+      "observedAt": "2026-10-24T07:54:00Z",
+      "windowStart": "2026-09-28",
+      "windowEnd": "2026-10-20"
+    },
+    {
+      "date": "2026-10-25",
+      "dem": 50.5,
+      "rep": 42.4,
+      "margin": 8.1,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "10月25日采集快照；调查窗口仍为9月28日至10月20日，D+8.1与前次相同。",
+      "observedAt": "2026-10-25T07:46:46Z",
+      "windowStart": "2026-09-28",
+      "windowEnd": "2026-10-20"
     }
   ],
   "ratingChanges": [
@@ -1446,6 +1762,43 @@
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up/race-changes",
       "kind": "publisher-rating-change",
       "note": "来源列出的评级变更日期，非本站每日预测。"
+    },
+    {
+      "id": "rcp-house-nc03-20261021-late-discovery",
+      "date": "2026-10-21",
+      "chamber": "house",
+      "state": "NC",
+      "district": "03",
+      "before": "likely-R",
+      "after": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": "2026-10-21",
+      "discoveredAt": "2026-10-23T07:52:00Z",
+      "verifiedAt": "2026-10-23T07:57:20Z",
+      "kind": "late-discovered-publisher-rating-change",
+      "note": "10月23日补录来源10月21日的NC-03变更：共和党优势降为倾向共和党。旧快照保留，机构众院总分布未变。"
+    },
+    {
+      "id": "rcp-house-oh07-20261024",
+      "date": "2026-10-24",
+      "seatId": "H-OH-07",
+      "chamber": "house",
+      "state": "OH",
+      "district": "07",
+      "before": "tossup",
+      "after": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": "2026-10-24",
+      "observedAt": "2026-10-25T07:46:46Z",
+      "kind": "publisher-rating-change",
+      "note": "RCP在10月24日将OH-07由胶着改为倾向民主党，10月25日核验。来源此前于10月20日作过反向调整；这仍是类别变化，不是确定结果。",
+      "priorSourceChange": {
+        "date": "2026-10-20",
+        "before": "lean-D",
+        "after": "tossup"
+      }
     }
   ],
   "news": [
@@ -1668,19 +2021,19 @@
       }
     },
     {
-      "date": "2026-10-22",
-      "publishedAt": "2026-10-22T01:59:49Z",
-      "title": "CNN报道：部分DHS选民调查受限，生效暂缓",
-      "summary": "CNN报道部分实地调查在九州受限，暂缓至10月23日周五下午生效。",
-      "status": "CNN报道及发布时间元数据已核验；签署命令与当前上诉状态仍待核验。",
-      "interpretation": "这是选务程序进展，与加州隔离选票案不同；尚未证实党派得票影响。",
-      "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/",
-      "kind": "legal-procedure-reported",
+      "date": "2026-10-21",
+      "publishedAt": null,
+      "title": "DHS九州调查：10月21日命令原件已核验",
+      "summary": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+      "status": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。",
+      "interpretation": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+      "source": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+      "kind": "legal-procedure",
       "id": "news-dhs-nine-states-20261022",
       "annotation": {
         "id": "news-dhs-nine-states-20261022",
         "priority": "high",
-        "priorityReason": "据报道临近的选务时点需要优先核验；选举影响尚未测定。",
+        "priorityReason": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
         "impactScope": [
           "admin",
           "state"
@@ -1706,31 +2059,123 @@
           "controlChange": null
         },
         "evidenceQuality": {
-          "level": "reported-primary-order-missing",
-          "note": "CNN报道及发布时间元数据已核验；签署命令与当前上诉状态仍待核验。"
+          "level": "primary-verified",
+          "note": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。"
         },
         "contentType": "fact-with-separate-analysis",
-        "factStatus": "reported-order",
-        "publishedDate": "2026-10-22",
-        "publishedAt": "2026-10-22T01:59:49Z",
+        "factStatus": "signed-order-verified",
+        "publishedDate": null,
+        "publishedAt": null,
         "eventDate": "2026-10-21",
         "fieldStart": null,
         "fieldEnd": null,
-        "freshness": "post-baseline-report",
-        "recheckTrigger": "在报道所称周五下午生效前，核验签署命令、准确范围、生效时间及上诉暂缓。",
-        "reviewedAt": "2026-10-22T09:11:00Z",
-        "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/",
-        "eventDateBasis": "Wednesday order date as reported by CNN; not independently checked against signed order",
+        "freshness": "already-in-baseline",
+        "recheckTrigger": "继续核验保证金支付、后续暂缓或上诉命令，以及实际执行状态。",
+        "reviewedAt": "2026-10-24T07:54:00Z",
+        "source": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+        "eventDateBasis": "signed-order-date",
         "storyGroup": "California-Nurses-Association-v-Mullin-4:26-cv-10680",
         "reportedEffectiveDate": "2026-10-23",
         "reportedEffectiveTime": "afternoon",
         "effectiveAt": null,
         "effectiveTimezone": null,
-        "effectiveStatus": "reported-stayed-until-Friday-afternoon",
-        "signedOrderVerified": false,
+        "effectiveStatus": "not-verified",
+        "signedOrderVerified": true,
         "appealStatusVerified": false,
-        "statewideBallotFreezeClaimed": false
-      }
+        "statewideBallotFreezeClaimed": false,
+        "stayUntilPrinted": "2026-10-23 17:00",
+        "stayTimezoneInOrder": null,
+        "bond": {
+          "USD": 100,
+          "deadlinePrinted": "2026-10-22 17:00",
+          "paymentVerified": false
+        },
+        "expiryPrinted": "2026-11-03 20:00 or when polling places close, or further court order",
+        "stayDeadlineElapsed": true
+      },
+      "previousReporting": {
+        "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/",
+        "publishedAt": "2026-10-22T01:59:49Z"
+      },
+      "priorObservations": [
+        {
+          "date": "2026-10-21",
+          "publishedAt": null,
+          "title": "DHS九州调查：10月21日命令原件已核验",
+          "summary": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+          "status": "签署命令已核验；暂缓到10月23日17:00，原文未标时区。100美元保证金支付及后续上诉命令未核验，不确认已生效。",
+          "interpretation": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+          "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+          "kind": "legal-procedure",
+          "id": "news-dhs-nine-states-20261022",
+          "annotation": {
+            "id": "news-dhs-nine-states-20261022",
+            "priority": "high",
+            "priorityReason": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+            "impactScope": [
+              "admin",
+              "state"
+            ],
+            "affected": {
+              "states": [
+                "CA",
+                "CT",
+                "GA",
+                "MO",
+                "NV",
+                "NY",
+                "PA",
+                "WA",
+                "WI"
+              ],
+              "races": []
+            },
+            "controlJudgment": "unchanged",
+            "direction": {
+              "assessment": "not-established",
+              "trendChange": null,
+              "controlChange": null
+            },
+            "evidenceQuality": {
+              "level": "primary-verified",
+              "note": "签署命令已核验；暂缓到10月23日17:00，原文未标时区。100美元保证金支付及后续上诉命令未核验，不确认已生效。"
+            },
+            "contentType": "fact-with-separate-analysis",
+            "factStatus": "signed-order-verified",
+            "publishedDate": null,
+            "publishedAt": null,
+            "eventDate": "2026-10-21",
+            "fieldStart": null,
+            "fieldEnd": null,
+            "freshness": "already-in-baseline",
+            "recheckTrigger": "继续核验保证金支付、后续暂缓或上诉命令，以及实际执行状态。",
+            "reviewedAt": "2026-10-23T07:58:00Z",
+            "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+            "eventDateBasis": "signed-order-date",
+            "storyGroup": "California-Nurses-Association-v-Mullin-4:26-cv-10680",
+            "reportedEffectiveDate": "2026-10-23",
+            "reportedEffectiveTime": "afternoon",
+            "effectiveAt": null,
+            "effectiveTimezone": null,
+            "effectiveStatus": "not-verified",
+            "signedOrderVerified": true,
+            "appealStatusVerified": false,
+            "statewideBallotFreezeClaimed": false,
+            "stayUntilPrinted": "2026-10-23 17:00",
+            "stayTimezoneInOrder": null,
+            "bond": {
+              "USD": 100,
+              "deadlinePrinted": "2026-10-22 17:00",
+              "paymentVerified": false
+            },
+            "expiryPrinted": "2026-11-03 20:00 or when polling places close, or further court order"
+          },
+          "previousReporting": {
+            "source": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/",
+            "publishedAt": "2026-10-22T01:59:49Z"
+          }
+        }
+      ]
     },
     {
       "date": "2026-10-21",
@@ -1789,6 +2234,415 @@
         "hearingAt": null,
         "hearingDateVerified": false,
         "publishedAtPrecision": "not-verified"
+      }
+    },
+    {
+      "id": "news-ca-appeal-20261022",
+      "date": "2026-10-22",
+      "title": "加州选票案：DOJ提交上诉通知",
+      "summary": "10月22日，DOJ称地区法院未在其要求的中午期限前裁定TRO，主张这构成推定拒绝，遂向第九巡回提出上诉。法院章与签名日期为10月22日。",
+      "status": "上诉通知原件已核验；未取得签署的地院TRO裁决或上诉法院禁令、暂缓命令。",
+      "interpretation": "上诉是当事人的程序行动，不等于法院已经支持其主张或改变选票规则。",
+      "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+      "kind": "legal-procedure",
+      "annotation": {
+        "id": "news-ca-appeal-20261022",
+        "priority": "high",
+        "priorityReason": "上诉是当事人的程序行动，不等于法院已经支持其主张或改变选票规则。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-filing-verified",
+          "note": "上诉通知原件已核验；未取得签署的地院TRO裁决或上诉法院禁令、暂缓命令。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "filed-notice-verified",
+        "publishedDate": "2026-10-22",
+        "publishedAt": null,
+        "eventDate": "2026-10-22",
+        "freshness": "post-baseline-report",
+        "reviewedAt": "2026-10-23T07:58:00Z",
+        "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+        "recheckTrigger": "核验下一份签署法院命令；10月27日听证尚未由签署排期命令独立确认。",
+        "reliefGrantedVerified": false,
+        "storyGroup": "USA-v-California-2:26-cv-12025-DOC-ADS"
+      }
+    },
+    {
+      "id": "news-cook-house-20261023",
+      "date": "2026-10-23",
+      "title": "Cook：19席评级向民主党调整",
+      "summary": "10月23日Cook众院分类为民主党倾向220席、胶着17席、共和党倾向198席。编辑Erin Covey另给出民主党227—237席的预测范围；这不是置信区间。",
+      "status": "Cook公开索引给出220/17/198及19项调整，270toWin的Cook专属表交叉核实分组；其中仅8项变更已逐项核验。没有完整上一期Cook快照，不计算首次跨越多数或跨日席位增量。",
+      "interpretation": "这加强既有民主党占优判断，并未反转判断；220是倾向类别总数，不是已赢席位。当前逐席图继续使用RCP，不混合两家机构。",
+      "source": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+      "kind": "public-source-report",
+      "annotation": {
+        "id": "news-cook-house-20261023",
+        "priority": "high",
+        "priorityReason": "这加强既有民主党占优判断，并未反转判断；220是倾向类别总数，不是已赢席位。当前逐席图继续使用RCP，不混合两家机构。",
+        "impactScope": [
+          "control-judgment",
+          "race"
+        ],
+        "affected": {
+          "states": [],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "publisher-snapshot-verified",
+          "note": "Cook公开索引给出220/17/198及19项调整，270toWin的Cook专属表交叉核实分组；其中仅8项变更已逐项核验。没有完整上一期Cook快照，不计算首次跨越多数或跨日席位增量。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "verified-source",
+        "publishedDate": "2026-10-23",
+        "publishedAt": null,
+        "eventDate": "2026-10-23",
+        "freshness": "post-baseline-report",
+        "firstObservedAt": "2026-10-24T07:54:00Z",
+        "reviewedAt": "2026-10-24T07:54:00Z",
+        "source": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "recheckTrigger": "核验其余11项调整、后续同机构快照和独立选区民调。",
+        "confidenceAssessment": "strengthened-democratic-favored",
+        "publisherObservationId": "cook-house-20261023-observed-20261024"
+      }
+    },
+    {
+      "id": "news-senate-polls-20261023",
+      "date": "2026-10-23",
+      "title": "参院新民调：密歇根、艾奥瓦、俄亥俄和德州",
+      "summary": "InsiderAdvantage的LV结果按D/R为MI 47/46、IA 45/47、OH补选47/44，各州样本1,200人。德州TPOR原题为50/45，强制选择题为51/47，来自同一份969人样本。",
+      "status": "原文称详细表暂未正常显示；完整问卷、招募、回应率、权重目标及LV筛选未取得。同一机构的一次发布包含三个州样本，不是三份独立全国证据。",
+      "interpretation": "新样本显示不同州的竞争状况，尚不足以改变参院控制权判断；不把同机构多州样本或同一调查的多种问法当作重复独立证据。",
+      "source": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+      "kind": "public-source-report",
+      "annotation": {
+        "id": "news-senate-polls-20261023",
+        "priority": "medium",
+        "priorityReason": "新样本显示不同州的竞争状况，尚不足以改变参院控制权判断；不把同机构多州样本或同一调查的多种问法当作重复独立证据。",
+        "impactScope": [
+          "race",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "MI",
+            "IA",
+            "OH",
+            "TX"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "原文称详细表暂未正常显示；完整问卷、招募、回应率、权重目标及LV筛选未取得。同一机构的一次发布包含三个州样本，不是三份独立全国证据。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "verified-source",
+        "publishedDate": "2026-10-23",
+        "publishedAt": null,
+        "eventDate": "2026-10-23",
+        "freshness": "post-baseline-report",
+        "firstObservedAt": "2026-10-24T07:54:00Z",
+        "reviewedAt": "2026-10-24T07:54:00Z",
+        "source": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+        "recheckTrigger": "取得完整方法表，并比较同口径、不同机构的后续调查。",
+        "pollIds": [
+          "MI-insideradvantage-20261023",
+          "IA-insideradvantage-20261023",
+          "OH-insideradvantage-20261023",
+          "TX-TPOR-20261023"
+        ],
+        "sources": [
+          "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+          "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+          "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view"
+        ]
+      }
+    },
+    {
+      "id": "news-ak-certification-complaint-20261022",
+      "date": "2026-10-22",
+      "title": "阿拉斯加：DOJ请求有条件阻止参院结果认证",
+      "summary": "10月22日诉状请求：若现任Dan S. Sullivan败选，而把投给Daniel J. Sullivan的票假设改投现任并按排名选择制重计后会使现任获胜，则在调查选票意图及进一步程序前阻止认证。两名Sullivan是不同人。",
+      "status": "已读法院盖章诉状；所谓故意混淆和误投是司法部指控，并非已证明事实。10月24日补录的是10月22日申请。",
+      "interpretation": "这是需要关注的认证程序风险，尚无法院准予救济的命令，不据此改变数值胜率或判断席位已定。",
+      "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/1-2026-10-22-Complaint.pdf",
+      "kind": "public-source-report",
+      "annotation": {
+        "id": "news-ak-certification-complaint-20261022",
+        "priority": "high",
+        "priorityReason": "这是需要关注的认证程序风险，尚无法院准予救济的命令，不据此改变数值胜率或判断席位已定。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "AK"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-filing-verified",
+          "note": "已读法院盖章诉状；所谓故意混淆和误投是司法部指控，并非已证明事实。10月24日补录的是10月22日申请。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "filed-complaint-verified",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-22",
+        "freshness": "post-baseline-report",
+        "firstObservedAt": "2026-10-24T07:54:00Z",
+        "reviewedAt": "2026-10-24T07:54:00Z",
+        "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/1-2026-10-22-Complaint.pdf",
+        "recheckTrigger": "核验后续签署命令、暂缓及实际执行状态。",
+        "case": "3:26-cv-00376-SLG",
+        "filingNumber": [
+          "1"
+        ],
+        "currentCourtOutcome": null,
+        "reliefGrantedVerified": false
+      }
+    },
+    {
+      "id": "news-nh-student-id-stay-20261022",
+      "date": "2026-10-22",
+      "title": "新罕布什尔：最高法院暂缓学生证补充用途禁令",
+      "summary": "最高法院10月22日暂缓下级法院的初步禁令，允许州继续执行排除学生证补充身份核验用途的指引，等待上诉及调卷程序。这不是所有学生丧失投票资格，也不是法律实体合宪判决。",
+      "status": "已核验10月22日最高法院命令，暂缓持续至相关上诉和及时提出的调卷申请处理。Jackson提出异议，完整票数未公布；本次是旧事件补录。",
+      "interpretation": "证件规则执行受到实际影响；受影响人数和净票数尚未核验，不据此推导参院胜率。",
+      "source": "https://www.supremecourt.gov/opinions/26pdf/26a512_new_daeh.pdf",
+      "kind": "public-source-report",
+      "annotation": {
+        "id": "news-nh-student-id-stay-20261022",
+        "priority": "high",
+        "priorityReason": "证件规则执行受到实际影响；受影响人数和净票数尚未核验，不据此推导参院胜率。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "NH"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "已核验10月22日最高法院命令，暂缓持续至相关上诉和及时提出的调卷申请处理。Jackson提出异议，完整票数未公布；本次是旧事件补录。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "operative-stay-not-final-merits",
+        "publishedDate": "2026-10-22",
+        "publishedAt": null,
+        "eventDate": "2026-10-22",
+        "freshness": "post-baseline-report",
+        "firstObservedAt": "2026-10-24T07:54:00Z",
+        "reviewedAt": "2026-10-24T07:54:00Z",
+        "source": "https://www.supremecourt.gov/opinions/26pdf/26a512_new_daeh.pdf",
+        "recheckTrigger": "核验后续签署命令、暂缓及实际执行状态。",
+        "case": "26A512",
+        "signedOrderVerified": true,
+        "fullVoteTally": null,
+        "lowerCourtSource": "https://www.nhd.uscourts.gov/sites/default/files/Opinions/2026/26NH119.pdf"
+      }
+    },
+    {
+      "id": "news-ca-appeal-motion-20261023",
+      "date": "2026-10-23",
+      "title": "加州：DOJ申请上诉期间禁令，州方反对",
+      "summary": "法院官方索引列出10月23日的DOJ申请（76）和州方反对意见（79）。州方主张不存在可上诉的拒绝命令；这是当事人论证，不是法院裁决。",
+      "status": "文件信息来自官方法院索引；全文尚未取得，未核验法院准予救济。",
+      "interpretation": "申请与反对意见增加程序进展，尚不能写成已经生效的禁令或计票限制。",
+      "source": "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+      "kind": "public-source-report",
+      "annotation": {
+        "id": "news-ca-appeal-motion-20261023",
+        "priority": "medium",
+        "priorityReason": "申请与反对意见增加程序进展，尚不能写成已经生效的禁令或计票限制。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "official-index-verified",
+          "note": "文件信息来自官方法院索引；全文尚未取得，未核验法院准予救济。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "official-indexed-filings",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-23",
+        "freshness": "post-baseline-report",
+        "firstObservedAt": "2026-10-24T07:54:00Z",
+        "reviewedAt": "2026-10-24T07:54:00Z",
+        "source": "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+        "recheckTrigger": "核验后续签署命令、暂缓及实际执行状态。",
+        "case": "2:26-cv-12025-DOC-ADS",
+        "filingNumber": [
+          "76",
+          "79"
+        ],
+        "otherSource": "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+        "fullTextVerified": false,
+        "currentCourtOutcome": null
+      }
+    },
+    {
+      "id": "news-rcp-oh07-20261024",
+      "date": "2026-10-24",
+      "title": "RCP：OH-07改为倾向民主党",
+      "summary": "10月24日OH-07由胶着改为倾向民主党，RCP众院总数为227 D、21胶着、187 R。参院46/8/46及泛国会票D+8.1未变；Cook仍单列220/17/198。",
+      "status": "RCP在10月24日将OH-07由胶着改为倾向民主党，10月25日核验。来源此前于10月20日作过反向调整；这仍是类别变化，不是确定结果。",
+      "interpretation": "一席分类调整支持既有众院民主党较有利方向，未形成新的控制权结构变化，也不是已经赢得该席。",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "kind": "public-source-report",
+      "annotation": {
+        "id": "news-rcp-oh07-20261024",
+        "priority": "medium",
+        "priorityReason": "一席分类调整支持既有众院民主党较有利方向，未形成新的控制权结构变化，也不是已经赢得该席。",
+        "impactScope": [
+          "race",
+          "control-judgment"
+        ],
+        "affected": {
+          "states": [
+            "OH"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "publisher-snapshot-verified",
+          "note": "RCP在10月24日将OH-07由胶着改为倾向民主党，10月25日核验。来源此前于10月20日作过反向调整；这仍是类别变化，不是确定结果。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "publisher-rating-change",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-24",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-25T07:46:46Z",
+        "reviewedAt": "2026-10-25T07:46:46Z",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "recheckTrigger": "继续核验同机构逐席变更和独立选区证据，分别保留各来源口径。",
+        "ratingChangeId": "rcp-house-oh07-20261024"
+      }
+    },
+    {
+      "id": "news-ca-tro-schedule-20261023",
+      "date": "2026-10-23",
+      "title": "加州：法院确认TRO书面意见与听证排程",
+      "summary": "10月23日Dkt85命令规定：反对意见于10月24日15:00 PT截止，综合答复于10月25日15:00 PT截止，10月27日口头辩论后再作裁定。",
+      "status": "法院官方两页命令已核验，仅规定书面意见期限与听证安排，未授予请求的救济。",
+      "interpretation": "已确认的是审理日程，不是准许禁令；尚无新获核验的生效选举规则变化。",
+      "source": "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
+      "kind": "public-source-report",
+      "annotation": {
+        "id": "news-ca-tro-schedule-20261023",
+        "priority": "medium",
+        "priorityReason": "已确认的是审理日程，不是准许禁令；尚无新获核验的生效选举规则变化。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "not-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "法院官方两页命令已核验，仅规定书面意见期限与听证安排，未授予请求的救济。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "scheduling-order-verified",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-23",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-25T07:47:32Z",
+        "reviewedAt": "2026-10-25T07:47:32Z",
+        "source": "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
+        "recheckTrigger": "核验听证后的签署裁定、实际救济范围和执行状态。",
+        "case": "2:26-cv-12025-DOC-ADS",
+        "filingNumber": [
+          "85"
+        ],
+        "signedOrderVerified": true,
+        "reliefGrantedVerified": false,
+        "schedule": {
+          "oppositionDueLocal": "2026-10-24 15:00",
+          "omnibusReplyDueLocal": "2026-10-25 15:00",
+          "deadlineTimezone": "America/Los_Angeles",
+          "deadlineTimezonePrinted": "PT",
+          "oralArgumentDate": "2026-10-27",
+          "oralArgumentTime": null,
+          "rulingAfterOralArgument": true
+        }
       }
     }
   ],
@@ -1899,14 +2753,25 @@
         "demParty": 32,
         "independentDemCaucus": 2,
         "rep": 31
-      }
+      },
+      "observedAt": "2026-10-25T07:46:46Z"
     },
     "house": {
-      "dem": 226,
-      "tossup": 22,
+      "dem": 227,
+      "tossup": 21,
       "rep": 187,
       "provider": "RealClearPolling",
-      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up"
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "segments": {
+        "solidD": 192,
+        "likelyD": 12,
+        "leanD": 23,
+        "tossup": 21,
+        "leanR": 14,
+        "likelyR": 17,
+        "solidR": 156
+      },
+      "observedAt": "2026-10-25T07:46:46Z"
     }
   },
   "coverage": {
@@ -1967,7 +2832,7 @@
       "publishedAt": null,
       "publishedDate": null,
       "eventDate": null,
-      "observedAt": "2026-10-22T08:28:00Z",
+      "observedAt": "2026-10-25T07:46:46Z",
       "timestampPrecision": "retrieval-minute-not-publication-time",
       "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
       "interpretationCardId": "house-outlook",
@@ -1996,7 +2861,7 @@
       "publishedAt": null,
       "publishedDate": null,
       "eventDate": null,
-      "observedAt": "2026-10-22T08:28:00Z",
+      "observedAt": "2026-10-25T07:46:46Z",
       "timestampPrecision": "retrieval-minute-not-publication-time",
       "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
       "interpretationCardId": "senate-path",
@@ -2015,13 +2880,19 @@
       ],
       "controlJudgment": "unchanged",
       "sourceNewsIds": [
-        "news-rcp-generic-20261022"
+        "news-rcp-generic-20261022",
+        "news-cook-house-20261023",
+        "news-rcp-oh07-20261024"
       ],
       "sources": [
         "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+        "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+        "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
         "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
       ],
-      "asOf": "2026-10-22T08:35:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2030,10 +2901,11 @@
         "nextCheck": "verification-trigger"
       },
       "title": "众院：民主党占优，不是结果",
-      "confirmedChange": "评级总数未变：RCP为226 D、22胶着、187 R；泛国会票领先差仍为D+8.3。",
-      "possibleEffect": "两者支持维持民主党更可能控制众院的定性判断，但没有证明哪些接近选区将决定多数。",
-      "counterevidenceOrUnknown": "类别不是胜率。逐区覆盖不完整，共同民调误差可能同时影响多场选举。",
-      "nextCheck": "下一步看评级变更及独立选区证据，而非重复未变的全国快照。"
+      "confirmedChange": "10月24日OH-07由胶着改为倾向民主党，RCP众院总数为227 D、21胶着、187 R。参院46/8/46及泛国会票D+8.1未变；Cook仍单列220/17/198。",
+      "possibleEffect": "一席分类调整支持既有众院民主党较有利方向，未形成新的控制权结构变化，也不是已经赢得该席。",
+      "counterevidenceOrUnknown": "Cook公开索引给出220/17/198及19项调整，270toWin的Cook专属表交叉核实分组；其中仅8项变更已逐项核验。没有完整上一期Cook快照，不计算首次跨越多数或跨日席位增量。",
+      "nextCheck": "继续核验同机构逐席变更和独立选区证据，分别保留各来源口径。",
+      "confidenceAssessment": "democratic-favored-no-new-structural-shift"
     },
     {
       "id": "senate-path",
@@ -2046,15 +2918,22 @@
       "controlJudgment": "unchanged",
       "sourceNewsIds": [
         "news-fox-tx-oh-20261021",
-        "news-mi-marist-20261021"
+        "news-mi-marist-20261021",
+        "news-senate-polls-20261023"
       ],
       "sources": [
+        "https://www.rasmussenreports.com/public_content/archive/election_2026/texas_senate_paxton_talarico_now_tied",
+        "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/questions/questions_texas_senate_october_20_21_2026",
+        "https://www.rasmussenreports.com/public_content/about_us/methodology",
+        "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+        "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+        "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
         "https://www.realclearpolling.com/maps/senate/2026/toss-up",
         "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
         "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
         "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
       ],
-      "asOf": "2026-10-22T08:35:00Z",
+      "asOf": "2026-10-25T07:46:46Z",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2063,10 +2942,10 @@
         "nextCheck": "verification-trigger"
       },
       "title": "参院：有机会，仍需完整路径",
-      "confirmedChange": "基线已含Fox德州平手、Brown俄亥俄领先及Marist密歇根小幅差距。RCP仍为46 D / 8胶着 / 46 R。",
-      "possibleEffect": "民主党有潜在翻席路径，也要守住竞争席位。有利民调说明值得跟踪，不等于席位已拿下。",
-      "counterevidenceOrUnknown": "Fox德州仍平手，密歇根仍接近。跨机构及RV/LV差异不是时间趋势；不能把所有胶着席划给一党。",
-      "nextCheck": "核验各多数路径相关州的独立LV重复证据，以及当前候选人与选票状态。"
+      "confirmedChange": "Rasmussen德州三候选人LV调查为45/45/5，另有5%未定。RCP参院评级仍为46 D、8胶着、46 R；当前九州民调均值另存快照，不计算未保存的昨日变化。",
+      "possibleEffect": "一份平手调查符合竞争激烈的判断，不能据此确认走势、翻席或固定结果。",
+      "counterevidenceOrUnknown": "机构通用方法提及年龄、种族、性别、党派等加权；本次德州权重目标、截尾、2024回忆票及LV筛选未核验。",
+      "nextCheck": "取得完整方法表，并比较同口径、不同机构的后续调查。"
     },
     {
       "id": "dhs-procedure",
@@ -2081,9 +2960,11 @@
         "news-dhs-nine-states-20261022"
       ],
       "sources": [
+        "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+        "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
         "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
       ],
-      "asOf": "2026-10-22T08:35:00Z",
+      "asOf": "2026-10-24T07:54:00Z",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2091,11 +2972,11 @@
         "counterevidenceOrUnknown": "editorial-analysis",
         "nextCheck": "verification-trigger"
       },
-      "title": "DHS：关注执行，不转成席位预测",
-      "confirmedChange": "CNN报道九州部分调查受限，暂缓至周五下午生效。报道晚于站点基线。",
-      "possibleEffect": "若按报道执行，将限制特定实地调查。即使没有可测党派效果，也具有选务意义。",
-      "counterevidenceOrUnknown": "签署命令、精确生效时刻及上诉暂缓未核验。不能推断受影响票数或控制权变化。",
-      "nextCheck": "在报道所称10月23日期限前核验命令和上诉状态；与加州选票案分开。"
+      "title": "DHS九州调查：10月21日命令原件已核验",
+      "confirmedChange": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+      "possibleEffect": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+      "counterevidenceOrUnknown": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。",
+      "nextCheck": "核验后续签署命令、暂缓及实际执行状态。"
     },
     {
       "id": "california-filing",
@@ -2108,14 +2989,21 @@
       "controlJudgment": "unchanged",
       "sourceNewsIds": [
         "news-ca-dismissal-20261021",
-        "news-ca-intervention-20261021"
+        "news-ca-intervention-20261021",
+        "news-ca-appeal-20261022",
+        "news-ca-appeal-motion-20261023",
+        "news-ca-tro-schedule-20261023"
       ],
       "sources": [
+        "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
+        "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+        "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+        "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
         "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
         "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
         "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
       ],
-      "asOf": "2026-10-22T08:35:00Z",
+      "asOf": "2026-10-25T07:47:32Z",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2123,11 +3011,11 @@
         "counterevidenceOrUnknown": "editorial-analysis",
         "nextCheck": "verification-trigger"
       },
-      "title": "加州：这是请求，不是法院胜诉",
-      "confirmedChange": "加州于10月21日提出驳回动议；该原始文件现补入证据集。",
-      "possibleEffect": "法院面前新增针对诉讼的挑战。后续命令可能改变案件范围，但提交请求本身不改变选票规则。",
-      "counterevidenceOrUnknown": "未核验到动议获准；最新签署TRO裁决仍待核验。目录所列听证日不等于已核验的裁决期限。",
-      "nextCheck": "读取下一份签署命令及排期通知，只按实际命令范围更新选务判断。"
+      "title": "加州：法院确认TRO书面意见与听证排程",
+      "confirmedChange": "10月23日Dkt85命令规定：反对意见于10月24日15:00 PT截止，综合答复于10月25日15:00 PT截止，10月27日口头辩论后再作裁定。",
+      "possibleEffect": "已确认的是审理日程，不是准许禁令；尚无新获核验的生效选举规则变化。",
+      "counterevidenceOrUnknown": "法院官方两页命令已核验，仅规定书面意见期限与听证安排，未授予请求的救济。",
+      "nextCheck": "核验听证后的签署裁定、实际救济范围和执行状态。"
     },
     {
       "id": "turnout-limits",
@@ -2140,9 +3028,11 @@
       "controlJudgment": "unchanged",
       "sourceNewsIds": [],
       "sources": [
-        "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv"
+        "https://www.ncsbe.gov/",
+        "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+        "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
       ],
-      "asOf": "2026-10-22T08:35:00Z",
+      "asOf": "2026-10-25T07:47:32Z",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2151,13 +3041,13 @@
         "nextCheck": "verification-trigger"
       },
       "title": "提前投票：参与量，不是候选人得票",
-      "confirmedChange": "已保存北卡官方文件总量为924,160，比前次快照增加190,861。",
-      "possibleEffect": "选举日前记录的参与量增加，可观察投票活动，但不能据此判断哪位候选人受益。",
-      "counterevidenceOrUnknown": "党派登记不是投票选择。文件内部截止时点与可比历史分母未核验；这不是每日得票率趋势。",
+      "confirmedChange": "北卡官网截至10月23日累计1,453,516票：提前现场1,395,124、缺席58,392，较前日同口径增加183,597。3,240行官方CSV合计一致；佐治亚仍保留10月20日旧快照。",
+      "possibleEffect": "同口径累计参与量增加，不代表候选人得票、投票率或党派结构已经变化。",
+      "counterevidenceOrUnknown": "CSV未标内部截止日期，不能假定与官网截止日相同；登记党派不是投票选择。佐治亚最新仪表盘数值尚未取得。",
       "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
     }
   ],
-  "annotationReviewedAt": "2026-10-22T09:11:00Z",
+  "annotationReviewedAt": "2026-10-25T07:47:32Z",
   "historicalBaselines": {
     "house2024": {
       "schemaVersion": 1,
@@ -17397,6 +18287,1507 @@
           "value": 0.5
         }
       ]
+    }
+  ],
+  "earlyVoting": [
+    {
+      "state": "NC",
+      "source": "https://www.ncsbe.gov/",
+      "dataThrough": "2026-10-21",
+      "observedAt": "2026-10-23T07:58:00Z",
+      "absenteeBallotsCast": 51096,
+      "earlyVotingBallotsCast": 1050225,
+      "totalBallotsCast": 1101321,
+      "csv": {
+        "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+        "observedAt": "2026-10-23T07:58:00Z",
+        "internalDataThrough": null,
+        "rowCount": 3240,
+        "total": 1101321,
+        "byRequestType": {
+          "CIVILIAN": 42996,
+          "EARLY VOTING": 1050225,
+          "MILITARY": 1111,
+          "ONE-STOP": 0,
+          "OVERSEAS": 6989
+        },
+        "byRegistrationParty": {
+          "CST": 0,
+          "DEM": 473965,
+          "GRE": 356,
+          "JFA": 0,
+          "LIB": 2113,
+          "NLB": 0,
+          "REP": 248121,
+          "UNA": 376766,
+          "WTP": 0
+        }
+      }
+    },
+    {
+      "state": "GA",
+      "source": "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes",
+      "publishedAt": "2026-10-20",
+      "dataThrough": "2026-10-20 noon local",
+      "observedAt": "2026-10-23T07:58:00Z",
+      "inPerson": 1007015,
+      "acceptedAbsentee": 48916,
+      "total": 1055931,
+      "newerDataVerified": false
+    },
+    {
+      "state": "NC",
+      "source": "https://www.ncsbe.gov/",
+      "dataThrough": "2026-10-22",
+      "observedAt": "2026-10-24T07:52:35Z",
+      "absenteeBallotsCast": 54888,
+      "earlyVotingBallotsCast": 1215031,
+      "totalBallotsCast": 1269919,
+      "csv": {
+        "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+        "observedAt": "2026-10-24T07:52:35Z",
+        "internalDataThrough": null,
+        "rowCount": 3240,
+        "total": 1269919,
+        "byRequestType": {
+          "CIVILIAN": 46335,
+          "EARLY VOTING": 1215031,
+          "MILITARY": 1203,
+          "ONE-STOP": 0,
+          "OVERSEAS": 7350
+        },
+        "byRegistrationParty": {
+          "CST": 0,
+          "DEM": 535972,
+          "GRE": 424,
+          "JFA": 0,
+          "LIB": 2507,
+          "NLB": 0,
+          "REP": 296478,
+          "UNA": 434538,
+          "WTP": 0
+        }
+      },
+      "previousComparableHomepage": {
+        "dataThrough": "2026-10-21",
+        "totalBallotsCast": 1101321,
+        "increase": 168598
+      }
+    },
+    {
+      "state": "NC",
+      "source": "https://www.ncsbe.gov/",
+      "dataThrough": "2026-10-23",
+      "observedAt": "2026-10-25T07:47:32Z",
+      "absenteeBallotsCast": 58392,
+      "earlyVotingBallotsCast": 1395124,
+      "totalBallotsCast": 1453516,
+      "previousComparableHomepage": {
+        "dataThrough": "2026-10-22",
+        "totalBallotsCast": 1269919,
+        "increase": 183597
+      },
+      "csv": {
+        "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+        "observedAt": "2026-10-25T07:47:32Z",
+        "internalDataThrough": null,
+        "rowCount": 3240,
+        "total": 1453516,
+        "byRequestType": {
+          "CIVILIAN": 49437,
+          "EARLY VOTING": 1395124,
+          "MILITARY": 1316,
+          "ONE-STOP": 0,
+          "OVERSEAS": 7639
+        }
+      }
+    }
+  ],
+  "researchCoverage": {
+    "checkedAt": "2026-10-25T07:47:32Z",
+    "ratingsAndPollsCheckedAt": "2026-10-25T07:46:46Z",
+    "controlJudgment": "unchanged",
+    "modelProbabilitiesRefreshed": false,
+    "candidateRostersFullyReverified": false,
+    "districtBoundariesFullyReverified": false,
+    "senatePartyLeadersReverified": false,
+    "georgiaLatestTurnoutVerified": false,
+    "houseConfidenceAssessment": "democratic-favored-no-new-structural-shift",
+    "senateControlJudgment": "unchanged",
+    "senateRosterFullyReverified": false,
+    "latestAKOperativeOrderVerified": false,
+    "dhsCurrentEffectivenessVerified": false
+  },
+  "publisherRatingObservations": [
+    {
+      "id": "cook-house-20261023-observed-20261024",
+      "provider": "Cook Political Report",
+      "chamber": "house",
+      "sourceEventDate": "2026-10-23",
+      "observedAt": "2026-10-24T07:54:00Z",
+      "source": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+      "secondaryMapUpdatedAt": "2026-10-23T17:26:00Z",
+      "dem": 220,
+      "tossup": 17,
+      "rep": 198,
+      "nonSafeSegments": {
+        "likelyD": 18,
+        "leanD": 16,
+        "tossup": 17,
+        "leanR": 17,
+        "likelyR": 13
+      },
+      "reportedChangeCount": 19,
+      "verifiedChangeCount": 8,
+      "fullChangeListVerified": false,
+      "priorSavedSnapshot": null,
+      "changes": [
+        {
+          "seatId": "H-AZ-06",
+          "state": "AZ",
+          "district": "06",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "tossup",
+          "after": "lean-D",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        },
+        {
+          "seatId": "H-CO-08",
+          "state": "CO",
+          "district": "08",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "tossup",
+          "after": "lean-D",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        },
+        {
+          "seatId": "H-NC-11",
+          "state": "NC",
+          "district": "11",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "tossup",
+          "after": "lean-D",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        },
+        {
+          "seatId": "H-TX-34",
+          "state": "TX",
+          "district": "34",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "tossup",
+          "after": "lean-D",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        },
+        {
+          "seatId": "H-VA-02",
+          "state": "VA",
+          "district": "02",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "tossup",
+          "after": "lean-D",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        },
+        {
+          "seatId": "H-WI-03",
+          "state": "WI",
+          "district": "03",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "tossup",
+          "after": "lean-D",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        },
+        {
+          "seatId": "H-KY-06",
+          "state": "KY",
+          "district": "06",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "lean-R",
+          "after": "tossup",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        },
+        {
+          "seatId": "H-TX-35",
+          "state": "TX",
+          "district": "35",
+          "chamber": "house",
+          "provider": "Cook Political Report",
+          "before": "lean-R",
+          "after": "tossup",
+          "sourceEventDate": "2026-10-23",
+          "observedAt": "2026-10-24T07:54:00Z",
+          "source": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+          "corroboration": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/"
+        }
+      ],
+      "forecastRange": {
+        "demSeatsMin": 227,
+        "demSeatsMax": 237,
+        "netGainMin": 12,
+        "netGainMax": 22,
+        "gainReferenceSeats": 215,
+        "kind": "editor-stated-range-not-confidence-interval",
+        "source": "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+        "publishedDate": "2026-10-23"
+      },
+      "priorityCurrentRatings": {
+        "H-AZ-06": "lean-D",
+        "H-CO-08": "lean-D",
+        "H-MI-07": "tossup",
+        "H-NJ-07": "lean-D",
+        "H-CA-22": "tossup",
+        "H-NY-17": "tossup",
+        "H-PA-07": "lean-D"
+      },
+      "currentTossupSeatIds": [
+        "H-CA-22",
+        "H-FL-14",
+        "H-FL-22",
+        "H-IA-02",
+        "H-KY-06",
+        "H-MI-04",
+        "H-MI-07",
+        "H-MI-10",
+        "H-MT-01",
+        "H-NC-01",
+        "H-NY-17",
+        "H-OH-07",
+        "H-OH-09",
+        "H-PA-08",
+        "H-TX-15",
+        "H-TX-35",
+        "H-VA-01"
+      ],
+      "sources": [
+        "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+        "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+        "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/"
+      ],
+      "note": "Cook公开索引给出220/17/198及19项调整，270toWin的Cook专属表交叉核实分组；其中仅8项变更已逐项核验。没有完整上一期Cook快照，不计算首次跨越多数或跨日席位增量。"
+    },
+    {
+      "id": "cook-house-table-recheck-20261025",
+      "provider": "Cook Political Report",
+      "chamber": "house",
+      "sourceEventDate": "2026-10-23",
+      "observedAt": "2026-10-25T07:46:46Z",
+      "source": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+      "secondaryMapUpdatedAt": "2026-10-23T17:26:00Z",
+      "priorObservationId": "cook-house-20261023-observed-20261024",
+      "dem": 220,
+      "tossup": 17,
+      "rep": 198,
+      "aggregateCountsVerifiedAt": "2026-10-24T07:54:00Z",
+      "verificationScope": "non-safe-categories-and-focus-seats-rechecked;aggregate-counts-retained",
+      "nonSafeSegments": {
+        "likelyD": 18,
+        "leanD": 16,
+        "tossup": 17,
+        "leanR": 17,
+        "likelyR": 13
+      },
+      "priorityCurrentRatings": {
+        "H-AZ-06": "lean-D",
+        "H-CO-08": "lean-D",
+        "H-MI-07": "tossup",
+        "H-NJ-07": "lean-D",
+        "H-CA-22": "tossup",
+        "H-NY-17": "tossup",
+        "H-PA-07": "lean-D"
+      },
+      "changeVsPrior": 0
+    }
+  ],
+  "dailyObservations": [
+    {
+      "observedAt": "2026-10-23T07:58:00Z",
+      "summary": {
+        "senate": {
+          "dem": 46,
+          "tossup": 8,
+          "rep": 46,
+          "provider": "RealClearPolling",
+          "includesNotUp": true,
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "demLabel": "民主党阵营（含2名独立议员）",
+          "nonContested": {
+            "demParty": 32,
+            "independentDemCaucus": 2,
+            "rep": 31
+          },
+          "observedAt": "2026-10-23T07:57:20Z"
+        },
+        "house": {
+          "dem": 226,
+          "tossup": 22,
+          "rep": 187,
+          "provider": "RealClearPolling",
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "segments": {
+            "solidD": 192,
+            "likelyD": 12,
+            "leanD": 22,
+            "tossup": 22,
+            "leanR": 14,
+            "likelyR": 17,
+            "solidR": 156
+          },
+          "observedAt": "2026-10-23T07:57:20Z"
+        }
+      },
+      "forecastAnnotations": [
+        {
+          "id": "forecast-house",
+          "target": "summary.house",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "democratic-favored",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-23T07:57:20Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "house-outlook",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        },
+        {
+          "id": "forecast-senate",
+          "target": "summary.senate",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "competitive-no-control-call",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-23T07:57:20Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "senate-path",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        }
+      ],
+      "interpretationCards": [
+        {
+          "id": "house-outlook",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-rcp-generic-20261022"
+          ],
+          "sources": [
+            "https://www.realclearpolling.com/maps/house/2026/toss-up",
+            "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
+          ],
+          "asOf": "2026-10-23T07:58:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "众院：民主党占优，不是结果",
+          "confirmedChange": "RCP众院总分布仍为226 D、22胶着、187 R。10月23日泛国会票快照D+8.1，较前次缩小0.2个百分点；NC-03补录10月21日降为倾向共和党的变更。",
+          "possibleEffect": "两者支持维持民主党更可能控制众院的定性判断，但没有证明哪些接近选区将决定多数。",
+          "counterevidenceOrUnknown": "类别不是胜率。逐区覆盖不完整，共同民调误差可能同时影响多场选举。",
+          "nextCheck": "下一步看评级变更及独立选区证据，而非重复未变的全国快照。"
+        },
+        {
+          "id": "senate-path",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment",
+            "race"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-fox-tx-oh-20261021",
+            "news-mi-marist-20261021"
+          ],
+          "sources": [
+            "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+            "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+          ],
+          "asOf": "2026-10-23T07:58:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "参院：有机会，仍需完整路径",
+          "confirmedChange": "新增LV民调：缅因49/49、德州48/46、北卡49.4/39.1、新罕布什尔50/43。RCP参院仍为46 D、8胶着、46 R。",
+          "possibleEffect": "民主党有潜在翻席路径，也要守住竞争席位。有利民调说明值得跟踪，不等于席位已拿下。",
+          "counterevidenceOrUnknown": "四份样本未形成足以改变控制权判断的连续证据。原题与含倾向题来自同一样本，跨机构及RV/LV差异不直接构成趋势。",
+          "nextCheck": "核验各多数路径相关州的独立LV重复证据，以及当前候选人与选票状态。"
+        },
+        {
+          "id": "dhs-procedure",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-dhs-nine-states-20261022"
+          ],
+          "sources": [
+            "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+            "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
+          ],
+          "asOf": "2026-10-23T07:58:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "DHS九州调查：10月21日命令原件已核验",
+          "confirmedChange": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+          "possibleEffect": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+          "counterevidenceOrUnknown": "签署命令已核验；暂缓到10月23日17:00，原文未标时区。100美元保证金支付及后续上诉命令未核验，不确认已生效。",
+          "nextCheck": "继续核验保证金支付、后续暂缓或上诉命令，以及实际执行状态。"
+        },
+        {
+          "id": "california-filing",
+          "contentType": "analysis",
+          "priority": "medium",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-ca-dismissal-20261021",
+            "news-ca-intervention-20261021",
+            "news-ca-appeal-20261022"
+          ],
+          "sources": [
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
+          ],
+          "asOf": "2026-10-23T07:58:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "加州选票案：DOJ提交上诉通知",
+          "confirmedChange": "10月22日，DOJ称地区法院未在其要求的中午期限前裁定TRO，主张这构成推定拒绝，遂向第九巡回提出上诉。法院章与签名日期为10月22日。",
+          "possibleEffect": "上诉是当事人的程序行动，不等于法院已经支持其主张或改变选票规则。",
+          "counterevidenceOrUnknown": "上诉通知原件已核验；未取得签署的地院TRO裁决或上诉法院禁令、暂缓命令。",
+          "nextCheck": "核验下一份签署法院命令；10月27日听证尚未由签署排期命令独立确认。"
+        },
+        {
+          "id": "turnout-limits",
+          "contentType": "analysis",
+          "priority": "low",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [],
+          "sources": [
+            "https://www.ncsbe.gov/",
+            "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
+          ],
+          "asOf": "2026-10-23T07:58:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "提前投票：参与量，不是候选人得票",
+          "confirmedChange": "北卡官网截至10月21日共1,101,321票：缺席票51,096、提前现场票1,050,225。现行CSV合计相同；佐治亚仅保留10月20日中午的1,055,931票官方快照。",
+          "possibleEffect": "这些是参与量记录，不能推断候选人得票或投票率。旧190,861为上期增量，不是另一投票方式，不能与旧总量924,160相加。",
+          "counterevidenceOrUnknown": "CSV未标内部截止日期，不能假定与官网截止日相同；登记党派不是投票选择。佐治亚最新仪表盘数值尚未取得。",
+          "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
+        }
+      ],
+      "earlyVoting": [
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-21",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "absenteeBallotsCast": 51096,
+          "earlyVotingBallotsCast": 1050225,
+          "totalBallotsCast": 1101321,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-23T07:58:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1101321,
+            "byRequestType": {
+              "CIVILIAN": 42996,
+              "EARLY VOTING": 1050225,
+              "MILITARY": 1111,
+              "ONE-STOP": 0,
+              "OVERSEAS": 6989
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 473965,
+              "GRE": 356,
+              "JFA": 0,
+              "LIB": 2113,
+              "NLB": 0,
+              "REP": 248121,
+              "UNA": 376766,
+              "WTP": 0
+            }
+          }
+        },
+        {
+          "state": "GA",
+          "source": "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes",
+          "publishedAt": "2026-10-20",
+          "dataThrough": "2026-10-20 noon local",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "inPerson": 1007015,
+          "acceptedAbsentee": 48916,
+          "total": 1055931,
+          "newerDataVerified": false
+        }
+      ],
+      "researchCoverage": {
+        "checkedAt": "2026-10-23T07:58:00Z",
+        "ratingsAndPollsCheckedAt": "2026-10-23T07:57:20Z",
+        "controlJudgment": "unchanged",
+        "modelProbabilitiesRefreshed": false,
+        "candidateRostersFullyReverified": false,
+        "districtBoundariesFullyReverified": false,
+        "senatePartyLeadersReverified": false,
+        "georgiaLatestTurnoutVerified": false
+      }
+    },
+    {
+      "observedAt": "2026-10-24T07:54:00Z",
+      "summary": {
+        "senate": {
+          "dem": 46,
+          "tossup": 8,
+          "rep": 46,
+          "provider": "RealClearPolling",
+          "includesNotUp": true,
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "demLabel": "民主党阵营（含2名独立议员）",
+          "nonContested": {
+            "demParty": 32,
+            "independentDemCaucus": 2,
+            "rep": 31
+          },
+          "observedAt": "2026-10-24T07:54:00Z"
+        },
+        "house": {
+          "dem": 226,
+          "tossup": 22,
+          "rep": 187,
+          "provider": "RealClearPolling",
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "segments": {
+            "solidD": 192,
+            "likelyD": 12,
+            "leanD": 22,
+            "tossup": 22,
+            "leanR": 14,
+            "likelyR": 17,
+            "solidR": 156
+          },
+          "observedAt": "2026-10-24T07:54:00Z"
+        }
+      },
+      "forecastAnnotations": [
+        {
+          "id": "forecast-house",
+          "target": "summary.house",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "democratic-favored",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-24T07:54:00Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "house-outlook",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        },
+        {
+          "id": "forecast-senate",
+          "target": "summary.senate",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "competitive-no-control-call",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-24T07:54:00Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "senate-path",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        }
+      ],
+      "interpretationCards": [
+        {
+          "id": "house-outlook",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-rcp-generic-20261022",
+            "news-cook-house-20261023"
+          ],
+          "sources": [
+            "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+            "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+            "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+            "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+            "https://www.realclearpolling.com/maps/house/2026/toss-up",
+            "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "众院：民主党占优，不是结果",
+          "confirmedChange": "10月23日Cook众院分类为民主党倾向220席、胶着17席、共和党倾向198席。编辑Erin Covey另给出民主党227—237席的预测范围；这不是置信区间。",
+          "possibleEffect": "这加强既有民主党占优判断，并未反转判断；220是倾向类别总数，不是已赢席位。当前逐席图继续使用RCP，不混合两家机构。",
+          "counterevidenceOrUnknown": "Cook公开索引给出220/17/198及19项调整，270toWin的Cook专属表交叉核实分组；其中仅8项变更已逐项核验。没有完整上一期Cook快照，不计算首次跨越多数或跨日席位增量。",
+          "nextCheck": "核验其余11项调整、后续同机构快照和独立选区民调。",
+          "confidenceAssessment": "strengthened-democratic-favored"
+        },
+        {
+          "id": "senate-path",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment",
+            "race"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-fox-tx-oh-20261021",
+            "news-mi-marist-20261021",
+            "news-senate-polls-20261023"
+          ],
+          "sources": [
+            "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+            "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+            "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
+            "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+            "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "参院：有机会，仍需完整路径",
+          "confirmedChange": "InsiderAdvantage的LV结果按D/R为MI 47/46、IA 45/47、OH补选47/44，各州样本1,200人。德州TPOR原题为50/45，强制选择题为51/47，来自同一份969人样本。",
+          "possibleEffect": "新样本显示不同州的竞争状况，尚不足以改变参院控制权判断；不把同机构多州样本或同一调查的多种问法当作重复独立证据。",
+          "counterevidenceOrUnknown": "原文称详细表暂未正常显示；完整问卷、招募、回应率、权重目标及LV筛选未取得。同一机构的一次发布包含三个州样本，不是三份独立全国证据。",
+          "nextCheck": "取得完整方法表，并比较同口径、不同机构的后续调查。"
+        },
+        {
+          "id": "dhs-procedure",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-dhs-nine-states-20261022"
+          ],
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+            "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+            "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "DHS九州调查：10月21日命令原件已核验",
+          "confirmedChange": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+          "possibleEffect": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+          "counterevidenceOrUnknown": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。",
+          "nextCheck": "核验后续签署命令、暂缓及实际执行状态。"
+        },
+        {
+          "id": "california-filing",
+          "contentType": "analysis",
+          "priority": "medium",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-ca-dismissal-20261021",
+            "news-ca-intervention-20261021",
+            "news-ca-appeal-20261022",
+            "news-ca-appeal-motion-20261023"
+          ],
+          "sources": [
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "加州：DOJ申请上诉期间禁令，州方反对",
+          "confirmedChange": "法院官方索引列出10月23日的DOJ申请（76）和州方反对意见（79）。州方主张不存在可上诉的拒绝命令；这是当事人论证，不是法院裁决。",
+          "possibleEffect": "申请与反对意见增加程序进展，尚不能写成已经生效的禁令或计票限制。",
+          "counterevidenceOrUnknown": "文件信息来自官方法院索引；全文尚未取得，未核验法院准予救济。",
+          "nextCheck": "核验后续签署命令、暂缓及实际执行状态。"
+        },
+        {
+          "id": "turnout-limits",
+          "contentType": "analysis",
+          "priority": "low",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [],
+          "sources": [
+            "https://www.ncsbe.gov/",
+            "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "提前投票：参与量，不是候选人得票",
+          "confirmedChange": "北卡官网截至10月22日共1,269,919票：缺席票54,888、提前现场票1,215,031，较官网前日同口径累计增加168,598。CSV总数一致；佐治亚仍仅有10月20日的1,055,931票旧快照。",
+          "possibleEffect": "同口径累计参与量增加，不代表候选人得票、投票率或党派结构已经变化。",
+          "counterevidenceOrUnknown": "CSV未标内部截止日期，不能假定与官网截止日相同；登记党派不是投票选择。佐治亚最新仪表盘数值尚未取得。",
+          "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
+        }
+      ],
+      "earlyVoting": [
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-21",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "absenteeBallotsCast": 51096,
+          "earlyVotingBallotsCast": 1050225,
+          "totalBallotsCast": 1101321,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-23T07:58:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1101321,
+            "byRequestType": {
+              "CIVILIAN": 42996,
+              "EARLY VOTING": 1050225,
+              "MILITARY": 1111,
+              "ONE-STOP": 0,
+              "OVERSEAS": 6989
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 473965,
+              "GRE": 356,
+              "JFA": 0,
+              "LIB": 2113,
+              "NLB": 0,
+              "REP": 248121,
+              "UNA": 376766,
+              "WTP": 0
+            }
+          }
+        },
+        {
+          "state": "GA",
+          "source": "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes",
+          "publishedAt": "2026-10-20",
+          "dataThrough": "2026-10-20 noon local",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "inPerson": 1007015,
+          "acceptedAbsentee": 48916,
+          "total": 1055931,
+          "newerDataVerified": false
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-22",
+          "observedAt": "2026-10-24T07:52:35Z",
+          "absenteeBallotsCast": 54888,
+          "earlyVotingBallotsCast": 1215031,
+          "totalBallotsCast": 1269919,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-24T07:52:35Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1269919,
+            "byRequestType": {
+              "CIVILIAN": 46335,
+              "EARLY VOTING": 1215031,
+              "MILITARY": 1203,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7350
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 535972,
+              "GRE": 424,
+              "JFA": 0,
+              "LIB": 2507,
+              "NLB": 0,
+              "REP": 296478,
+              "UNA": 434538,
+              "WTP": 0
+            }
+          },
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-21",
+            "totalBallotsCast": 1101321,
+            "increase": 168598
+          }
+        }
+      ],
+      "researchCoverage": {
+        "checkedAt": "2026-10-24T07:54:00Z",
+        "ratingsAndPollsCheckedAt": "2026-10-24T07:54:00Z",
+        "controlJudgment": "unchanged",
+        "modelProbabilitiesRefreshed": false,
+        "candidateRostersFullyReverified": false,
+        "districtBoundariesFullyReverified": false,
+        "senatePartyLeadersReverified": false,
+        "georgiaLatestTurnoutVerified": false,
+        "houseConfidenceAssessment": "strengthened-democratic-favored",
+        "senateControlJudgment": "unchanged"
+      }
+    },
+    {
+      "observedAt": "2026-10-25T07:47:32Z",
+      "summary": {
+        "senate": {
+          "dem": 46,
+          "tossup": 8,
+          "rep": 46,
+          "provider": "RealClearPolling",
+          "includesNotUp": true,
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "demLabel": "民主党阵营（含2名独立议员）",
+          "nonContested": {
+            "demParty": 32,
+            "independentDemCaucus": 2,
+            "rep": 31
+          },
+          "observedAt": "2026-10-25T07:46:46Z"
+        },
+        "house": {
+          "dem": 227,
+          "tossup": 21,
+          "rep": 187,
+          "provider": "RealClearPolling",
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "segments": {
+            "solidD": 192,
+            "likelyD": 12,
+            "leanD": 23,
+            "tossup": 21,
+            "leanR": 14,
+            "likelyR": 17,
+            "solidR": 156
+          },
+          "observedAt": "2026-10-25T07:46:46Z"
+        }
+      },
+      "forecastAnnotations": [
+        {
+          "id": "forecast-house",
+          "target": "summary.house",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "democratic-favored",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-25T07:46:46Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "house-outlook",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        },
+        {
+          "id": "forecast-senate",
+          "target": "summary.senate",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "competitive-no-control-call",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-25T07:46:46Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "senate-path",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        }
+      ],
+      "interpretationCards": [
+        {
+          "id": "house-outlook",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-rcp-generic-20261022",
+            "news-cook-house-20261023",
+            "news-rcp-oh07-20261024"
+          ],
+          "sources": [
+            "https://www.realclearpolling.com/maps/house/2026/toss-up",
+            "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+            "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+            "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+            "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+            "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
+          ],
+          "asOf": "2026-10-25T07:46:46Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "众院：民主党占优，不是结果",
+          "confirmedChange": "10月24日OH-07由胶着改为倾向民主党，RCP众院总数为227 D、21胶着、187 R。参院46/8/46及泛国会票D+8.1未变；Cook仍单列220/17/198。",
+          "possibleEffect": "一席分类调整支持既有众院民主党较有利方向，未形成新的控制权结构变化，也不是已经赢得该席。",
+          "counterevidenceOrUnknown": "Cook公开索引给出220/17/198及19项调整，270toWin的Cook专属表交叉核实分组；其中仅8项变更已逐项核验。没有完整上一期Cook快照，不计算首次跨越多数或跨日席位增量。",
+          "nextCheck": "继续核验同机构逐席变更和独立选区证据，分别保留各来源口径。",
+          "confidenceAssessment": "democratic-favored-no-new-structural-shift"
+        },
+        {
+          "id": "senate-path",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment",
+            "race"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-fox-tx-oh-20261021",
+            "news-mi-marist-20261021",
+            "news-senate-polls-20261023"
+          ],
+          "sources": [
+            "https://www.rasmussenreports.com/public_content/archive/election_2026/texas_senate_paxton_talarico_now_tied",
+            "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/questions/questions_texas_senate_october_20_21_2026",
+            "https://www.rasmussenreports.com/public_content/about_us/methodology",
+            "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+            "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+            "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
+            "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+            "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+          ],
+          "asOf": "2026-10-25T07:46:46Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "参院：有机会，仍需完整路径",
+          "confirmedChange": "Rasmussen德州三候选人LV调查为45/45/5，另有5%未定。RCP参院评级仍为46 D、8胶着、46 R；当前九州民调均值另存快照，不计算未保存的昨日变化。",
+          "possibleEffect": "一份平手调查符合竞争激烈的判断，不能据此确认走势、翻席或固定结果。",
+          "counterevidenceOrUnknown": "机构通用方法提及年龄、种族、性别、党派等加权；本次德州权重目标、截尾、2024回忆票及LV筛选未核验。",
+          "nextCheck": "取得完整方法表，并比较同口径、不同机构的后续调查。"
+        },
+        {
+          "id": "dhs-procedure",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-dhs-nine-states-20261022"
+          ],
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+            "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+            "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "DHS九州调查：10月21日命令原件已核验",
+          "confirmedChange": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+          "possibleEffect": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+          "counterevidenceOrUnknown": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。",
+          "nextCheck": "核验后续签署命令、暂缓及实际执行状态。"
+        },
+        {
+          "id": "california-filing",
+          "contentType": "analysis",
+          "priority": "medium",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-ca-dismissal-20261021",
+            "news-ca-intervention-20261021",
+            "news-ca-appeal-20261022",
+            "news-ca-appeal-motion-20261023",
+            "news-ca-tro-schedule-20261023"
+          ],
+          "sources": [
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
+          ],
+          "asOf": "2026-10-25T07:47:32Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "加州：法院确认TRO书面意见与听证排程",
+          "confirmedChange": "10月23日Dkt85命令规定：反对意见于10月24日15:00 PT截止，综合答复于10月25日15:00 PT截止，10月27日口头辩论后再作裁定。",
+          "possibleEffect": "已确认的是审理日程，不是准许禁令；尚无新获核验的生效选举规则变化。",
+          "counterevidenceOrUnknown": "法院官方两页命令已核验，仅规定书面意见期限与听证安排，未授予请求的救济。",
+          "nextCheck": "核验听证后的签署裁定、实际救济范围和执行状态。"
+        },
+        {
+          "id": "turnout-limits",
+          "contentType": "analysis",
+          "priority": "low",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [],
+          "sources": [
+            "https://www.ncsbe.gov/",
+            "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
+          ],
+          "asOf": "2026-10-25T07:47:32Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "提前投票：参与量，不是候选人得票",
+          "confirmedChange": "北卡官网截至10月23日累计1,453,516票：提前现场1,395,124、缺席58,392，较前日同口径增加183,597。3,240行官方CSV合计一致；佐治亚仍保留10月20日旧快照。",
+          "possibleEffect": "同口径累计参与量增加，不代表候选人得票、投票率或党派结构已经变化。",
+          "counterevidenceOrUnknown": "CSV未标内部截止日期，不能假定与官网截止日相同；登记党派不是投票选择。佐治亚最新仪表盘数值尚未取得。",
+          "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
+        }
+      ],
+      "earlyVoting": [
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-21",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "absenteeBallotsCast": 51096,
+          "earlyVotingBallotsCast": 1050225,
+          "totalBallotsCast": 1101321,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-23T07:58:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1101321,
+            "byRequestType": {
+              "CIVILIAN": 42996,
+              "EARLY VOTING": 1050225,
+              "MILITARY": 1111,
+              "ONE-STOP": 0,
+              "OVERSEAS": 6989
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 473965,
+              "GRE": 356,
+              "JFA": 0,
+              "LIB": 2113,
+              "NLB": 0,
+              "REP": 248121,
+              "UNA": 376766,
+              "WTP": 0
+            }
+          }
+        },
+        {
+          "state": "GA",
+          "source": "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes",
+          "publishedAt": "2026-10-20",
+          "dataThrough": "2026-10-20 noon local",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "inPerson": 1007015,
+          "acceptedAbsentee": 48916,
+          "total": 1055931,
+          "newerDataVerified": false
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-22",
+          "observedAt": "2026-10-24T07:52:35Z",
+          "absenteeBallotsCast": 54888,
+          "earlyVotingBallotsCast": 1215031,
+          "totalBallotsCast": 1269919,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-24T07:52:35Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1269919,
+            "byRequestType": {
+              "CIVILIAN": 46335,
+              "EARLY VOTING": 1215031,
+              "MILITARY": 1203,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7350
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 535972,
+              "GRE": 424,
+              "JFA": 0,
+              "LIB": 2507,
+              "NLB": 0,
+              "REP": 296478,
+              "UNA": 434538,
+              "WTP": 0
+            }
+          },
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-21",
+            "totalBallotsCast": 1101321,
+            "increase": 168598
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-23",
+          "observedAt": "2026-10-25T07:47:32Z",
+          "absenteeBallotsCast": 58392,
+          "earlyVotingBallotsCast": 1395124,
+          "totalBallotsCast": 1453516,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-22",
+            "totalBallotsCast": 1269919,
+            "increase": 183597
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-25T07:47:32Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1453516,
+            "byRequestType": {
+              "CIVILIAN": 49437,
+              "EARLY VOTING": 1395124,
+              "MILITARY": 1316,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7639
+            }
+          }
+        }
+      ],
+      "researchCoverage": {
+        "checkedAt": "2026-10-25T07:47:32Z",
+        "ratingsAndPollsCheckedAt": "2026-10-25T07:46:46Z",
+        "controlJudgment": "unchanged",
+        "modelProbabilitiesRefreshed": false,
+        "candidateRostersFullyReverified": false,
+        "districtBoundariesFullyReverified": false,
+        "senatePartyLeadersReverified": false,
+        "georgiaLatestTurnoutVerified": false,
+        "houseConfidenceAssessment": "democratic-favored-no-new-structural-shift",
+        "senateControlJudgment": "unchanged",
+        "senateRosterFullyReverified": false,
+        "latestAKOperativeOrderVerified": false,
+        "dhsCurrentEffectivenessVerified": false
+      }
+    }
+  ],
+  "statePollingAverageSnapshots": [
+    {
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "observedAt": "2026-10-25T07:46:46Z",
+      "unit": "D-minus-R-percentage-points",
+      "metric": "poll-support-average",
+      "priorComparableSnapshot": null,
+      "states": [
+        {
+          "state": "MI",
+          "margin": 1.9,
+          "windowStart": "2026-09-24",
+          "windowEnd": "2026-10-22"
+        },
+        {
+          "state": "OH",
+          "margin": 3.3,
+          "windowStart": "2026-09-22",
+          "windowEnd": "2026-10-22"
+        },
+        {
+          "state": "ME",
+          "margin": 1.4,
+          "windowStart": "2026-09-23",
+          "windowEnd": "2026-10-20"
+        },
+        {
+          "state": "AK",
+          "margin": 1.2,
+          "windowStart": "2026-09-28",
+          "windowEnd": "2026-10-16"
+        },
+        {
+          "state": "TX",
+          "margin": 1.5,
+          "windowStart": "2026-10-08",
+          "windowEnd": "2026-10-21"
+        },
+        {
+          "state": "IA",
+          "margin": -0.6,
+          "windowStart": "2026-09-29",
+          "windowEnd": "2026-10-22"
+        },
+        {
+          "state": "NC",
+          "margin": 10.6,
+          "windowStart": "2026-09-27",
+          "windowEnd": "2026-10-20"
+        },
+        {
+          "state": "GA",
+          "margin": 8.2,
+          "windowStart": "2026-09-21",
+          "windowEnd": "2026-10-17"
+        },
+        {
+          "state": "NH",
+          "margin": 6.5,
+          "windowStart": "2026-09-15",
+          "windowEnd": "2026-10-20"
+        }
+      ],
+      "note": "各州当前民调均值差为D减R百分点，不是胜率；未保存可比前次均值，不计算日变化或新跨线。"
+    }
+  ],
+  "membershipObservations": [
+    {
+      "chamber": "house",
+      "observedAt": "2026-10-25T07:47:32Z",
+      "source": "https://clerk.house.gov/Members/ViewVacancies",
+      "authorizedSeats": 435,
+      "occupied": 433,
+      "vacantSeatIds": [
+        "H-FL-20",
+        "H-TX-23"
+      ],
+      "verificationScope": "vacancies-only",
+      "partyCounts": null
     }
   ]
 }
