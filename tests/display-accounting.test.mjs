@@ -1,7 +1,18 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
 import {comparisonHTML} from '../dist/seat-comparison.js';import {portraitStatus} from '../dist/profile-evidence.js';import {profileHTML} from '../dist/profile-cards.js';
+import {senateFixture} from './fixtures/senate.mjs';
 const read=n=>JSON.parse(readFileSync(new URL('../dist/data/'+n+'.json',import.meta.url))),roster=read('seats'),evidence=read('evidence'),power=read('powers').powers.find(p=>p.id==='ordinary_passage'),esc=x=>String(x??'');
-test('Senate visible legend accounts for all ten segments, including five narrow segments',()=>{const html=comparisonHTML(roster,evidence,'senate',power,esc),cards=[...html.matchAll(/<article class="comparison-card">([\s\S]*?)<\/article>/g)],outlook=cards[1][1],counts=[...outlook.matchAll(/<li>[\s\S]*?<b>(\d+)<\/b><\/li>/g)].map(m=>Number(m[1]));assert.deepEqual(counts,[32,2,8,2,2,8,3,1,11,31]);assert.equal(counts.reduce((a,b)=>a+b),100);assert.match(outlook,/D 46/);assert.match(outlook,/R 46/);assert.match(outlook,/竞争 8 · 未知 0 · 合计 100/);assert.ok(!outlook.includes('51'));assert.match(html,/<h4>表决门槛 <strong>51<\/strong> 票/);assert.ok(!html.includes('51 / 100'));});
+test('Senate visible legend accounts for all ten segments, including narrow segments',()=>{
+ for(const [expanded,expected,R,T] of [[false,[32,2,8,2,2,8,3,1,11,31],46,8],[true,[32,2,8,3,1,10,1,1,11,31],44,10]]){
+  const fixture=senateFixture(expanded),html=comparisonHTML(fixture.roster,fixture.evidence,'senate',power,esc);
+  const cards=[...html.matchAll(/<article class="comparison-card">([\s\S]*?)<\/article>/g)],outlook=cards[1][1];
+  const counts=[...outlook.matchAll(/<li>[\s\S]*?<b>(\d+)<\/b><\/li>/g)].map(m=>Number(m[1]));
+  assert.deepEqual(counts,expected);assert.equal(counts.reduce((a,b)=>a+b),100);
+  assert.match(outlook,/D 46/);assert.ok(outlook.includes('R '+R));assert.ok(outlook.includes(`竞争 ${T} · 未知 0 · 合计 100`));
+  assert.doesNotMatch(outlook,/表决门槛|所需赞成票|class="(?:procedure-reference|vote-ruler|vote-frame)"/);
+  assert.match(html,/<h4>表决门槛 <strong>51<\/strong> 票/);assert.ok(!html.includes('51 / 100'));
+ }
+});
 test('House legend retains unknown 348 and totals 435; threshold is separate',()=>{
  const html=comparisonHTML(roster,evidence,'house',power,esc),outlook=[...html.matchAll(/<article class="comparison-card">([\s\S]*?)<\/article>/g)][1][1],counts=[...outlook.matchAll(/<li>[\s\S]*?<b>(\d+)<\/b><\/li>/g)].map(m=>Number(m[1]));
  assert.equal(counts.reduce((a,b)=>a+b),435);assert.match(outlook,/未知 348 · 合计 435/);

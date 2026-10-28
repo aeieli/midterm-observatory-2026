@@ -3,9 +3,18 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {buildSeatComparison,ratingForSeat,meaningfulPowers,thresholdReference} from '../dist/seat-outlook.js';
 import {languagePreference} from '../dist/language-preference.js';
+import {senateFixture} from './fixtures/senate.mjs';
 const read=name=>JSON.parse(fs.readFileSync(new URL('../dist/data/'+name+'.json',import.meta.url)));
 const roster=read('seats'),evidence=read('evidence'),powers=read('powers');
-test('Senate comparison preserves independent identities without double-counting the caucus',()=>{const m=buildSeatComparison(roster,evidence,'senate');assert.deepEqual(m.current.aligned,{D:47,R:53,I:0,T:0,U:0});assert.equal(m.current.independent.D,2);assert.equal(m.outlook.independent.D,2);assert.equal(m.retained,65);assert.deepEqual(m.outlook.aligned,{D:46,R:46,I:0,T:8,U:0});assert.deepEqual(m.steps.D,[42,44,46]);for(const group of [m.current,m.outlook])assert.equal(group.segments.reduce((n,s)=>n+s.count,0),100);});
+test('Senate comparison preserves independent identities without double-counting the caucus',()=>{
+ for(const [expanded,R,T,steps] of [[false,46,8,[42,44,46]],[true,44,10,[42,45,46]]]){
+  const fixture=senateFixture(expanded),m=buildSeatComparison(fixture.roster,fixture.evidence,'senate');
+  assert.deepEqual(m.current.aligned,{D:47,R:53,I:0,T:0,U:0});
+  assert.equal(m.current.independent.D,2);assert.equal(m.outlook.independent.D,2);assert.equal(m.retained,65);
+  assert.deepEqual(m.outlook.aligned,{D:46,R,I:0,T,U:0});assert.deepEqual(m.steps.D,steps);
+  for(const group of [m.current,m.outlook])assert.equal(group.segments.reduce((n,s)=>n+s.count,0),100);
+ }
+});
 test('House unknown ratings are neither tossups nor incumbent-party predictions',()=>{
  const seats=roster.seats.filter(s=>s.chamber==='house');
  const ratings=['solid-D','likely-D','lean-D','tossup','lean-R','likely-R','solid-R'].map((rating,i)=>({seatId:seats[i].seatId,rating}));

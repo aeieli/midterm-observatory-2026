@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-25T07:47:32Z",
+  "asOf": "2026-10-28T08:19:39Z",
   "title": "2026 美国中期选举观察",
   "ratings": [
     {
@@ -117,12 +117,15 @@
       "chamber": "senate",
       "state": "GA",
       "district": null,
-      "rating": "lean-D",
+      "rating": "likely-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-25T07:46:46Z",
+      "asOf": "2026-10-26T08:43:06Z",
       "publishedAt": null,
-      "electionType": "regular"
+      "electionType": "regular",
+      "sourceEventDate": "2026-10-25",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "note": "来源将变更日期列为10月25日；本站10月26日核验。"
     },
     {
       "chamber": "senate",
@@ -238,23 +241,29 @@
       "chamber": "senate",
       "state": "SC",
       "district": null,
-      "rating": "lean-R",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-26T08:43:06Z",
       "publishedAt": null,
-      "electionType": "regular"
+      "electionType": "regular",
+      "sourceEventDate": "2026-10-25",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "note": "来源将变更日期列为10月25日；本站10月26日核验。"
     },
     {
       "chamber": "senate",
       "state": "NE",
       "district": null,
-      "rating": "lean-R",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
+      "asOf": "2026-10-26T08:43:06Z",
       "publishedAt": null,
-      "electionType": "regular"
+      "electionType": "regular",
+      "sourceEventDate": "2026-10-25",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "note": "来源将变更日期列为10月25日；本站10月26日核验。 Dan Osborn为独立候选人；内布拉斯加改为胶着不代表民主党增加一席。"
     },
     {
       "chamber": "senate",
@@ -512,11 +521,15 @@
       "chamber": "house",
       "state": "TX",
       "district": "28",
-      "rating": "lean-D",
+      "rating": "likely-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -622,11 +635,15 @@
       "chamber": "house",
       "state": "CA",
       "district": "48",
-      "rating": "lean-D",
+      "rating": "likely-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -642,11 +659,15 @@
       "chamber": "house",
       "state": "PA",
       "district": "10",
-      "rating": "lean-D",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -682,11 +703,15 @@
       "chamber": "house",
       "state": "NJ",
       "district": "07",
-      "rating": "lean-D",
+      "rating": "likely-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-25T07:46:46Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -875,11 +900,15 @@
       "chamber": "house",
       "state": "NC",
       "district": "11",
-      "rating": "tossup",
+      "rating": "lean-D",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -985,41 +1014,57 @@
       "chamber": "house",
       "state": "OH",
       "district": "15",
-      "rating": "lean-R",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
       "state": "MN",
       "district": "01",
-      "rating": "lean-R",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
       "state": "SC",
       "district": "01",
-      "rating": "lean-R",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
       "state": "AK",
       "district": "AL",
-      "rating": "lean-R",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-27T08:00:25Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-27T08:00:25Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "10月27日与上次保存值比较，AK-AL由倾向共和党变为胶着；来源原始变更日期未知。"
     },
     {
       "chamber": "house",
@@ -1055,11 +1100,15 @@
       "chamber": "house",
       "state": "NV",
       "district": "02",
-      "rating": "lean-R",
+      "rating": "tossup",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -1105,31 +1154,43 @@
       "chamber": "house",
       "state": "NY",
       "district": "21",
-      "rating": "likely-R",
+      "rating": "lean-R",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
       "state": "IN",
       "district": "05",
-      "rating": "likely-R",
+      "rating": "lean-R",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-28T08:15:30Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-28T08:15:30Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "10月28日比较已保存记录，IN-05由较稳共和党变为倾向共和党；来源原始变更日期未知。"
     },
     {
       "chamber": "house",
       "state": "OH",
       "district": "10",
-      "rating": "likely-R",
+      "rating": "lean-R",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -1145,11 +1206,15 @@
       "chamber": "house",
       "state": "NC",
       "district": "13",
-      "rating": "likely-R",
+      "rating": "lean-R",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -1188,11 +1253,15 @@
       "chamber": "house",
       "state": "NC",
       "district": "09",
-      "rating": "likely-R",
+      "rating": "lean-R",
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
-      "asOf": "2026-10-22T01:29:00Z",
-      "publishedAt": null
+      "asOf": "2026-10-26T08:42:07Z",
+      "publishedAt": null,
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
     },
     {
       "chamber": "house",
@@ -1640,6 +1709,302 @@
       "kind": "original-poll",
       "valueType": "poll-support-share",
       "ballotStage": "initial-three-candidate-question"
+    },
+    {
+      "id": "ME-trafalgar-2026-10-21-23",
+      "state": "ME",
+      "seatId": "S-ME-2",
+      "pollster": "Trafalgar Group",
+      "fieldStart": "2026-10-21",
+      "fieldEnd": "2026-10-23",
+      "publishedAt": null,
+      "sourcePublicationDate": null,
+      "rcpListingDate": "2026-10-25",
+      "sample": 1077,
+      "sampleType": "LV",
+      "dem": 46.5,
+      "rep": 47,
+      "demCandidate": "Troy Jackson",
+      "repCandidate": "Susan Collins",
+      "undecided": 6.5,
+      "margin": -0.5,
+      "moe": 2.9,
+      "responseRate": 5.4,
+      "confidencePct": 95,
+      "mode": "未披露缅因州本次调查各方式占比。机构通用方法列出真人电话、IVR、短信、邮件、数字回拨及定向自愿参加的在线调查。",
+      "weighting": "本次详细加权方法及LV筛选尚未核验，不能由人口交叉表反推。",
+      "note": "原始交叉表：Collins 47.0%、Jackson 46.5%、未定6.5%；保留小数而非聚合网站的47/47四舍五入。原始发布日期未知，RCP列于10月25日。",
+      "source": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+      "methodologySource": "https://www.thetrafalgargroup.org/polling-methodology/",
+      "asOf": "2026-10-26T08:43:06Z",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "US-reuters-ipsos-2026-10-22-26",
+      "state": "US",
+      "race": "generic-house",
+      "pollster": "Reuters/Ipsos",
+      "publishedAt": "2026-10-26",
+      "sourcePublicationDate": "2026-10-26",
+      "fieldStart": "2026-10-22",
+      "fieldEnd": "2026-10-26",
+      "sample": 1164,
+      "fullAdultSample": 1679,
+      "sampleType": "LV",
+      "sampleRelationship": "likely-voter-subset-of-adult-sample",
+      "includesLeaners": true,
+      "dem": 53,
+      "rep": 44,
+      "margin": 9,
+      "moe": 2.9,
+      "confidencePct": 95,
+      "mode": "基于概率抽样的KnowledgePanel在线调查，使用英语。",
+      "weighting": "成年人样本按年龄/性别、种族/族裔、地区、都会区、教育、收入、2024投票与党派认同加权。LV目标来自L2登记选民档案及2022年CPS投票补充调查，涉及年龄、性别、地区、种族、教育和县级投票历史。",
+      "note": "含倾向者的众院通用票问法：1,164名LV为1,679名成年人总样本中的子集，只计作一份调查；53%比44%不是议席预测。",
+      "source": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+      "topline": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf",
+      "asOf": "2026-10-27T08:00:25Z",
+      "observedAt": "2026-10-27T08:00:25Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "NH-rasmussen-2026-10-20-23",
+      "state": "NH",
+      "pollster": "Rasmussen Reports/Pulse Opinion Research",
+      "publishedAt": null,
+      "sourcePublicationDate": null,
+      "rcpListingDate": "2026-10-26",
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-23",
+      "sample": 970,
+      "sampleType": "LV",
+      "dem": 50,
+      "rep": 44,
+      "margin": 6,
+      "moe": 3,
+      "confidencePct": 95,
+      "mode": "电话与在线调查。",
+      "weighting": null,
+      "note": "本次具体加权尚未核验；原始发布日期未知，RCP列于10月26日。一份50%比44%的调查不足以证明显著趋势变化。",
+      "source": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_new_hampshire_senate",
+      "asOf": "2026-10-27T08:00:25Z",
+      "observedAt": "2026-10-27T08:00:25Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "MI-msu-yougov-2026-10-02-19",
+      "state": "MI",
+      "pollster": "Michigan State/IPPSR/YouGov",
+      "publishedAt": "2026-10-26",
+      "sourcePublicationDate": "2026-10-26",
+      "fieldStart": "2026-10-02",
+      "fieldEnd": "2026-10-19",
+      "sample": 836,
+      "fullAdultSample": 1000,
+      "sampleType": "LV",
+      "sampleRelationship": "likely-voter-subset-of-adult-sample",
+      "includesLeaners": true,
+      "dem": 48,
+      "rep": 45.5,
+      "margin": 2.5,
+      "undecided": 6.5,
+      "moe": 4.4,
+      "mode": "在线匹配样本。",
+      "weighting": "按ACS成年人框架匹配、倾向评分加权，并按2024投票、性别、年龄、种族、教育后分层。LV指几乎确定、很可能投票或已投票者。",
+      "note": "1,000名成年人中836名LV，含倾向者：D48%、R45.5%、未定6.5%。保留原始小数，不用RCP四舍五入的48/46；该调查已被RCP纳入，不重复计作独立证据。",
+      "source": "https://ippsr.msu.edu/news/msu-poll-shows-benson-large-lead-while-el-sayed-roger-race-tight",
+      "topline": "https://ippsr.msu.edu/sites/default/files/soss/soss95.pdf",
+      "alreadyIncludedInAggregator": "RealClearPolling",
+      "asOf": "2026-10-27T08:00:25Z",
+      "observedAt": "2026-10-27T08:00:25Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "MI-glengariff-2026-10-19-22",
+      "state": "MI",
+      "pollster": "Glengariff / WDIV / Detroit News",
+      "publishedAt": "2026-10-27",
+      "sourcePublicationDate": "2026-10-27",
+      "fieldStart": "2026-10-19",
+      "fieldEnd": "2026-10-22",
+      "sample": 600,
+      "sampleType": "LV",
+      "dem": 51.4,
+      "rep": 45.1,
+      "margin": 6.3,
+      "moe": 4,
+      "confidencePct": 95,
+      "mode": "真人电话访谈：85%手机、15%固话。",
+      "weighting": null,
+      "source": "https://www.clickondetroit.com/news/local/2026/10/27/democratic-candidate-el-sayed-leads-michigan-us-senate-race-new-poll-finds/",
+      "note": "赞助方发布的600名LV调查，含确定、较可能及倾向选择。详细权重未披露；保留51.4/45.1原始数值，不用RCP四舍五入的51/45，也不重复计入自建平均。",
+      "responseIncludes": [
+        "definite",
+        "probable",
+        "lean"
+      ],
+      "observedAt": "2026-10-28T08:19:39Z",
+      "asOf": "2026-10-28T08:19:39Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "ME-marist-2026-10-22-25",
+      "state": "ME",
+      "pollster": "Marist",
+      "publishedAt": "2026-10-27",
+      "sourcePublicationDate": "2026-10-27",
+      "fieldStart": "2026-10-22",
+      "fieldEnd": "2026-10-25",
+      "sample": null,
+      "sampleType": "LV-weighted RV sample",
+      "fullRegisteredVoterSample": 1449,
+      "dem": 49,
+      "rep": 47,
+      "margin": 2,
+      "moe": 6.6,
+      "mode": "真人电话261、短信1,170、在线18；英语及西班牙语。",
+      "weighting": "L2登记选民年龄、性别、收入、种族及CPS教育分布；地区按可比选举投票率加权，并施加个人预计投票概率。设计效应2.5。",
+      "source": "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/",
+      "topline": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610261228-3_43sjl2.pdf",
+      "note": "1,449为登记选民总样本，不是单列LV样本量；结果使用投票可能性加权，独立LV人数未公布。LV领先2点，不与RV领先9点混用。",
+      "designEffect": 2.5,
+      "observedAt": "2026-10-28T08:19:39Z",
+      "asOf": "2026-10-28T08:19:39Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "TX-univision-yougov-2026-10-13-21",
+      "state": "TX",
+      "pollster": "N+ Univision/YouGov",
+      "publishedAt": null,
+      "sourcePublicationDate": null,
+      "rcpListingDate": "2026-10-27",
+      "fieldStart": "2026-10-13",
+      "fieldEnd": "2026-10-21",
+      "sample": 1000,
+      "sampleType": "RV",
+      "dem": 50,
+      "rep": 45,
+      "margin": 5,
+      "moe": 3.8,
+      "mode": "在线面板。",
+      "weighting": "按性别、年龄、种族/族裔、教育、地区、2020总统票、2022投票及近似2024总统票加权，依据选民名册、ACS、CPS和选举结果；权重0.10–6.06。",
+      "source": "https://www.univision.com/noticias/politica/poll-univision-texas-latinos",
+      "topline": "https://st1.uvnimg.com/f0/3a/9fe2c0c445b7bd44b43fb9236c8e/n-univision-texas-october-poll-crosstabs-base-final.pdf",
+      "note": "全州1,000名RV，不是LV，也不是980名拉丁裔加样。参院重编码表见第25页。原文发布日期未知，10月27日仅为RCP列出日期；一份RV调查不建立持续LV信号。",
+      "observedAt": "2026-10-28T08:19:39Z",
+      "asOf": "2026-10-28T08:19:39Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "US-marist-2026-10-19-20",
+      "state": "US",
+      "race": "generic-house",
+      "pollster": "NPR/PBS/Marist",
+      "publishedAt": "2026-10-27",
+      "sourcePublicationDate": "2026-10-27",
+      "fieldStart": "2026-10-19",
+      "fieldEnd": "2026-10-20",
+      "sample": null,
+      "sampleType": "LV-weighted RV sample",
+      "fullRegisteredVoterSample": 1289,
+      "dem": 52,
+      "rep": 44,
+      "margin": 8,
+      "moe": 3.8,
+      "mode": "真人电话282、短信740、在线267；英语及西班牙语。",
+      "weighting": "L2年龄、性别、收入、种族，CPS教育分布、地区投票率及个人预计投票权重；设计效应1.82。",
+      "source": "https://maristpoll.marist.edu/polls/u-s-midterm-elections-october-2026/",
+      "topline": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf",
+      "note": "原文及方法表均为10月19日至20日，保留这一调查期，不采用RCP列出的10月22日至25日。1,289为RV总样本，单列LV人数未知；不是另一份较晚调查。",
+      "designEffect": 1.82,
+      "aggregatorDateDiscrepancy": {
+        "provider": "RealClearPolling",
+        "fieldStart": "2026-10-22",
+        "fieldEnd": "2026-10-25",
+        "authoritativeDates": "original-article-and-methodology"
+      },
+      "observedAt": "2026-10-28T08:19:39Z",
+      "asOf": "2026-10-28T08:19:39Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "US-economist-yougov-2026-10-23-26",
+      "state": "US",
+      "race": "generic-house",
+      "pollster": "Economist/YouGov",
+      "publishedAt": null,
+      "sourcePublicationDate": null,
+      "fieldStart": "2026-10-23",
+      "fieldEnd": "2026-10-26",
+      "sample": 1263,
+      "sampleType": "loose-LV item unweighted N",
+      "fullRegisteredVoterSample": 1440,
+      "dem": 50,
+      "rep": 41,
+      "margin": 9,
+      "moe": null,
+      "mode": "自愿参加的在线面板。",
+      "weighting": "按性别、年龄、种族、教育、地区、2020/2024投票及总统票、基线党派认同和当前登记加权；2024目标Harris48/Trump50，权重0.051–6.505。",
+      "source": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_nJaupnc.pdf",
+      "note": "第17页：宽筛LV为50/41、该题未加权N=1,263；严筛LV为52/41、N=1,123；全部RV该题46/40、N=1,430。三者是同一调查筛选，不能拼接或重复计数。全RV误差3点不能移用为子组误差。",
+      "fullRVMoe": 3,
+      "alternativesSameSample": [
+        {
+          "screen": "strict-LV",
+          "sample": 1123,
+          "sampleUnit": "item-unweighted-N",
+          "dem": 52,
+          "rep": 41
+        },
+        {
+          "screen": "all-RV",
+          "sample": 1430,
+          "sampleUnit": "item-unweighted-N",
+          "dem": 46,
+          "rep": 40
+        }
+      ],
+      "observedAt": "2026-10-28T08:19:39Z",
+      "asOf": "2026-10-28T08:19:39Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
+    },
+    {
+      "id": "US-harvardharris-2026-10-24-26",
+      "state": "US",
+      "race": "generic-house",
+      "pollster": "Harvard CAPS/Harris/HarrisX",
+      "publishedAt": null,
+      "sourcePublicationDate": null,
+      "fieldStart": "2026-10-24",
+      "fieldEnd": "2026-10-26",
+      "sample": null,
+      "sampleType": "LV subset",
+      "fullRegisteredVoterSample": 2700,
+      "dem": 52,
+      "rep": 48,
+      "margin": 4,
+      "moe": null,
+      "mode": "自愿参加的在线多面板。",
+      "weighting": "按年龄与性别交叉、地区、种族/族裔、婚姻、家庭规模、收入、就业、教育、党派和意识形态加权，并使用在线倾向评分。",
+      "source": "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Oct2026_KeyResults.pdf",
+      "note": "第20页为LV中强制D/R选择，精确LV人数未公布。2,700为全RV样本，其1.9点误差不能当LV误差；问法不同于允许未定回答的调查。",
+      "fullRVMoe": 1.9,
+      "ballotStage": "forced-D-R-choice",
+      "observedAt": "2026-10-28T08:19:39Z",
+      "asOf": "2026-10-28T08:19:39Z",
+      "kind": "original-poll",
+      "valueType": "poll-support-share"
     }
   ],
   "history": [
@@ -1705,6 +2070,48 @@
       "observedAt": "2026-10-25T07:46:46Z",
       "windowStart": "2026-09-28",
       "windowEnd": "2026-10-20"
+    },
+    {
+      "date": "2026-10-26",
+      "dem": 51.1,
+      "rep": 42.8,
+      "margin": 8.3,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "10月26日采集的RCP快照：D51.1%、R42.8%，差8.3点；调查窗口10月8日至23日。较前次集计差增加0.2点，不等于一天内选民移动。",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "windowStart": "2026-10-08",
+      "windowEnd": "2026-10-23",
+      "priorObservationDate": "2026-10-25",
+      "changePp": 0.2
+    },
+    {
+      "date": "2026-10-27",
+      "dem": 51.5,
+      "rep": 43.4,
+      "margin": 8.1,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "10月27日观察到RCP泛国会票D51.5%、R43.4%，差8.1点；调查窗口10月9日至26日，较前次集计差减少0.2点。",
+      "observedAt": "2026-10-27T08:00:25Z",
+      "windowStart": "2026-10-09",
+      "windowEnd": "2026-10-26",
+      "priorObservationDate": "2026-10-26",
+      "changePp": -0.2
+    },
+    {
+      "date": "2026-10-28",
+      "dem": 51.6,
+      "rep": 43.6,
+      "margin": 8.0,
+      "source": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "kind": "generic-ballot-snapshot",
+      "note": "10月28日观察到RCP泛国会票D51.6%、R43.6%，差8.0点；调查窗口10月9日至26日，集计差较前次减少0.1点。",
+      "observedAt": "2026-10-28T08:19:39Z",
+      "windowStart": "2026-10-09",
+      "windowEnd": "2026-10-26",
+      "priorObservationDate": "2026-10-27",
+      "changePp": -0.1
     }
   ],
   "ratingChanges": [
@@ -1799,6 +2206,54 @@
         "before": "lean-D",
         "after": "tossup"
       }
+    },
+    {
+      "id": "rcp-senate-sc-20261025",
+      "date": "2026-10-25",
+      "seatId": "S-SC-2",
+      "chamber": "senate",
+      "state": "SC",
+      "district": null,
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "sourceEventDate": "2026-10-25",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "kind": "publisher-rating-change",
+      "note": "来源将变更日期列为10月25日；本站10月26日核验。"
+    },
+    {
+      "id": "rcp-senate-ne-20261025",
+      "date": "2026-10-25",
+      "seatId": "S-NE-2",
+      "chamber": "senate",
+      "state": "NE",
+      "district": null,
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "sourceEventDate": "2026-10-25",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "kind": "publisher-rating-change",
+      "note": "来源将变更日期列为10月25日；本站10月26日核验。 Dan Osborn为独立候选人；内布拉斯加改为胶着不代表民主党增加一席。"
+    },
+    {
+      "id": "rcp-senate-ga-20261025",
+      "date": "2026-10-25",
+      "seatId": "S-GA-2",
+      "chamber": "senate",
+      "state": "GA",
+      "district": null,
+      "before": "lean-D",
+      "after": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "sourceEventDate": "2026-10-25",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "kind": "publisher-rating-change",
+      "note": "来源将变更日期列为10月25日；本站10月26日核验。"
     }
   ],
   "news": [
@@ -2644,6 +3099,563 @@
           "rulingAfterOralArgument": true
         }
       }
+    },
+    {
+      "id": "news-rcp-senate-20261025",
+      "date": "2026-10-25",
+      "title": "RCP：参院胶着席增至10席",
+      "summary": "RCP于10月25日将南卡、内布拉斯加由倾向共和党改为胶着，佐治亚由倾向民主党改为较稳民主党；全院集计46 D、10胶着、44 R。内布拉斯加的Dan Osborn仍为独立候选人。",
+      "status": "来源将变更日期列为10月25日；本站10月26日核验。",
+      "interpretation": "共和党需要防守的竞争范围扩大，但单一机构分类调整不足以判定参院控制权翻转；独立候选人不计作民主党。",
+      "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+      "kind": "publisher-rating-change",
+      "annotation": {
+        "id": "news-rcp-senate-20261025",
+        "priority": "high",
+        "priorityReason": "共和党需要防守的竞争范围扩大，但单一机构分类调整不足以判定参院控制权翻转；独立候选人不计作民主党。",
+        "impactScope": [
+          "race",
+          "control-judgment"
+        ],
+        "affected": {
+          "states": [
+            "SC",
+            "NE",
+            "GA"
+          ],
+          "races": [
+            "S-SC-2",
+            "S-NE-2",
+            "S-GA-2"
+          ]
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-flip-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "publisher-snapshot-verified",
+          "note": "来源将变更日期列为10月25日；本站10月26日核验。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "publisher-rating-change",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-25",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-26T08:43:06Z",
+        "reviewedAt": "2026-10-26T08:43:06Z",
+        "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+        "recheckTrigger": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。"
+      }
+    },
+    {
+      "id": "news-rcp-house-observed-20261026",
+      "date": null,
+      "title": "RCP：众院13席观察到评级差异",
+      "summary": "10月26日与上次保存值比较，13个已映射选区出现评级差异，原始变更日期未知。RCP机构汇总227 D、25胶着、183 R；348个未逐席映射席位继续显示未知。Cook另列220/17/198。",
+      "status": "13项为观察差异，不是13条已核验发生日期的当日事件；RCP与Cook使用各自口径，不能相加或互相替代。",
+      "interpretation": "众院民主党较有利的方向延续；胶着席增加不等于已赢席位变化，机构汇总不能代填未知的逐席评级。",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "kind": "observed-rating-comparison",
+      "annotation": {
+        "id": "news-rcp-house-observed-20261026",
+        "priority": "high",
+        "priorityReason": "众院民主党较有利的方向延续；胶着席增加不等于已赢席位变化，机构汇总不能代填未知的逐席评级。",
+        "impactScope": [
+          "race",
+          "control-judgment"
+        ],
+        "affected": {
+          "states": [
+            "TX",
+            "CA",
+            "NJ",
+            "NC",
+            "OH",
+            "PA",
+            "MN",
+            "SC",
+            "NV",
+            "NY"
+          ],
+          "races": [
+            "H-TX-28",
+            "H-CA-48",
+            "H-NJ-07",
+            "H-NC-11",
+            "H-OH-15",
+            "H-PA-10",
+            "H-MN-01",
+            "H-SC-01",
+            "H-NV-02",
+            "H-NY-21",
+            "H-OH-10",
+            "H-NC-13",
+            "H-NC-09"
+          ]
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-flip-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "publisher-snapshot-verified",
+          "note": "13项为观察差异，不是13条已核验发生日期的当日事件；RCP与Cook使用各自口径，不能相加或互相替代。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "observed-rating-comparison",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": null,
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-26T08:43:06Z",
+        "reviewedAt": "2026-10-26T08:43:06Z",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "recheckTrigger": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。",
+        "observedAt": "2026-10-26T08:42:07Z",
+        "dateType": "observation-comparison-not-source-event"
+      }
+    },
+    {
+      "id": "news-me-trafalgar-20261026",
+      "date": null,
+      "title": "缅因州：Trafalgar原始民调47.0比46.5",
+      "summary": "10月21日至23日调查1,077名LV：Susan Collins 47.0%、Troy Jackson 46.5%、未定6.5%；报告误差±2.9点、响应率5.4%。",
+      "status": "原始交叉表：Collins 47.0%、Jackson 46.5%、未定6.5%；保留小数而非聚合网站的47/47四舍五入。原始发布日期未知，RCP列于10月25日。",
+      "interpretation": "0.5点差的一份调查符合竞争激烈的判断，不能单独证明趋势或转换成胜选概率。",
+      "source": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+      "kind": "original-poll-report",
+      "annotation": {
+        "id": "news-me-trafalgar-20261026",
+        "priority": "medium",
+        "priorityReason": "0.5点差的一份调查符合竞争激烈的判断，不能单独证明趋势或转换成胜选概率。",
+        "impactScope": [
+          "race",
+          "control-judgment"
+        ],
+        "affected": {
+          "states": [
+            "ME"
+          ],
+          "races": [
+            "S-ME-2"
+          ]
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-flip-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "原始交叉表：Collins 47.0%、Jackson 46.5%、未定6.5%；保留小数而非聚合网站的47/47四舍五入。原始发布日期未知，RCP列于10月25日。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "original-poll-report",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": null,
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-26T08:43:06Z",
+        "reviewedAt": "2026-10-26T08:43:06Z",
+        "source": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+        "recheckTrigger": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。",
+        "fieldStart": "2026-10-21",
+        "fieldEnd": "2026-10-23",
+        "pollId": "ME-trafalgar-2026-10-21-23"
+      }
+    },
+    {
+      "id": "news-rcp-ak00-observed-20261027",
+      "date": null,
+      "title": "RCP：阿拉斯加全州席位转为胶着",
+      "summary": "10月27日观察到AK-AL由倾向共和党改为胶着，原始变更日期未知。RCP众院汇总为227 D、26胶着、182 R；参院仍为46/10/44。未逐席映射的348席保持未知。",
+      "status": "10月27日与上次保存值比较，AK-AL由倾向共和党变为胶着；来源原始变更日期未知。",
+      "interpretation": "单席转胶着及通用票集计差减少0.2点，不足以改变既有控制权判断；Cook仍单独保留220/17/198，AK-AL在该机构仍为倾向共和党。",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "kind": "observed-rating-comparison",
+      "annotation": {
+        "id": "news-rcp-ak00-observed-20261027",
+        "priority": "medium",
+        "priorityReason": "单席转胶着及通用票集计差减少0.2点，不足以改变既有控制权判断；Cook仍单独保留220/17/198，AK-AL在该机构仍为倾向共和党。",
+        "impactScope": [
+          "race",
+          "control-judgment"
+        ],
+        "affected": {
+          "states": [
+            "AK"
+          ],
+          "races": [
+            "H-AK-00"
+          ]
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-change-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "publisher-snapshot-verified",
+          "note": "10月27日与上次保存值比较，AK-AL由倾向共和党变为胶着；来源原始变更日期未知。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "observed-rating-comparison",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": null,
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-27T08:02:00Z",
+        "reviewedAt": "2026-10-27T08:02:00Z",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "recheckTrigger": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。",
+        "observedAt": "2026-10-27T08:00:25Z",
+        "dateType": "observation-comparison-not-source-event"
+      }
+    },
+    {
+      "id": "news-ca9-jurisdiction-20261026",
+      "date": "2026-10-26",
+      "title": "加州：第九巡回以无管辖权驳回上诉",
+      "summary": "10月26日，第九巡回认定地区法院尚未有充分机会处理TRO，因缺乏上诉管辖权驳回26-7070号上诉；联邦紧急救济申请因无实际意义驳回。",
+      "status": "仅为管辖权程序裁定，不是实体终局判决或隔离选票命令；本次未取得地区法院10月27日听证结果。",
+      "interpretation": "这是重要程序进展，不能据此推断公民身份争议、实际非法投票数量或议院控制权；地区法院程序仍需继续核验。",
+      "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
+      "kind": "jurisdictional-appeal-dismissal",
+      "annotation": {
+        "id": "news-ca9-jurisdiction-20261026",
+        "priority": "high",
+        "priorityReason": "这是重要程序进展，不能据此推断公民身份争议、实际非法投票数量或议院控制权；地区法院程序仍需继续核验。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-change-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "仅为管辖权程序裁定，不是实体终局判决或隔离选票命令；本次未取得地区法院10月27日听证结果。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "jurisdictional-appeal-dismissal",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-26",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-27T08:02:00Z",
+        "reviewedAt": "2026-10-27T08:02:00Z",
+        "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
+        "recheckTrigger": "跟进地区法院听证后的签署命令、救济范围和执行状态。",
+        "case": "26-7070 / 2:26-cv-12025-DOC-ADS",
+        "sourceEventDate": "2026-10-26",
+        "primaryVerifiedThrough": "2026-10-26",
+        "signedOrderVerified": true,
+        "meritsDecision": false,
+        "ballotSegregationOrdered": false,
+        "dismissalBasis": "lack-of-appellate-jurisdiction",
+        "emergencyReliefDisposition": "denied-as-moot",
+        "districtCourtHearingOutcomeVerified": false
+      }
+    },
+    {
+      "id": "news-ak-expedited-orders-20261027",
+      "date": null,
+      "sourceEventDate": "2026-10-27",
+      "title": "阿拉斯加：法院加速处理程序申请",
+      "summary": "10月26日第15号及27日第19号命令准许加速处理，设置10月28日至30日介入与驳回申请的答复期限，并表示拟于28日17:00前裁定介入。",
+      "status": "这是程序日程，不是已禁止认证、已准许介入或已驳回本案。时间按阿拉斯加法院当地时间理解；原文副本已核验，完整当前案卷仍有缺口。",
+      "interpretation": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+      "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Order-on-motion-for-expedited-consideration.pdf",
+      "kind": "procedural-scheduling-order",
+      "annotation": {
+        "id": "news-ak-expedited-orders-20261027",
+        "priority": "high",
+        "priorityReason": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "AK"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-change-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "这是程序日程，不是已禁止认证、已准许介入或已驳回本案。时间按阿拉斯加法院当地时间理解；原文副本已核验，完整当前案卷仍有缺口。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "procedural-scheduling-order",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-27",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-28T08:18:58.752021+00:00",
+        "reviewedAt": "2026-10-28T08:18:58.752021+00:00",
+        "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Order-on-motion-for-expedited-consideration.pdf",
+        "recheckTrigger": "核验后续签署命令、具体救济范围及实际执行状态。",
+        "case": "3:26-cv-00376-SLG",
+        "primaryVerifiedThrough": "2026-10-27",
+        "signedOrderVerified": true,
+        "certificationBarVerified": false,
+        "interventionGrantedVerified": false,
+        "caseDismissedVerified": false,
+        "sources": [
+          "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Order-on-motion-for-expedited-consideration.pdf",
+          "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-26-Order-on-motion-to-expedite-consideration.pdf"
+        ],
+        "documents": [
+          {
+            "docket": 19,
+            "filed": "2026-10-27",
+            "kind": "expedited-consideration-order",
+            "deadlines": [
+              {
+                "action": "US-response-to-State-dismissal-motion",
+                "local": "2026-10-29 15:00"
+              },
+              {
+                "action": "State-reply",
+                "local": "2026-10-30 12:00"
+              }
+            ]
+          },
+          {
+            "docket": 15,
+            "filed": "2026-10-26",
+            "kind": "expedited-consideration-order",
+            "deadlines": [
+              {
+                "action": "intervention-replies",
+                "local": "2026-10-28 12:00"
+              },
+              {
+                "action": "intended-intervention-ruling",
+                "local": "2026-10-28 17:00",
+                "intentionNotCompletedRuling": true
+              },
+              {
+                "action": "US-response-to-proposed-dismissal-motions",
+                "local": "2026-10-29 17:00",
+                "condition": "only-if-intervention-granted"
+              }
+            ]
+          }
+        ],
+        "timeZoneInterpretation": "Alaska-court-local;not-explicit-UTC-offset"
+      }
+    },
+    {
+      "id": "news-dhs-appeal-stay-filings-20261027",
+      "date": null,
+      "sourceEventDate": "2026-10-27",
+      "title": "DHS九州案：上诉与暂停申请已提交",
+      "summary": "政府10月26日提交上诉通知，27日申请上诉期间暂停禁令；原告同日提交反对意见。已核验第89、90、91号当事人文书。",
+      "status": "申请不等于批准。保证金履行和后续暂停命令仍未核验；不能由10月23日原暂缓期限届满推断当前执行状态，也不能把拟向上诉法院申请当成已提交或获准。",
+      "interpretation": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+      "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Defendants-Memo-on-Motion-to-Stay.pdf",
+      "kind": "party-filings-not-stay-order",
+      "annotation": {
+        "id": "news-dhs-appeal-stay-filings-20261027",
+        "priority": "high",
+        "priorityReason": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA",
+            "CT",
+            "GA",
+            "MO",
+            "NV",
+            "NY",
+            "PA",
+            "WA",
+            "WI"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-change-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-filing-verified",
+          "note": "申请不等于批准。保证金履行和后续暂停命令仍未核验；不能由10月23日原暂缓期限届满推断当前执行状态，也不能把拟向上诉法院申请当成已提交或获准。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "party-filings-not-stay-order",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-27",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-28T08:18:58.752021+00:00",
+        "reviewedAt": "2026-10-28T08:18:58.752021+00:00",
+        "source": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Defendants-Memo-on-Motion-to-Stay.pdf",
+        "recheckTrigger": "核验后续签署命令、具体救济范围及实际执行状态。",
+        "case": "4:26-cv-10680-AMO",
+        "sources": [
+          "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-26-Notice-of-appeal.pdf",
+          "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Defendants-Memo-on-Motion-to-Stay.pdf",
+          "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Plaintiffs-Memo-Opposing-Motion-to-Stay.pdf"
+        ],
+        "documents": [
+          {
+            "docket": 89,
+            "filed": "2026-10-26",
+            "kind": "notice-of-appeal"
+          },
+          {
+            "docket": 90,
+            "filed": "2026-10-27",
+            "kind": "stay-motion"
+          },
+          {
+            "docket": 91,
+            "filed": "2026-10-27",
+            "kind": "opposition"
+          }
+        ],
+        "filingsVerifiedThrough": "2026-10-27",
+        "lastVerifiedOrderDate": "2026-10-21",
+        "stayGrantedVerified": false,
+        "bondComplianceVerified": false,
+        "effectiveStatus": "not-verified"
+      }
+    },
+    {
+      "id": "news-ca-hearing-reported-20261027",
+      "date": null,
+      "sourceEventDate": "2026-10-27",
+      "title": "加州听证：特别监督人仍属拟议措施",
+      "summary": "据ABC、CalMatters和AP对10月27日听证报道，Carter法官考虑任命特别监督人核查名单，未当庭裁定TRO，并表示拟周三作后续程序决定。",
+      "status": "拟议措施来自当日报道，不是已签发命令。尚未取得新的正式任命或隔离选票书面命令；已确认司法状态仍以10月26日上诉程序裁定为准。",
+      "interpretation": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+      "source": "https://abcnews.com/amp/Politics/judge-appoint-special-master-california-voting-case-setback/story?id=137622503",
+      "kind": "attributed-hearing-report",
+      "annotation": {
+        "id": "news-ca-hearing-reported-20261027",
+        "priority": "high",
+        "priorityReason": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-change-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "reported-primary-order-missing",
+          "note": "拟议措施来自当日报道，不是已签发命令。尚未取得新的正式任命或隔离选票书面命令；已确认司法状态仍以10月26日上诉程序裁定为准。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "attributed-hearing-report",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-27",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-28T08:18:58.752021+00:00",
+        "reviewedAt": "2026-10-28T08:18:58.752021+00:00",
+        "source": "https://abcnews.com/amp/Politics/judge-appoint-special-master-california-voting-case-setback/story?id=137622503",
+        "recheckTrigger": "核验后续签署命令、具体救济范围及实际执行状态。",
+        "case": "26-7070 / 2:26-cv-12025-DOC-ADS",
+        "sources": [
+          "https://abcnews.com/amp/Politics/judge-appoint-special-master-california-voting-case-setback/story?id=137622503",
+          "https://calmatters.org/politics/2026/10/trump-noncitizen-voting-court/",
+          "https://apnews.com/article/8f6e267a51c574716386f502b77f7ce0"
+        ],
+        "lastVerifiedPrimaryOrderDate": "2026-10-26",
+        "newWrittenOrderVerified": false,
+        "specialMasterAppointmentVerified": false,
+        "ballotSegregationOrderVerified": false
+      }
+    },
+    {
+      "id": "news-marin-response-20261027",
+      "date": null,
+      "sourceEventDate": "2026-10-27",
+      "title": "Marin县回应选票隔离要求",
+      "summary": "Marin县10月27日称，拒绝DOJ针对48名被质疑公民身份选民的选票隔离要求，并称初步审查发现名单不可靠。",
+      "status": "这是县方回应及其立场，不是法院判决，不证明48人均非法或均合法投票。",
+      "interpretation": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+      "source": "https://www.marincounty.gov/news-releases/county-declines-doj-demand-set-aside-ballots",
+      "kind": "county-attributed-statement",
+      "annotation": {
+        "id": "news-marin-response-20261027",
+        "priority": "high",
+        "priorityReason": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+        "impactScope": [
+          "admin",
+          "state"
+        ],
+        "affected": {
+          "states": [
+            "CA"
+          ],
+          "races": []
+        },
+        "controlJudgment": "unchanged",
+        "direction": {
+          "assessment": "no-control-change-established",
+          "trendChange": null,
+          "controlChange": null
+        },
+        "evidenceQuality": {
+          "level": "primary-verified",
+          "note": "这是县方回应及其立场，不是法院判决，不证明48人均非法或均合法投票。"
+        },
+        "contentType": "fact-with-separate-analysis",
+        "factStatus": "county-attributed-statement",
+        "publishedDate": null,
+        "publishedAt": null,
+        "eventDate": "2026-10-27",
+        "freshness": "newly-added-publication-time-unknown",
+        "firstObservedAt": "2026-10-28T08:18:58.752021+00:00",
+        "reviewedAt": "2026-10-28T08:18:58.752021+00:00",
+        "source": "https://www.marincounty.gov/news-releases/county-declines-doj-demand-set-aside-ballots",
+        "recheckTrigger": "核验后续签署命令、具体救济范围及实际执行状态。",
+        "speaker": "Marin County",
+        "votersQuestionedInDemand": 48,
+        "statementAttribution": "county-position",
+        "judicialFinding": false
+      }
     }
   ],
   "methodology": [
@@ -2738,13 +3750,121 @@
     {
       "title": "参议院官方个人办公桌座位图",
       "url": "https://www.senate.gov/art-artifacts/decorative-art/furniture/senate-chamber-desks/chambermap.htm"
+    },
+    {
+      "title": "Trafalgar Group — Maine October 21–23, 2026",
+      "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf"
+    },
+    {
+      "title": "Trafalgar Group — methodology",
+      "url": "https://www.thetrafalgargroup.org/polling-methodology/"
+    },
+    {
+      "title": "Reuters/Ipsos — October 22–26, 2026",
+      "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot"
+    },
+    {
+      "title": "Reuters/Ipsos — topline, October 26, 2026",
+      "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf"
+    },
+    {
+      "title": "Rasmussen Reports — New Hampshire, October 20–23, 2026",
+      "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_new_hampshire_senate"
+    },
+    {
+      "title": "Michigan State/IPPSR/YouGov — October 2026",
+      "url": "https://ippsr.msu.edu/news/msu-poll-shows-benson-large-lead-while-el-sayed-roger-race-tight"
+    },
+    {
+      "title": "Michigan State/IPPSR/YouGov — SOSS 95 topline",
+      "url": "https://ippsr.msu.edu/sites/default/files/soss/soss95.pdf"
+    },
+    {
+      "title": "U.S. Court of Appeals for the Ninth Circuit — 26-7070, October 26, 2026",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf"
+    },
+    {
+      "title": "Glengariff / WDIV / Detroit News",
+      "url": "https://www.clickondetroit.com/news/local/2026/10/27/democratic-candidate-el-sayed-leads-michigan-us-senate-race-new-poll-finds/"
+    },
+    {
+      "title": "Marist",
+      "url": "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/"
+    },
+    {
+      "title": "N+ Univision/YouGov",
+      "url": "https://www.univision.com/noticias/politica/poll-univision-texas-latinos"
+    },
+    {
+      "title": "NPR/PBS/Marist",
+      "url": "https://maristpoll.marist.edu/polls/u-s-midterm-elections-october-2026/"
+    },
+    {
+      "title": "Economist/YouGov",
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econTabReport_nJaupnc.pdf"
+    },
+    {
+      "title": "Harvard CAPS/Harris/HarrisX",
+      "url": "https://harvardharrispoll.com/assets/uploads/2026/09/HHP_Oct2026_KeyResults.pdf"
+    },
+    {
+      "title": "Marist — original tables",
+      "url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610261228-3_43sjl2.pdf"
+    },
+    {
+      "title": "N+ Univision/YouGov — original tables",
+      "url": "https://st1.uvnimg.com/f0/3a/9fe2c0c445b7bd44b43fb9236c8e/n-univision-texas-october-poll-crosstabs-base-final.pdf"
+    },
+    {
+      "title": "NPR/PBS/Marist — original tables",
+      "url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf"
+    },
+    {
+      "title": "Alaska District Court — Order 19",
+      "url": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Order-on-motion-for-expedited-consideration.pdf"
+    },
+    {
+      "title": "Alaska District Court — Order 15",
+      "url": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-26-Order-on-motion-to-expedite-consideration.pdf"
+    },
+    {
+      "title": "DHS case — Notice of appeal 89",
+      "url": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-26-Notice-of-appeal.pdf"
+    },
+    {
+      "title": "DHS case — Stay motion 90",
+      "url": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Defendants-Memo-on-Motion-to-Stay.pdf"
+    },
+    {
+      "title": "DHS case — Opposition 91",
+      "url": "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Plaintiffs-Memo-Opposing-Motion-to-Stay.pdf"
+    },
+    {
+      "title": "ABC News — California hearing",
+      "url": "https://abcnews.com/amp/Politics/judge-appoint-special-master-california-voting-case-setback/story?id=137622503"
+    },
+    {
+      "title": "CalMatters — California hearing",
+      "url": "https://calmatters.org/politics/2026/10/trump-noncitizen-voting-court/"
+    },
+    {
+      "title": "Associated Press — California hearing",
+      "url": "https://apnews.com/article/8f6e267a51c574716386f502b77f7ce0"
+    },
+    {
+      "title": "Marin County — ballot demand response",
+      "url": "https://www.marincounty.gov/news-releases/county-declines-doj-demand-set-aside-ballots"
+    },
+    {
+      "title": "Georgia Secretary of State — October 27 turnout",
+      "url": "https://sos.ga.gov/news/georgia-surpasses-two-million-person-early-votes"
     }
   ],
   "summary": {
     "senate": {
       "dem": 46,
-      "tossup": 8,
-      "rep": 46,
+      "tossup": 10,
+      "rep": 44,
       "provider": "RealClearPolling",
       "includesNotUp": true,
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
@@ -2754,24 +3874,26 @@
         "independentDemCaucus": 2,
         "rep": 31
       },
-      "observedAt": "2026-10-25T07:46:46Z"
+      "observedAt": "2026-10-28T08:19:39Z",
+      "sourceEventDate": "2026-10-25"
     },
     "house": {
       "dem": 227,
-      "tossup": 21,
-      "rep": 187,
+      "tossup": 26,
+      "rep": 182,
       "provider": "RealClearPolling",
       "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
       "segments": {
         "solidD": 192,
-        "likelyD": 12,
-        "leanD": 23,
-        "tossup": 21,
+        "likelyD": 15,
+        "leanD": 20,
+        "tossup": 26,
         "leanR": 14,
-        "likelyR": 17,
+        "likelyR": 12,
         "solidR": 156
       },
-      "observedAt": "2026-10-25T07:46:46Z"
+      "observedAt": "2026-10-28T08:15:30Z",
+      "sourceEventDate": null
     }
   },
   "coverage": {
@@ -2782,7 +3904,7 @@
       "众院348个Solid席位未逐席获取评级，显示未知，不能由现任党派反推。",
       "未完成逐区最新选票与区划核验；评级来源与正式议席名册须分开。",
       "Cook页面403、Sabato图表未取得；不宣称多模型一致。",
-      "最新加州签署法院命令仍未核验。",
+      "拟议措施来自当日报道，不是已签发命令。尚未取得新的正式任命或隔离选票书面命令；已确认司法状态仍以10月26日上诉程序裁定为准。",
       "评级来源未显示精确更新时间；asOf为本站读取时间。",
       "尚无连续每日席位预测基线。",
       "RCP完整众院HTML请求403；270toWin公开表仅列非Safe席，且标注10月2日，不能补成当前RCP评级。"
@@ -2832,7 +3954,7 @@
       "publishedAt": null,
       "publishedDate": null,
       "eventDate": null,
-      "observedAt": "2026-10-25T07:46:46Z",
+      "observedAt": "2026-10-28T08:15:30Z",
       "timestampPrecision": "retrieval-minute-not-publication-time",
       "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
       "interpretationCardId": "house-outlook",
@@ -2860,8 +3982,8 @@
       "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
       "publishedAt": null,
       "publishedDate": null,
-      "eventDate": null,
-      "observedAt": "2026-10-25T07:46:46Z",
+      "eventDate": "2026-10-25",
+      "observedAt": "2026-10-28T08:19:39Z",
       "timestampPrecision": "retrieval-minute-not-publication-time",
       "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
       "interpretationCardId": "senate-path",
@@ -2882,7 +4004,9 @@
       "sourceNewsIds": [
         "news-rcp-generic-20261022",
         "news-cook-house-20261023",
-        "news-rcp-oh07-20261024"
+        "news-rcp-oh07-20261024",
+        "news-rcp-house-observed-20261026",
+        "news-rcp-ak00-observed-20261027"
       ],
       "sources": [
         "https://www.realclearpolling.com/maps/house/2026/toss-up",
@@ -2892,7 +4016,7 @@
         "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
         "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
       ],
-      "asOf": "2026-10-25T07:46:46Z",
+      "asOf": "2026-10-28T08:19:39Z",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2901,10 +4025,10 @@
         "nextCheck": "verification-trigger"
       },
       "title": "众院：民主党占优，不是结果",
-      "confirmedChange": "10月24日OH-07由胶着改为倾向民主党，RCP众院总数为227 D、21胶着、187 R。参院46/8/46及泛国会票D+8.1未变；Cook仍单列220/17/198。",
-      "possibleEffect": "一席分类调整支持既有众院民主党较有利方向，未形成新的控制权结构变化，也不是已经赢得该席。",
-      "counterevidenceOrUnknown": "Cook公开索引给出220/17/198及19项调整，270toWin的Cook专属表交叉核实分组；其中仅8项变更已逐项核验。没有完整上一期Cook快照，不计算首次跨越多数或跨日席位增量。",
-      "nextCheck": "继续核验同机构逐席变更和独立选区证据，分别保留各来源口径。",
+      "confirmedChange": "87个已列出的非稳固席位逐项核对，仅IN-05观察到由较稳共和党改为倾向共和党。RCP汇总仍为227 D、26胶着、182 R；另外348席继续未知。",
+      "possibleEffect": "这次分类强弱调整没有改变两党及胶着总数；评级、民调和法律进展尚不足以改变两院控制权判断。",
+      "counterevidenceOrUnknown": "10月28日比较已保存记录，IN-05由较稳共和党变为倾向共和党；来源原始变更日期未知。",
+      "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。",
       "confidenceAssessment": "democratic-favored-no-new-structural-shift"
     },
     {
@@ -2919,21 +4043,34 @@
       "sourceNewsIds": [
         "news-fox-tx-oh-20261021",
         "news-mi-marist-20261021",
-        "news-senate-polls-20261023"
+        "news-senate-polls-20261023",
+        "news-rcp-senate-20261025",
+        "news-me-trafalgar-20261026"
       ],
       "sources": [
+        "https://www.clickondetroit.com/news/local/2026/10/27/democratic-candidate-el-sayed-leads-michigan-us-senate-race-new-poll-finds/",
+        "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/",
+        "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610261228-3_43sjl2.pdf",
+        "https://www.univision.com/noticias/politica/poll-univision-texas-latinos",
+        "https://st1.uvnimg.com/f0/3a/9fe2c0c445b7bd44b43fb9236c8e/n-univision-texas-october-poll-crosstabs-base-final.pdf",
+        "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_new_hampshire_senate",
+        "https://ippsr.msu.edu/news/msu-poll-shows-benson-large-lead-while-el-sayed-roger-race-tight",
+        "https://ippsr.msu.edu/sites/default/files/soss/soss95.pdf",
+        "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+        "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+        "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+        "https://www.thetrafalgargroup.org/polling-methodology/",
         "https://www.rasmussenreports.com/public_content/archive/election_2026/texas_senate_paxton_talarico_now_tied",
         "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/questions/questions_texas_senate_october_20_21_2026",
         "https://www.rasmussenreports.com/public_content/about_us/methodology",
         "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
         "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
         "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
-        "https://www.realclearpolling.com/maps/senate/2026/toss-up",
         "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
         "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
         "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
       ],
-      "asOf": "2026-10-25T07:46:46Z",
+      "asOf": "2026-10-28T08:19:39Z",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2941,11 +4078,11 @@
         "counterevidenceOrUnknown": "editorial-analysis",
         "nextCheck": "verification-trigger"
       },
-      "title": "参院：有机会，仍需完整路径",
-      "confirmedChange": "Rasmussen德州三候选人LV调查为45/45/5，另有5%未定。RCP参院评级仍为46 D、8胶着、46 R；当前九州民调均值另存快照，不计算未保存的昨日变化。",
-      "possibleEffect": "一份平手调查符合竞争激烈的判断，不能据此确认走势、翻席或固定结果。",
-      "counterevidenceOrUnknown": "机构通用方法提及年龄、种族、性别、党派等加权；本次德州权重目标、截尾、2024回忆票及LV筛选未核验。",
-      "nextCheck": "取得完整方法表，并比较同口径、不同机构的后续调查。"
+      "title": "RCP：参院胶着席增至10席",
+      "confirmedChange": "Glengariff密歇根LV为51.4/45.1；Marist缅因州投票可能性加权结果49/47；Univision德州1,000名RV为50/45。参院评级仍为46 D、10胶着、44 R。",
+      "possibleEffect": "MI单次均值跨线值得跟踪，不是持续变化；TX新调查是RV而非LV，不能据此认定持续独立LV D+2至3信号。",
+      "counterevidenceOrUnknown": "MI均值D+2.5单次越过±2启发观察区间，不等于持续结构变化。AK回到+1.2但窗口由9月28日缩至10月1日开始，仍截至10月16日，不能当作新调查的选民转向。",
+      "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。"
     },
     {
       "id": "dhs-procedure",
@@ -2957,14 +4094,18 @@
       ],
       "controlJudgment": "unchanged",
       "sourceNewsIds": [
-        "news-dhs-nine-states-20261022"
+        "news-dhs-nine-states-20261022",
+        "news-dhs-appeal-stay-filings-20261027"
       ],
       "sources": [
+        "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-26-Notice-of-appeal.pdf",
+        "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Defendants-Memo-on-Motion-to-Stay.pdf",
+        "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Plaintiffs-Memo-Opposing-Motion-to-Stay.pdf",
         "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
         "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
         "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
       ],
-      "asOf": "2026-10-24T07:54:00Z",
+      "asOf": "2026-10-28T08:18:58.752021+00:00",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -2972,11 +4113,13 @@
         "counterevidenceOrUnknown": "editorial-analysis",
         "nextCheck": "verification-trigger"
       },
-      "title": "DHS九州调查：10月21日命令原件已核验",
-      "confirmedChange": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
-      "possibleEffect": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
-      "counterevidenceOrUnknown": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。",
-      "nextCheck": "核验后续签署命令、暂缓及实际执行状态。"
+      "title": "DHS九州案：上诉与暂停申请已提交",
+      "confirmedChange": "政府10月26日提交上诉通知，27日申请上诉期间暂停禁令；原告同日提交反对意见。已核验第89、90、91号当事人文书。",
+      "possibleEffect": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+      "counterevidenceOrUnknown": "申请不等于批准。保证金履行和后续暂停命令仍未核验；不能由10月23日原暂缓期限届满推断当前执行状态，也不能把拟向上诉法院申请当成已提交或获准。",
+      "nextCheck": "核验后续签署命令、具体救济范围及实际执行状态。",
+      "lastVerifiedOrderDate": "2026-10-21",
+      "filingsVerifiedThrough": "2026-10-27"
     },
     {
       "id": "california-filing",
@@ -2992,9 +4135,17 @@
         "news-ca-intervention-20261021",
         "news-ca-appeal-20261022",
         "news-ca-appeal-motion-20261023",
-        "news-ca-tro-schedule-20261023"
+        "news-ca-tro-schedule-20261023",
+        "news-ca9-jurisdiction-20261026",
+        "news-ca-hearing-reported-20261027",
+        "news-marin-response-20261027"
       ],
       "sources": [
+        "https://abcnews.com/amp/Politics/judge-appoint-special-master-california-voting-case-setback/story?id=137622503",
+        "https://calmatters.org/politics/2026/10/trump-noncitizen-voting-court/",
+        "https://apnews.com/article/8f6e267a51c574716386f502b77f7ce0",
+        "https://www.marincounty.gov/news-releases/county-declines-doj-demand-set-aside-ballots",
+        "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
         "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
         "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
         "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
@@ -3003,7 +4154,7 @@
         "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
         "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
       ],
-      "asOf": "2026-10-25T07:47:32Z",
+      "asOf": "2026-10-28T08:18:58.752021+00:00",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -3011,11 +4162,13 @@
         "counterevidenceOrUnknown": "editorial-analysis",
         "nextCheck": "verification-trigger"
       },
-      "title": "加州：法院确认TRO书面意见与听证排程",
-      "confirmedChange": "10月23日Dkt85命令规定：反对意见于10月24日15:00 PT截止，综合答复于10月25日15:00 PT截止，10月27日口头辩论后再作裁定。",
-      "possibleEffect": "已确认的是审理日程，不是准许禁令；尚无新获核验的生效选举规则变化。",
-      "counterevidenceOrUnknown": "法院官方两页命令已核验，仅规定书面意见期限与听证安排，未授予请求的救济。",
-      "nextCheck": "核验听证后的签署裁定、实际救济范围和执行状态。"
+      "title": "加州听证：特别监督人仍属拟议措施",
+      "confirmedChange": "据ABC、CalMatters和AP对10月27日听证报道，Carter法官考虑任命特别监督人核查名单，未当庭裁定TRO，并表示拟周三作后续程序决定。",
+      "possibleEffect": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+      "counterevidenceOrUnknown": "拟议措施来自当日报道，不是已签发命令。尚未取得新的正式任命或隔离选票书面命令；已确认司法状态仍以10月26日上诉程序裁定为准。",
+      "nextCheck": "核验后续签署命令、具体救济范围及实际执行状态。",
+      "lastVerifiedPrimaryOrderDate": "2026-10-26",
+      "newWrittenOrderVerified": false
     },
     {
       "id": "turnout-limits",
@@ -3028,11 +4181,12 @@
       "controlJudgment": "unchanged",
       "sourceNewsIds": [],
       "sources": [
+        "https://sos.ga.gov/news/georgia-surpasses-two-million-person-early-votes",
         "https://www.ncsbe.gov/",
         "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
         "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
       ],
-      "asOf": "2026-10-25T07:47:32Z",
+      "asOf": "2026-10-28T08:18:58.752021+00:00",
       "claims": {
         "title": "editorial-analysis",
         "confirmedChange": "source-fact",
@@ -3041,13 +4195,13 @@
         "nextCheck": "verification-trigger"
       },
       "title": "提前投票：参与量，不是候选人得票",
-      "confirmedChange": "北卡官网截至10月23日累计1,453,516票：提前现场1,395,124、缺席58,392，较前日同口径增加183,597。3,240行官方CSV合计一致；佐治亚仍保留10月20日旧快照。",
+      "confirmedChange": "北卡截至10月26日累计1,773,889票，提前现场1,708,048、缺席65,841，较前日增190,708。佐治亚10月27日16:30 EDT为现场2,000,452、已接收邮寄97,382，合计2,097,834。",
       "possibleEffect": "同口径累计参与量增加，不代表候选人得票、投票率或党派结构已经变化。",
-      "counterevidenceOrUnknown": "CSV未标内部截止日期，不能假定与官网截止日相同；登记党派不是投票选择。佐治亚最新仪表盘数值尚未取得。",
+      "counterevidenceOrUnknown": "都是累计参与量，不是候选人得票。佐治亚现场票较10月20日增993,437，跨七天而非单日；未使用公告中含糊的2022比较增长率。NC的CSV仍无内部截止日期。",
       "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
     }
   ],
-  "annotationReviewedAt": "2026-10-25T07:47:32Z",
+  "annotationReviewedAt": "2026-10-28T08:19:39Z",
   "historicalBaselines": {
     "house2024": {
       "schemaVersion": 1,
@@ -18401,22 +19555,149 @@
           "OVERSEAS": 7639
         }
       }
+    },
+    {
+      "state": "NC",
+      "source": "https://www.ncsbe.gov/",
+      "dataThrough": "2026-10-24",
+      "observedAt": "2026-10-26T08:41:31Z",
+      "absenteeBallotsCast": 59845,
+      "earlyVotingBallotsCast": 1484828,
+      "totalBallotsCast": 1544673,
+      "previousComparableHomepage": {
+        "dataThrough": "2026-10-23",
+        "totalBallotsCast": 1453516,
+        "increase": 91157
+      },
+      "csv": {
+        "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+        "observedAt": "2026-10-26T08:41:31Z",
+        "internalDataThrough": null,
+        "rowCount": 3240,
+        "total": 1544673,
+        "byRequestType": {
+          "CIVILIAN": 50685,
+          "EARLY VOTING": 1484828,
+          "MILITARY": 1356,
+          "ONE-STOP": 0,
+          "OVERSEAS": 7804
+        }
+      }
+    },
+    {
+      "state": "NC",
+      "source": "https://www.ncsbe.gov/",
+      "dataThrough": "2026-10-25",
+      "observedAt": "2026-10-27T08:02:00Z",
+      "absenteeBallotsCast": 60046,
+      "earlyVotingBallotsCast": 1523135,
+      "totalBallotsCast": 1583181,
+      "previousComparableHomepage": {
+        "dataThrough": "2026-10-24",
+        "totalBallotsCast": 1544673,
+        "increase": 38508,
+        "increaseEarlyVoting": 38307,
+        "increaseAbsentee": 201
+      },
+      "csv": {
+        "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+        "observedAt": "2026-10-27T08:02:00Z",
+        "internalDataThrough": null,
+        "rowCount": 3240,
+        "total": 1583181,
+        "byRequestType": {
+          "CIVILIAN": 50831,
+          "EARLY VOTING": 1523135,
+          "MILITARY": 1361,
+          "ONE-STOP": 0,
+          "OVERSEAS": 7854
+        }
+      }
+    },
+    {
+      "state": "NC",
+      "source": "https://www.ncsbe.gov/",
+      "dataThrough": "2026-10-26",
+      "observedAt": "2026-10-28T08:18:58.752021+00:00",
+      "absenteeBallotsCast": 65841,
+      "earlyVotingBallotsCast": 1708048,
+      "totalBallotsCast": 1773889,
+      "previousComparableHomepage": {
+        "dataThrough": "2026-10-25",
+        "totalBallotsCast": 1583181,
+        "increase": 190708,
+        "increaseEarlyVoting": 184913,
+        "increaseAbsentee": 5795
+      },
+      "csv": {
+        "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+        "observedAt": "2026-10-28T08:18:58.752021+00:00",
+        "internalDataThrough": null,
+        "rowCount": 3240,
+        "total": 1773889,
+        "byRequestType": {
+          "CIVILIAN": 55869,
+          "EARLY VOTING": 1708048,
+          "MILITARY": 1543,
+          "ONE-STOP": 0,
+          "OVERSEAS": 8429
+        }
+      }
+    },
+    {
+      "state": "GA",
+      "source": "https://sos.ga.gov/news/georgia-surpasses-two-million-person-early-votes",
+      "publishedAt": "2026-10-27",
+      "dataThrough": "2026-10-27T16:30:00-04:00",
+      "observedAt": "2026-10-28T08:18:58.752021+00:00",
+      "inPerson": 2000452,
+      "acceptedAbsentee": 97382,
+      "total": 2097834,
+      "totalComputed": true,
+      "totalComputation": "same-cutoff-inPerson-plus-acceptedAbsentee",
+      "previousComparableOfficialRelease": {
+        "dataThrough": "2026-10-20 before noon local",
+        "inPerson": 1007015,
+        "increaseInPerson": 993437,
+        "comparisonSpan": "October20-to-October27-not-one-day"
+      },
+      "newerDataVerified": true
     }
   ],
   "researchCoverage": {
-    "checkedAt": "2026-10-25T07:47:32Z",
-    "ratingsAndPollsCheckedAt": "2026-10-25T07:46:46Z",
+    "checkedAt": "2026-10-28T08:19:39Z",
+    "ratingsAndPollsCheckedAt": "2026-10-28T08:19:39Z",
     "controlJudgment": "unchanged",
     "modelProbabilitiesRefreshed": false,
     "candidateRostersFullyReverified": false,
     "districtBoundariesFullyReverified": false,
     "senatePartyLeadersReverified": false,
-    "georgiaLatestTurnoutVerified": false,
+    "georgiaLatestTurnoutVerified": true,
     "houseConfidenceAssessment": "democratic-favored-no-new-structural-shift",
     "senateControlJudgment": "unchanged",
     "senateRosterFullyReverified": false,
     "latestAKOperativeOrderVerified": false,
-    "dhsCurrentEffectivenessVerified": false
+    "dhsCurrentEffectivenessVerified": false,
+    "eventsCheckedAt": "2026-10-28T08:18:58.752021+00:00",
+    "materialRatingExpansion": false,
+    "senateAssessment": "republican-defensive-map-expanded-no-control-flip-established",
+    "latestCAOperativeRuleChangeVerified": false,
+    "caAppellateDispositionVerifiedThrough": "2026-10-26",
+    "caDistrictHearingOutcomeVerified": false,
+    "georgiaOfficialTurnoutVerifiedThrough": "2026-10-27T16:30:00-04:00",
+    "akProceduralOrdersVerifiedThrough": "2026-10-27",
+    "akFullDocketVerified": false,
+    "dhsPartyFilingsVerifiedThrough": "2026-10-27",
+    "dhsLastVerifiedOrderDate": "2026-10-21",
+    "caHearingReportingThrough": "2026-10-27",
+    "caNewWrittenOrderVerified": false,
+    "heuristicWatchChange": {
+      "state": "MI",
+      "priorMargin": 1.9,
+      "currentMargin": 2.5,
+      "threshold": 2,
+      "status": "single-snapshot-crossing-not-structural-change"
+    }
   },
   "publisherRatingObservations": [
     {
@@ -18622,6 +19903,104 @@
         "H-CA-22": "tossup",
         "H-NY-17": "tossup",
         "H-PA-07": "lean-D"
+      },
+      "changeVsPrior": 0
+    },
+    {
+      "id": "cook-house-table-recheck-20261026",
+      "provider": "Cook Political Report",
+      "chamber": "house",
+      "sourceEventDate": "2026-10-23",
+      "observedAt": "2026-10-26T08:40:40Z",
+      "source": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+      "secondaryMapUpdatedAt": "2026-10-23T17:26:00Z",
+      "priorObservationId": "cook-house-table-recheck-20261025",
+      "dem": 220,
+      "tossup": 17,
+      "rep": 198,
+      "aggregateCountsVerifiedAt": "2026-10-24T07:54:00Z",
+      "verificationScope": "non-safe-categories-and-focus-seats-rechecked;aggregate-counts-retained",
+      "nonSafeSegments": {
+        "likelyD": 18,
+        "leanD": 16,
+        "tossup": 17,
+        "leanR": 17,
+        "likelyR": 13
+      },
+      "priorityCurrentRatings": {
+        "H-AZ-06": "lean-D",
+        "H-CO-08": "lean-D",
+        "H-MI-07": "tossup",
+        "H-NJ-07": "lean-D",
+        "H-CA-22": "tossup",
+        "H-NY-17": "tossup",
+        "H-PA-07": "lean-D"
+      },
+      "changeVsPrior": 0
+    },
+    {
+      "id": "cook-house-table-recheck-20261027",
+      "provider": "Cook Political Report",
+      "chamber": "house",
+      "sourceEventDate": "2026-10-23",
+      "observedAt": "2026-10-27T08:00:25Z",
+      "source": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+      "secondaryMapUpdatedAt": "2026-10-23T17:26:00Z",
+      "priorObservationId": "cook-house-table-recheck-20261026",
+      "dem": 220,
+      "tossup": 17,
+      "rep": 198,
+      "aggregateCountsVerifiedAt": "2026-10-24T07:54:00Z",
+      "verificationScope": "non-safe-categories-and-focus-seats-rechecked;aggregate-counts-retained",
+      "nonSafeSegments": {
+        "likelyD": 18,
+        "leanD": 16,
+        "tossup": 17,
+        "leanR": 17,
+        "likelyR": 13
+      },
+      "priorityCurrentRatings": {
+        "H-AZ-06": "lean-D",
+        "H-CO-08": "lean-D",
+        "H-MI-07": "tossup",
+        "H-NJ-07": "lean-D",
+        "H-CA-22": "tossup",
+        "H-NY-17": "tossup",
+        "H-PA-07": "lean-D",
+        "H-AK-00": "lean-R"
+      },
+      "changeVsPrior": 0
+    },
+    {
+      "id": "cook-house-table-recheck-20261028",
+      "provider": "Cook Political Report",
+      "chamber": "house",
+      "sourceEventDate": "2026-10-23",
+      "observedAt": "2026-10-28T08:15:30Z",
+      "source": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+      "secondaryMapUpdatedAt": "2026-10-23T17:26:00Z",
+      "priorObservationId": "cook-house-table-recheck-20261027",
+      "dem": 220,
+      "tossup": 17,
+      "rep": 198,
+      "aggregateCountsVerifiedAt": "2026-10-24T07:54:00Z",
+      "verificationScope": "non-safe-categories-and-focus-seats-rechecked;aggregate-counts-retained",
+      "nonSafeSegments": {
+        "likelyD": 18,
+        "leanD": 16,
+        "tossup": 17,
+        "leanR": 17,
+        "likelyR": 13
+      },
+      "priorityCurrentRatings": {
+        "H-AZ-06": "lean-D",
+        "H-CO-08": "lean-D",
+        "H-MI-07": "tossup",
+        "H-NJ-07": "lean-D",
+        "H-CA-22": "tossup",
+        "H-NY-17": "tossup",
+        "H-PA-07": "lean-D",
+        "H-AK-00": "lean-R"
       },
       "changeVsPrior": 0
     }
@@ -19706,6 +21085,1493 @@
         "latestAKOperativeOrderVerified": false,
         "dhsCurrentEffectivenessVerified": false
       }
+    },
+    {
+      "observedAt": "2026-10-26T08:43:06Z",
+      "summary": {
+        "senate": {
+          "dem": 46,
+          "tossup": 10,
+          "rep": 44,
+          "provider": "RealClearPolling",
+          "includesNotUp": true,
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "demLabel": "民主党阵营（含2名独立议员）",
+          "nonContested": {
+            "demParty": 32,
+            "independentDemCaucus": 2,
+            "rep": 31
+          },
+          "observedAt": "2026-10-26T08:43:06Z",
+          "sourceEventDate": "2026-10-25"
+        },
+        "house": {
+          "dem": 227,
+          "tossup": 25,
+          "rep": 183,
+          "provider": "RealClearPolling",
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "segments": {
+            "solidD": 192,
+            "likelyD": 15,
+            "leanD": 20,
+            "tossup": 25,
+            "leanR": 14,
+            "likelyR": 13,
+            "solidR": 156
+          },
+          "observedAt": "2026-10-26T08:42:07Z",
+          "sourceEventDate": null
+        }
+      },
+      "forecastAnnotations": [
+        {
+          "id": "forecast-house",
+          "target": "summary.house",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "democratic-favored",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-26T08:42:07Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "house-outlook",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        },
+        {
+          "id": "forecast-senate",
+          "target": "summary.senate",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "competitive-no-control-call",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": "2026-10-25",
+          "observedAt": "2026-10-26T08:43:06Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "senate-path",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        }
+      ],
+      "interpretationCards": [
+        {
+          "id": "house-outlook",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-rcp-generic-20261022",
+            "news-cook-house-20261023",
+            "news-rcp-oh07-20261024",
+            "news-rcp-house-observed-20261026"
+          ],
+          "sources": [
+            "https://www.realclearpolling.com/maps/house/2026/toss-up",
+            "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+            "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+            "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+            "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+            "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
+          ],
+          "asOf": "2026-10-26T08:43:06Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "众院：民主党占优，不是结果",
+          "confirmedChange": "10月26日与上次保存值比较，13个已映射选区出现评级差异，原始变更日期未知。RCP机构汇总227 D、25胶着、183 R；348个未逐席映射席位继续显示未知。Cook另列220/17/198。",
+          "possibleEffect": "众院民主党较有利的方向延续；胶着席增加不等于已赢席位变化，机构汇总不能代填未知的逐席评级。",
+          "counterevidenceOrUnknown": "13项为观察差异，不是13条已核验发生日期的当日事件；RCP与Cook使用各自口径，不能相加或互相替代。",
+          "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。",
+          "confidenceAssessment": "democratic-favored-no-new-structural-shift"
+        },
+        {
+          "id": "senate-path",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment",
+            "race"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-fox-tx-oh-20261021",
+            "news-mi-marist-20261021",
+            "news-senate-polls-20261023",
+            "news-rcp-senate-20261025",
+            "news-me-trafalgar-20261026"
+          ],
+          "sources": [
+            "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+            "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+            "https://www.thetrafalgargroup.org/polling-methodology/",
+            "https://www.rasmussenreports.com/public_content/archive/election_2026/texas_senate_paxton_talarico_now_tied",
+            "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/questions/questions_texas_senate_october_20_21_2026",
+            "https://www.rasmussenreports.com/public_content/about_us/methodology",
+            "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+            "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+            "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+            "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+          ],
+          "asOf": "2026-10-26T08:43:06Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "RCP：参院胶着席增至10席",
+          "confirmedChange": "RCP于10月25日将南卡、内布拉斯加由倾向共和党改为胶着，佐治亚由倾向民主党改为较稳民主党；全院集计46 D、10胶着、44 R。内布拉斯加的Dan Osborn仍为独立候选人。",
+          "possibleEffect": "共和党需要防守的竞争范围扩大，但单一机构分类调整不足以判定参院控制权翻转；独立候选人不计作民主党。",
+          "counterevidenceOrUnknown": "缅因州新民调为Jackson 46.5%、Collins 47.0%；具体方式组合及加权未披露充分。六场既有模型引述未更新，仍保留原观察时间。",
+          "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。"
+        },
+        {
+          "id": "dhs-procedure",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-dhs-nine-states-20261022"
+          ],
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+            "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+            "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "DHS九州调查：10月21日命令原件已核验",
+          "confirmedChange": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+          "possibleEffect": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+          "counterevidenceOrUnknown": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。",
+          "nextCheck": "核验后续签署命令、暂缓及实际执行状态。"
+        },
+        {
+          "id": "california-filing",
+          "contentType": "analysis",
+          "priority": "medium",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-ca-dismissal-20261021",
+            "news-ca-intervention-20261021",
+            "news-ca-appeal-20261022",
+            "news-ca-appeal-motion-20261023",
+            "news-ca-tro-schedule-20261023"
+          ],
+          "sources": [
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
+          ],
+          "asOf": "2026-10-25T07:47:32Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "加州：法院确认TRO书面意见与听证排程",
+          "confirmedChange": "10月23日Dkt85命令规定：反对意见于10月24日15:00 PT截止，综合答复于10月25日15:00 PT截止，10月27日口头辩论后再作裁定。",
+          "possibleEffect": "已确认的是审理日程，不是准许禁令；尚无新获核验的生效选举规则变化。",
+          "counterevidenceOrUnknown": "法院官方两页命令已核验，仅规定书面意见期限与听证安排，未授予请求的救济。",
+          "nextCheck": "核验听证后的签署裁定、实际救济范围和执行状态。"
+        },
+        {
+          "id": "turnout-limits",
+          "contentType": "analysis",
+          "priority": "low",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [],
+          "sources": [
+            "https://www.ncsbe.gov/",
+            "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
+          ],
+          "asOf": "2026-10-26T08:41:31Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "提前投票：参与量，不是候选人得票",
+          "confirmedChange": "北卡官网截至10月24日累计1,544,673票：提前现场1,484,828、缺席59,845，较10月23日同口径增加91,157。3,240行官方CSV合计一致；佐治亚仍保留10月20日快照。",
+          "possibleEffect": "同口径累计参与量增加，不代表候选人得票、投票率或党派结构已经变化。",
+          "counterevidenceOrUnknown": "CSV未标内部截止日期，不能假定与官网截止日相同；登记党派不是投票选择。佐治亚最新仪表盘数值尚未取得。",
+          "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
+        }
+      ],
+      "earlyVoting": [
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-21",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "absenteeBallotsCast": 51096,
+          "earlyVotingBallotsCast": 1050225,
+          "totalBallotsCast": 1101321,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-23T07:58:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1101321,
+            "byRequestType": {
+              "CIVILIAN": 42996,
+              "EARLY VOTING": 1050225,
+              "MILITARY": 1111,
+              "ONE-STOP": 0,
+              "OVERSEAS": 6989
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 473965,
+              "GRE": 356,
+              "JFA": 0,
+              "LIB": 2113,
+              "NLB": 0,
+              "REP": 248121,
+              "UNA": 376766,
+              "WTP": 0
+            }
+          }
+        },
+        {
+          "state": "GA",
+          "source": "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes",
+          "publishedAt": "2026-10-20",
+          "dataThrough": "2026-10-20 noon local",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "inPerson": 1007015,
+          "acceptedAbsentee": 48916,
+          "total": 1055931,
+          "newerDataVerified": false
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-22",
+          "observedAt": "2026-10-24T07:52:35Z",
+          "absenteeBallotsCast": 54888,
+          "earlyVotingBallotsCast": 1215031,
+          "totalBallotsCast": 1269919,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-24T07:52:35Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1269919,
+            "byRequestType": {
+              "CIVILIAN": 46335,
+              "EARLY VOTING": 1215031,
+              "MILITARY": 1203,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7350
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 535972,
+              "GRE": 424,
+              "JFA": 0,
+              "LIB": 2507,
+              "NLB": 0,
+              "REP": 296478,
+              "UNA": 434538,
+              "WTP": 0
+            }
+          },
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-21",
+            "totalBallotsCast": 1101321,
+            "increase": 168598
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-23",
+          "observedAt": "2026-10-25T07:47:32Z",
+          "absenteeBallotsCast": 58392,
+          "earlyVotingBallotsCast": 1395124,
+          "totalBallotsCast": 1453516,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-22",
+            "totalBallotsCast": 1269919,
+            "increase": 183597
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-25T07:47:32Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1453516,
+            "byRequestType": {
+              "CIVILIAN": 49437,
+              "EARLY VOTING": 1395124,
+              "MILITARY": 1316,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7639
+            }
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-24",
+          "observedAt": "2026-10-26T08:41:31Z",
+          "absenteeBallotsCast": 59845,
+          "earlyVotingBallotsCast": 1484828,
+          "totalBallotsCast": 1544673,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-23",
+            "totalBallotsCast": 1453516,
+            "increase": 91157
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-26T08:41:31Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1544673,
+            "byRequestType": {
+              "CIVILIAN": 50685,
+              "EARLY VOTING": 1484828,
+              "MILITARY": 1356,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7804
+            }
+          }
+        }
+      ],
+      "researchCoverage": {
+        "checkedAt": "2026-10-26T08:43:06Z",
+        "ratingsAndPollsCheckedAt": "2026-10-26T08:43:06Z",
+        "controlJudgment": "unchanged",
+        "modelProbabilitiesRefreshed": false,
+        "candidateRostersFullyReverified": false,
+        "districtBoundariesFullyReverified": false,
+        "senatePartyLeadersReverified": false,
+        "georgiaLatestTurnoutVerified": false,
+        "houseConfidenceAssessment": "democratic-favored-no-new-structural-shift",
+        "senateControlJudgment": "unchanged",
+        "senateRosterFullyReverified": false,
+        "latestAKOperativeOrderVerified": false,
+        "dhsCurrentEffectivenessVerified": false,
+        "eventsCheckedAt": "2026-10-26T08:41:31Z",
+        "materialRatingExpansion": true,
+        "senateAssessment": "republican-defensive-map-expanded-no-control-flip-established",
+        "latestCAOperativeRuleChangeVerified": false
+      }
+    },
+    {
+      "observedAt": "2026-10-27T08:02:00Z",
+      "summary": {
+        "senate": {
+          "dem": 46,
+          "tossup": 10,
+          "rep": 44,
+          "provider": "RealClearPolling",
+          "includesNotUp": true,
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "demLabel": "民主党阵营（含2名独立议员）",
+          "nonContested": {
+            "demParty": 32,
+            "independentDemCaucus": 2,
+            "rep": 31
+          },
+          "observedAt": "2026-10-27T08:00:25Z",
+          "sourceEventDate": "2026-10-25"
+        },
+        "house": {
+          "dem": 227,
+          "tossup": 26,
+          "rep": 182,
+          "provider": "RealClearPolling",
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "segments": {
+            "solidD": 192,
+            "likelyD": 15,
+            "leanD": 20,
+            "tossup": 26,
+            "leanR": 13,
+            "likelyR": 13,
+            "solidR": 156
+          },
+          "observedAt": "2026-10-27T08:00:25Z",
+          "sourceEventDate": null
+        }
+      },
+      "forecastAnnotations": [
+        {
+          "id": "forecast-house",
+          "target": "summary.house",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "democratic-favored",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-27T08:00:25Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "house-outlook",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        },
+        {
+          "id": "forecast-senate",
+          "target": "summary.senate",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "competitive-no-control-call",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": "2026-10-25",
+          "observedAt": "2026-10-27T08:00:25Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "senate-path",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        }
+      ],
+      "interpretationCards": [
+        {
+          "id": "house-outlook",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-rcp-generic-20261022",
+            "news-cook-house-20261023",
+            "news-rcp-oh07-20261024",
+            "news-rcp-house-observed-20261026",
+            "news-rcp-ak00-observed-20261027"
+          ],
+          "sources": [
+            "https://www.realclearpolling.com/maps/house/2026/toss-up",
+            "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+            "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+            "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+            "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+            "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
+          ],
+          "asOf": "2026-10-27T08:00:25Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "众院：民主党占优，不是结果",
+          "confirmedChange": "10月27日观察到AK-AL由倾向共和党改为胶着，原始变更日期未知。RCP众院汇总为227 D、26胶着、182 R；参院仍为46/10/44。未逐席映射的348席保持未知。",
+          "possibleEffect": "单席转胶着及通用票集计差减少0.2点，不足以改变既有控制权判断；Cook仍单独保留220/17/198，AK-AL在该机构仍为倾向共和党。",
+          "counterevidenceOrUnknown": "10月27日与上次保存值比较，AK-AL由倾向共和党变为胶着；来源原始变更日期未知。",
+          "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。",
+          "confidenceAssessment": "democratic-favored-no-new-structural-shift"
+        },
+        {
+          "id": "senate-path",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment",
+            "race"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-fox-tx-oh-20261021",
+            "news-mi-marist-20261021",
+            "news-senate-polls-20261023",
+            "news-rcp-senate-20261025",
+            "news-me-trafalgar-20261026"
+          ],
+          "sources": [
+            "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_new_hampshire_senate",
+            "https://ippsr.msu.edu/news/msu-poll-shows-benson-large-lead-while-el-sayed-roger-race-tight",
+            "https://ippsr.msu.edu/sites/default/files/soss/soss95.pdf",
+            "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+            "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+            "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+            "https://www.thetrafalgargroup.org/polling-methodology/",
+            "https://www.rasmussenreports.com/public_content/archive/election_2026/texas_senate_paxton_talarico_now_tied",
+            "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/questions/questions_texas_senate_october_20_21_2026",
+            "https://www.rasmussenreports.com/public_content/about_us/methodology",
+            "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+            "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+            "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+            "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+          ],
+          "asOf": "2026-10-27T08:00:25Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "RCP：参院胶着席增至10席",
+          "confirmedChange": "新罕布什尔Rasmussen为D50%、R44%；密歇根MSU/YouGov原始结果为D48%、R45.5%。九州均值中新变化为AK +0.8、NC +10.3、NH +6.7；参院评级仍为46 D、10胶着、44 R。",
+          "possibleEffect": "尚未形成改变参院控制权判断的连续证据；密歇根RCP均值D+1.9仍在原观察区间内，一份MSU D+2.5不代表集计已跨线。",
+          "counterevidenceOrUnknown": "AK均值差由D+1.2变为+0.8，但最新列出调查仍截至10月16日，变化原因未核验；NC为+10.3、NH为+6.7。窗口和构成不同，不能直接视为当日选民转向。",
+          "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。"
+        },
+        {
+          "id": "dhs-procedure",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-dhs-nine-states-20261022"
+          ],
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+            "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+            "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
+          ],
+          "asOf": "2026-10-24T07:54:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "DHS九州调查：10月21日命令原件已核验",
+          "confirmedChange": "初步禁令限制针对已知、怀疑或合理应知或应疑为美国公民的选举相关实地行动，以及完全基于争议TECS选民匹配记录的相关行动；并非禁止全部合法选举调查。",
+          "possibleEffect": "这是既有命令的原件证据升级。执行范围具有选务意义，但尚无可测党派票数或控制权影响。",
+          "counterevidenceOrUnknown": "10月23日17:00的暂缓期限已过，原文未标时区；保证金支付和后续暂缓、上诉命令仍未核验，不能自动认定禁令已生效。",
+          "nextCheck": "核验后续签署命令、暂缓及实际执行状态。"
+        },
+        {
+          "id": "california-filing",
+          "contentType": "analysis",
+          "priority": "medium",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-ca-dismissal-20261021",
+            "news-ca-intervention-20261021",
+            "news-ca-appeal-20261022",
+            "news-ca-appeal-motion-20261023",
+            "news-ca-tro-schedule-20261023",
+            "news-ca9-jurisdiction-20261026"
+          ],
+          "sources": [
+            "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
+          ],
+          "asOf": "2026-10-27T08:02:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "加州：第九巡回以无管辖权驳回上诉",
+          "confirmedChange": "10月26日，第九巡回认定地区法院尚未有充分机会处理TRO，因缺乏上诉管辖权驳回26-7070号上诉；联邦紧急救济申请因无实际意义驳回。",
+          "possibleEffect": "这是重要程序进展，不能据此推断公民身份争议、实际非法投票数量或议院控制权；地区法院程序仍需继续核验。",
+          "counterevidenceOrUnknown": "仅为管辖权程序裁定，不是实体终局判决或隔离选票命令；本次未取得地区法院10月27日听证结果。",
+          "nextCheck": "跟进地区法院听证后的签署命令、救济范围和执行状态。"
+        },
+        {
+          "id": "turnout-limits",
+          "contentType": "analysis",
+          "priority": "low",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [],
+          "sources": [
+            "https://www.ncsbe.gov/",
+            "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
+          ],
+          "asOf": "2026-10-27T08:02:00Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "提前投票：参与量，不是候选人得票",
+          "confirmedChange": "北卡官网截至10月25日累计1,583,181票：提前现场1,523,135、缺席60,046，较10月24日同口径增加38,508。3,240行官方CSV合计一致；这是参与量，不是候选人得票。",
+          "possibleEffect": "同口径累计参与量增加，不代表候选人得票、投票率或党派结构已经变化。",
+          "counterevidenceOrUnknown": "CSV未标内部截止日期，不能假定与官网截止日相同；登记党派不是投票选择。佐治亚最新仪表盘数值尚未取得。",
+          "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
+        }
+      ],
+      "earlyVoting": [
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-21",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "absenteeBallotsCast": 51096,
+          "earlyVotingBallotsCast": 1050225,
+          "totalBallotsCast": 1101321,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-23T07:58:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1101321,
+            "byRequestType": {
+              "CIVILIAN": 42996,
+              "EARLY VOTING": 1050225,
+              "MILITARY": 1111,
+              "ONE-STOP": 0,
+              "OVERSEAS": 6989
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 473965,
+              "GRE": 356,
+              "JFA": 0,
+              "LIB": 2113,
+              "NLB": 0,
+              "REP": 248121,
+              "UNA": 376766,
+              "WTP": 0
+            }
+          }
+        },
+        {
+          "state": "GA",
+          "source": "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes",
+          "publishedAt": "2026-10-20",
+          "dataThrough": "2026-10-20 noon local",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "inPerson": 1007015,
+          "acceptedAbsentee": 48916,
+          "total": 1055931,
+          "newerDataVerified": false
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-22",
+          "observedAt": "2026-10-24T07:52:35Z",
+          "absenteeBallotsCast": 54888,
+          "earlyVotingBallotsCast": 1215031,
+          "totalBallotsCast": 1269919,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-24T07:52:35Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1269919,
+            "byRequestType": {
+              "CIVILIAN": 46335,
+              "EARLY VOTING": 1215031,
+              "MILITARY": 1203,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7350
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 535972,
+              "GRE": 424,
+              "JFA": 0,
+              "LIB": 2507,
+              "NLB": 0,
+              "REP": 296478,
+              "UNA": 434538,
+              "WTP": 0
+            }
+          },
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-21",
+            "totalBallotsCast": 1101321,
+            "increase": 168598
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-23",
+          "observedAt": "2026-10-25T07:47:32Z",
+          "absenteeBallotsCast": 58392,
+          "earlyVotingBallotsCast": 1395124,
+          "totalBallotsCast": 1453516,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-22",
+            "totalBallotsCast": 1269919,
+            "increase": 183597
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-25T07:47:32Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1453516,
+            "byRequestType": {
+              "CIVILIAN": 49437,
+              "EARLY VOTING": 1395124,
+              "MILITARY": 1316,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7639
+            }
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-24",
+          "observedAt": "2026-10-26T08:41:31Z",
+          "absenteeBallotsCast": 59845,
+          "earlyVotingBallotsCast": 1484828,
+          "totalBallotsCast": 1544673,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-23",
+            "totalBallotsCast": 1453516,
+            "increase": 91157
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-26T08:41:31Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1544673,
+            "byRequestType": {
+              "CIVILIAN": 50685,
+              "EARLY VOTING": 1484828,
+              "MILITARY": 1356,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7804
+            }
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-25",
+          "observedAt": "2026-10-27T08:02:00Z",
+          "absenteeBallotsCast": 60046,
+          "earlyVotingBallotsCast": 1523135,
+          "totalBallotsCast": 1583181,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-24",
+            "totalBallotsCast": 1544673,
+            "increase": 38508,
+            "increaseEarlyVoting": 38307,
+            "increaseAbsentee": 201
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-27T08:02:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1583181,
+            "byRequestType": {
+              "CIVILIAN": 50831,
+              "EARLY VOTING": 1523135,
+              "MILITARY": 1361,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7854
+            }
+          }
+        }
+      ],
+      "researchCoverage": {
+        "checkedAt": "2026-10-27T08:02:00Z",
+        "ratingsAndPollsCheckedAt": "2026-10-27T08:00:25Z",
+        "controlJudgment": "unchanged",
+        "modelProbabilitiesRefreshed": false,
+        "candidateRostersFullyReverified": false,
+        "districtBoundariesFullyReverified": false,
+        "senatePartyLeadersReverified": false,
+        "georgiaLatestTurnoutVerified": false,
+        "houseConfidenceAssessment": "democratic-favored-no-new-structural-shift",
+        "senateControlJudgment": "unchanged",
+        "senateRosterFullyReverified": false,
+        "latestAKOperativeOrderVerified": false,
+        "dhsCurrentEffectivenessVerified": false,
+        "eventsCheckedAt": "2026-10-27T08:02:00Z",
+        "materialRatingExpansion": false,
+        "senateAssessment": "republican-defensive-map-expanded-no-control-flip-established",
+        "latestCAOperativeRuleChangeVerified": false,
+        "caAppellateDispositionVerifiedThrough": "2026-10-26",
+        "caDistrictHearingOutcomeVerified": false
+      }
+    },
+    {
+      "observedAt": "2026-10-28T08:19:39Z",
+      "summary": {
+        "senate": {
+          "dem": 46,
+          "tossup": 10,
+          "rep": 44,
+          "provider": "RealClearPolling",
+          "includesNotUp": true,
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "demLabel": "民主党阵营（含2名独立议员）",
+          "nonContested": {
+            "demParty": 32,
+            "independentDemCaucus": 2,
+            "rep": 31
+          },
+          "observedAt": "2026-10-28T08:19:39Z",
+          "sourceEventDate": "2026-10-25"
+        },
+        "house": {
+          "dem": 227,
+          "tossup": 26,
+          "rep": 182,
+          "provider": "RealClearPolling",
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "segments": {
+            "solidD": 192,
+            "likelyD": 15,
+            "leanD": 20,
+            "tossup": 26,
+            "leanR": 14,
+            "likelyR": 12,
+            "solidR": 156
+          },
+          "observedAt": "2026-10-28T08:15:30Z",
+          "sourceEventDate": null
+        }
+      },
+      "forecastAnnotations": [
+        {
+          "id": "forecast-house",
+          "target": "summary.house",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "democratic-favored",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": null,
+          "observedAt": "2026-10-28T08:15:30Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "house-outlook",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        },
+        {
+          "id": "forecast-senate",
+          "target": "summary.senate",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "contentType": "publisher-facts-with-editorial-analysis",
+          "controlJudgment": "unchanged",
+          "direction": {
+            "snapshot": "competitive-no-control-call",
+            "change": null
+          },
+          "evidenceQuality": {
+            "level": "publisher-snapshot-verified",
+            "note": "已核验机构页面所示数值。评级是判断，不是概率、结果或完整的逐席模型。"
+          },
+          "source": "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+          "publishedAt": null,
+          "publishedDate": null,
+          "eventDate": "2026-10-25",
+          "observedAt": "2026-10-28T08:19:39Z",
+          "timestampPrecision": "retrieval-minute-not-publication-time",
+          "recheckTrigger": "机构变更评级或加入调查时复核；保留旧快照及调查实地日期。",
+          "interpretationCardId": "senate-path",
+          "probability": null,
+          "expectedSeats": null,
+          "reasonNoProbability": "No validated probabilistic model supplied; publisher category totals are preserved as categories."
+        }
+      ],
+      "interpretationCards": [
+        {
+          "id": "house-outlook",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-rcp-generic-20261022",
+            "news-cook-house-20261023",
+            "news-rcp-oh07-20261024",
+            "news-rcp-house-observed-20261026",
+            "news-rcp-ak00-observed-20261027"
+          ],
+          "sources": [
+            "https://www.realclearpolling.com/maps/house/2026/toss-up",
+            "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+            "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+            "https://transcripts.cnn.com/show/ip/date/2026-10-23/segment/01",
+            "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+            "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
+          ],
+          "asOf": "2026-10-28T08:19:39Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "众院：民主党占优，不是结果",
+          "confirmedChange": "87个已列出的非稳固席位逐项核对，仅IN-05观察到由较稳共和党改为倾向共和党。RCP汇总仍为227 D、26胶着、182 R；另外348席继续未知。",
+          "possibleEffect": "这次分类强弱调整没有改变两党及胶着总数；评级、民调和法律进展尚不足以改变两院控制权判断。",
+          "counterevidenceOrUnknown": "10月28日比较已保存记录，IN-05由较稳共和党变为倾向共和党；来源原始变更日期未知。",
+          "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。",
+          "confidenceAssessment": "democratic-favored-no-new-structural-shift"
+        },
+        {
+          "id": "senate-path",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "control-judgment",
+            "race"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-fox-tx-oh-20261021",
+            "news-mi-marist-20261021",
+            "news-senate-polls-20261023",
+            "news-rcp-senate-20261025",
+            "news-me-trafalgar-20261026"
+          ],
+          "sources": [
+            "https://www.clickondetroit.com/news/local/2026/10/27/democratic-candidate-el-sayed-leads-michigan-us-senate-race-new-poll-finds/",
+            "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/",
+            "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_Maine-NOS-and-Tables_202610261228-3_43sjl2.pdf",
+            "https://www.univision.com/noticias/politica/poll-univision-texas-latinos",
+            "https://st1.uvnimg.com/f0/3a/9fe2c0c445b7bd44b43fb9236c8e/n-univision-texas-october-poll-crosstabs-base-final.pdf",
+            "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_new_hampshire_senate",
+            "https://ippsr.msu.edu/news/msu-poll-shows-benson-large-lead-while-el-sayed-roger-race-tight",
+            "https://ippsr.msu.edu/sites/default/files/soss/soss95.pdf",
+            "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+            "https://www.realclearpolling.com/maps/senate/2026/toss-up",
+            "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/ME-Midterms-Report-1025.pdf",
+            "https://www.thetrafalgargroup.org/polling-methodology/",
+            "https://www.rasmussenreports.com/public_content/archive/election_2026/texas_senate_paxton_talarico_now_tied",
+            "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/questions/questions_texas_senate_october_20_21_2026",
+            "https://www.rasmussenreports.com/public_content/about_us/methodology",
+            "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+            "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+            "https://drive.google.com/file/d/1kVSGtwI9leEqOhs20jCRp2pYVzinykuu/view",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_texas_topline_october-21-release.pdf",
+            "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-15-19-2026_ohio_topline_october-21-release.pdf",
+            "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
+          ],
+          "asOf": "2026-10-28T08:19:39Z",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "RCP：参院胶着席增至10席",
+          "confirmedChange": "Glengariff密歇根LV为51.4/45.1；Marist缅因州投票可能性加权结果49/47；Univision德州1,000名RV为50/45。参院评级仍为46 D、10胶着、44 R。",
+          "possibleEffect": "MI单次均值跨线值得跟踪，不是持续变化；TX新调查是RV而非LV，不能据此认定持续独立LV D+2至3信号。",
+          "counterevidenceOrUnknown": "MI均值D+2.5单次越过±2启发观察区间，不等于持续结构变化。AK回到+1.2但窗口由9月28日缩至10月1日开始，仍截至10月16日，不能当作新调查的选民转向。",
+          "nextCheck": "复核下一次同机构逐席评级、独立调查及候选人身份，分别保留事件日和观察日。"
+        },
+        {
+          "id": "dhs-procedure",
+          "contentType": "analysis",
+          "priority": "high",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-dhs-nine-states-20261022",
+            "news-dhs-appeal-stay-filings-20261027"
+          ],
+          "sources": [
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-26-Notice-of-appeal.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Defendants-Memo-on-Motion-to-Stay.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-27-Plaintiffs-Memo-Opposing-Motion-to-Stay.pdf",
+            "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_26-cv-10680/pdf/USCOURTS-cand-4_26-cv-10680-1.pdf",
+            "https://storage.courtlistener.com/recap/gov.uscourts.cand.479338/gov.uscourts.cand.479338.87.0_1.pdf",
+            "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/10/21/judge-curbs-trump-administrations-hunt-for-noncitizen-voters-in-some-states-citing-flawed-data/"
+          ],
+          "asOf": "2026-10-28T08:18:58.752021+00:00",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "DHS九州案：上诉与暂停申请已提交",
+          "confirmedChange": "政府10月26日提交上诉通知，27日申请上诉期间暂停禁令；原告同日提交反对意见。已核验第89、90、91号当事人文书。",
+          "possibleEffect": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+          "counterevidenceOrUnknown": "申请不等于批准。保证金履行和后续暂停命令仍未核验；不能由10月23日原暂缓期限届满推断当前执行状态，也不能把拟向上诉法院申请当成已提交或获准。",
+          "nextCheck": "核验后续签署命令、具体救济范围及实际执行状态。",
+          "lastVerifiedOrderDate": "2026-10-21",
+          "filingsVerifiedThrough": "2026-10-27"
+        },
+        {
+          "id": "california-filing",
+          "contentType": "analysis",
+          "priority": "medium",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [
+            "news-ca-dismissal-20261021",
+            "news-ca-intervention-20261021",
+            "news-ca-appeal-20261022",
+            "news-ca-appeal-motion-20261023",
+            "news-ca-tro-schedule-20261023",
+            "news-ca9-jurisdiction-20261026",
+            "news-ca-hearing-reported-20261027",
+            "news-marin-response-20261027"
+          ],
+          "sources": [
+            "https://abcnews.com/amp/Politics/judge-appoint-special-master-california-voting-case-setback/story?id=137622503",
+            "https://calmatters.org/politics/2026/10/trump-noncitizen-voting-court/",
+            "https://apnews.com/article/8f6e267a51c574716386f502b77f7ce0",
+            "https://www.marincounty.gov/news-releases/county-declines-doj-demand-set-aside-ballots",
+            "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-85-Order-Reiterating-Briefing-Deadlines-for-TRO.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-76-USA%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.cacd.uscourts.gov/sites/default/files/documents/Dkt.-79-State-Defendants%27-Opp.-to-Plaintiff%27s-Motion-for-Injunction-Pending-Appeal.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/74-2026-10-26-Notice-of-appeal-1.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-CAs-memorandum-in-support-of-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/wp-content/uploads/2026/10/2026-10-21-Notice-of-CAs-motion-to-dismiss.pdf",
+            "https://www.democracydocket.com/cases/california-doj-voter-roll-interference-challenge/"
+          ],
+          "asOf": "2026-10-28T08:18:58.752021+00:00",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "加州听证：特别监督人仍属拟议措施",
+          "confirmedChange": "据ABC、CalMatters和AP对10月27日听证报道，Carter法官考虑任命特别监督人核查名单，未当庭裁定TRO，并表示拟周三作后续程序决定。",
+          "possibleEffect": "程序和选务风险值得跟踪，尚无可核验的净票数或控制权变化据此计算。",
+          "counterevidenceOrUnknown": "拟议措施来自当日报道，不是已签发命令。尚未取得新的正式任命或隔离选票书面命令；已确认司法状态仍以10月26日上诉程序裁定为准。",
+          "nextCheck": "核验后续签署命令、具体救济范围及实际执行状态。",
+          "lastVerifiedPrimaryOrderDate": "2026-10-26",
+          "newWrittenOrderVerified": false
+        },
+        {
+          "id": "turnout-limits",
+          "contentType": "analysis",
+          "priority": "low",
+          "impactScope": [
+            "admin",
+            "state"
+          ],
+          "controlJudgment": "unchanged",
+          "sourceNewsIds": [],
+          "sources": [
+            "https://sos.ga.gov/news/georgia-surpasses-two-million-person-early-votes",
+            "https://www.ncsbe.gov/",
+            "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes"
+          ],
+          "asOf": "2026-10-28T08:18:58.752021+00:00",
+          "claims": {
+            "title": "editorial-analysis",
+            "confirmedChange": "source-fact",
+            "possibleEffect": "editorial-analysis",
+            "counterevidenceOrUnknown": "editorial-analysis",
+            "nextCheck": "verification-trigger"
+          },
+          "title": "提前投票：参与量，不是候选人得票",
+          "confirmedChange": "北卡截至10月26日累计1,773,889票，提前现场1,708,048、缺席65,841，较前日增190,708。佐治亚10月27日16:30 EDT为现场2,000,452、已接收邮寄97,382，合计2,097,834。",
+          "possibleEffect": "同口径累计参与量增加，不代表候选人得票、投票率或党派结构已经变化。",
+          "counterevidenceOrUnknown": "都是累计参与量，不是候选人得票。佐治亚现场票较10月20日增993,437，跨七天而非单日；未使用公告中含糊的2022比较增长率。NC的CSV仍无内部截止日期。",
+          "nextCheck": "核验下一份官方文件、截止时点及距选举日相同天数的比较，再判断投票率。"
+        }
+      ],
+      "earlyVoting": [
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-21",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "absenteeBallotsCast": 51096,
+          "earlyVotingBallotsCast": 1050225,
+          "totalBallotsCast": 1101321,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-23T07:58:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1101321,
+            "byRequestType": {
+              "CIVILIAN": 42996,
+              "EARLY VOTING": 1050225,
+              "MILITARY": 1111,
+              "ONE-STOP": 0,
+              "OVERSEAS": 6989
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 473965,
+              "GRE": 356,
+              "JFA": 0,
+              "LIB": 2113,
+              "NLB": 0,
+              "REP": 248121,
+              "UNA": 376766,
+              "WTP": 0
+            }
+          }
+        },
+        {
+          "state": "GA",
+          "source": "https://sos.ga.gov/news/georgia-surpasses-one-million-early-votes",
+          "publishedAt": "2026-10-20",
+          "dataThrough": "2026-10-20 noon local",
+          "observedAt": "2026-10-23T07:58:00Z",
+          "inPerson": 1007015,
+          "acceptedAbsentee": 48916,
+          "total": 1055931,
+          "newerDataVerified": false
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-22",
+          "observedAt": "2026-10-24T07:52:35Z",
+          "absenteeBallotsCast": 54888,
+          "earlyVotingBallotsCast": 1215031,
+          "totalBallotsCast": 1269919,
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-24T07:52:35Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1269919,
+            "byRequestType": {
+              "CIVILIAN": 46335,
+              "EARLY VOTING": 1215031,
+              "MILITARY": 1203,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7350
+            },
+            "byRegistrationParty": {
+              "CST": 0,
+              "DEM": 535972,
+              "GRE": 424,
+              "JFA": 0,
+              "LIB": 2507,
+              "NLB": 0,
+              "REP": 296478,
+              "UNA": 434538,
+              "WTP": 0
+            }
+          },
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-21",
+            "totalBallotsCast": 1101321,
+            "increase": 168598
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-23",
+          "observedAt": "2026-10-25T07:47:32Z",
+          "absenteeBallotsCast": 58392,
+          "earlyVotingBallotsCast": 1395124,
+          "totalBallotsCast": 1453516,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-22",
+            "totalBallotsCast": 1269919,
+            "increase": 183597
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-25T07:47:32Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1453516,
+            "byRequestType": {
+              "CIVILIAN": 49437,
+              "EARLY VOTING": 1395124,
+              "MILITARY": 1316,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7639
+            }
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-24",
+          "observedAt": "2026-10-26T08:41:31Z",
+          "absenteeBallotsCast": 59845,
+          "earlyVotingBallotsCast": 1484828,
+          "totalBallotsCast": 1544673,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-23",
+            "totalBallotsCast": 1453516,
+            "increase": 91157
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-26T08:41:31Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1544673,
+            "byRequestType": {
+              "CIVILIAN": 50685,
+              "EARLY VOTING": 1484828,
+              "MILITARY": 1356,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7804
+            }
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-25",
+          "observedAt": "2026-10-27T08:02:00Z",
+          "absenteeBallotsCast": 60046,
+          "earlyVotingBallotsCast": 1523135,
+          "totalBallotsCast": 1583181,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-24",
+            "totalBallotsCast": 1544673,
+            "increase": 38508,
+            "increaseEarlyVoting": 38307,
+            "increaseAbsentee": 201
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-27T08:02:00Z",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1583181,
+            "byRequestType": {
+              "CIVILIAN": 50831,
+              "EARLY VOTING": 1523135,
+              "MILITARY": 1361,
+              "ONE-STOP": 0,
+              "OVERSEAS": 7854
+            }
+          }
+        },
+        {
+          "state": "NC",
+          "source": "https://www.ncsbe.gov/",
+          "dataThrough": "2026-10-26",
+          "observedAt": "2026-10-28T08:18:58.752021+00:00",
+          "absenteeBallotsCast": 65841,
+          "earlyVotingBallotsCast": 1708048,
+          "totalBallotsCast": 1773889,
+          "previousComparableHomepage": {
+            "dataThrough": "2026-10-25",
+            "totalBallotsCast": 1583181,
+            "increase": 190708,
+            "increaseEarlyVoting": 184913,
+            "increaseAbsentee": 5795
+          },
+          "csv": {
+            "source": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv",
+            "observedAt": "2026-10-28T08:18:58.752021+00:00",
+            "internalDataThrough": null,
+            "rowCount": 3240,
+            "total": 1773889,
+            "byRequestType": {
+              "CIVILIAN": 55869,
+              "EARLY VOTING": 1708048,
+              "MILITARY": 1543,
+              "ONE-STOP": 0,
+              "OVERSEAS": 8429
+            }
+          }
+        },
+        {
+          "state": "GA",
+          "source": "https://sos.ga.gov/news/georgia-surpasses-two-million-person-early-votes",
+          "publishedAt": "2026-10-27",
+          "dataThrough": "2026-10-27T16:30:00-04:00",
+          "observedAt": "2026-10-28T08:18:58.752021+00:00",
+          "inPerson": 2000452,
+          "acceptedAbsentee": 97382,
+          "total": 2097834,
+          "totalComputed": true,
+          "totalComputation": "same-cutoff-inPerson-plus-acceptedAbsentee",
+          "previousComparableOfficialRelease": {
+            "dataThrough": "2026-10-20 before noon local",
+            "inPerson": 1007015,
+            "increaseInPerson": 993437,
+            "comparisonSpan": "October20-to-October27-not-one-day"
+          },
+          "newerDataVerified": true
+        }
+      ],
+      "researchCoverage": {
+        "checkedAt": "2026-10-28T08:19:39Z",
+        "ratingsAndPollsCheckedAt": "2026-10-28T08:19:39Z",
+        "controlJudgment": "unchanged",
+        "modelProbabilitiesRefreshed": false,
+        "candidateRostersFullyReverified": false,
+        "districtBoundariesFullyReverified": false,
+        "senatePartyLeadersReverified": false,
+        "georgiaLatestTurnoutVerified": true,
+        "houseConfidenceAssessment": "democratic-favored-no-new-structural-shift",
+        "senateControlJudgment": "unchanged",
+        "senateRosterFullyReverified": false,
+        "latestAKOperativeOrderVerified": false,
+        "dhsCurrentEffectivenessVerified": false,
+        "eventsCheckedAt": "2026-10-28T08:18:58.752021+00:00",
+        "materialRatingExpansion": false,
+        "senateAssessment": "republican-defensive-map-expanded-no-control-flip-established",
+        "latestCAOperativeRuleChangeVerified": false,
+        "caAppellateDispositionVerifiedThrough": "2026-10-26",
+        "caDistrictHearingOutcomeVerified": false,
+        "georgiaOfficialTurnoutVerifiedThrough": "2026-10-27T16:30:00-04:00",
+        "akProceduralOrdersVerifiedThrough": "2026-10-27",
+        "akFullDocketVerified": false,
+        "dhsPartyFilingsVerifiedThrough": "2026-10-27",
+        "dhsLastVerifiedOrderDate": "2026-10-21",
+        "caHearingReportingThrough": "2026-10-27",
+        "caNewWrittenOrderVerified": false,
+        "heuristicWatchChange": {
+          "state": "MI",
+          "priorMargin": 1.9,
+          "currentMargin": 2.5,
+          "threshold": 2,
+          "status": "single-snapshot-crossing-not-structural-change"
+        }
+      }
     }
   ],
   "statePollingAverageSnapshots": [
@@ -19773,6 +22639,237 @@
         }
       ],
       "note": "各州当前民调均值差为D减R百分点，不是胜率；未保存可比前次均值，不计算日变化或新跨线。"
+    },
+    {
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "observedAt": "2026-10-26T08:43:06Z",
+      "unit": "D-minus-R-percentage-points",
+      "metric": "poll-support-average",
+      "priorComparableSnapshot": "2026-10-25T07:46:46Z",
+      "states": [
+        {
+          "state": "MI",
+          "margin": 1.9,
+          "windowStart": "2026-09-24",
+          "windowEnd": "2026-10-22",
+          "changePp": 0
+        },
+        {
+          "state": "OH",
+          "margin": 3.3,
+          "windowStart": "2026-09-22",
+          "windowEnd": "2026-10-22",
+          "changePp": 0
+        },
+        {
+          "state": "ME",
+          "margin": 1.4,
+          "windowStart": "2026-09-23",
+          "windowEnd": "2026-10-23",
+          "changePp": 0
+        },
+        {
+          "state": "AK",
+          "margin": 1.2,
+          "windowStart": "2026-09-28",
+          "windowEnd": "2026-10-16",
+          "changePp": 0
+        },
+        {
+          "state": "TX",
+          "margin": 1.5,
+          "windowStart": "2026-10-08",
+          "windowEnd": "2026-10-21",
+          "changePp": 0
+        },
+        {
+          "state": "IA",
+          "margin": -0.6,
+          "windowStart": "2026-09-29",
+          "windowEnd": "2026-10-22",
+          "changePp": 0
+        },
+        {
+          "state": "NC",
+          "margin": 10.6,
+          "windowStart": "2026-09-27",
+          "windowEnd": "2026-10-20",
+          "changePp": 0
+        },
+        {
+          "state": "GA",
+          "margin": 8.2,
+          "windowStart": "2026-09-21",
+          "windowEnd": "2026-10-17",
+          "changePp": 0
+        },
+        {
+          "state": "NH",
+          "margin": 6.5,
+          "windowStart": "2026-09-15",
+          "windowEnd": "2026-10-20",
+          "changePp": 0
+        }
+      ],
+      "note": "九州均值差与10月25日已保存值相同；缅因州窗口延至10月23日，其余窗口保留。这里比较民调支持率均值，不是胜率。"
+    },
+    {
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "observedAt": "2026-10-27T08:00:25Z",
+      "unit": "D-minus-R-percentage-points",
+      "metric": "poll-support-average",
+      "priorComparableSnapshot": "2026-10-26T08:43:06Z",
+      "states": [
+        {
+          "state": "MI",
+          "margin": 1.9,
+          "windowStart": "2026-09-24",
+          "windowEnd": "2026-10-22",
+          "changePp": 0.0
+        },
+        {
+          "state": "OH",
+          "margin": 3.3,
+          "windowStart": "2026-09-22",
+          "windowEnd": "2026-10-22",
+          "changePp": 0.0
+        },
+        {
+          "state": "ME",
+          "margin": 1.4,
+          "windowStart": "2026-09-23",
+          "windowEnd": "2026-10-23",
+          "changePp": 0.0
+        },
+        {
+          "state": "AK",
+          "margin": 0.8,
+          "windowStart": "2026-09-28",
+          "windowEnd": "2026-10-16",
+          "changePp": -0.4,
+          "changeCauseVerified": false
+        },
+        {
+          "state": "TX",
+          "margin": 1.5,
+          "windowStart": "2026-10-08",
+          "windowEnd": "2026-10-21",
+          "changePp": 0.0
+        },
+        {
+          "state": "IA",
+          "margin": -0.6,
+          "windowStart": "2026-09-29",
+          "windowEnd": "2026-10-22",
+          "changePp": 0.0
+        },
+        {
+          "state": "NC",
+          "margin": 10.3,
+          "windowStart": "2026-09-27",
+          "windowEnd": "2026-10-25",
+          "changePp": -0.3
+        },
+        {
+          "state": "GA",
+          "margin": 8.2,
+          "windowStart": "2026-09-21",
+          "windowEnd": "2026-10-17",
+          "changePp": 0.0
+        },
+        {
+          "state": "NH",
+          "margin": 6.7,
+          "windowStart": "2026-09-15",
+          "windowEnd": "2026-10-23",
+          "changePp": 0.2
+        }
+      ],
+      "note": "AK均值差由D+1.2变为+0.8，但最新列出调查仍截至10月16日，变化原因未核验；NC为+10.3、NH为+6.7。窗口和构成不同，不能直接视为当日选民转向。"
+    },
+    {
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/elections/senate/2026/toss-ups",
+      "observedAt": "2026-10-28T08:19:39Z",
+      "unit": "D-minus-R-percentage-points",
+      "metric": "poll-support-average",
+      "priorComparableSnapshot": "2026-10-27T08:00:25Z",
+      "states": [
+        {
+          "state": "MI",
+          "margin": 2.5,
+          "windowStart": "2026-09-28",
+          "windowEnd": "2026-10-22",
+          "changePp": 0.6
+        },
+        {
+          "state": "OH",
+          "margin": 3.3,
+          "windowStart": "2026-09-22",
+          "windowEnd": "2026-10-22",
+          "changePp": 0.0
+        },
+        {
+          "state": "ME",
+          "margin": 1.2,
+          "windowStart": "2026-09-23",
+          "windowEnd": "2026-10-25",
+          "changePp": -0.2
+        },
+        {
+          "state": "AK",
+          "margin": 1.2,
+          "windowStart": "2026-10-01",
+          "windowEnd": "2026-10-16",
+          "changePp": 0.4,
+          "changeCauseVerified": false
+        },
+        {
+          "state": "TX",
+          "margin": 1.8,
+          "windowStart": "2026-10-08",
+          "windowEnd": "2026-10-21",
+          "changePp": 0.3
+        },
+        {
+          "state": "IA",
+          "margin": -0.6,
+          "windowStart": "2026-09-29",
+          "windowEnd": "2026-10-22",
+          "changePp": 0.0
+        },
+        {
+          "state": "NC",
+          "margin": 10.3,
+          "windowStart": "2026-09-27",
+          "windowEnd": "2026-10-25",
+          "changePp": 0.0
+        },
+        {
+          "state": "GA",
+          "margin": 8.2,
+          "windowStart": "2026-09-21",
+          "windowEnd": "2026-10-17",
+          "changePp": 0.0
+        },
+        {
+          "state": "NH",
+          "margin": 6.7,
+          "windowStart": "2026-09-15",
+          "windowEnd": "2026-10-23",
+          "changePp": 0.0
+        }
+      ],
+      "note": "MI均值D+2.5单次越过±2启发观察区间，不等于持续结构变化。AK回到+1.2但窗口由9月28日缩至10月1日开始，仍截至10月16日，不能当作新调查的选民转向。",
+      "heuristicObservation": {
+        "state": "MI",
+        "priorMargin": 1.9,
+        "currentMargin": 2.5,
+        "threshold": 2,
+        "status": "single-snapshot-crossing-not-structural-change"
+      }
     }
   ],
   "membershipObservations": [
@@ -19788,6 +22885,987 @@
       ],
       "verificationScope": "vacancies-only",
       "partyCounts": null
+    },
+    {
+      "chamber": "house",
+      "observedAt": "2026-10-26T08:41:31Z",
+      "source": "https://clerk.house.gov/Members/ViewVacancies",
+      "authorizedSeats": 435,
+      "occupied": 433,
+      "vacantSeatIds": [
+        "H-FL-20",
+        "H-TX-23"
+      ],
+      "verificationScope": "vacancies-only",
+      "partyCounts": null
+    },
+    {
+      "chamber": "house",
+      "observedAt": "2026-10-27T08:02:00Z",
+      "source": "https://clerk.house.gov/Members/ViewVacancies",
+      "authorizedSeats": 435,
+      "occupied": 433,
+      "vacantSeatIds": [
+        "H-FL-20",
+        "H-TX-23"
+      ],
+      "verificationScope": "vacancies-only",
+      "partyCounts": null
+    },
+    {
+      "chamber": "house",
+      "observedAt": "2026-10-28T08:18:58.752021+00:00",
+      "source": "https://clerk.house.gov/Members/ViewVacancies",
+      "authorizedSeats": 435,
+      "occupied": 433,
+      "vacantSeatIds": [
+        "H-FL-20",
+        "H-TX-23"
+      ],
+      "verificationScope": "vacancies-only",
+      "partyCounts": null
+    }
+  ],
+  "ratingObservationComparisons": [
+    {
+      "id": "rcp-house-tx28-observed-20261026",
+      "seatId": "H-TX-28",
+      "chamber": "house",
+      "state": "TX",
+      "district": "28",
+      "before": "lean-D",
+      "after": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "TX",
+        "district": "28",
+        "rating": "lean-D",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-ca48-observed-20261026",
+      "seatId": "H-CA-48",
+      "chamber": "house",
+      "state": "CA",
+      "district": "48",
+      "before": "lean-D",
+      "after": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "CA",
+        "district": "48",
+        "rating": "lean-D",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-nj07-observed-20261026",
+      "seatId": "H-NJ-07",
+      "chamber": "house",
+      "state": "NJ",
+      "district": "07",
+      "before": "lean-D",
+      "after": "likely-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-25T07:46:46Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "NJ",
+        "district": "07",
+        "rating": "lean-D",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-25T07:46:46Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-nc11-observed-20261026",
+      "seatId": "H-NC-11",
+      "chamber": "house",
+      "state": "NC",
+      "district": "11",
+      "before": "tossup",
+      "after": "lean-D",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "NC",
+        "district": "11",
+        "rating": "tossup",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-oh15-observed-20261026",
+      "seatId": "H-OH-15",
+      "chamber": "house",
+      "state": "OH",
+      "district": "15",
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "OH",
+        "district": "15",
+        "rating": "lean-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-pa10-observed-20261026",
+      "seatId": "H-PA-10",
+      "chamber": "house",
+      "state": "PA",
+      "district": "10",
+      "before": "lean-D",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "PA",
+        "district": "10",
+        "rating": "lean-D",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-mn01-observed-20261026",
+      "seatId": "H-MN-01",
+      "chamber": "house",
+      "state": "MN",
+      "district": "01",
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "MN",
+        "district": "01",
+        "rating": "lean-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-sc01-observed-20261026",
+      "seatId": "H-SC-01",
+      "chamber": "house",
+      "state": "SC",
+      "district": "01",
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "SC",
+        "district": "01",
+        "rating": "lean-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-nv02-observed-20261026",
+      "seatId": "H-NV-02",
+      "chamber": "house",
+      "state": "NV",
+      "district": "02",
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "NV",
+        "district": "02",
+        "rating": "lean-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-ny21-observed-20261026",
+      "seatId": "H-NY-21",
+      "chamber": "house",
+      "state": "NY",
+      "district": "21",
+      "before": "likely-R",
+      "after": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "NY",
+        "district": "21",
+        "rating": "likely-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-oh10-observed-20261026",
+      "seatId": "H-OH-10",
+      "chamber": "house",
+      "state": "OH",
+      "district": "10",
+      "before": "likely-R",
+      "after": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "OH",
+        "district": "10",
+        "rating": "likely-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-nc13-observed-20261026",
+      "seatId": "H-NC-13",
+      "chamber": "house",
+      "state": "NC",
+      "district": "13",
+      "before": "likely-R",
+      "after": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "NC",
+        "district": "13",
+        "rating": "likely-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-nc09-observed-20261026",
+      "seatId": "H-NC-09",
+      "chamber": "house",
+      "state": "NC",
+      "district": "09",
+      "before": "likely-R",
+      "after": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-26T08:42:07Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "NC",
+        "district": "09",
+        "rating": "likely-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "与上次已保存的逐席评级比较，10月26日观察到差异；来源原始变更日期未披露。"
+    },
+    {
+      "id": "rcp-house-ak00-observed-20261027",
+      "seatId": "H-AK-00",
+      "chamber": "house",
+      "state": "AK",
+      "district": "AL",
+      "before": "lean-R",
+      "after": "tossup",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-27T08:00:25Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "AK",
+        "district": "AL",
+        "rating": "lean-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "10月27日与上次保存值比较，AK-AL由倾向共和党变为胶着；来源原始变更日期未知。"
+    },
+    {
+      "id": "rcp-house-in05-observed-20261028",
+      "seatId": "H-IN-05",
+      "chamber": "house",
+      "state": "IN",
+      "district": "05",
+      "before": "likely-R",
+      "after": "lean-R",
+      "provider": "RealClearPolling",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "sourceEventDate": null,
+      "observedAt": "2026-10-28T08:15:30Z",
+      "dateType": "observation-comparison-not-source-event",
+      "kind": "observed-rating-comparison",
+      "priorObservedAt": "2026-10-22T01:29:00Z",
+      "priorRating": {
+        "chamber": "house",
+        "state": "IN",
+        "district": "05",
+        "rating": "likely-R",
+        "provider": "RealClearPolling",
+        "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+        "asOf": "2026-10-22T01:29:00Z",
+        "publishedAt": null
+      },
+      "note": "10月28日比较已保存记录，IN-05由较稳共和党变为倾向共和党；来源原始变更日期未知。"
+    }
+  ],
+  "individualRatingChecks": [
+    {
+      "id": "rcp-house-nonsolid-20261028",
+      "provider": "RealClearPolling",
+      "chamber": "house",
+      "source": "https://www.realclearpolling.com/maps/house/2026/toss-up",
+      "observedAt": "2026-10-28T08:15:30Z",
+      "coverage": "87-individually-listed-non-solid-seats",
+      "unmappedSeats": 348,
+      "ratings": [
+        {
+          "seatId": "H-TX-28",
+          "state": "TX",
+          "district": "28",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-IN-01",
+          "state": "IN",
+          "district": "01",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-CA-13",
+          "state": "CA",
+          "district": "13",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NY-03",
+          "state": "NY",
+          "district": "03",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-OH-01",
+          "state": "OH",
+          "district": "01",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-CA-48",
+          "state": "CA",
+          "district": "48",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-MN-02",
+          "state": "MN",
+          "district": "02",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-CA-06",
+          "state": "CA",
+          "district": "06",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NE-02",
+          "state": "NE",
+          "district": "02",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NH-01",
+          "state": "NH",
+          "district": "01",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NJ-07",
+          "state": "NJ",
+          "district": "07",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NM-02",
+          "state": "NM",
+          "district": "02",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NV-01",
+          "state": "NV",
+          "district": "01",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NV-03",
+          "state": "NV",
+          "district": "03",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-NV-04",
+          "state": "NV",
+          "district": "04",
+          "rating": "likely-D"
+        },
+        {
+          "seatId": "H-TX-34",
+          "state": "TX",
+          "district": "34",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-IA-01",
+          "state": "IA",
+          "district": "01",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-IA-03",
+          "state": "IA",
+          "district": "03",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-VA-02",
+          "state": "VA",
+          "district": "02",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-WA-03",
+          "state": "WA",
+          "district": "03",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-CA-22",
+          "state": "CA",
+          "district": "22",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-WI-03",
+          "state": "WI",
+          "district": "03",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-CO-08",
+          "state": "CO",
+          "district": "08",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-OH-07",
+          "state": "OH",
+          "district": "07",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-OH-09",
+          "state": "OH",
+          "district": "09",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-MI-10",
+          "state": "MI",
+          "district": "10",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-MI-04",
+          "state": "MI",
+          "district": "04",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-MI-07",
+          "state": "MI",
+          "district": "07",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-PA-07",
+          "state": "PA",
+          "district": "07",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-NC-11",
+          "state": "NC",
+          "district": "11",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-PA-08",
+          "state": "PA",
+          "district": "08",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-AZ-01",
+          "state": "AZ",
+          "district": "01",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-FL-25",
+          "state": "FL",
+          "district": "25",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-TX-15",
+          "state": "TX",
+          "district": "15",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-AZ-06",
+          "state": "AZ",
+          "district": "06",
+          "rating": "lean-D"
+        },
+        {
+          "seatId": "H-TX-35",
+          "state": "TX",
+          "district": "35",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-IA-02",
+          "state": "IA",
+          "district": "02",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-VA-01",
+          "state": "VA",
+          "district": "01",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-WI-01",
+          "state": "WI",
+          "district": "01",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-KY-06",
+          "state": "KY",
+          "district": "06",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-OH-15",
+          "state": "OH",
+          "district": "15",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-ME-02",
+          "state": "ME",
+          "district": "02",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-PA-01",
+          "state": "PA",
+          "district": "01",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-PA-10",
+          "state": "PA",
+          "district": "10",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-MN-01",
+          "state": "MN",
+          "district": "01",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-MO-02",
+          "state": "MO",
+          "district": "02",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-CO-03",
+          "state": "CO",
+          "district": "03",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-CO-04",
+          "state": "CO",
+          "district": "04",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-MT-01",
+          "state": "MT",
+          "district": "01",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-NC-01",
+          "state": "NC",
+          "district": "01",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-CO-05",
+          "state": "CO",
+          "district": "05",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-SC-01",
+          "state": "SC",
+          "district": "01",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-NJ-02",
+          "state": "NJ",
+          "district": "02",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-FL-14",
+          "state": "FL",
+          "district": "14",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-NV-02",
+          "state": "NV",
+          "district": "02",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-FL-22",
+          "state": "FL",
+          "district": "22",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-AZ-02",
+          "state": "AZ",
+          "district": "02",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-NY-17",
+          "state": "NY",
+          "district": "17",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-FL-09",
+          "state": "FL",
+          "district": "09",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-TX-23",
+          "state": "TX",
+          "district": "23",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-AK-00",
+          "state": "AK",
+          "district": "AL",
+          "rating": "tossup"
+        },
+        {
+          "seatId": "H-VA-05",
+          "state": "VA",
+          "district": "05",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-NY-02",
+          "state": "NY",
+          "district": "02",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-NY-21",
+          "state": "NY",
+          "district": "21",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-WA-05",
+          "state": "WA",
+          "district": "05",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-OH-10",
+          "state": "OH",
+          "district": "10",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-NC-13",
+          "state": "NC",
+          "district": "13",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-NC-03",
+          "state": "NC",
+          "district": "03",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-NC-09",
+          "state": "NC",
+          "district": "09",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-FL-13",
+          "state": "FL",
+          "district": "13",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-AL-02",
+          "state": "AL",
+          "district": "02",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-AR-02",
+          "state": "AR",
+          "district": "02",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-FL-27",
+          "state": "FL",
+          "district": "27",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-FL-07",
+          "state": "FL",
+          "district": "07",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-IN-05",
+          "state": "IN",
+          "district": "05",
+          "rating": "lean-R"
+        },
+        {
+          "seatId": "H-TX-32",
+          "state": "TX",
+          "district": "32",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-TX-09",
+          "state": "TX",
+          "district": "09",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-MN-08",
+          "state": "MN",
+          "district": "08",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-NC-05",
+          "state": "NC",
+          "district": "05",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-NC-07",
+          "state": "NC",
+          "district": "07",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-NE-01",
+          "state": "NE",
+          "district": "01",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-FL-12",
+          "state": "FL",
+          "district": "12",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-FL-16",
+          "state": "FL",
+          "district": "16",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-TN-05",
+          "state": "TN",
+          "district": "05",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-TN-09",
+          "state": "TN",
+          "district": "09",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-NY-01",
+          "state": "NY",
+          "district": "01",
+          "rating": "likely-R"
+        },
+        {
+          "seatId": "H-TX-24",
+          "state": "TX",
+          "district": "24",
+          "rating": "likely-R"
+        }
+      ]
     }
   ]
 }

@@ -10,7 +10,7 @@
       "source": "https://www.house.gov/leadership",
       "portraitUrl": "https://www.house.gov/sites/default/files/2023-10/mikejohnson.jpg",
       "portraitSource": "https://www.house.gov/leadership",
-      "asOf": "2026-10-25T07:47:32Z",
+      "asOf": "2026-10-28T08:18:58.752021+00:00",
       "status": "confirmed-current-office",
       "portraitNote": "官方人物肖像链接；并非未来当选证明。"
     },
@@ -23,7 +23,7 @@
       "source": "https://www.house.gov/leadership",
       "portraitUrl": "https://www.house.gov/sites/default/files/2023-01/rep-jeffries.jpg",
       "portraitSource": "https://www.house.gov/leadership",
-      "asOf": "2026-10-25T07:47:32Z",
+      "asOf": "2026-10-28T08:18:58.752021+00:00",
       "status": "confirmed-current-office",
       "portraitNote": "官方人物肖像链接；并非未来当选证明。"
     },
@@ -116,14 +116,14 @@
         "party": "R",
         "role": "众议院多数党领袖",
         "source": "https://www.house.gov/leadership",
-        "asOf": "2026-10-25T07:47:32Z"
+        "asOf": "2026-10-28T08:18:58.752021+00:00"
       },
       {
         "name": "Tom Emmer",
         "party": "R",
         "role": "众议院多数党党鞭",
         "source": "https://www.house.gov/leadership",
-        "asOf": "2026-10-25T07:47:32Z"
+        "asOf": "2026-10-28T08:18:58.752021+00:00"
       }
     ],
     "notes": [
@@ -176,7 +176,7 @@
     {
       "title": "众院现任领导与议长选举方式",
       "url": "https://www.house.gov/leadership",
-      "asOf": "2026-10-25T07:47:32Z"
+      "asOf": "2026-10-28T08:18:58.752021+00:00"
     },
     {
       "title": "参院现任领导和官员",

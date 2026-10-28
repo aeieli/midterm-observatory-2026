@@ -1,6 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {createHash} from 'node:crypto';
 import {explorerModel,floorSegments,floorLead,projectPoint,projectedPolygons,isKeySeat,historicalComposition} from '../dist/election-explorer.js';
 import {geographyAssets} from '../dist/geography-assets.js';
+import {senateFixture} from './fixtures/senate.mjs';
 const read=path=>JSON.parse(fs.readFileSync(new URL('../dist/'+path,import.meta.url)));
 const roster=read('data/seats.json'),evidence=read('data/evidence.json');
 test('key scope is only sourced lean/toss-up seats and never changes whole chamber denominators',()=>{
@@ -18,7 +19,18 @@ test('key scope is only sourced lean/toss-up seats and never changes whole chamb
   assert.equal(m.keySeats.filter(s=>!s.contested2026).length,0);
  }
 });
-test('floor arcs total every full-chamber seat and preserve independents and unknowns',()=>{for(const c of ['senate','house']){const m=explorerModel(roster,evidence,c),arcs=floorSegments(m);assert.equal(arcs[0].start,0);assert.equal(arcs.at(-1).end,1);for(let i=1;i<arcs.length;i++)assert.equal(arcs[i-1].end,arcs[i].start);assert.equal(arcs.reduce((n,x)=>n+x.count,0),m.capacity);assert.ok(arcs.every(x=>Math.abs(x.end-x.start-x.count/m.capacity)<1e-12));}const s=explorerModel(roster,evidence,'senate');assert.equal(s.outlook.aligned.D,s.outlook.aligned.R);assert.equal(s.outlook.segments.filter(x=>x.independent).reduce((n,x)=>n+x.count,0),2);});
+test('floor arcs total every full-chamber seat and preserve independents and unknowns',()=>{
+ const examples=['senate','house'].map(c=>explorerModel(roster,evidence,c));
+ for(const expanded of [false,true]){const fixture=senateFixture(expanded);examples.push(explorerModel(fixture.roster,fixture.evidence,'senate'));}
+ for(const m of examples){
+  const arcs=floorSegments(m);assert.equal(arcs[0].start,0);assert.equal(arcs.at(-1).end,1);
+  for(let i=1;i<arcs.length;i++)assert.equal(arcs[i-1].end,arcs[i].start);
+  assert.equal(arcs.reduce((n,x)=>n+x.count,0),m.capacity);assert.ok(arcs.every(x=>Math.abs(x.end-x.start-x.count/m.capacity)<1e-12));
+ }
+ for(const s of examples.slice(2))assert.equal(s.outlook.segments.filter(x=>x.independent).reduce((n,x)=>n+x.count,0),2);
+ assert.deepEqual(examples[2].outlook.aligned,{D:46,R:46,I:0,T:8,U:0});
+ assert.deepEqual(examples[3].outlook.aligned,{D:46,R:44,I:0,T:10,U:0});
+});
 test('state geometry is pinned by hash and sums exactly to both chamber rosters',()=>{const item=geographyAssets.states20m,raw=fs.readFileSync(new URL('../dist/'+item.path,import.meta.url));assert.equal(raw.length,item.bytes);assert.equal(createHash('sha256').update(raw).digest('hex'),item.sha256);const states=JSON.parse(raw);assert.equal(states.features.length,50);assert.equal(new Set(states.features.map(f=>f.properties.state_fips)).size,50);assert.ok(states.features.every(f=>/^\d{2}$/.test(f.properties.state_fips)));for(const c of ['senate','house'])assert.equal(states.features.reduce((n,f)=>n+explorerModel(roster,evidence,c,f.properties.postal).capacity,0),c==='senate'?100:435);});
 test('Alaska crossing the dateline stays contiguous within its inset; polygons preserve all holes',()=>{assert.deepEqual(projectPoint(179,52,'AK'),projectPoint(-181,52,'AK'));const states=read(geographyAssets.states20m.path);for(const f of states.features){const original=f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.coordinates,p=projectedPolygons(f);assert.equal(p.length,original.length);for(let i=0;i<p.length;i++){assert.equal(p[i].length,original[i].length);for(const ring of p[i])assert.ok(ring.every(([x,z])=>Number.isFinite(x)&&Number.isFinite(z)&&Math.abs(x)<40&&Math.abs(z)<25));}}});
 test('district layer contains only seven verified 2026 features; CA22 remains a changed boundary',()=>{const item=geographyAssets.districts7,raw=fs.readFileSync(new URL('../dist/'+item.path,import.meta.url));assert.equal(createHash('sha256').update(raw).digest('hex'),item.sha256);const data=JSON.parse(raw);assert.equal(data.features.length,7);assert.deepEqual(data.features.map(f=>f.properties.district_id).sort(),['AZ06','CA22','CO08','MI07','NJ07','NY17','PA07']);assert.equal(data.features.find(f=>f.properties.district_id==='CA22').properties.boundary_changed_since_2024,true);assert.ok(data.features.every(f=>f.properties.election_year===2026&&f.properties.boundary_congress===120));});
