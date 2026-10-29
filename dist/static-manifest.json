@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "manifestId": "9f601c844dd7f564c7d962adbb5a1d4b253d2a87f31c321454c146b7ac54f34d",
+  "manifestId": "a25d536f499499864c630642955e886941576c6c1e9ca510d8fc88dd281422ee",
   "files": {
     "data/evidence.json": {
-      "bytes": 1017972,
-      "sha256": "02324a1d7e46b9a6931982389fe8f7bd005393696e73f4263e85aef699b2f71b"
+      "bytes": 1088090,
+      "sha256": "013bda69a9f0970a6b2be09ed888ff8858bfd7d3f222733d1fa09adf210124ed"
     },
     "data/house_profiles.json": {
       "bytes": 4005585,
       "sha256": "d24f2bc211194dc7b4169964b5d8f8322471782503fe2b0c618c28d2a629e94c"
     },
     "data/leadership.json": {
-      "bytes": 8609,
-      "sha256": "487bca9aa3373e07fbfd9f0096b12553a3f32912a47490d595aa61292d9b50e2"
+      "bytes": 8981,
+      "sha256": "07c3cfeb38174932a7d50727e86f0f6a5191ca6fedf4ffd5958a32855314c184"
     },
     "data/powers.json": {
       "bytes": 24138,
@@ -27,24 +27,24 @@
       "sha256": "94893e2efbfc7a6b4c2fc77802eecf8412ccb58c389e643f4274a5a2b423075e"
     },
     "locales/catalog.json": {
-      "bytes": 359727,
-      "sha256": "9b163c8fb88945d5a7df0d06ada8a5c9b6e67db43bc9e9f765f383ee18d0bfe5"
+      "bytes": 365874,
+      "sha256": "e56dcd3e449e5ce4e875fba335798e859c4a7364cdac7ac0240e58e92c3924c8"
     },
     "locales/en.json": {
-      "bytes": 287588,
-      "sha256": "de4bbdc4967bdd2ee8c792dd7e7475f13cca54ea7fa1ab237066ad7c3d50b58a"
+      "bytes": 292756,
+      "sha256": "a10b1d30c2462707c9b6d0d28e4e32c84d06c0cecde8d1623668c16a2126e3a2"
     },
     "locales/es.json": {
-      "bytes": 332358,
-      "sha256": "b03077ddb34a010f10e88ce0e29ea4e8976906f569a77ec5195c6fa3a92441fb"
+      "bytes": 338043,
+      "sha256": "c8dd96d0cdd0fbdb77001f7e35e3b872e2114e7aaa2bbc500f170e1b7ba3caca"
     },
     "locales/fr.json": {
-      "bytes": 350182,
-      "sha256": "5a0309ee703ca2b3bd4a5fa1b762d049a4ce0293499d9e8de9447571b150065d"
+      "bytes": 356152,
+      "sha256": "2d5d322979daacbbbfef2bb3aa6d0ddc378db0402d7fb7412065417e96afd904"
     },
     "locales/ja.json": {
-      "bytes": 300104,
-      "sha256": "88581d46354cda451988a97280654d84ac5c39e92d10e4a6ebfd3a7a270eac75"
+      "bytes": 305763,
+      "sha256": "7b53daa5e220cde2fb9e4463751a437acceb08f66adcc423c9f002ac931afd91"
     }
   }
 }

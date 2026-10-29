@@ -10,7 +10,7 @@
       "source": "https://www.house.gov/leadership",
       "portraitUrl": "https://www.house.gov/sites/default/files/2023-10/mikejohnson.jpg",
       "portraitSource": "https://www.house.gov/leadership",
-      "asOf": "2026-10-28T08:18:58.752021+00:00",
+      "asOf": "2026-10-29T08:24:40.426153+00:00",
       "status": "confirmed-current-office",
       "portraitNote": "官方人物肖像链接；并非未来当选证明。"
     },
@@ -23,7 +23,7 @@
       "source": "https://www.house.gov/leadership",
       "portraitUrl": "https://www.house.gov/sites/default/files/2023-01/rep-jeffries.jpg",
       "portraitSource": "https://www.house.gov/leadership",
-      "asOf": "2026-10-28T08:18:58.752021+00:00",
+      "asOf": "2026-10-29T08:24:40.426153+00:00",
       "status": "confirmed-current-office",
       "portraitNote": "官方人物肖像链接；并非未来当选证明。"
     },
@@ -36,9 +36,10 @@
       "source": "https://www.senate.gov/legislative/TieVotes.htm",
       "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/V/V000137.jpg",
       "portraitSource": "https://www.senate.gov/senators/leadership.htm",
-      "asOf": "2026-10-23T07:58:00Z",
+      "asOf": "2026-10-29T08:24:40.426153+00:00",
       "status": "confirmed-current-office",
-      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。",
+      "verificationSource": "https://www.senate.gov/senators/leadership.htm"
     },
     {
       "id": "chuck-grassley",
@@ -49,9 +50,10 @@
       "source": "https://www.govinfo.gov/content/pkg/CREC-2026-10-19/pdf/CREC-2026-10-19.pdf",
       "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/G/G000386.jpg",
       "portraitSource": "https://www.senate.gov/senators/leadership.htm",
-      "asOf": "2026-10-23T07:58:00Z",
+      "asOf": "2026-10-29T08:24:40.426153+00:00",
       "status": "confirmed-current-office",
-      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。",
+      "verificationSource": "https://www.senate.gov/senators/leadership.htm"
     },
     {
       "id": "john-thune",
@@ -62,9 +64,10 @@
       "source": "https://www.senate.gov/senators/leadership.htm",
       "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/T/T000250.jpg",
       "portraitSource": "https://www.senate.gov/senators/leadership.htm",
-      "asOf": "2026-10-22T02:23:00Z",
+      "asOf": "2026-10-29T08:24:40.426153+00:00",
       "status": "confirmed-current-office",
-      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。",
+      "verificationSource": "https://www.senate.gov/senators/leadership.htm"
     },
     {
       "id": "chuck-schumer",
@@ -75,9 +78,10 @@
       "source": "https://www.senate.gov/senators/leadership.htm",
       "portraitUrl": "https://bioguide.congress.gov/bioguide/photo/S/S000148.jpg",
       "portraitSource": "https://www.senate.gov/senators/leadership.htm",
-      "asOf": "2026-10-22T02:23:00Z",
+      "asOf": "2026-10-29T08:24:40.426153+00:00",
       "status": "confirmed-current-office",
-      "portraitNote": "官方人物肖像链接；并非未来当选证明。"
+      "portraitNote": "官方人物肖像链接；并非未来当选证明。",
+      "verificationSource": "https://www.senate.gov/senators/leadership.htm"
     }
   ],
   "house": {
@@ -116,7 +120,7 @@
         "party": "R",
         "role": "众议院多数党领袖",
         "source": "https://www.house.gov/leadership",
-        "asOf": "2026-10-28T08:18:58.752021+00:00"
+        "asOf": "2026-10-29T08:24:40.426153+00:00"
       },
       {
         "name": "Tom Emmer",
@@ -176,12 +180,12 @@
     {
       "title": "众院现任领导与议长选举方式",
       "url": "https://www.house.gov/leadership",
-      "asOf": "2026-10-28T08:18:58.752021+00:00"
+      "asOf": "2026-10-29T08:24:40.426153+00:00"
     },
     {
       "title": "参院现任领导和官员",
       "url": "https://www.senate.gov/senators/leadership.htm",
-      "asOf": "2026-10-22T02:23:00Z"
+      "asOf": "2026-10-29T08:24:40.426153+00:00"
     },
     {
       "title": "副总统兼参院议长职务",
